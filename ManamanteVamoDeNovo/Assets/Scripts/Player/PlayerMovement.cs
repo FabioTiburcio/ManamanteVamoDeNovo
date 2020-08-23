@@ -35,6 +35,6 @@ public class PlayerMovement : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(mousePos, 0.25f);
+        Gizmos.DrawWireSphere(mousePos, 0.05f);
     }
 }

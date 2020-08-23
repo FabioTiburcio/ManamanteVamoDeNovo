@@ -7,6 +7,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5105676809865003875, guid: 0a4d0b4b4eb47c64fb861cef36cff76e,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5105676809865003875, guid: 0a4d0b4b4eb47c64fb861cef36cff76e,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.023584902
+      objectReference: {fileID: 0}
+    - target: {fileID: 5105676809865003875, guid: 0a4d0b4b4eb47c64fb861cef36cff76e,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.023584902
+      objectReference: {fileID: 0}
     - target: {fileID: 7134197042618383780, guid: 0a4d0b4b4eb47c64fb861cef36cff76e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -115,7 +130,7 @@ PrefabInstance:
     - target: {fileID: 8925858997503320845, guid: 0a4d0b4b4eb47c64fb861cef36cff76e,
         type: 3}
       propertyPath: m_Name
-      value: ItemUI
+      value: ItemUI Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a4d0b4b4eb47c64fb861cef36cff76e, type: 3}

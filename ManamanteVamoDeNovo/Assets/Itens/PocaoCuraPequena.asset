@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a79d9dea89e870845bf6e351459ae5af, type: 3}
   m_Name: PocaoCuraPequena
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
+  prefab: {fileID: 8925858997503320845, guid: 0a4d0b4b4eb47c64fb861cef36cff76e, type: 3}
   type: 0
   description: "Po\xE7\xE3o que cura parte da vida."
   potionType: 0
