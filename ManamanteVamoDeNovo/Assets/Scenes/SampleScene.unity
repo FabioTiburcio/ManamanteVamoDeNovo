@@ -215,6 +215,59 @@ MonoBehaviour:
   xSpaceBetweenItem: 35
   ySpaceBetweenItem: 35
   numberOfCollums: 4
+--- !u!1 &151936657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 151936658}
+  - component: {fileID: 151936659}
+  m_Layer: 0
+  m_Name: Skill Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &151936658
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151936657}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.178, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 608348978}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &151936659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151936657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58458390fbd6b3442839149d31f0b174, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePoint: {fileID: 151936658}
+  firePrefab: {fileID: 6528972245774371749, guid: adea09be888acdc4b907e9ab192c3639,
+    type: 3}
+  icePrefab: {fileID: 8454839627542133590, guid: d84babd272f77a445a426650cba9069e,
+    type: 3}
+  windPrefab: {fileID: 4034193321657810229, guid: 9965e76033fe6f446b3028b5773444f9,
+    type: 3}
+  earthPrefab: {fileID: 53107351742161863, guid: 8de19fad255bfa346bf7f7048e8e68c8,
+    type: 3}
+  bulletForce: 2
 --- !u!1 &371763214
 GameObject:
   m_ObjectHideFlags: 0
@@ -430,7 +483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e469bafd88f47274881fb32c6d091e77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 5
+  movementSpeed: 2
 --- !u!212 &608348977
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -491,7 +544,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 151936658}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
