@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97c12a23c491507409d4f9c6a45503f2, type: 3}
   m_Name: MacaDeFogo
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1279406765038853833, guid: 5c1465c451b4d3940b10eaf1b2dabfb5, type: 3}
+  Id: 0
+  uiDisplay: {fileID: -2319894896770420943, guid: eaffcebed2c1fbb4999e31b503bd5f42,
+    type: 3}
   type: 2
-  description: 
+  description: Maca de fogo, utilizada para crafting de itens.
   craftingItemType: 0
   craftingItemElement: 1

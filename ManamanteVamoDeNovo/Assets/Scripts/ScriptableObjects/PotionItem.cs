@@ -13,7 +13,7 @@ public enum PotionType
     HealIce
 }
 [CreateAssetMenu(fileName = "New Potion Item", menuName = "Inventory System/Item/Potion Item")]
-public class PotionItem : Item
+public class PotionItem : ItemObject
 {
     public PotionType potionType;
     private void Awake()
