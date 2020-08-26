@@ -75,7 +75,6 @@
     <Compile Include="Assets\Scripts\ScriptableObjects\EquipmentItem.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\ItemObject.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\PotionItem.cs" />
-    <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/DELL/Documents/GitHub/ManamanteVamoDeNovo/ManamanteVamoDeNovo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
