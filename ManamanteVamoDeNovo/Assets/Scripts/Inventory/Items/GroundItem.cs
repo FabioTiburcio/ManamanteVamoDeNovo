@@ -2,18 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GroundItem : MonoBehaviour
+public class GroundItem : MonoBehaviour, ISerializationCallbackReceiver
 {
     public ItemObject itemObject;
-    // Start is called before the first frame update
-    void Start()
+
+    public void OnAfterDeserialize()
     {
-        
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnBeforeSerialize()
     {
-        
+        GetComponentInChildren<SpriteRenderer>().sprite = itemObject.uiDisplay;
     }
 }
