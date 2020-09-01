@@ -15,8 +15,9 @@ public enum Attributes
     Agility,
     Intelligence,
     Stamina,
-    Strength
+    Strength,
 }
+
 public class ItemObject : ScriptableObject
 {
     public int Id;
@@ -25,6 +26,7 @@ public class ItemObject : ScriptableObject
     [TextArea(10,10)]
     public string description;
     public ItemBuff[] buffs;
+    public float marketValue;
 
     public Item CreateItem()
     {
@@ -39,6 +41,11 @@ public class Item
     public string name;
     public int Id;
     public ItemBuff[] buffs;
+    public Item()
+    {
+        name = "";
+        Id = -1;
+    }
     public Item(ItemObject item)
     {
         name = item.name;

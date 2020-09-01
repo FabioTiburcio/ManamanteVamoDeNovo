@@ -17,5 +17,7 @@ MonoBehaviour:
     type: 3}
   type: 2
   description: Maca de fogo, utilizada para crafting de itens.
+  buffs: []
+  marketValue: 2
   craftingItemType: 0
   craftingItemElement: 1

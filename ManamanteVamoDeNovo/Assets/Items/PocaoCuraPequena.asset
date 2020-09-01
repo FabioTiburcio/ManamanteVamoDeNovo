@@ -17,4 +17,6 @@ MonoBehaviour:
     type: 3}
   type: 0
   description: "Po\xE7\xE3o que cura parte da vida."
+  buffs: []
+  marketValue: 10
   potionType: 0

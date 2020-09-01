@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class PlayerInventory : MonoBehaviour
 {
+    public MouseItem mouseItem = new MouseItem();
+
     public Inventory inventory;
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public bool collidingWithItem;
+    public GameObject itemCollided;
+
+    private void OnTriggerStay2D(Collider2D other)
     {
-        var item = other.GetComponent<GroundItem>();
-        if (item)
+        if(other.tag == "Item")
         {
-            inventory.AddItem(new Item(item.itemObject), 1);
-            Destroy(other.gameObject);
+            collidingWithItem = true;
+            itemCollided = other.gameObject;
         }
     }
     private void Update()
@@ -25,9 +29,18 @@ public class PlayerInventory : MonoBehaviour
         {
             inventory.Load();
         }
+        if (Input.GetKeyDown(KeyCode.E) && collidingWithItem)
+        {
+            var item = itemCollided.GetComponent<GroundItem>();
+            if (item)
+            {
+                inventory.AddItem(new Item(item.itemObject), 1);
+                Destroy(itemCollided.gameObject);
+            }
+        }
     }
     private void OnApplicationQuit()
     {
-        inventory.Container.Items.Clear();
+        inventory.Container.Items = new InventorySlot[20];
     }
 }
