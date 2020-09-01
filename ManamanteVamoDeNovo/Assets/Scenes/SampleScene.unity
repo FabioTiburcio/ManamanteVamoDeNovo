@@ -156,7 +156,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 319, y: -1.8000183}
+  m_AnchoredPosition: {x: 319, y: -1.8000488}
   m_SizeDelta: {x: -638, y: -91.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &138698677
@@ -240,7 +240,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 151936657}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.178, z: 0}
+  m_LocalPosition: {x: 0, y: 0.239, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 608348978}
@@ -258,14 +258,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58458390fbd6b3442839149d31f0b174, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 608348976}
   firePoint: {fileID: 151936658}
-  firePrefab: {fileID: 6528972245774371749, guid: adea09be888acdc4b907e9ab192c3639,
+  firePrefab: {fileID: 4968523787404015487, guid: 41d1b09dbdf0ef44d84ac3d3b2806226,
     type: 3}
-  icePrefab: {fileID: 8454839627542133590, guid: d84babd272f77a445a426650cba9069e,
+  fireArea: {fileID: 6956075358172106392, guid: 7dce4c55148f92a49bcdc92ac6a96e0a,
     type: 3}
+  icePrefab: {fileID: 7195084668286351474, guid: f66830cab1f9d0844b0b41c4f08b771e,
+    type: 3}
+  iceArea: {fileID: 6956075358172106392, guid: 8738f73f3d36db349ba34e4ef99d9c73, type: 3}
   windPrefab: {fileID: 4034193321657810229, guid: 9965e76033fe6f446b3028b5773444f9,
     type: 3}
+  windArea: {fileID: 6956075358172106392, guid: 42ef7c47fe682824d8b7c7f1a765d1a4,
+    type: 3}
   earthPrefab: {fileID: 53107351742161863, guid: 8de19fad255bfa346bf7f7048e8e68c8,
+    type: 3}
+  earthArea: {fileID: 6956075358172106392, guid: af0d5f3bf7d8d554480ac8f0936547fa,
     type: 3}
   bulletForce: 2
 --- !u!1 &371763214
@@ -484,6 +492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 2
+  mousePos: {x: 0, y: 0}
 --- !u!212 &608348977
 SpriteRenderer:
   m_ObjectHideFlags: 0

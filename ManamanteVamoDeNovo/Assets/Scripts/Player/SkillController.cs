@@ -4,16 +4,21 @@ using UnityEngine;
 
 public class SkillController : MonoBehaviour
 {
+    public PlayerMovement player;
     public Transform firePoint;
     private int activeSkill;
     
     public GameObject firePrefab;
+    public GameObject fireArea;
 
     public GameObject icePrefab;
+    public GameObject iceArea;
 
     public GameObject windPrefab;
+    public GameObject windArea;
 
     public GameObject earthPrefab;
+    public GameObject earthArea;
 
     public float bulletForce = 20f;
 
@@ -47,7 +52,36 @@ public class SkillController : MonoBehaviour
             Shoot();
         }
 
+        if (Input.GetButtonDown("Fire2"))
+        {
+            Cast();
+        }
 
+
+    }
+
+    void Cast()
+    {
+        if (activeSkill == 1)
+        {
+            GameObject area = Instantiate(fireArea, player.mousePos, Quaternion.identity);
+            
+        }
+        else if (activeSkill == 2)
+        {
+            GameObject area = Instantiate(iceArea, player.mousePos, Quaternion.identity);
+            
+        }
+        else if (activeSkill == 3)
+        {
+            GameObject area = Instantiate(windArea, player.mousePos, Quaternion.identity);
+            
+        }
+        else if (activeSkill == 4)
+        {
+            GameObject area = Instantiate(earthArea, player.mousePos, Quaternion.identity);
+            
+        }
     }
 
     void Shoot()
