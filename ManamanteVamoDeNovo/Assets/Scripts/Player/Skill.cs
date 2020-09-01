@@ -4,11 +4,18 @@ using UnityEngine;
 
 public class Skill : MonoBehaviour
 {
+    public bool isProjectile;
 
     public GameObject hitEffect;
 
+    private void Update()
+    {
+        
+            Destroy(gameObject, 3f);
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Destroy(gameObject);
+        if(isProjectile) Destroy(gameObject);
     }
 }

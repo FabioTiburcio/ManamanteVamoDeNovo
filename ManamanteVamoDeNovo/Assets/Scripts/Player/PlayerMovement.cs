@@ -5,10 +5,11 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float movementSpeed = 5f;
+    
     private Rigidbody2D playerRb;
 
     Vector2 movement;
-    Vector2 mousePos;
+    public Vector2 mousePos;
 
     private void Start()
     {
@@ -28,8 +29,9 @@ public class PlayerMovement : MonoBehaviour
         playerRb.MovePosition(playerRb.position + movement * movementSpeed * Time.deltaTime);
 
         Vector2 lookDir = mousePos - playerRb.position;
-        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
-        playerRb.rotation = angle;
+        transform.up = lookDir.normalized;
+        //float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
+        //playerRb.rotation = angle;
     }
 
     private void OnDrawGizmos()

@@ -1,0 +1,269 @@
+fileFormatVersion: 2
+guid: b9be6cce14c31e846b77ded928fa3ca1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3548576969730718210
+    second: Icebolt_0
+  - first:
+      213: 4208010922504603069
+    second: Icebolt_1
+  - first:
+      213: -3629673529195551195
+    second: Icebolt_2
+  - first:
+      213: -642494973598619818
+    second: Icebolt_3
+  - first:
+      213: -1126675481325923262
+    second: Icebolt_4
+  - first:
+      213: -6898794183845893877
+    second: Icebolt_5
+  - first:
+      213: 8793018168842327725
+    second: Icebolt_6
+  - first:
+      213: -2987295051245850932
+    second: Icebolt_7
+  - first:
+      213: -1445512932024182930
+    second: Icebolt_8
+  - first:
+      213: -5415147085450661530
+    second: Icebolt_9
+  - first:
+      213: 868539461192390430
+    second: Icebolt_10
+  - first:
+      213: -2178517850810152345
+    second: Icebolt_11
+  - first:
+      213: 7834211692738298270
+    second: Icebolt_12
+  - first:
+      213: -1567561957935266856
+    second: Icebolt_13
+  - first:
+      213: 5452024761735463835
+    second: Icebolt_14
+  - first:
+      213: -9102651063406476148
+    second: Icebolt_15
+  - first:
+      213: 5929842339090821858
+    second: Icebolt_16
+  - first:
+      213: 1874252492135574840
+    second: Icebolt_17
+  - first:
+      213: -2681670430298380009
+    second: Icebolt_18
+  - first:
+      213: -523627507034462836
+    second: Icebolt_19
+  - first:
+      213: -2549978684821913217
+    second: Icebolt_20
+  - first:
+      213: 8902235577477114802
+    second: Icebolt_21
+  - first:
+      213: 1628494244356824260
+    second: Icebolt_22
+  - first:
+      213: 5295699047632154107
+    second: Icebolt_23
+  - first:
+      213: -3208461714313275524
+    second: Icebolt_24
+  - first:
+      213: -4232634541649867735
+    second: Icebolt_25
+  - first:
+      213: 3985979343730407322
+    second: Icebolt_26
+  - first:
+      213: -1265756040355562067
+    second: Icebolt_27
+  - first:
+      213: 7581805586548971599
+    second: Icebolt_28
+  - first:
+      213: -310923988537837704
+    second: Icebolt_29
+  - first:
+      213: 5977747262851371277
+    second: Icebolt_30
+  - first:
+      213: 4354106790910018210
+    second: Icebolt_31
+  - first:
+      213: -2962523907356343014
+    second: Icebolt_32
+  - first:
+      213: -220644878307951869
+    second: Icebolt_33
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 3000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Icebolt_3
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 571
+        width: 1115
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6572ea0c9366517f0800000000000000
+      internalID: -642494973598619818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icebolt_7
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 373
+        width: 1149
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce653f6afefa86d0800000000000000
+      internalID: -2987295051245850932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icebolt_13
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 69
+        width: 1143
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d34add54b6ee3ae0800000000000000
+      internalID: -1567561957935266856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
