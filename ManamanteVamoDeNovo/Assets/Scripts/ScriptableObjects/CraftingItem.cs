@@ -31,7 +31,7 @@ public enum CraftingItemElement
 [CreateAssetMenu(fileName = "New Crafting Item", menuName = "Inventory System/Item/Crafting Item")]
 public class CraftingItem : ItemObject
 {
-    public CraftingItemType craftingItemType;
+    //public CraftingItemType craftingItemType;
     public CraftingItemElement craftingItemElement;
     private void Awake()
     {

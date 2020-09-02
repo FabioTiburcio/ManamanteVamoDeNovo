@@ -13,7 +13,7 @@ public enum EquipmentType
 [CreateAssetMenu(fileName = "New Equipment Item", menuName = "Inventory System/Item/Equipment Item")]
 public class EquipmentItem : ItemObject
 {
-    public EquipmentType equipmentItem;
+    //public EquipmentType equipmentItem;
     private void Awake()
     {
         type = ItemType.Equipment;

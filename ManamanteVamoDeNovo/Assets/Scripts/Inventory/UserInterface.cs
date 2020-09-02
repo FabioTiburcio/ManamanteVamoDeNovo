@@ -11,7 +11,8 @@ public abstract class UserInterface : MonoBehaviour
 
     public Inventory inventory;
     public Dictionary<GameObject, InventorySlot> itemsDisplayed = new Dictionary<GameObject, InventorySlot>();
-    public float clickingTime;
+    private float clickingTime;
+    private bool holdingMouseClick;
     //Start is called before the first frame update
     void Start()
     {
@@ -26,6 +27,10 @@ public abstract class UserInterface : MonoBehaviour
     void Update()
     {
         UpdateSlots();
+        if (holdingMouseClick)
+        {
+            clickingTime += Time.deltaTime;
+        }
     }
     public void UpdateSlots()
     {
@@ -70,6 +75,20 @@ public abstract class UserInterface : MonoBehaviour
         playerInventory.mouseItem.hoverObj = null;
         playerInventory.mouseItem.hoverItem = null;
     }
+    public void PointerDown(GameObject obj)
+    {
+        holdingMouseClick = true;
+    }
+
+    public void PointerUp(GameObject obj)
+    {
+        if (clickingTime < 0.2f && itemsDisplayed[obj].ID >= 0)
+        {
+            inventory.UseItem(itemsDisplayed[obj].item);
+        }
+        clickingTime = 0;
+        holdingMouseClick = false;
+    }
     public void OnDragStart(GameObject obj)
     {
         var mouseObject = new GameObject();
@@ -105,15 +124,9 @@ public abstract class UserInterface : MonoBehaviour
         }
         Destroy(itemOnMouse.obj);
         itemOnMouse.item = null;
-        clickingTime = 0;
-        if (clickingTime < 0.1f && itemsDisplayed.ContainsKey(obj))
-        {
-            inventory.UseItem(itemsDisplayed[obj].item);
-        }
     }
     public void OnDrag(GameObject obj)
     {
-        clickingTime += Time.deltaTime;
         if (playerInventory.mouseItem.obj != null)
         {
             playerInventory.mouseItem.obj.GetComponent<RectTransform>().position = Input.mousePosition;

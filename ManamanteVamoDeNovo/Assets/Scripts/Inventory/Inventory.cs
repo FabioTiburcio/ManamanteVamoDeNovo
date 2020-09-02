@@ -53,7 +53,86 @@ public class Inventory : ScriptableObject
     }
     public void UseItem(Item _item)
     {
-        Debug.Log("Item Usado");
+        switch (_item.type)
+        {
+            case ItemType.Crafting:
+                switch (_item.craftingItemType)
+                {
+                    case CraftingItemType.Asas:
+                        break;
+                    case CraftingItemType.Chifres:
+                        break;
+                    case CraftingItemType.Cogumelo:
+                        break;
+                    case CraftingItemType.Coracao:
+                        break;
+                    case CraftingItemType.Essencia:
+                        break;
+                    case CraftingItemType.Flor:
+                        break;
+                    case CraftingItemType.Folha:
+                        break;
+                    case CraftingItemType.Fruta:
+                        break;
+                    case CraftingItemType.Musgo:
+                        break;
+                    case CraftingItemType.Olhos:
+                        break;
+                    case CraftingItemType.Osso:
+                        break;
+                    case CraftingItemType.Pele:
+                        break;
+                    case CraftingItemType.Penas:
+                        break;
+                    case CraftingItemType.Presas:
+                        break;
+                }
+                break;
+            case ItemType.Equipment:
+                switch (_item.equipmentType)
+                {
+                    case EquipmentType.PedraDeFogo:
+                        Debug.Log("Habilidade de fogo");
+                        break;
+                    case EquipmentType.PedraDeGelo:
+                        Debug.Log("Habilidade de gelo");
+                        break;
+                    case EquipmentType.PedraDeRaio:
+                        Debug.Log("Habilidade de raio");
+                        break;
+                    case EquipmentType.PedraDeVeneno:
+                        Debug.Log("Habilidade de Veneno");
+                        break;
+                }
+                break;
+            case ItemType.Potion:
+                switch (_item.potionType)
+                {
+                    case PotionType.HealLow:
+                        Debug.Log("Curou 10");
+                        break;
+                    case PotionType.HealMedium:
+                        Debug.Log("Curou 20");
+                        break;
+                    case PotionType.HealHigh:
+                        Debug.Log("Curou 30");
+                        break;
+                    case PotionType.HealFire:
+                        Debug.Log("Curou Queimadura");
+                        break;
+                    case PotionType.HealEletric:
+                        Debug.Log("Curou eletricidade");
+                        break;
+                    case PotionType.HealPoison:
+                        Debug.Log("Curou Veneno");
+                        break;
+                    case PotionType.HealIce:
+                        Debug.Log("Curou Gelo");
+                        break;
+                }
+                RemoveItem(_item);
+                break;
+        }
     }
 
     public void RemoveItem(Item _item)

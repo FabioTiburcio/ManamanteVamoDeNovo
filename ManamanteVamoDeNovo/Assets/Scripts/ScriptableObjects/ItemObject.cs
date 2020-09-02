@@ -7,7 +7,8 @@ public enum ItemType
 {
     Potion,
     Equipment,
-    Crafting
+    Crafting, 
+    Default
 }
 
 public enum Attributes
@@ -23,11 +24,15 @@ public class ItemObject : ScriptableObject
     public int Id;
     public Sprite uiDisplay;
     public ItemType type;
+    [Header ("Arrumar apenas o referente ao tipo do item acima.")]
+    public PotionType potionType;
+    public CraftingItemType craftingItemType;
+    public EquipmentType equipmentType;
+    [Header("")]
     [TextArea(10,10)]
     public string description;
     public ItemBuff[] buffs;
     public float marketValue;
-
     public Item CreateItem()
     {
         Item newItem = new Item(this);
@@ -41,15 +46,22 @@ public class Item
     public string name;
     public int Id;
     public ItemBuff[] buffs;
+    public ItemType type;
+    public PotionType potionType;
+    public CraftingItemType craftingItemType;
+    public EquipmentType equipmentType;
     public Item()
     {
         name = "";
         Id = -1;
+        type = ItemType.Default;
     }
     public Item(ItemObject item)
     {
         name = item.name;
         Id = item.Id;
+        type = item.type;
+        potionType = item.potionType;
         buffs = new ItemBuff[item.buffs.Length];
         for (int i = 0; i < buffs.Length; i++)
         {

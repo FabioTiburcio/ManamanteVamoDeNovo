@@ -16,7 +16,9 @@ MonoBehaviour:
   uiDisplay: {fileID: -3237844493445452581, guid: eaffcebed2c1fbb4999e31b503bd5f42,
     type: 3}
   type: 0
+  potionType: 0
+  craftingItemType: 0
+  equipmentType: 0
   description: "Po\xE7\xE3o que cura parte da vida."
   buffs: []
   marketValue: 10
-  potionType: 0
