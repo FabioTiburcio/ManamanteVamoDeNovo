@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 public enum CraftingItemType
 {
+    Nenhum,
     Fruta,
     Flor,
     Cogumelo,

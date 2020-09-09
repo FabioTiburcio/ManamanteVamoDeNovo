@@ -12,13 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a79d9dea89e870845bf6e351459ae5af, type: 3}
   m_Name: PocaoCuraPequena
   m_EditorClassIdentifier: 
-  Id: 1
   uiDisplay: {fileID: -3237844493445452581, guid: eaffcebed2c1fbb4999e31b503bd5f42,
     type: 3}
+  stackable: 1
   type: 0
-  potionType: 0
+  potionType: 1
   craftingItemType: 0
   equipmentType: 0
   description: "Po\xE7\xE3o que cura parte da vida."
-  buffs: []
   marketValue: 10
+  data:
+    name: 
+    Id: 1
+    buffs: []
+    type: 3
+    potionType: 0
+    craftingItemType: 0
+    equipmentType: 0
+    marketValue: 0

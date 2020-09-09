@@ -21,8 +21,8 @@ public enum Attributes
 
 public class ItemObject : ScriptableObject
 {
-    public int Id;
     public Sprite uiDisplay;
+    public bool stackable;
     public ItemType type;
     [Header ("Arrumar apenas o referente ao tipo do item acima.")]
     public PotionType potionType;
@@ -31,8 +31,8 @@ public class ItemObject : ScriptableObject
     [Header("")]
     [TextArea(10,10)]
     public string description;
-    public ItemBuff[] buffs;
     public float marketValue;
+    public Item data = new Item();
     public Item CreateItem()
     {
         Item newItem = new Item(this);
@@ -44,12 +44,13 @@ public class ItemObject : ScriptableObject
 public class Item
 {
     public string name;
-    public int Id;
+    public int Id = -1;
     public ItemBuff[] buffs;
     public ItemType type;
     public PotionType potionType;
     public CraftingItemType craftingItemType;
     public EquipmentType equipmentType;
+    public float marketValue;
     public Item()
     {
         name = "";
@@ -59,15 +60,18 @@ public class Item
     public Item(ItemObject item)
     {
         name = item.name;
-        Id = item.Id;
+        Id = item.data.Id;
         type = item.type;
         potionType = item.potionType;
-        buffs = new ItemBuff[item.buffs.Length];
+        craftingItemType = item.craftingItemType;
+        equipmentType = item.equipmentType;
+        marketValue = item.marketValue;
+        buffs = new ItemBuff[item.data.buffs.Length];
         for (int i = 0; i < buffs.Length; i++)
         {
-            buffs[i] = new ItemBuff(item.buffs[i].min, item.buffs[i].max)
+            buffs[i] = new ItemBuff(item.data.buffs[i].min, item.data.buffs[i].max)
             {
-                attribute = item.buffs[i].attribute
+                attribute = item.data.buffs[i].attribute
             };
             
         }

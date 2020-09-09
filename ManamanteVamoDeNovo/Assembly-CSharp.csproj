@@ -64,7 +64,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Crafting\CraftingController.cs" />
-    <Compile Include="Assets\Scripts\Inventory\DisplayInventory.cs" />
     <Compile Include="Assets\Scripts\Inventory\DynamicInterface.cs" />
     <Compile Include="Assets\Scripts\Inventory\Inventory.cs" />
     <Compile Include="Assets\Scripts\Inventory\ItemDatabaseObject.cs" />

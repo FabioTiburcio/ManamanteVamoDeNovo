@@ -4,6 +4,7 @@ using UnityEngine;
 
 public enum PotionType
 {
+    Nenhum,
     HealLow,
     HealMedium,
     HealHigh,

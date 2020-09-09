@@ -12,11 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97c12a23c491507409d4f9c6a45503f2, type: 3}
   m_Name: Ossos
   m_EditorClassIdentifier: 
-  Id: 2
   uiDisplay: {fileID: 21300000, guid: ee325e2992e9ba5409efaf760e6131cf, type: 3}
+  stackable: 1
   type: 2
+  potionType: 0
+  craftingItemType: 11
+  equipmentType: 0
   description: "Ossos do of\xEDcio."
-  buffs: []
   marketValue: 1
-  craftingItemType: 10
+  data:
+    name: 
+    Id: 4
+    buffs: []
+    type: 3
+    potionType: 0
+    craftingItemType: 0
+    equipmentType: 0
+    marketValue: 0
   craftingItemElement: 0

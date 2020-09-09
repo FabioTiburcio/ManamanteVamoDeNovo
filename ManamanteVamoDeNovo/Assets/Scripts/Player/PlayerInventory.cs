@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class PlayerInventory : MonoBehaviour
 {
-    public MouseItem mouseItem = new MouseItem();
-
     public Inventory inventory;
     public Inventory playerTrash;
 
@@ -28,8 +26,11 @@ public class PlayerInventory : MonoBehaviour
             var item = itemCollided.GetComponent<GroundItem>();
             if (item)
             {
-                inventory.AddItem(new Item(item.itemObject), 1);
-                Destroy(itemCollided.gameObject);
+                Item _item = new Item(item.itemObject);
+                if(inventory.AddItem(_item, 1))
+                {
+                    Destroy(itemCollided.gameObject);
+                }
             }
         }
         if (Input.GetKeyDown(KeyCode.E) && collidingWithCraftingTable)
