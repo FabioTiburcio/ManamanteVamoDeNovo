@@ -10,7 +10,10 @@ public class PlayerInventory : MonoBehaviour
     public bool collidingWithItem;
     public bool collidingWithCraftingTable;
     public GameObject craftingTableUI;
+    public GameObject mailboxUI;
     public GameObject itemCollided;
+    public bool collidingWithMailBox;
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
@@ -37,9 +40,17 @@ public class PlayerInventory : MonoBehaviour
         {
             craftingTableUI.SetActive(true);
         }
+        else if(Input.GetKeyDown(KeyCode.E) && collidingWithMailBox)
+        {
+            mailboxUI.SetActive(true);
+        }
         if (!collidingWithCraftingTable)
         {
             craftingTableUI.SetActive(false);
+        }
+        if (!collidingWithMailBox)
+        {
+            mailboxUI.SetActive(false);
         }
     }
 
@@ -54,6 +65,10 @@ public class PlayerInventory : MonoBehaviour
         {
             collidingWithCraftingTable = true;
         }
+        else if (other.name == "Correio")
+        {
+            collidingWithMailBox = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -66,6 +81,10 @@ public class PlayerInventory : MonoBehaviour
         if(collision.name == "CraftingTable")
         {
             collidingWithCraftingTable = false;
+        }
+        if(collision.name == "Correio")
+        {
+            collidingWithMailBox = false;
         }
         
     }

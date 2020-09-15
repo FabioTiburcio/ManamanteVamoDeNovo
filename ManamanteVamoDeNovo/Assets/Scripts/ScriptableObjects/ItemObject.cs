@@ -27,6 +27,7 @@ public class ItemObject : ScriptableObject
     [Header ("Arrumar apenas o referente ao tipo do item acima.")]
     public PotionType potionType;
     public CraftingItemType craftingItemType;
+    public CraftingItemElement craftingItemElement;
     public EquipmentType equipmentType;
     [Header("")]
     [TextArea(10,10)]
@@ -49,6 +50,7 @@ public class Item
     public ItemType type;
     public PotionType potionType;
     public CraftingItemType craftingItemType;
+    public CraftingItemElement craftingItemElement;
     public EquipmentType equipmentType;
     public float marketValue;
     public Item()
@@ -64,6 +66,7 @@ public class Item
         type = item.type;
         potionType = item.potionType;
         craftingItemType = item.craftingItemType;
+        craftingItemElement = item.craftingItemElement;
         equipmentType = item.equipmentType;
         marketValue = item.marketValue;
         buffs = new ItemBuff[item.data.buffs.Length];

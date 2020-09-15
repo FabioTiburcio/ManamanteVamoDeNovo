@@ -8,7 +8,7 @@ public enum CraftingItemType
     Flor,
     Cogumelo,
     Asas,
-    Coracao, 
+    Coracao,
     Presas,
     Folha,
     Olhos,
@@ -33,7 +33,7 @@ public enum CraftingItemElement
 public class CraftingItem : ItemObject
 {
     //public CraftingItemType craftingItemType;
-    public CraftingItemElement craftingItemElement;
+    //public CraftingItemElement craftingItemElement;
     private void Awake()
     {
         type = ItemType.Crafting;

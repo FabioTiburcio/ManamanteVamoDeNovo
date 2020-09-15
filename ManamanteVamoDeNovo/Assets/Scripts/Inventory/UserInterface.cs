@@ -67,7 +67,7 @@ public abstract class UserInterface : MonoBehaviour
 
     public void PointerUp(GameObject obj)
     {
-        if (clickingTime < 0.075f && slotsOnInterface[obj].item.Id >= 0)
+        if (clickingTime < 0.1f && slotsOnInterface[obj].item.Id >= 0)
         {
             inventory.UseItem(slotsOnInterface[obj].item);
         }

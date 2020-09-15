@@ -16,7 +16,7 @@ MonoBehaviour:
   database: {fileID: 11400000, guid: 3b70a0904efad8a42b9cb3ec7a21d1fd, type: 2}
   Container:
     Items:
-    - AllowedItems: 02000000
+    - AllowedItems: 
       parent: {fileID: 0}
       item:
         name: 
@@ -28,7 +28,7 @@ MonoBehaviour:
         equipmentType: 0
         marketValue: 0
       amount: 0
-    - AllowedItems: 02000000
+    - AllowedItems: 
       parent: {fileID: 0}
       item:
         name: 

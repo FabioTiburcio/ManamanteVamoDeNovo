@@ -12,6 +12,9 @@ public class Inventory : ScriptableObject
     public string savePath;
     public ItemDatabaseObject database;
     public InventoryCallback Container;
+    public Item itemRemovedFromMailbox;
+    public int itemRemovedAmount;
+    public bool changedItem = false;
 
     public bool AddItem(Item _item, int _amount)
     {
@@ -86,7 +89,17 @@ public class Inventory : ScriptableObject
                 }
                 return;
             }
-            if (item2.item.Id == item1.item.Id)
+            if(item1.parent.inventory.name == "MailboxInventory")
+            {
+                itemRemovedFromMailbox = item1.item;
+                itemRemovedAmount = item1.amount;
+            }
+            if (item1.parent.inventory.name == "MailboxInventory" || item2.parent.inventory.name == "MailboxInventory")
+            {
+                changedItem = true;
+                item2.parent.inventory.changedItem = true;
+            }
+            if (item2.item.Id == item1.item.Id && item2.parent != item1.parent)
             {
                 item2.AddAmount(item1.amount);
                 item1.RemoveItem();

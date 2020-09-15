@@ -18,6 +18,7 @@ MonoBehaviour:
   type: 0
   potionType: 1
   craftingItemType: 0
+  craftingItemElement: 0
   equipmentType: 0
   description: "Po\xE7\xE3o que cura parte da vida."
   marketValue: 10
@@ -28,5 +29,6 @@ MonoBehaviour:
     type: 3
     potionType: 0
     craftingItemType: 0
+    craftingItemElement: 0
     equipmentType: 0
     marketValue: 0
