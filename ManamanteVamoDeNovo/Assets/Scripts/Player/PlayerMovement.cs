@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public float movementSpeed = 5f;
     
     private Rigidbody2D playerRb;
+    private Animator playerAnim;
 
     Vector2 movement;
     public Vector2 mousePos;
@@ -14,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         playerRb = GetComponent<Rigidbody2D>();
+        playerAnim = GetComponent<Animator>();
     }
 
     private void Update()
@@ -29,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
         playerRb.MovePosition(playerRb.position + movement * movementSpeed * Time.deltaTime);
 
         Vector2 lookDir = mousePos - playerRb.position;
-        transform.up = lookDir.normalized;
+        //transform.up = lookDir.normalized;
         //float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
         //playerRb.rotation = angle;
     }
