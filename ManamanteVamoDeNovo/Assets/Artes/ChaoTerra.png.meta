@@ -1,0 +1,248 @@
+fileFormatVersion: 2
+guid: fad245829dbdb034fa42208202f4e047
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6645954112585632722
+    second: ChaoTerra_0
+  - first:
+      213: -2673772866088628777
+    second: ChaoTerra_1
+  - first:
+      213: -6878889004608092213
+    second: ChaoTerra_2
+  - first:
+      213: -6370141054633371400
+    second: ChaoTerra_3
+  - first:
+      213: 1077743191488749981
+    second: ChaoTerra_4
+  - first:
+      213: 2780071128167518737
+    second: ChaoTerra_5
+  - first:
+      213: 379115988112241469
+    second: ChaoTerra_6
+  - first:
+      213: -3674799113811185923
+    second: ChaoTerra_7
+  - first:
+      213: 6391026036287595840
+    second: ChaoTerra_8
+  - first:
+      213: -7970924582713204155
+    second: ChaoTerra_9
+  - first:
+      213: 3997876307010600994
+    second: ChaoTerra_10
+  - first:
+      213: 3696314709826900311
+    second: ChaoTerra_11
+  - first:
+      213: -5839292473525704092
+    second: ChaoTerra_12
+  - first:
+      213: -3536653897076501600
+    second: ChaoTerra_13
+  - first:
+      213: -8784612583148400497
+    second: ChaoTerra_14
+  - first:
+      213: -6502078950798213802
+    second: ChaoTerra_15
+  - first:
+      213: 4480293971204501044
+    second: ChaoTerra_16
+  - first:
+      213: -1696441533600507341
+    second: ChaoTerra_17
+  - first:
+      213: 2592196250408106003
+    second: ChaoTerra_18
+  - first:
+      213: 1518450555974932068
+    second: ChaoTerra_0
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChaoTerra_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 551
+        width: 490
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54263f3e256916190800000000000000
+      internalID: -7970924582713204155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoTerra_13
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 314
+        width: 258
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a31143c4084beec0800000000000000
+      internalID: -3536653897076501600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoTerra_14
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 237
+        width: 385
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8053040669c61680800000000000000
+      internalID: -8784612583148400497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChaoTerra_0
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 829
+        width: 662
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46651ed4cbe921510800000000000000
+      internalID: 1518450555974932068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
