@@ -90,22 +90,22 @@ public class SkillController : MonoBehaviour
         {
             GameObject bullet = Instantiate(firePrefab, firePoint.position, firePoint.rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-            rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
+            rb.AddForce(player.lookDir * bulletForce, ForceMode2D.Impulse);
         } else if (activeSkill == 2)
         {
             GameObject bullet = Instantiate(icePrefab, firePoint.position, firePoint.rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-            rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
+            rb.AddForce(player.lookDir * bulletForce, ForceMode2D.Impulse);
         } else if (activeSkill == 3)
         {
             GameObject bullet = Instantiate(windPrefab, firePoint.position, firePoint.rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-            rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
+            rb.AddForce(player.lookDir * bulletForce, ForceMode2D.Impulse);
         } else if (activeSkill == 4)
         {
             GameObject bullet = Instantiate(earthPrefab, firePoint.position, firePoint.rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-            rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
+            rb.AddForce(player.lookDir * bulletForce, ForceMode2D.Impulse);
         }
     }
 }

@@ -16,11 +16,13 @@ namespace Pathfinding {
 	public class AIDestinationSetter : VersionedMonoBehaviour {
 		/// <summary>The object that the AI should move to</summary>
 		public Transform target;
+		private SpriteRenderer spr;
 		IAstarAI ai;
 
 		private void Start()
 		{
 			target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+			spr = GetComponent<SpriteRenderer>();
 		}
 
 		void OnEnable () {
@@ -39,6 +41,14 @@ namespace Pathfinding {
 		/// <summary>Updates the AI's destination every frame</summary>
 		void Update () {
 			if (target != null && ai != null) ai.destination = target.position;
+			if(target.position.x > transform.position.x)
+			{
+				spr.flipX = true;
+			}
+			else if(target.position.x < transform.position.x)
+			{
+				spr.flipX = false;
+			}
 		}
 	}
 }

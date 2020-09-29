@@ -1,0 +1,56 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:ccf81a458799e4c2028c32f48e9557d6:60c31573ad034f2912844395444b1c99:e1b95bef3304b47616656595a5249792$
+#
+:format=40300
+:texture=IdleSpriteSheet.png
+:size=1024x256
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Armature_Idle_00;0;191;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_01;64;191;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_02;128;191;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_03;192;191;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_04;256;191;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_05;320;191;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_06;384;191;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_07;448;191;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_08;512;191;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_09;576;191;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_10;640;191;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_11;704;191;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_12;768;191;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_13;832;191;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_14;896;191;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_15;960;191;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_16;0;126;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_17;64;126;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_18;128;126;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_19;192;126;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_20;256;126;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_21;320;126;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_22;384;126;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_23;448;126;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_24;512;126;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_25;576;126;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_26;640;126;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_27;704;126;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_28;768;126;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_29;832;126;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_30;896;126;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_31;960;126;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_32;0;61;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_33;64;61;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_34;128;61;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_35;192;61;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_36;256;61;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_37;320;61;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_38;384;61;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_39;448;61;64;65; 0.5;0.5; 0;0;0;0
+Armature_Idle_40;512;61;64;65; 0.5;0.5; 0;0;0;0

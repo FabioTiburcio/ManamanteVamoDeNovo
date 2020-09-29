@@ -7,26 +7,42 @@ using Pathfinding;
 
 public class EnemyController : MonoBehaviour {
 
-    public enum enemyState { CHASING, FURIOUS, ATTACKING, STUN, DYING }
-
+    public enum enemyState { IDLE, CHASING, FURIOUS, ATTACKING, STUN, DYING }
+    public enum enemyType { RANGED, MEELE}
     private Rigidbody2D enemyRb;
 
+    public GameObject player;
+    private FieldOfView fieldOfView;
+    
     public int enemyDamage;
     public int enemyAttackSpeed;
-    private int enemyStamina = 100;
+    private int enemyHP = 100;
+    private float attackRange;
     private AIPath aIPath;
-    public enemyState currentState = enemyState.CHASING;
+    public enemyState currentState = enemyState.IDLE;
+    public enemyState lastState;
+    public enemyType tipoInimigo;
     private float timeChasing = 0f;
     private Animator enemyAnim;
 
     private float initialSpeed;
     private bool hitPlayer;
-    private float attackAnimTime = 3f;
+    private float attackCooldown = 3f;
     private bool attackAnimEnded;
+    private bool SeeingPlayer;
 
 
     private void Start()
     {
+        if(tipoInimigo == enemyType.MEELE)
+        {
+            attackRange = 0.75f;
+        }
+        else
+        {
+            attackRange = 3;
+        }
+        fieldOfView = GetComponentInChildren<FieldOfView>();
         aIPath = GetComponent<AIPath>();
         enemyRb = GetComponent<Rigidbody2D>();
         enemyAnim = GetComponent<Animator>();
@@ -34,38 +50,44 @@ public class EnemyController : MonoBehaviour {
     }
     private void Update()
     {
-        if (enemyStamina <= 0)
+        FindTargetPlayer();
+        if (enemyHP <= 0)
         {
             currentState = enemyState.DYING;
         }
         switch (currentState)
         {
+            case enemyState.IDLE:
+                enemyAnim.Play("Idle");
+                aIPath.canMove = false;
+                break;
             case enemyState.CHASING:
+                enemyAnim.Play("Idle");
+                aIPath.canMove = true;
                 timeChasing += Time.deltaTime;
-                if(aIPath.remainingDistance < 4)
+                if(aIPath.remainingDistance < attackRange)
                 {
                     currentState = enemyState.ATTACKING;
-                    
                 }
-                if(timeChasing > 10)
-                {
-                    currentState = enemyState.FURIOUS;
-                    aIPath.maxSpeed *= 2f;
-                }
+                //if(timeChasing > 10)
+                //{
+                //    currentState = enemyState.FURIOUS;
+                //    aIPath.maxSpeed *= 2f;
+                //}
                 break;
             case enemyState.FURIOUS:
-                if (aIPath.remainingDistance < 6)
+                if (aIPath.remainingDistance <= attackRange)
                 {
                     currentState = enemyState.ATTACKING;
                 }
                 break;
             case enemyState.ATTACKING:
                 aIPath.canMove = false;
-                //enemyAnim.Play("Attack");
-                StartCoroutine(AttackCooldownCounter(attackAnimTime));
-                if (attackAnimEnded)
+                enemyAnim.Play("Attack");
+                StartCoroutine(AttackCooldownCounter(attackCooldown));
+                if (aIPath.remainingDistance > attackRange)
                 {
-                    ResetEnemyState();
+                    currentState = enemyState.CHASING;
                 }
                 break;
             case enemyState.STUN:
@@ -75,10 +97,22 @@ public class EnemyController : MonoBehaviour {
                 break;
             case enemyState.DYING:
                 break;
-
         }
     }
 
+    private void FindTargetPlayer()
+    {
+        if (Vector3.Distance(transform.position, player.transform.position) < fieldOfView.viewDistance && !SeeingPlayer)
+        {
+            // Player inside viewDistance
+            currentState = enemyState.CHASING;
+            SeeingPlayer = true;
+        }
+        else if(Vector3.Distance(transform.position, player.transform.position) > fieldOfView.viewDistance)
+        {
+            SeeingPlayer = false;
+        }
+    }
     private void OnTriggerStay2D(Collider2D collision)
     {
         if(collision.tag == "Player")
@@ -92,7 +126,7 @@ public class EnemyController : MonoBehaviour {
         yield return new WaitForSeconds(cooldown);
         enemyRb.velocity = Vector3.zero;
         enemyRb.rotation = 0;
-        attackAnimEnded = true;
+        
     }
     private IEnumerator hitPlayerCooldown(float cooldown)
     {
@@ -115,6 +149,9 @@ public class EnemyController : MonoBehaviour {
         currentState = enemyState.CHASING;
     }
 
-
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        
+    }
 
 }

@@ -1,0 +1,24 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/Artes/IminigosSeparados/Ice/AttackSpriteSheet.tpsheet
+- Assets/Artes/IminigosSeparados/Ice/DamageSpriteSheet.tpsheet
+- Assets/Artes/IminigosSeparados/Ice/IdleSpriteSheet.tpsheet
+- Assets/Artes/IminigosSeparados/Poison/AttackSpriteSheet.tpsheet
+- Assets/Artes/IminigosSeparados/Poison/IdleSpriteSheet.tpsheet
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+textureFileNames:
+- Assets/Artes/IminigosSeparados/Ice/AttackSpriteSheet.png
+- Assets/Artes/IminigosSeparados/Ice/DamageSpriteSheet.png
+- Assets/Artes/IminigosSeparados/Ice/IdleSpriteSheet.png
+- Assets/Artes/IminigosSeparados/Poison/AttackSpriteSheet.png
+- Assets/Artes/IminigosSeparados/Poison/IdleSpriteSheet.png
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+normalmapFileNames:
+- 
+- 
+- 
+- 
+- 
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+enableDebugOutput: 0
