@@ -86,6 +86,8 @@
     <Compile Include="Assets\Scripts\ScriptableObjects\EquipmentItem.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\ItemObject.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\PotionItem.cs" />
+    <Compile Include="Assets\Scripts\TelaTransitions\ColliderTransition.cs" />
+    <Compile Include="Assets\Scripts\TelaTransitions\Transitions.cs" />
     <Compile Include="Assets\_\Base\BaseScripts\CharacterAimHandler.cs" />
     <Compile Include="Assets\_\Base\BaseScripts\CharacterPositionMovementHandler.cs" />
     <Compile Include="Assets\_\Base\BaseScripts\CharacterSwordHandler.cs" />

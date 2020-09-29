@@ -14,6 +14,10 @@ public class PlayerMovement : MonoBehaviour
     public Vector2 lookDir;
     public Transform skillSpawnRotation;
 
+    public bool freezePlayer;
+
+    public string colliderTag;
+
     private void Start()
     {
         playerRb = GetComponent<Rigidbody2D>();
@@ -22,6 +26,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        if (freezePlayer)
+        {
+            return;
+        }
         movement.x = Input.GetAxis("Horizontal");
         movement.y = Input.GetAxis("Vertical");
 
@@ -43,5 +51,10 @@ public class PlayerMovement : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(mousePos, 0.05f);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        colliderTag = collision.tag;
     }
 }
