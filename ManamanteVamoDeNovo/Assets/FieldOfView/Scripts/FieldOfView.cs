@@ -24,6 +24,7 @@ public class FieldOfView : MonoBehaviour {
     public float viewDistance;
     private Vector3 origin;
     private float startingAngle;
+    public RaycastHit2D raycastHit2D;
 
     private void Awake() {
         mesh = new Mesh();
@@ -48,7 +49,7 @@ public class FieldOfView : MonoBehaviour {
         int triangleIndex = 0;
         for (int i = 0; i <= rayCount; i++) {
             Vector3 vertex;
-            RaycastHit2D raycastHit2D = Physics2D.Raycast(origin, UtilsClass.GetVectorFromAngle(angle), viewDistance, layerMask);
+            raycastHit2D = Physics2D.Raycast(origin, UtilsClass.GetVectorFromAngle(angle), viewDistance, layerMask);
             if (raycastHit2D.collider == null) {
                 // No hit
                 vertex = origin + UtilsClass.GetVectorFromAngle(angle) * viewDistance;

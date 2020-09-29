@@ -11,8 +11,10 @@ public class PlayerInventory : MonoBehaviour
     public bool collidingWithCraftingTable;
     public GameObject craftingTableUI;
     public GameObject mailboxUI;
+    public GameObject robotUI;
     public GameObject itemCollided;
     public bool collidingWithMailBox;
+    public bool collidingWithRobot;
 
     private void Update()
     {
@@ -44,6 +46,10 @@ public class PlayerInventory : MonoBehaviour
         {
             mailboxUI.SetActive(true);
         }
+        else if(Input.GetKeyDown(KeyCode.E) && collidingWithRobot)
+        {
+            robotUI.SetActive(true);
+        }
         if (!collidingWithCraftingTable)
         {
             craftingTableUI.SetActive(false);
@@ -51,6 +57,10 @@ public class PlayerInventory : MonoBehaviour
         if (!collidingWithMailBox)
         {
             mailboxUI.SetActive(false);
+        }
+        if (!collidingWithRobot)
+        {
+            robotUI.SetActive(false);
         }
     }
 
@@ -69,6 +79,10 @@ public class PlayerInventory : MonoBehaviour
         {
             collidingWithMailBox = true;
         }
+        else if (other.name == "Robo")
+        {
+            collidingWithRobot = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -85,6 +99,10 @@ public class PlayerInventory : MonoBehaviour
         if(collision.name == "Correio")
         {
             collidingWithMailBox = false;
+        }
+        if(collision.name == "Robo")
+        {
+            collidingWithRobot = false;
         }
         
     }

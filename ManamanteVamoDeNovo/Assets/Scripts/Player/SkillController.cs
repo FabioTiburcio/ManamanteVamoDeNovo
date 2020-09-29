@@ -6,7 +6,7 @@ public class SkillController : MonoBehaviour
 {
     public PlayerMovement player;
     public Transform firePoint;
-    private int activeSkill;
+    public int activeSkill;
     
     public GameObject firePrefab;
     public GameObject fireArea;
@@ -24,7 +24,7 @@ public class SkillController : MonoBehaviour
 
     private void Start()
     {
-        
+        activeSkill = 1;
     }
 
     // Update is called once per frame

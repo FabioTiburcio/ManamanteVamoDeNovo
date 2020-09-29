@@ -12,7 +12,13 @@ public class EnemyController : MonoBehaviour {
     private Rigidbody2D enemyRb;
 
     public GameObject player;
+    public SkillController PlayerSkillController;
+    public Transform firePoint;
+    public GameObject enemyFirePrefab;
+    public GameObject enemyIcePrefab;
     private FieldOfView fieldOfView;
+
+    public Transform spawnDirection;
     
     public int enemyDamage;
     public int enemyAttackSpeed;
@@ -25,8 +31,11 @@ public class EnemyController : MonoBehaviour {
     private float timeChasing = 0f;
     private Animator enemyAnim;
 
+    GameObject enemySkill;
+
     private float initialSpeed;
-    private bool hitPlayer;
+    public bool hitPlayer;
+    float attackTimer = 3f;
     private float attackCooldown = 3f;
     private bool attackAnimEnded;
     private bool SeeingPlayer;
@@ -40,7 +49,7 @@ public class EnemyController : MonoBehaviour {
         }
         else
         {
-            attackRange = 3;
+            attackRange = 2f;
         }
         fieldOfView = GetComponentInChildren<FieldOfView>();
         aIPath = GetComponent<AIPath>();
@@ -82,9 +91,38 @@ public class EnemyController : MonoBehaviour {
                 }
                 break;
             case enemyState.ATTACKING:
+                
                 aIPath.canMove = false;
                 enemyAnim.Play("Attack");
                 StartCoroutine(AttackCooldownCounter(attackCooldown));
+                if(this.name == "InimigoAlma")
+                {
+                    spawnDirection.transform.up = player.transform.position - this.transform.position;
+                    if (attackTimer <= attackCooldown)
+                    {
+                        attackTimer += Time.deltaTime;
+                        return;
+                    }
+                    attackTimer = 0;
+                    PlayerSkillController = player.GetComponentInChildren<SkillController>();
+                    switch (PlayerSkillController.activeSkill)
+                    {
+                        case 1:
+                            enemySkill = Instantiate(enemyFirePrefab, firePoint.position, firePoint.rotation);
+                            break;
+                        case 2:
+                            enemySkill = Instantiate(enemyIcePrefab, firePoint.position, firePoint.rotation);
+                            break;
+                        case 3:
+                            enemySkill = Instantiate(enemyFirePrefab, firePoint.position, firePoint.rotation);
+                            break;
+                        case 4:
+                            enemySkill = Instantiate(enemyIcePrefab, firePoint.position, firePoint.rotation);
+                            break;
+                    } 
+                    Rigidbody2D rb = enemySkill.GetComponent<Rigidbody2D>();
+                    rb.AddForce(spawnDirection.transform.up, ForceMode2D.Impulse);
+                }
                 if (aIPath.remainingDistance > attackRange)
                 {
                     currentState = enemyState.CHASING;
@@ -126,7 +164,6 @@ public class EnemyController : MonoBehaviour {
         yield return new WaitForSeconds(cooldown);
         enemyRb.velocity = Vector3.zero;
         enemyRb.rotation = 0;
-        
     }
     private IEnumerator hitPlayerCooldown(float cooldown)
     {

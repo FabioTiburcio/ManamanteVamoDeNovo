@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     Vector2 movement;
     public Vector2 mousePos;
     public Vector2 lookDir;
+    public Transform skillSpawnRotation;
 
     private void Start()
     {
@@ -32,6 +33,7 @@ public class PlayerMovement : MonoBehaviour
         playerRb.MovePosition(playerRb.position + movement * movementSpeed * Time.deltaTime);
 
         lookDir = mousePos - playerRb.position;
+        skillSpawnRotation.transform.up = lookDir;
         //transform.up = lookDir.normalized;
         //float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
         //playerRb.rotation = angle;
