@@ -20,7 +20,7 @@ MonoBehaviour:
   craftingItemType: 0
   craftingItemElement: 0
   equipmentType: 0
-  description: "Po\xE7\xE3o que cura parte da vida."
+  description: "Po\xE7\xE3o que cura uma pequena parte da vida."
   marketValue: 10
   data:
     name: 
