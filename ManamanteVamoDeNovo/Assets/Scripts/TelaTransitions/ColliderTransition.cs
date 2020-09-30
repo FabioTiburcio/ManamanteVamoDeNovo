@@ -8,10 +8,11 @@ public class ColliderTransition : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        playerCollided = true;
+        if (collision.name == "Player") playerCollided = true;
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        playerCollided = false;
+        if(collision.name == "Player") playerCollided = false;
+
     }
 }

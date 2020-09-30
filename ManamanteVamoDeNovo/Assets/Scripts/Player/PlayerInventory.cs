@@ -33,9 +33,9 @@ public class PlayerInventory : MonoBehaviour
             if (item)
             {
                 Item _item = new Item(item.itemObject);
-                if(inventory.AddItem(_item, 1))
-                {                   
-                        activeQuest.QuestAtt(_item.Id.ToString(), true);                   
+                if (inventory.AddItem(_item, 1))
+                {
+                    activeQuest.QuestAtt(_item.Id.ToString(), true);
                     Destroy(itemCollided.gameObject);
                 }
             }
@@ -43,18 +43,20 @@ public class PlayerInventory : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && collidingWithCraftingTable)
         {
             craftingTableUI.SetActive(true);
+            robotUI.SetActive(true);
         }
-        else if(Input.GetKeyDown(KeyCode.E) && collidingWithMailBox)
+        else if (Input.GetKeyDown(KeyCode.E) && collidingWithMailBox)
         {
             mailboxUI.SetActive(true);
         }
-        else if(Input.GetKeyDown(KeyCode.E) && collidingWithRobot)
+        else if (Input.GetKeyDown(KeyCode.E) && collidingWithRobot)
         {
             robotUI.SetActive(true);
         }
         if (!collidingWithCraftingTable)
         {
             craftingTableUI.SetActive(false);
+            robotUI.SetActive(false);
         }
         if (!collidingWithMailBox)
         {
