@@ -11,6 +11,7 @@ public class EnemyController : MonoBehaviour {
     public enum enemyType { RANGED, MEELE}
     private Rigidbody2D enemyRb;
 
+    
     public GameObject player;
     public SkillController PlayerSkillController;
     public Transform firePoint;
@@ -19,7 +20,8 @@ public class EnemyController : MonoBehaviour {
     private FieldOfView fieldOfView;
 
     public Transform spawnDirection;
-    
+
+    public string enemyName;
     public int enemyDamage;
     public int enemyAttackSpeed;
     private int enemyHP = 100;
@@ -62,6 +64,7 @@ public class EnemyController : MonoBehaviour {
         FindTargetPlayer();
         if (enemyHP <= 0)
         {
+            
             currentState = enemyState.DYING;
         }
         switch (currentState)

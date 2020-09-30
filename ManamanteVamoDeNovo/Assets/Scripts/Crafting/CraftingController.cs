@@ -5,6 +5,7 @@ using UnityEngine;
 public class CraftingController : MonoBehaviour
 {
     // Start is called before the first frame update
+    public PlayerQuest activeQuest;
     public Inventory craftingInvetory;
     public Inventory playerInventory;
     public Item item1;
@@ -34,6 +35,7 @@ public class CraftingController : MonoBehaviour
                         {
                             case CraftingItemType.Fruta:
                                 item3 = craftingInvetory.database.GetItem[1].CreateItem();
+                                activeQuest.QuestAtt(item3.Id.ToString(), true);
                                 craftingInvetory.AddItem(item3, 1);
                                 craftingInvetory.RemoveAmount(item1);
                                 craftingInvetory.RemoveAmount(item2);
@@ -51,6 +53,7 @@ public class CraftingController : MonoBehaviour
                         {
                             case CraftingItemType.Flor:
                                 item3 = craftingInvetory.database.GetItem[2].CreateItem();
+                                activeQuest.QuestAtt(item3.Id.ToString(), true);
                                 craftingInvetory.AddItem(item3, 1);
                                 craftingInvetory.RemoveAmount(item1);
                                 craftingInvetory.RemoveAmount(item2);

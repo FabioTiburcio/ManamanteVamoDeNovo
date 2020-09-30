@@ -7,6 +7,7 @@ public class Health : MonoBehaviour
     public int maxHealth = 100;
     public int health;
     public bool damageCooldown;
+    public PlayerQuest activeQuest;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,7 @@ public class Health : MonoBehaviour
         }
         if(health <= 0)
         {
+            activeQuest.QuestAtt(this.gameObject.GetComponent<EnemyController>().enemyName, true);
             Destroy(gameObject);
         }
     }

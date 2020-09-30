@@ -15,6 +15,7 @@ public class PlayerInventory : MonoBehaviour
     public GameObject itemCollided;
     public bool collidingWithMailBox;
     public bool collidingWithRobot;
+    public PlayerQuest activeQuest;
 
     private void Update()
     {
@@ -33,7 +34,8 @@ public class PlayerInventory : MonoBehaviour
             {
                 Item _item = new Item(item.itemObject);
                 if(inventory.AddItem(_item, 1))
-                {
+                {                   
+                        activeQuest.QuestAtt(_item.Id.ToString(), true);                   
                     Destroy(itemCollided.gameObject);
                 }
             }
