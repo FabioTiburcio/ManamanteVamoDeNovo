@@ -6,9 +6,11 @@ public class PlayerQuest : MonoBehaviour {
 
     public QuestCtrl questController;
     public Quest quest;
+    public QuestGiver[] questsList;
     public bool questCompleted = false;
     private PlayerInventory inventario;
     public bool playerInRange;
+    public GameObject newEmailIcon;
     public ItemDatabaseObject itens;
 
     
@@ -17,35 +19,43 @@ public class PlayerQuest : MonoBehaviour {
 void Start()
     {
         inventario = GetComponent<PlayerInventory>();
-        Debug.Log(itens.Items[0].ToString());
-        Debug.Log(itens.Items[1].ToString());
-        Debug.Log(itens.Items[2].ToString());
-        Debug.Log(itens.Items[3].ToString());
-        Debug.Log(itens.Items[4].ToString());
-        Debug.Log(itens.Items[5].ToString());
+        
+        //Debug.Log(itens.Items[0].ToString());
+        //Debug.Log(itens.Items[1].ToString());
+        //Debug.Log(itens.Items[2].ToString());
+        //Debug.Log(itens.Items[3].ToString());
+        //Debug.Log(itens.Items[4].ToString());
+        //Debug.Log(itens.Items[5].ToString());
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        
-
-        if (Input.GetKeyDown(KeyCode.E) && playerInRange == true)
+        if (questCompleted)
         {
-            //Debug.Log("cara segunda interação aqui");
-            if (questCompleted)
-            {
-                SearchItem();
-                questController.NextQuestActivate();
-                questCompleted = false;
-            }
-
+            SearchItem();
+            //questController.NextQuestActivate();
+            questCompleted = false;
+            newEmailIcon.SetActive(true);
         }
+
+        //if (Input.GetKeyDown(KeyCode.E) && playerInRange == true)
+        //{
+        //    //Debug.Log("cara segunda interação aqui");
+        //    if (questCompleted)
+        //    {
+        //        SearchItem();
+        //        //questController.NextQuestActivate();
+        //        questCompleted = false;
+        //        newEmailIcon.SetActive(true);
+        //    }
+
+        //}
 
         if (quest.isActive)
         {
-
+            newEmailIcon.SetActive(false);
             //Debug.Log(item.ToString());
             Debug.Log(quest.title);
             Debug.Log(quest.goal.requiredAmount);
@@ -54,10 +64,13 @@ void Start()
             {
                 Debug.Log("DALE");
                 quest.Complete();
-                questCompleted = true;
-
+                UpdateQuests();
+                questCompleted = true;               
             }
 
+        } else
+        {
+            newEmailIcon.SetActive(true);
         }
     }
 
@@ -105,17 +118,23 @@ void Start()
         }
     }
 
-    public void OnTriggerEnter2D(Collider2D collider)
+    public void UpdateQuests()
     {
-        if (collider.gameObject.tag == "Interacao1") playerInRange = true;
-        
+        PlayerPrefs.SetInt("QuestsCompleted", PlayerPrefs.GetInt("QuestsCompleted") + 1);
     }
 
-    public void OnTriggerExit2D(Collider2D collider)
-    {
-        if (collider.gameObject.tag == "Interacao1") playerInRange = false;
+
+    //public void OnTriggerEnter2D(Collider2D collider)
+    //{
+    //    if (collider.gameObject.tag == "Interacao1") playerInRange = true;
         
-    }
+    //}
+
+    //public void OnTriggerExit2D(Collider2D collider)
+    //{
+    //    if (collider.gameObject.tag == "Interacao1") playerInRange = false;
+        
+    //}
 
      
 }

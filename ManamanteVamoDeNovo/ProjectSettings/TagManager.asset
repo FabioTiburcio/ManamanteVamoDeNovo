@@ -8,6 +8,7 @@ TagManager:
   - Attack
   - Enemy
   - EnemyAttack
+  - Computer
   layers:
   - Default
   - TransparentFX
