@@ -7,6 +7,7 @@ public class SkillController : MonoBehaviour
     public PlayerMovement player;
     public Transform firePoint;
     public int activeSkill;
+    public float attackCooldown;
     
     public GameObject firePrefab;
     public GameObject fireArea;
@@ -30,6 +31,8 @@ public class SkillController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        attackCooldown += Time.deltaTime;
+
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             activeSkill = 1;
@@ -47,14 +50,16 @@ public class SkillController : MonoBehaviour
             activeSkill = 4;
         }
 
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && attackCooldown > 1.5f)
         {
             Shoot();
+            attackCooldown = 0;
         }
 
-        if (Input.GetButtonDown("Fire2"))
+        if (Input.GetButtonDown("Fire2") && attackCooldown > 1.5f)
         {
             Cast();
+            attackCooldown = 0;
         }
 
 

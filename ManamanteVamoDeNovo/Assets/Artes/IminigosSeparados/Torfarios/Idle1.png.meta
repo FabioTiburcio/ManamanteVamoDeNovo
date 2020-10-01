@@ -120,7 +120,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -146,6 +146,42 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -154,9 +190,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3
-        width: 35
-        height: 61
+        y: 1685
+        width: 209
+        height: 363
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,10 +210,10 @@ TextureImporter:
       name: Armature_idle1_01
       rect:
         serializedVersion: 2
-        x: 35
-        y: 3
-        width: 35
-        height: 61
+        x: 209
+        y: 1685
+        width: 209
+        height: 363
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,10 +231,10 @@ TextureImporter:
       name: Armature_idle1_02
       rect:
         serializedVersion: 2
-        x: 70
-        y: 3
-        width: 35
-        height: 61
+        x: 418
+        y: 1685
+        width: 209
+        height: 363
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +252,10 @@ TextureImporter:
       name: Armature_idle1_03
       rect:
         serializedVersion: 2
-        x: 105
-        y: 3
-        width: 35
-        height: 61
+        x: 627
+        y: 1685
+        width: 209
+        height: 363
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,10 +273,10 @@ TextureImporter:
       name: Armature_idle1_04
       rect:
         serializedVersion: 2
-        x: 140
-        y: 3
-        width: 35
-        height: 61
+        x: 836
+        y: 1685
+        width: 209
+        height: 363
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,10 +294,10 @@ TextureImporter:
       name: Armature_idle1_05
       rect:
         serializedVersion: 2
-        x: 175
-        y: 3
-        width: 35
-        height: 61
+        x: 1045
+        y: 1685
+        width: 209
+        height: 363
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,10 +315,10 @@ TextureImporter:
       name: Armature_idle1_06
       rect:
         serializedVersion: 2
-        x: 210
-        y: 3
-        width: 35
-        height: 61
+        x: 1254
+        y: 1685
+        width: 209
+        height: 363
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,10 +336,10 @@ TextureImporter:
       name: Armature_idle1_07
       rect:
         serializedVersion: 2
-        x: 245
-        y: 3
-        width: 35
-        height: 61
+        x: 1463
+        y: 1685
+        width: 209
+        height: 363
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,10 +357,10 @@ TextureImporter:
       name: Armature_idle1_08
       rect:
         serializedVersion: 2
-        x: 280
-        y: 3
-        width: 35
-        height: 61
+        x: 1672
+        y: 1685
+        width: 209
+        height: 363
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,10 +378,10 @@ TextureImporter:
       name: Armature_idle1_09
       rect:
         serializedVersion: 2
-        x: 315
-        y: 3
-        width: 35
-        height: 61
+        x: 0
+        y: 1322
+        width: 209
+        height: 363
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,10 +399,10 @@ TextureImporter:
       name: Armature_idle1_10
       rect:
         serializedVersion: 2
-        x: 350
-        y: 3
-        width: 35
-        height: 61
+        x: 209
+        y: 1322
+        width: 209
+        height: 363
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -384,10 +420,10 @@ TextureImporter:
       name: Armature_idle1_11
       rect:
         serializedVersion: 2
-        x: 385
-        y: 3
-        width: 35
-        height: 61
+        x: 418
+        y: 1322
+        width: 209
+        height: 363
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -405,10 +441,10 @@ TextureImporter:
       name: Armature_idle1_12
       rect:
         serializedVersion: 2
-        x: 420
-        y: 3
-        width: 35
-        height: 61
+        x: 627
+        y: 1322
+        width: 209
+        height: 363
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,10 +462,10 @@ TextureImporter:
       name: Armature_idle1_13
       rect:
         serializedVersion: 2
-        x: 455
-        y: 3
-        width: 35
-        height: 61
+        x: 836
+        y: 1322
+        width: 209
+        height: 363
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -447,10 +483,10 @@ TextureImporter:
       name: Armature_idle1_14
       rect:
         serializedVersion: 2
-        x: 490
-        y: 3
-        width: 35
-        height: 61
+        x: 1045
+        y: 1322
+        width: 209
+        height: 363
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,10 +504,10 @@ TextureImporter:
       name: Armature_idle1_15
       rect:
         serializedVersion: 2
-        x: 525
-        y: 3
-        width: 35
-        height: 61
+        x: 1254
+        y: 1322
+        width: 209
+        height: 363
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -489,10 +525,10 @@ TextureImporter:
       name: Armature_idle1_16
       rect:
         serializedVersion: 2
-        x: 560
-        y: 3
-        width: 35
-        height: 61
+        x: 1463
+        y: 1322
+        width: 209
+        height: 363
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -510,10 +546,10 @@ TextureImporter:
       name: Armature_idle1_17
       rect:
         serializedVersion: 2
-        x: 595
-        y: 3
-        width: 35
-        height: 61
+        x: 1672
+        y: 1322
+        width: 209
+        height: 363
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -531,10 +567,10 @@ TextureImporter:
       name: Armature_idle1_18
       rect:
         serializedVersion: 2
-        x: 630
-        y: 3
-        width: 35
-        height: 61
+        x: 0
+        y: 959
+        width: 209
+        height: 363
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -552,10 +588,10 @@ TextureImporter:
       name: Armature_idle1_19
       rect:
         serializedVersion: 2
-        x: 665
-        y: 3
-        width: 35
-        height: 61
+        x: 209
+        y: 959
+        width: 209
+        height: 363
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -573,10 +609,10 @@ TextureImporter:
       name: Armature_idle1_20
       rect:
         serializedVersion: 2
-        x: 700
-        y: 3
-        width: 35
-        height: 61
+        x: 418
+        y: 959
+        width: 209
+        height: 363
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -594,10 +630,10 @@ TextureImporter:
       name: Armature_idle1_21
       rect:
         serializedVersion: 2
-        x: 735
-        y: 3
-        width: 35
-        height: 61
+        x: 627
+        y: 959
+        width: 209
+        height: 363
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -615,10 +651,10 @@ TextureImporter:
       name: Armature_idle1_22
       rect:
         serializedVersion: 2
-        x: 770
-        y: 3
-        width: 35
-        height: 61
+        x: 836
+        y: 959
+        width: 209
+        height: 363
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -636,10 +672,10 @@ TextureImporter:
       name: Armature_idle1_23
       rect:
         serializedVersion: 2
-        x: 805
-        y: 3
-        width: 35
-        height: 61
+        x: 1045
+        y: 959
+        width: 209
+        height: 363
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -658,9 +694,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3
-        width: 35
-        height: 61
+        y: 1685
+        width: 209
+        height: 363
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

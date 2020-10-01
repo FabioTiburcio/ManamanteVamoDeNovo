@@ -4,37 +4,37 @@
 # To import these sprites into your Unity project, download "TexturePackerImporter":
 # https://www.codeandweb.com/texturepacker/unity
 #
-# $TexturePacker:SmartUpdate:979fce0e5f56ed4f460e5f84d6c96788:9466428036afcc0be3585ab33ac63426:5830947cb57fe6d7de1349ef1cf2ceb3$
+# $TexturePacker:SmartUpdate:93797bca173dc0419a8b0ee7d9eff04b:9466428036afcc0be3585ab33ac63426:5830947cb57fe6d7de1349ef1cf2ceb3$
 #
 :format=40300
 :texture=Attack.png
-:size=2048x64
+:size=2048x2048
 :pivotpoints=enabled
 :borders=disabled
 :alphahandling=ClearTransparentPixels
 
-Armature_Attack_00;0;4;59;60; 0.5;0.5; 0;0;0;0
-Armature_Attack_01;59;4;59;60; 0.5;0.5; 0;0;0;0
-Armature_Attack_02;118;4;59;60; 0.5;0.5; 0;0;0;0
-Armature_Attack_03;177;4;59;60; 0.5;0.5; 0;0;0;0
-Armature_Attack_04;236;4;59;60; 0.5;0.5; 0;0;0;0
-Armature_Attack_05;295;4;59;60; 0.5;0.5; 0;0;0;0
-Armature_Attack_06;354;4;59;60; 0.5;0.5; 0;0;0;0
-Armature_Attack_07;413;4;59;60; 0.5;0.5; 0;0;0;0
-Armature_Attack_08;472;4;59;60; 0.5;0.5; 0;0;0;0
-Armature_Attack_09;531;4;59;60; 0.5;0.5; 0;0;0;0
-Armature_Attack_10;590;4;59;60; 0.5;0.5; 0;0;0;0
-Armature_Attack_11;649;4;59;60; 0.5;0.5; 0;0;0;0
-Armature_Attack_12;708;4;59;60; 0.5;0.5; 0;0;0;0
-Armature_Attack_13;767;4;59;60; 0.5;0.5; 0;0;0;0
-Armature_Attack_14;826;4;59;60; 0.5;0.5; 0;0;0;0
-Armature_Attack_15;885;4;59;60; 0.5;0.5; 0;0;0;0
-Armature_Attack_16;944;4;59;60; 0.5;0.5; 0;0;0;0
-Armature_Attack_17;1003;4;59;60; 0.5;0.5; 0;0;0;0
-Armature_Attack_18;1062;4;59;60; 0.5;0.5; 0;0;0;0
-Armature_Attack_19;1121;4;59;60; 0.5;0.5; 0;0;0;0
-Armature_Attack_20;1180;4;59;60; 0.5;0.5; 0;0;0;0
-Armature_Attack_21;1239;4;59;60; 0.5;0.5; 0;0;0;0
-Armature_Attack_22;1298;4;59;60; 0.5;0.5; 0;0;0;0
-Armature_Attack_23;1357;4;59;60; 0.5;0.5; 0;0;0;0
-Armature_Attack_24;0;4;59;60; 0.5;0.5; 0;0;0;0
+Armature_Attack_00;0;1689;352;359; 0.5;0.5; 0;0;0;0
+Armature_Attack_01;352;1689;352;359; 0.5;0.5; 0;0;0;0
+Armature_Attack_02;704;1689;352;359; 0.5;0.5; 0;0;0;0
+Armature_Attack_03;1056;1689;352;359; 0.5;0.5; 0;0;0;0
+Armature_Attack_04;1408;1689;352;359; 0.5;0.5; 0;0;0;0
+Armature_Attack_05;0;1330;352;359; 0.5;0.5; 0;0;0;0
+Armature_Attack_06;352;1330;352;359; 0.5;0.5; 0;0;0;0
+Armature_Attack_07;704;1330;352;359; 0.5;0.5; 0;0;0;0
+Armature_Attack_08;1056;1330;352;359; 0.5;0.5; 0;0;0;0
+Armature_Attack_09;1408;1330;352;359; 0.5;0.5; 0;0;0;0
+Armature_Attack_10;0;971;352;359; 0.5;0.5; 0;0;0;0
+Armature_Attack_11;352;971;352;359; 0.5;0.5; 0;0;0;0
+Armature_Attack_12;704;971;352;359; 0.5;0.5; 0;0;0;0
+Armature_Attack_13;1056;971;352;359; 0.5;0.5; 0;0;0;0
+Armature_Attack_14;1408;971;352;359; 0.5;0.5; 0;0;0;0
+Armature_Attack_15;0;612;352;359; 0.5;0.5; 0;0;0;0
+Armature_Attack_16;352;612;352;359; 0.5;0.5; 0;0;0;0
+Armature_Attack_17;704;612;352;359; 0.5;0.5; 0;0;0;0
+Armature_Attack_18;1056;612;352;359; 0.5;0.5; 0;0;0;0
+Armature_Attack_19;1408;612;352;359; 0.5;0.5; 0;0;0;0
+Armature_Attack_20;0;253;352;359; 0.5;0.5; 0;0;0;0
+Armature_Attack_21;352;253;352;359; 0.5;0.5; 0;0;0;0
+Armature_Attack_22;704;253;352;359; 0.5;0.5; 0;0;0;0
+Armature_Attack_23;1056;253;352;359; 0.5;0.5; 0;0;0;0
+Armature_Attack_24;0;1689;352;359; 0.5;0.5; 0;0;0;0

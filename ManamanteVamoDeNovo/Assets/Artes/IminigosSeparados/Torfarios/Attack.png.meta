@@ -120,7 +120,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -146,6 +146,42 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -154,9 +190,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 4
-        width: 59
-        height: 60
+        y: 1689
+        width: 352
+        height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,10 +210,10 @@ TextureImporter:
       name: Armature_Attack_01
       rect:
         serializedVersion: 2
-        x: 59
-        y: 4
-        width: 59
-        height: 60
+        x: 352
+        y: 1689
+        width: 352
+        height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,10 +231,10 @@ TextureImporter:
       name: Armature_Attack_02
       rect:
         serializedVersion: 2
-        x: 118
-        y: 4
-        width: 59
-        height: 60
+        x: 704
+        y: 1689
+        width: 352
+        height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +252,10 @@ TextureImporter:
       name: Armature_Attack_03
       rect:
         serializedVersion: 2
-        x: 177
-        y: 4
-        width: 59
-        height: 60
+        x: 1056
+        y: 1689
+        width: 352
+        height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,10 +273,10 @@ TextureImporter:
       name: Armature_Attack_04
       rect:
         serializedVersion: 2
-        x: 236
-        y: 4
-        width: 59
-        height: 60
+        x: 1408
+        y: 1689
+        width: 352
+        height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,10 +294,10 @@ TextureImporter:
       name: Armature_Attack_05
       rect:
         serializedVersion: 2
-        x: 295
-        y: 4
-        width: 59
-        height: 60
+        x: 0
+        y: 1330
+        width: 352
+        height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,10 +315,10 @@ TextureImporter:
       name: Armature_Attack_06
       rect:
         serializedVersion: 2
-        x: 354
-        y: 4
-        width: 59
-        height: 60
+        x: 352
+        y: 1330
+        width: 352
+        height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,10 +336,10 @@ TextureImporter:
       name: Armature_Attack_07
       rect:
         serializedVersion: 2
-        x: 413
-        y: 4
-        width: 59
-        height: 60
+        x: 704
+        y: 1330
+        width: 352
+        height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,10 +357,10 @@ TextureImporter:
       name: Armature_Attack_08
       rect:
         serializedVersion: 2
-        x: 472
-        y: 4
-        width: 59
-        height: 60
+        x: 1056
+        y: 1330
+        width: 352
+        height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,10 +378,10 @@ TextureImporter:
       name: Armature_Attack_09
       rect:
         serializedVersion: 2
-        x: 531
-        y: 4
-        width: 59
-        height: 60
+        x: 1408
+        y: 1330
+        width: 352
+        height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,10 +399,10 @@ TextureImporter:
       name: Armature_Attack_10
       rect:
         serializedVersion: 2
-        x: 590
-        y: 4
-        width: 59
-        height: 60
+        x: 0
+        y: 971
+        width: 352
+        height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -384,10 +420,10 @@ TextureImporter:
       name: Armature_Attack_11
       rect:
         serializedVersion: 2
-        x: 649
-        y: 4
-        width: 59
-        height: 60
+        x: 352
+        y: 971
+        width: 352
+        height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -405,10 +441,10 @@ TextureImporter:
       name: Armature_Attack_12
       rect:
         serializedVersion: 2
-        x: 708
-        y: 4
-        width: 59
-        height: 60
+        x: 704
+        y: 971
+        width: 352
+        height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,10 +462,10 @@ TextureImporter:
       name: Armature_Attack_13
       rect:
         serializedVersion: 2
-        x: 767
-        y: 4
-        width: 59
-        height: 60
+        x: 1056
+        y: 971
+        width: 352
+        height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -447,10 +483,10 @@ TextureImporter:
       name: Armature_Attack_14
       rect:
         serializedVersion: 2
-        x: 826
-        y: 4
-        width: 59
-        height: 60
+        x: 1408
+        y: 971
+        width: 352
+        height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,10 +504,10 @@ TextureImporter:
       name: Armature_Attack_15
       rect:
         serializedVersion: 2
-        x: 885
-        y: 4
-        width: 59
-        height: 60
+        x: 0
+        y: 612
+        width: 352
+        height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -489,10 +525,10 @@ TextureImporter:
       name: Armature_Attack_16
       rect:
         serializedVersion: 2
-        x: 944
-        y: 4
-        width: 59
-        height: 60
+        x: 352
+        y: 612
+        width: 352
+        height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -510,10 +546,10 @@ TextureImporter:
       name: Armature_Attack_17
       rect:
         serializedVersion: 2
-        x: 1003
-        y: 4
-        width: 59
-        height: 60
+        x: 704
+        y: 612
+        width: 352
+        height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -531,10 +567,10 @@ TextureImporter:
       name: Armature_Attack_18
       rect:
         serializedVersion: 2
-        x: 1062
-        y: 4
-        width: 59
-        height: 60
+        x: 1056
+        y: 612
+        width: 352
+        height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -552,10 +588,10 @@ TextureImporter:
       name: Armature_Attack_19
       rect:
         serializedVersion: 2
-        x: 1121
-        y: 4
-        width: 59
-        height: 60
+        x: 1408
+        y: 612
+        width: 352
+        height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -573,10 +609,10 @@ TextureImporter:
       name: Armature_Attack_20
       rect:
         serializedVersion: 2
-        x: 1180
-        y: 4
-        width: 59
-        height: 60
+        x: 0
+        y: 253
+        width: 352
+        height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -594,10 +630,10 @@ TextureImporter:
       name: Armature_Attack_21
       rect:
         serializedVersion: 2
-        x: 1239
-        y: 4
-        width: 59
-        height: 60
+        x: 352
+        y: 253
+        width: 352
+        height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -615,10 +651,10 @@ TextureImporter:
       name: Armature_Attack_22
       rect:
         serializedVersion: 2
-        x: 1298
-        y: 4
-        width: 59
-        height: 60
+        x: 704
+        y: 253
+        width: 352
+        height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -636,10 +672,10 @@ TextureImporter:
       name: Armature_Attack_23
       rect:
         serializedVersion: 2
-        x: 1357
-        y: 4
-        width: 59
-        height: 60
+        x: 1056
+        y: 253
+        width: 352
+        height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -658,9 +694,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 4
-        width: 59
-        height: 60
+        y: 1689
+        width: 352
+        height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

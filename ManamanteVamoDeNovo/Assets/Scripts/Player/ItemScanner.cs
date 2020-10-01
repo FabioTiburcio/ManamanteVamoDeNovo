@@ -6,8 +6,8 @@ public class ItemScanner : MonoBehaviour
 {
 
     public GroundItem item;
-    
 
+    public DiaryController diaryController;
     
     public bool canScan = false;
 
@@ -22,7 +22,7 @@ public class ItemScanner : MonoBehaviour
     {
         if(canScan && Input.GetKeyDown(KeyCode.R))
         {
-            Debug.Log(item.itemObject.description);
+            diaryController.ScannedItem(item.itemObject);
         }
     }
 

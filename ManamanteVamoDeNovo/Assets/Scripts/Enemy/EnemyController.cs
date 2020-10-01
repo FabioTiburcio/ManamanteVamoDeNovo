@@ -16,6 +16,7 @@ public class EnemyController : MonoBehaviour {
     public SkillController PlayerSkillController;
     public Transform firePoint;
     public GameObject enemyFirePrefab;
+    public GameObject TorfariosAttack;
     public GameObject enemyIcePrefab;
     private FieldOfView fieldOfView;
 
@@ -96,7 +97,6 @@ public class EnemyController : MonoBehaviour {
             case enemyState.ATTACKING:
                 
                 aIPath.canMove = false;
-                enemyAnim.Play("Attack");
                 StartCoroutine(AttackCooldownCounter(attackCooldown));
                 if(this.name == "InimigoAlma")
                 {
@@ -106,6 +106,7 @@ public class EnemyController : MonoBehaviour {
                         attackTimer += Time.deltaTime;
                         return;
                     }
+                    enemyAnim.Play("Attack");
                     attackTimer = 0;
                     PlayerSkillController = player.GetComponentInChildren<SkillController>();
                     switch (PlayerSkillController.activeSkill)
@@ -125,6 +126,19 @@ public class EnemyController : MonoBehaviour {
                     } 
                     Rigidbody2D rb = enemySkill.GetComponent<Rigidbody2D>();
                     rb.AddForce(spawnDirection.transform.up, ForceMode2D.Impulse);
+                }
+                else if(this.name == "Torfarios")
+                {
+                    if (attackTimer <= attackCooldown/enemyAttackSpeed)
+                    {
+                        attackTimer += Time.deltaTime;
+                        return;
+                    }
+                    enemyAnim.Play("Attack");
+                    attackTimer = 0;
+                    enemySkill = Instantiate(TorfariosAttack, firePoint.position, firePoint.rotation);
+                    Rigidbody2D rb = enemySkill.GetComponent<Rigidbody2D>();
+                    rb.AddForce(player.transform.position - this.transform.position, ForceMode2D.Impulse);
                 }
                 if (aIPath.remainingDistance > attackRange)
                 {

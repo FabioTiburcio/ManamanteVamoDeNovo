@@ -22,7 +22,11 @@ public class Health : MonoBehaviour
         }
         if(health <= 0)
         {
-            activeQuest.QuestAtt(this.gameObject.GetComponent<EnemyController>().enemyName, true);
+            if(this.name != "Player")
+            {
+                activeQuest.QuestAtt(this.gameObject.GetComponent<EnemyController>().enemyName, true);
+            }
+
             Destroy(gameObject);
         }
     }
