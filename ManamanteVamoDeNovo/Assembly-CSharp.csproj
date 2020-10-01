@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\Inventory\StaticInterface.cs" />
     <Compile Include="Assets\Scripts\Inventory\UserInterface.cs" />
     <Compile Include="Assets\Scripts\MailBox\MailboxController.cs" />
+    <Compile Include="Assets\Scripts\Player\DiaryController.cs" />
     <Compile Include="Assets\Scripts\Player\Health.cs" />
     <Compile Include="Assets\Scripts\Player\ItemScanner.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerInventory.cs" />

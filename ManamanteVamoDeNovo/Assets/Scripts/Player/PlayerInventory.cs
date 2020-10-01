@@ -53,7 +53,7 @@ public class PlayerInventory : MonoBehaviour
         {
             robotUI.SetActive(true);
         }
-        if (!collidingWithCraftingTable)
+        if (!collidingWithCraftingTable && !collidingWithRobot)
         {
             craftingTableUI.SetActive(false);
             robotUI.SetActive(false);

@@ -1,0 +1,40 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:a1edea8c05e090d36d8aee7d0792e936:90187efdc324afc870a079151b849779:ac5a85468b6b02e06647ad01123cf03c$
+#
+:format=40300
+:texture=Idle1.png
+:size=1024x64
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Armature_idle1_00;0;3;35;61; 0.5;0.5; 0;0;0;0
+Armature_idle1_01;35;3;35;61; 0.5;0.5; 0;0;0;0
+Armature_idle1_02;70;3;35;61; 0.5;0.5; 0;0;0;0
+Armature_idle1_03;105;3;35;61; 0.5;0.5; 0;0;0;0
+Armature_idle1_04;140;3;35;61; 0.5;0.5; 0;0;0;0
+Armature_idle1_05;175;3;35;61; 0.5;0.5; 0;0;0;0
+Armature_idle1_06;210;3;35;61; 0.5;0.5; 0;0;0;0
+Armature_idle1_07;245;3;35;61; 0.5;0.5; 0;0;0;0
+Armature_idle1_08;280;3;35;61; 0.5;0.5; 0;0;0;0
+Armature_idle1_09;315;3;35;61; 0.5;0.5; 0;0;0;0
+Armature_idle1_10;350;3;35;61; 0.5;0.5; 0;0;0;0
+Armature_idle1_11;385;3;35;61; 0.5;0.5; 0;0;0;0
+Armature_idle1_12;420;3;35;61; 0.5;0.5; 0;0;0;0
+Armature_idle1_13;455;3;35;61; 0.5;0.5; 0;0;0;0
+Armature_idle1_14;490;3;35;61; 0.5;0.5; 0;0;0;0
+Armature_idle1_15;525;3;35;61; 0.5;0.5; 0;0;0;0
+Armature_idle1_16;560;3;35;61; 0.5;0.5; 0;0;0;0
+Armature_idle1_17;595;3;35;61; 0.5;0.5; 0;0;0;0
+Armature_idle1_18;630;3;35;61; 0.5;0.5; 0;0;0;0
+Armature_idle1_19;665;3;35;61; 0.5;0.5; 0;0;0;0
+Armature_idle1_20;700;3;35;61; 0.5;0.5; 0;0;0;0
+Armature_idle1_21;735;3;35;61; 0.5;0.5; 0;0;0;0
+Armature_idle1_22;770;3;35;61; 0.5;0.5; 0;0;0;0
+Armature_idle1_23;805;3;35;61; 0.5;0.5; 0;0;0;0
+Armature_idle1_24;0;3;35;61; 0.5;0.5; 0;0;0;0

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97c12a23c491507409d4f9c6a45503f2, type: 3}
   m_Name: Maca
   m_EditorClassIdentifier: 
-  uiDisplay: {fileID: -2319894896770420943, guid: eaffcebed2c1fbb4999e31b503bd5f42,
+  uiDisplay: {fileID: -6839504576330560152, guid: a1a003882cd66dc44a892f65cc1d299d,
     type: 3}
   stackable: 1
   type: 2
