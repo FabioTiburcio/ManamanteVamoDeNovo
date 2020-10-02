@@ -283,6 +283,9 @@
     <Reference Include="TexturePackerImporter">
       <HintPath>C:/Users/DELL/Documents/GitHub/ManamanteVamoDeNovo/ManamanteVamoDeNovo/Assets/codeandweb.com/Editor/TexturePackerImporter.dll</HintPath>
     </Reference>
+    <Reference Include="ICSharpCode.NRefactory">
+      <HintPath>C:/Users/DELL/Documents/GitHub/ManamanteVamoDeNovo/ManamanteVamoDeNovo/Library/PackageCache/com.unity.render-pipelines.core@7.1.8/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
