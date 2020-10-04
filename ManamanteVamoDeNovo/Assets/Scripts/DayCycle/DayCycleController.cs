@@ -41,7 +41,6 @@ public class DayCycleController : MonoBehaviour
         {
             dayHour = 0;
         }
-        Debug.Log(dayCycle.color);
     }
 
     public void changeIntensity()

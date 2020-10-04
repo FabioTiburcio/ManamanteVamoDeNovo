@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: 9a63226fb25836042ae650e7ab3b52ec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4112514245599749261
+    second: AsasPintadas
+  - first:
+      213: -3627214927037290357
+    second: Asinhas
+  - first:
+      213: 1774266024539289126
+    second: Bananao
+  - first:
+      213: 1718716073173499343
+    second: Bola Flu
+  - first:
+      213: -1348414953002447949
+    second: Coguma
+  - first:
+      213: -9024907197474682207
+    second: Coguma2
+  - first:
+      213: -1088803146344394865
+    second: fro
+  - first:
+      213: -6868751535247851503
+    second: Garra (2)
+  - first:
+      213: 7453160842469814493
+    second: Maca
+  - first:
+      213: -1265127058508387324
+    second: Olhos
+  - first:
+      213: 2161152779823270501
+    second: OssosDoOficio
+  - first:
+      213: -4134054082928995956
+    second: Pocoes
+  - first:
+      213: -977179341324680751
+    second: Coletaveis_0
+  - first:
+      213: 3532469202023106448
+    second: Coletaveis_1
+  - first:
+      213: 1792522396233126141
+    second: Coletaveis_2
+  - first:
+      213: -2577708846538856334
+    second: Coletaveis_3
+  - first:
+      213: -5517536099429400564
+    second: Coletaveis_4
+  - first:
+      213: -5299854877219676694
+    second: Coletaveis_5
+  - first:
+      213: -5074759727206965693
+    second: Coletaveis_6
+  - first:
+      213: 6703254761496266469
+    second: Coletaveis_7
+  - first:
+      213: 8065745615267956373
+    second: Coletaveis_8
+  - first:
+      213: -3483960850397444231
+    second: Coletaveis_9
+  - first:
+      213: -4362455171128523209
+    second: Coletaveis_10
+  - first:
+      213: -916834020370827011
+    second: Coletaveis_11
+  - first:
+      213: 4969117816464670631
+    second: Coletaveis_12
+  - first:
+      213: 1493645993571325114
+    second: Coletaveis_13
+  - first:
+      213: -1698866046705695332
+    second: Coletaveis_14
+  - first:
+      213: 4124388529874477593
+    second: PocoeCoguma
+  - first:
+      213: -7054793671201119025
+    second: PocoeMaca
+  - first:
+      213: -635204212706901726
+    second: PocoeNec
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AsasPintadas
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 891
+        width: 137
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b1b49251a6de6c0800000000000000
+      internalID: -4112514245599749261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asinhas
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 891
+        width: 149
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88a2fddd3b89adc0800000000000000
+      internalID: -3627214927037290357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bananao
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 843
+        width: 164
+        height: 181
+      alignment: 9
+      pivot: {x: 0.50609756, y: 0.5138122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62675b18c857f9810800000000000000
+      internalID: 1774266024539289126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola Flu
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 711
+        width: 114
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcdb243992b1ad710800000000000000
+      internalID: 1718716073173499343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coguma
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 642
+        width: 156
+        height: 201
+      alignment: 9
+      pivot: {x: 0.45897436, y: 0.47960198}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bbc6749eb7794de0800000000000000
+      internalID: -1348414953002447949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coguma2
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 654
+        width: 112
+        height: 189
+      alignment: 9
+      pivot: {x: 0.5392857, y: 0.44126984}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aac7ab48b611c280800000000000000
+      internalID: -9024907197474682207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fro
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 686
+        width: 71
+        height: 157
+      alignment: 9
+      pivot: {x: 0.5070422, y: 0.48407644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f80df9e4bc3e0f0800000000000000
+      internalID: -1088803146344394865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Garra (2)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 514
+        width: 84
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1100223feda4da0a0800000000000000
+      internalID: -6868751535247851503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maca
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 499
+        width: 136
+        height: 143
+      alignment: 9
+      pivot: {x: 0.5294118, y: 0.5314685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0b3453c42fe6760800000000000000
+      internalID: 7453160842469814493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Olhos
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 567
+        width: 168
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c6fd9a4ad517ee0800000000000000
+      internalID: -1265127058508387324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OssosDoOficio
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 125
+        height: 180
+      alignment: 9
+      pivot: {x: 0.488, y: 0.50555557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ac6b2c005fdfd10800000000000000
+      internalID: 2161152779823270501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PocoeCoguma
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 323
+        width: 118
+        height: 176
+      alignment: 9
+      pivot: {x: 0.4915254, y: 0.5255682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9122dd61485cc3930800000000000000
+      internalID: 4124388529874477593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PocoeMaca
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 326
+        width: 107
+        height: 173
+      alignment: 9
+      pivot: {x: 0.5046729, y: 0.517341}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc42260b886581e90800000000000000
+      internalID: -7054793671201119025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PocoeNec
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 326
+        width: 107
+        height: 173
+      alignment: 9
+      pivot: {x: 0.5046729, y: 0.517341}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22106cd422d4f27f0800000000000000
+      internalID: -635204212706901726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 90d7f611f8b3fb543ac169baf9f0670c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

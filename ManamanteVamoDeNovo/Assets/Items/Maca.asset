@@ -12,15 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97c12a23c491507409d4f9c6a45503f2, type: 3}
   m_Name: Maca
   m_EditorClassIdentifier: 
-  uiDisplay: {fileID: -6839504576330560152, guid: a1a003882cd66dc44a892f65cc1d299d,
+  uiDisplay: {fileID: 7453160842469814493, guid: 9a63226fb25836042ae650e7ab3b52ec,
     type: 3}
+  name: "Ma\xE7\xE3"
   stackable: 1
   type: 2
   potionType: 0
   craftingItemType: 1
   craftingItemElement: 0
   equipmentType: 0
-  description: Maca de fogo, utilizada para crafting de itens.
+  description: "Ma\xE7\xE3 comum, utilizada para fabrica\xE7\xE3o de po\xE7\xF5es
+    pequenas."
   marketValue: 2
   data:
     name: 

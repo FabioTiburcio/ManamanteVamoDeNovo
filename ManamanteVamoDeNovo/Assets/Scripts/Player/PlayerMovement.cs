@@ -21,6 +21,8 @@ public class PlayerMovement : MonoBehaviour
     public bool computerRange;
     public GameObject computerScreen;
 
+    public bool upgradedRobo = true;
+
     private void Start()
     {
         playerRb = GetComponent<Rigidbody2D>();
@@ -45,9 +47,17 @@ public class PlayerMovement : MonoBehaviour
 
         lookDir = mousePos - playerRb.position;
         skillSpawnRotation.transform.up = lookDir;
-        if(computerRange && Input.GetKeyDown(KeyCode.Space))
+        if(computerRange && Input.GetKeyDown(KeyCode.C))
         {
-            computerScreen.SetActive(true);
+            if (computerScreen.activeSelf)
+            {
+                computerScreen.SetActive(false);
+            }
+            else
+            {
+                computerScreen.SetActive(true);
+            }
+
         }
         //transform.up = lookDir.normalized;
         //float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
@@ -62,17 +72,16 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        colliderTag = collision.tag;
-
-        if (collision.gameObject.tag == "Computer")
+        if (collision.gameObject.tag == "Computer" || collision.name == "Robo" && upgradedRobo)
         {
             computerRange = true;
         }
+        
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Computer")
+        if (collision.gameObject.tag == "Computer" || collision.name == "Robo" && upgradedRobo)
         {
             computerRange = false;
         }

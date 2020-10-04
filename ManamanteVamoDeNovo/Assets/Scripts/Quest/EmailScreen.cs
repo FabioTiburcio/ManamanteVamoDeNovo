@@ -20,6 +20,7 @@ public class EmailScreen : MonoBehaviour
         fotoTela.sprite = quests[questsCompleted].quest.npcFoto;
         assuntoTela.text = quests[questsCompleted].quest.title;
         descricaoTela.text = quests[questsCompleted].quest.description;
+
     }
 
     public void AcceptQuest()

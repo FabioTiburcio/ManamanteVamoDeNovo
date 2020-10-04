@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\DayCycle\DayCycleController.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyController.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyMovement.cs" />
+    <Compile Include="Assets\Scripts\FakeLoading.cs" />
     <Compile Include="Assets\Scripts\Inventory\DynamicInterface.cs" />
     <Compile Include="Assets\Scripts\Inventory\Inventory.cs" />
     <Compile Include="Assets\Scripts\Inventory\ItemDatabaseObject.cs" />

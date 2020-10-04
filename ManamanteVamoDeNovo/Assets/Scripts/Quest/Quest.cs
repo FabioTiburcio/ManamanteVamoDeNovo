@@ -13,6 +13,7 @@ public class Quest
     public string title;
     [TextArea]
     public string description;
+    public string diaryDescription;
     public int rewardId;
     public int rewardAmount;
 

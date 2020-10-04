@@ -38,18 +38,6 @@ public class DiaryController : MonoBehaviour
         }
     }
 
-    public void ScannedItem(ItemObject itemScanned)
-    {
-        switch(itemScanned.craftingItemType)
-        {
-            case CraftingItemType.Nenhum:
-                break;
-            case CraftingItemType.Fruta:
-
-                break;
-        }
-    }
-
     public void Anotacoes()
     {
         for (int i = 0; i < paginas.Length; i++)

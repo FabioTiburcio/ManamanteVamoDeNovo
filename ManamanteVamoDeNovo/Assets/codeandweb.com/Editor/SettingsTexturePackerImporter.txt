@@ -8,6 +8,8 @@ tpsheetFileNames:
 - Assets/Artes/IminigosSeparados/Poison/IdleSpriteSheet.tpsheet
 - Assets/Artes/IminigosSeparados/Torfarios/Attack.tpsheet
 - Assets/Artes/IminigosSeparados/Torfarios/Idle1.tpsheet
+- Assets/Artes/Objetos do Cenário e Outros/Objetos do Cenário e Outros/Coletaveis.png.tpsheet
+- Assets/Artes/Objetos do Cenário e Outros/Objetos do Cenário e Outros/Coletaveis.tpsheet
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 textureFileNames:
 - Assets/Artes/IminigosSeparados/Ice/AttackSpriteSheet.png
@@ -17,8 +19,12 @@ textureFileNames:
 - Assets/Artes/IminigosSeparados/Poison/IdleSpriteSheet.png
 - Assets/Artes/IminigosSeparados/Torfarios/Attack.png
 - Assets/Artes/IminigosSeparados/Torfarios/Idle1.png
+- Assets/Artes/Objetos do Cenário e Outros/Objetos do Cenário e Outros/Coletaveis.png.png
+- Assets/Artes/Objetos do Cenário e Outros/Objetos do Cenário e Outros/Coletaveis.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
+- 
+- 
 - 
 - 
 - 

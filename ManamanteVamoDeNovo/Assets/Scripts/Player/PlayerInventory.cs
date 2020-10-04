@@ -21,11 +21,11 @@ public class PlayerInventory : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            inventory.Save();
+            //inventory.Save();
         }
         if (Input.GetKeyDown(KeyCode.Backspace))
         {
-            inventory.Load();
+            //inventory.Load();
         }
         if (Input.GetKeyDown(KeyCode.E) && collidingWithItem)
         {

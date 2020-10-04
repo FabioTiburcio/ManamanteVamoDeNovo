@@ -22,6 +22,7 @@ public enum Attributes
 public class ItemObject : ScriptableObject
 {
     public Sprite uiDisplay;
+    public string name;
     public bool stackable;
     public ItemType type;
     [Header ("Arrumar apenas o referente ao tipo do item acima.")]

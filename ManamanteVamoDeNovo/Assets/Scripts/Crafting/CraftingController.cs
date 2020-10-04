@@ -34,7 +34,31 @@ public class CraftingController : MonoBehaviour
                         switch (item2.craftingItemType)
                         {
                             case CraftingItemType.Fruta:
-                                item3 = craftingInvetory.database.GetItem[1].CreateItem();
+                                item3 = craftingInvetory.database.GetItem[10].CreateItem();
+                                activeQuest.QuestAtt(item3.Id.ToString(), true);
+                                craftingInvetory.AddItem(item3, 1);
+                                craftingInvetory.RemoveAmount(item1);
+                                craftingInvetory.RemoveAmount(item2);
+                                break;
+                        }
+                        break;
+                    case CraftingItemType.Cogumelo:
+                        switch (item2.craftingItemType)
+                        {
+                            case CraftingItemType.Cogumelo:
+                                item3 = craftingInvetory.database.GetItem[11].CreateItem();
+                                activeQuest.QuestAtt(item3.Id.ToString(), true);
+                                craftingInvetory.AddItem(item3, 1);
+                                craftingInvetory.RemoveAmount(item1);
+                                craftingInvetory.RemoveAmount(item2);
+                                break;
+                        }
+                        break;
+                    case CraftingItemType.Flor:
+                        switch (item2.craftingItemType)
+                        {
+                            case CraftingItemType.Flor:
+                                item3 = craftingInvetory.database.GetItem[12].CreateItem();
                                 activeQuest.QuestAtt(item3.Id.ToString(), true);
                                 craftingInvetory.AddItem(item3, 1);
                                 craftingInvetory.RemoveAmount(item1);
@@ -52,11 +76,6 @@ public class CraftingController : MonoBehaviour
                         switch (item2.craftingItemType)
                         {
                             case CraftingItemType.Flor:
-                                item3 = craftingInvetory.database.GetItem[2].CreateItem();
-                                activeQuest.QuestAtt(item3.Id.ToString(), true);
-                                craftingInvetory.AddItem(item3, 1);
-                                craftingInvetory.RemoveAmount(item1);
-                                craftingInvetory.RemoveAmount(item2);
                                 break;
                         }
                         break;

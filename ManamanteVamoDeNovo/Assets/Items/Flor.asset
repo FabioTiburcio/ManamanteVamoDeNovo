@@ -12,15 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97c12a23c491507409d4f9c6a45503f2, type: 3}
   m_Name: Flor
   m_EditorClassIdentifier: 
-  uiDisplay: {fileID: -7226552096444442829, guid: eaffcebed2c1fbb4999e31b503bd5f42,
+  uiDisplay: {fileID: -1088803146344394865, guid: 9a63226fb25836042ae650e7ab3b52ec,
     type: 3}
+  name: Flor
   stackable: 1
   type: 2
   potionType: 0
   craftingItemType: 2
   craftingItemElement: 0
   equipmentType: 0
-  description: 
+  description: "Flor comum, utilizada para fabrica\xE7\xE3o de po\xE7\xF5es grandes."
   marketValue: 1
   data:
     name: 

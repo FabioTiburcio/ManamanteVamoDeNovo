@@ -12,8 +12,8 @@ public class PlayerQuest : MonoBehaviour {
     public bool playerInRange;
     public GameObject newEmailIcon;
     public ItemDatabaseObject itens;
-
-    
+    public DiaryInfoController diaryInfoController;
+    public bool attDiaryInfo;
 
 // Start is called before the first frame update
 void Start()
@@ -60,6 +60,11 @@ void Start()
             Debug.Log(quest.title);
             Debug.Log(quest.goal.requiredAmount);
             Debug.Log(quest.goal.goalTag);
+            if (!attDiaryInfo)
+            {
+                diaryInfoController.SetInfo(quest.title, quest.npcFoto, quest.diaryDescription, "Tarefas", "Primaria");
+                attDiaryInfo = true;
+            }
             if (quest.goal.IsReached())
             {
                 Debug.Log("DALE");
@@ -71,6 +76,7 @@ void Start()
         } else
         {
             newEmailIcon.SetActive(true);
+            attDiaryInfo = false;
         }
     }
 
