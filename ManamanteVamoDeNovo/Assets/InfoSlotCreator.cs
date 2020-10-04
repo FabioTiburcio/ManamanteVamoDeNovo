@@ -16,7 +16,11 @@ public class InfoSlotCreator : MonoBehaviour
         for (int i = 0; i < pages.Length; i++)
         {
             var obj = Instantiate(infoSlotPrefab, Vector3.zero, Quaternion.identity, transform);
+            var obj1 = Instantiate(infoSlotPrefab, Vector3.zero, Quaternion.identity, transform);
+            var obj2 = Instantiate(infoSlotPrefab, Vector3.zero, Quaternion.identity, transform);
             obj.GetComponent<RectTransform>().localPosition = GetPosition(i);
+            obj1.GetComponent<RectTransform>().localPosition = GetPosition(i);
+            obj2.GetComponent<RectTransform>().localPosition = GetPosition(i);
         }
     }
     private Vector3 GetPosition(int i)
