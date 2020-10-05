@@ -12,6 +12,10 @@ public class EmailScreen : MonoBehaviour
     public QuestGiver[] quests;
     private int questsCompleted;
 
+    private void Start()
+    {
+        PlayerPrefs.SetInt("QuestsCompleted", 0);
+    }
     // Update is called once per frame
     void Update()
     {
@@ -26,5 +30,9 @@ public class EmailScreen : MonoBehaviour
     public void AcceptQuest()
     {    
             quests[questsCompleted].AcceptQuest();      
+    }
+    private void OnApplicationQuit()
+    {
+        PlayerPrefs.SetInt("QuestsCompleted", 0);
     }
 }

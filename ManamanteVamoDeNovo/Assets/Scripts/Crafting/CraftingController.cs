@@ -34,8 +34,8 @@ public class CraftingController : MonoBehaviour
                         switch (item2.craftingItemType)
                         {
                             case CraftingItemType.Fruta:
-                                item3 = craftingInvetory.database.GetItem[10].CreateItem();
-                                activeQuest.QuestAtt(item3.Id.ToString(), true);
+                                item3 = craftingInvetory.database.GetItem[12].CreateItem();
+                                activeQuest.QuestAtt(item3.name, true);
                                 craftingInvetory.AddItem(item3, 1);
                                 craftingInvetory.RemoveAmount(item1);
                                 craftingInvetory.RemoveAmount(item2);
@@ -58,7 +58,7 @@ public class CraftingController : MonoBehaviour
                         switch (item2.craftingItemType)
                         {
                             case CraftingItemType.Flor:
-                                item3 = craftingInvetory.database.GetItem[12].CreateItem();
+                                item3 = craftingInvetory.database.GetItem[10].CreateItem();
                                 activeQuest.QuestAtt(item3.Id.ToString(), true);
                                 craftingInvetory.AddItem(item3, 1);
                                 craftingInvetory.RemoveAmount(item1);

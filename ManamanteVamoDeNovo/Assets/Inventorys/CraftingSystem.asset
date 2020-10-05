@@ -25,6 +25,7 @@ MonoBehaviour:
         type: 3
         potionType: 0
         craftingItemType: 0
+        craftingItemElement: 0
         equipmentType: 0
         marketValue: 0
       amount: 0
@@ -37,6 +38,7 @@ MonoBehaviour:
         type: 3
         potionType: 0
         craftingItemType: 0
+        craftingItemElement: 0
         equipmentType: 0
         marketValue: 0
       amount: 0
@@ -49,6 +51,19 @@ MonoBehaviour:
         type: 3
         potionType: 0
         craftingItemType: 0
+        craftingItemElement: 0
         equipmentType: 0
         marketValue: 0
       amount: 0
+  itemRemovedFromMailbox:
+    name: 
+    Id: -1
+    buffs: []
+    type: 3
+    potionType: 0
+    craftingItemType: 0
+    craftingItemElement: 0
+    equipmentType: 0
+    marketValue: 0
+  itemRemovedAmount: 0
+  changedItem: 0

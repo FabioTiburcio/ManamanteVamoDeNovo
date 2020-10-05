@@ -15,7 +15,7 @@ public class Inventory : ScriptableObject
     public Item itemRemovedFromMailbox;
     public int itemRemovedAmount;
     public bool changedItem = false;
-
+    
     public bool AddItem(Item _item, int _amount)
     {
         if(EmptySlotCount <= 0)

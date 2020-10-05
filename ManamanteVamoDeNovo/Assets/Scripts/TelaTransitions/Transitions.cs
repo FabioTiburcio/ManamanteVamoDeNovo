@@ -9,6 +9,7 @@ public class Transitions : MonoBehaviour
     public Transform robo;
     public FakeLoading fakeLoading;
     public GameObject globalLight;
+    public GameObject dayCycle;
     // Start is called before the first frame update
     public GameObject cidadePrincipal;
     public GameObject FlorestaSombralida;
@@ -52,6 +53,7 @@ public class Transitions : MonoBehaviour
             robo.transform.position = sombralidaInstantPoint.position;
             cidadeSTransition.playerCollided = false;
             transitionCooldown = 0;
+            dayCycle.SetActive(false);
 
         }
         else if(sombralidaCTransition.playerCollided)
@@ -64,7 +66,7 @@ public class Transitions : MonoBehaviour
             robo.transform.position = cidadeInstantPoint.position;
             sombralidaCTransition.playerCollided = false;
             transitionCooldown = 0;
-
+            dayCycle.SetActive(true);
         }
         else if (cidadeCTransition.playerCollided)
         {

@@ -29,13 +29,13 @@ public class PlayerInventory : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.E) && collidingWithItem)
         {
-            var item = itemCollided.GetComponent<GroundItem>();
+            var item = itemCollided.GetComponent<GroundItem>().itemObject;
             if (item)
             {
-                Item _item = new Item(item.itemObject);
+                Item _item = new Item(item);
                 if (inventory.AddItem(_item, 1))
                 {
-                    activeQuest.QuestAtt(_item.Id.ToString(), true);
+                    activeQuest.QuestAtt(_item.name, true);
                     Destroy(itemCollided.gameObject);
                 }
             }

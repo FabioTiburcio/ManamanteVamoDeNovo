@@ -100,7 +100,7 @@ void Start()
                 {
                     Debug.Log("PEGUEI");
                     quest.goal.ItemGathered();
-                } else if (quest.goal.goalType == GoalType.Gathering)
+                } else if (quest.goal.goalType == GoalType.Crafting)
                 {
                     Debug.Log("CRAFTEI");
                     quest.goal.ItemCrafted();

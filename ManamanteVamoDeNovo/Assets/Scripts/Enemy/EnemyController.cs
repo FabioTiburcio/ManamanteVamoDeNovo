@@ -33,6 +33,7 @@ public class EnemyController : MonoBehaviour {
     public enemyType tipoInimigo;
     private float timeChasing = 0f;
     private Animator enemyAnim;
+    public GameObject meleeAttackCol;
 
     GameObject enemySkill;
 
@@ -65,7 +66,6 @@ public class EnemyController : MonoBehaviour {
         FindTargetPlayer();
         if (enemyHP <= 0)
         {
-            
             currentState = enemyState.DYING;
         }
         switch (currentState)
@@ -95,7 +95,6 @@ public class EnemyController : MonoBehaviour {
                 }
                 break;
             case enemyState.ATTACKING:
-                
                 aIPath.canMove = false;
                 StartCoroutine(AttackCooldownCounter(attackCooldown));
                 if(this.name == "InimigoAlma")
@@ -139,6 +138,17 @@ public class EnemyController : MonoBehaviour {
                     enemySkill = Instantiate(TorfariosAttack, firePoint.position, firePoint.rotation);
                     Rigidbody2D rb = enemySkill.GetComponent<Rigidbody2D>();
                     rb.AddForce(player.transform.position - this.transform.position, ForceMode2D.Impulse);
+                }
+                else if(this.name == "Morcego")
+                {
+                    attackRange = 0.3f;
+                    if (attackTimer <= attackCooldown / enemyAttackSpeed)
+                    {
+                        attackTimer += Time.deltaTime;
+                        return;
+                    }
+                    attackTimer = 0;
+                    enemySkill = Instantiate(meleeAttackCol, firePoint.position, firePoint.rotation);
                 }
                 if (aIPath.remainingDistance > attackRange)
                 {

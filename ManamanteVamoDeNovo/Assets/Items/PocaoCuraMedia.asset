@@ -25,7 +25,7 @@ MonoBehaviour:
   marketValue: 30
   data:
     name: 
-    Id: 2
+    Id: 11
     buffs: []
     type: 3
     potionType: 0
