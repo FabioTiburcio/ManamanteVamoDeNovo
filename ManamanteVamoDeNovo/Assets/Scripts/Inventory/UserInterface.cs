@@ -8,8 +8,8 @@ using UnityEngine.UI;
 public abstract class UserInterface : MonoBehaviour
 {
     public PlayerInventory playerInventory;
-
     public Inventory inventory;
+    
     public Dictionary<GameObject, InventorySlot> slotsOnInterface = new Dictionary<GameObject, InventorySlot>();
     private float clickingTime;
     private bool holdingMouseClick;

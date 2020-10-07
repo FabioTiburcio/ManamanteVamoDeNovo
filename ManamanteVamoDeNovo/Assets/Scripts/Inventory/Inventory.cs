@@ -113,6 +113,7 @@ public class Inventory : ScriptableObject
     }
     public void UseItem(Item _item)
     {
+        
         switch (_item.type)
         {
             case ItemType.Crafting:
@@ -169,13 +170,13 @@ public class Inventory : ScriptableObject
                 switch (_item.potionType)
                 {
                     case PotionType.HealLow:
-                        Debug.Log("Curou 10");
+                        Health.HealAmount(10);
                         break;
                     case PotionType.HealMedium:
-                        Debug.Log("Curou 20");
+                        Health.HealAmount(20);
                         break;
                     case PotionType.HealHigh:
-                        Debug.Log("Curou 30");
+                        Health.HealAmount(30);
                         break;
                     case PotionType.HealFire:
                         Debug.Log("Curou Queimadura");

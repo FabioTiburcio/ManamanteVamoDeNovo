@@ -6,6 +6,7 @@ public class Transitions : MonoBehaviour
 {
 
     public PlayerMovement player;
+    public Health playerHealth;
     public Transform robo;
     public FakeLoading fakeLoading;
     public GameObject globalLight;
@@ -39,6 +40,20 @@ public class Transitions : MonoBehaviour
     void Update()
     {
         transitionCooldown += Time.deltaTime;
+        if (playerHealth.respawnPlayer)
+        {
+            StartCoroutine(LightsOut());
+            fakeLoading.Fade(3f);
+            cidadePrincipal.SetActive(false);
+            FlorestaSombralida.SetActive(false);
+            fazenda.SetActive(false);
+            casaMera.SetActive(true);
+            player.transform.position = casaMeraInstantPoint.position;
+            robo.transform.position = casaMeraInstantPoint.position;
+            transitionCooldown = 0;
+            dayCycle.SetActive(true);
+            playerHealth.respawnPlayer = false;
+        }
         if(transitionCooldown< 5f)
         {
             return;
@@ -46,7 +61,7 @@ public class Transitions : MonoBehaviour
         if (cidadeSTransition.playerCollided)
         {
             StartCoroutine(LightsOut());
-            fakeLoading.Fade();
+            fakeLoading.Fade(1f);
             cidadePrincipal.SetActive(false);
             FlorestaSombralida.SetActive(true);
             player.transform.position = sombralidaInstantPoint.position;
@@ -59,7 +74,7 @@ public class Transitions : MonoBehaviour
         else if(sombralidaCTransition.playerCollided)
         {
             StartCoroutine(LightsOut());
-            fakeLoading.Fade();
+            fakeLoading.Fade(1f);
             FlorestaSombralida.SetActive(false);
             cidadePrincipal.SetActive(true);
             player.transform.position = cidadeInstantPoint.position;
@@ -71,7 +86,7 @@ public class Transitions : MonoBehaviour
         else if (cidadeCTransition.playerCollided)
         {
             StartCoroutine(LightsOut());
-            fakeLoading.Fade();
+            fakeLoading.Fade(1f);
             cidadePrincipal.SetActive(false);
             casaMera.SetActive(true);
             player.transform.position = casaMeraInstantPoint.position;
@@ -83,7 +98,7 @@ public class Transitions : MonoBehaviour
         else if (casaCTransition.playerCollided)
         {
             StartCoroutine(LightsOut());
-            fakeLoading.Fade();
+            fakeLoading.Fade(1f);
             casaMera.SetActive(false);
             cidadePrincipal.SetActive(true);
             player.transform.position = cidadeInstantPoint.position;
@@ -95,7 +110,7 @@ public class Transitions : MonoBehaviour
         else if (cidadeFTransition.playerCollided)
         {
             StartCoroutine(LightsOut());
-            fakeLoading.Fade();
+            fakeLoading.Fade(1f);
             cidadePrincipal.SetActive(false);
             fazenda.SetActive(true);
             player.transform.position = fazendaInstantPoint.position;
@@ -107,7 +122,7 @@ public class Transitions : MonoBehaviour
         else if (fazendaCTransition.playerCollided)
         {
             StartCoroutine(LightsOut());
-            fakeLoading.Fade();
+            fakeLoading.Fade(1f);
             fazenda.SetActive(false);
             cidadePrincipal.SetActive(true);
             player.transform.position = cidadeInstantPoint.position;
@@ -122,5 +137,6 @@ public class Transitions : MonoBehaviour
         globalLight.SetActive(false);
         yield return new WaitForSeconds(1f);
         globalLight.SetActive(true);
+        playerHealth.gameObject.SetActive(true);
     }
 }

@@ -8,6 +8,12 @@ tpsheetFileNames:
 - Assets/Artes/IminigosSeparados/Poison/IdleSpriteSheet.tpsheet
 - Assets/Artes/IminigosSeparados/Torfarios/Attack.tpsheet
 - Assets/Artes/IminigosSeparados/Torfarios/Idle1.tpsheet
+- Assets/Artes/Mera/Attack/Attack.tpsheet
+- Assets/Artes/Mera/Idle1/Idle1.tpsheet
+- Assets/Artes/Mera/Idle2/Idle2.tpsheet
+- Assets/Artes/Mera/Idle3/Idle3.tpsheet
+- Assets/Artes/Mera/Ofegante/Ofegante.tpsheet
+- Assets/Artes/Mera/Walk/Walk.tpsheet
 - Assets/Artes/Objetos do Cenário e Outros/Objetos do Cenário e Outros/Coletaveis.png.tpsheet
 - Assets/Artes/Objetos do Cenário e Outros/Objetos do Cenário e Outros/Coletaveis.tpsheet
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
@@ -19,10 +25,22 @@ textureFileNames:
 - Assets/Artes/IminigosSeparados/Poison/IdleSpriteSheet.png
 - Assets/Artes/IminigosSeparados/Torfarios/Attack.png
 - Assets/Artes/IminigosSeparados/Torfarios/Idle1.png
+- Assets/Artes/Mera/Attack/Attack.png
+- Assets/Artes/Mera/Idle1/Idle1.png
+- Assets/Artes/Mera/Idle2/Idle2.png
+- Assets/Artes/Mera/Idle3/Idle3.png
+- Assets/Artes/Mera/Ofegante/Ofegante.png
+- Assets/Artes/Mera/Walk/Walk.png
 - Assets/Artes/Objetos do Cenário e Outros/Objetos do Cenário e Outros/Coletaveis.png.png
 - Assets/Artes/Objetos do Cenário e Outros/Objetos do Cenário e Outros/Coletaveis.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
+- 
+- 
+- 
+- 
+- 
+- 
 - 
 - 
 - 

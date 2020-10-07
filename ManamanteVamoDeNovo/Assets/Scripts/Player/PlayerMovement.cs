@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public float movementSpeed = 5f;
     
     private Rigidbody2D playerRb;
+    private SpriteRenderer spr;
     private Animator playerAnim;
 
     Vector2 movement;
@@ -27,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
     {
         playerRb = GetComponent<Rigidbody2D>();
         playerAnim = GetComponent<Animator>();
+        spr = GetComponent<SpriteRenderer>();
     }
 
     private void Update()
@@ -37,17 +39,17 @@ public class PlayerMovement : MonoBehaviour
         }
         movement.x = Input.GetAxis("Horizontal");
         movement.y = Input.GetAxis("Vertical");
-
+        if(movement.x != 0 || movement.y != 0)
+        {
+            playerAnim.SetBool("Walking", true);
+        }
+        else
+        {
+            playerAnim.SetBool("Walking", false);
+        }
         mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-    }
 
-    private void FixedUpdate()
-    {
-        playerRb.MovePosition(playerRb.position + movement * movementSpeed * Time.deltaTime);
-
-        lookDir = mousePos - playerRb.position;
-        skillSpawnRotation.transform.up = lookDir;
-        if(computerRange && Input.GetKeyDown(KeyCode.C))
+        if (computerRange && Input.GetKeyDown(KeyCode.C))
         {
             if (computerScreen.activeSelf)
             {
@@ -57,8 +59,22 @@ public class PlayerMovement : MonoBehaviour
             {
                 computerScreen.SetActive(true);
             }
-
         }
+    }
+
+    private void FixedUpdate()
+    {
+        playerRb.MovePosition(playerRb.position + movement * movementSpeed * Time.deltaTime);
+        lookDir = mousePos - playerRb.position;
+        if(lookDir.x > 0)
+        {
+            spr.flipX = false;
+        }
+        else
+        {
+            spr.flipX = true;
+        }
+        skillSpawnRotation.transform.up = lookDir;
         //transform.up = lookDir.normalized;
         //float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
         //playerRb.rotation = angle;

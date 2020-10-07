@@ -47,9 +47,9 @@ public class EnemyController : MonoBehaviour {
 
     private void Start()
     {
-        if(tipoInimigo == enemyType.MEELE)
+        if (tipoInimigo == enemyType.MEELE)
         {
-            attackRange = 0.75f;
+            attackRange = 1f;
         }
         else
         {
@@ -60,6 +60,10 @@ public class EnemyController : MonoBehaviour {
         enemyRb = GetComponent<Rigidbody2D>();
         enemyAnim = GetComponent<Animator>();
         initialSpeed = aIPath.maxSpeed;
+    }
+    private void OnEnable()
+    {
+        currentState = enemyState.IDLE;
     }
     private void Update()
     {
@@ -96,8 +100,7 @@ public class EnemyController : MonoBehaviour {
                 break;
             case enemyState.ATTACKING:
                 aIPath.canMove = false;
-                StartCoroutine(AttackCooldownCounter(attackCooldown));
-                if(this.name == "InimigoAlma")
+                if(enemyName == "Alma")
                 {
                     spawnDirection.transform.up = player.transform.position - this.transform.position;
                     if (attackTimer <= attackCooldown)
@@ -105,7 +108,7 @@ public class EnemyController : MonoBehaviour {
                         attackTimer += Time.deltaTime;
                         return;
                     }
-                    enemyAnim.Play("Attack");
+                    //enemyAnim.Play("Attack");
                     attackTimer = 0;
                     PlayerSkillController = player.GetComponentInChildren<SkillController>();
                     switch (PlayerSkillController.activeSkill)
@@ -126,7 +129,7 @@ public class EnemyController : MonoBehaviour {
                     Rigidbody2D rb = enemySkill.GetComponent<Rigidbody2D>();
                     rb.AddForce(spawnDirection.transform.up, ForceMode2D.Impulse);
                 }
-                else if(this.name == "Torfarios")
+                else if(enemyName == "Torfarios")
                 {
                     if (attackTimer <= attackCooldown/enemyAttackSpeed)
                     {
@@ -139,7 +142,7 @@ public class EnemyController : MonoBehaviour {
                     Rigidbody2D rb = enemySkill.GetComponent<Rigidbody2D>();
                     rb.AddForce(player.transform.position - this.transform.position, ForceMode2D.Impulse);
                 }
-                else if(this.name == "Morcego")
+                else if(enemyName == "Morcego")
                 {
                     attackRange = 0.3f;
                     if (attackTimer <= attackCooldown / enemyAttackSpeed)
@@ -150,6 +153,7 @@ public class EnemyController : MonoBehaviour {
                     attackTimer = 0;
                     enemySkill = Instantiate(meleeAttackCol, firePoint.position, firePoint.rotation);
                 }
+                StartCoroutine(AttackCooldownCounter(attackCooldown));
                 if (aIPath.remainingDistance > attackRange)
                 {
                     currentState = enemyState.CHASING;

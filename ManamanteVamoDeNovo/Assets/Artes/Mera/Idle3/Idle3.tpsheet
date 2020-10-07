@@ -1,0 +1,28 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:6e15ba2c4b8c808403c5d671b9176e71:8614944282afebb3df0f405208f67ac3:a10f0c2a39b9791ebd1f26eb2970d5e9$
+#
+:format=40300
+:texture=Idle3.png
+:size=512x2048
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Armature_Idle3_00;0;1698;170;350; 0.5;0.5; 0;0;0;0
+Armature_Idle3_01;170;1698;170;350; 0.5;0.5; 0;0;0;0
+Armature_Idle3_02;340;1698;170;350; 0.5;0.5; 0;0;0;0
+Armature_Idle3_03;0;1348;170;350; 0.5;0.5; 0;0;0;0
+Armature_Idle3_04;170;1348;170;350; 0.5;0.5; 0;0;0;0
+Armature_Idle3_05;340;1348;170;350; 0.5;0.5; 0;0;0;0
+Armature_Idle3_06;0;998;170;350; 0.5;0.5; 0;0;0;0
+Armature_Idle3_07;170;998;170;350; 0.5;0.5; 0;0;0;0
+Armature_Idle3_08;340;998;170;350; 0.5;0.5; 0;0;0;0
+Armature_Idle3_09;0;648;170;350; 0.5;0.5; 0;0;0;0
+Armature_Idle3_10;170;648;170;350; 0.5;0.5; 0;0;0;0
+Armature_Idle3_11;340;648;170;350; 0.5;0.5; 0;0;0;0
+Armature_Idle3_12;0;298;170;350; 0.5;0.5; 0;0;0;0

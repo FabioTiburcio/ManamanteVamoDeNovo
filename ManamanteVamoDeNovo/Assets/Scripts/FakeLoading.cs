@@ -16,7 +16,7 @@ public class FakeLoading : MonoBehaviour
 
     public PlayerMovement playerMovScript;
 
-    public void Fade()
+    public void Fade(float faddingTime)
     {
         fakeLoadingGroup = GetComponent<CanvasGroup>();
         StartCoroutine(DoFade(fakeLoadingGroup, fakeLoadingGroup.alpha, faded ? 0 : 1));

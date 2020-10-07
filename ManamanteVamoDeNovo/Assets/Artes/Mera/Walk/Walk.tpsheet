@@ -1,0 +1,64 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:e99715fdbc82f0c4b4a0f0a5bad0c951:1df33d38d76b5d430292f0e8a6c3df4a:d2d941d8695fd848851474ee4cde5547$
+#
+:format=40300
+:texture=Walk.png
+:size=4096x2048
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Armature_Walk_00;0;1683;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_01;216;1683;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_02;432;1683;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_03;648;1683;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_04;864;1683;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_05;1080;1683;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_06;1296;1683;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_07;1512;1683;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_08;1728;1683;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_09;1944;1683;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_10;2160;1683;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_11;2376;1683;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_12;2592;1683;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_13;2808;1683;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_14;3024;1683;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_15;3240;1683;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_16;3456;1683;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_17;3672;1683;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_18;0;1318;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_19;216;1318;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_20;432;1318;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_21;648;1318;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_22;864;1318;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_23;1080;1318;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_24;1296;1318;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_25;1512;1318;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_26;1728;1318;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_27;1944;1318;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_28;2160;1318;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_29;2376;1318;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_30;2592;1318;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_31;2808;1318;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_32;3024;1318;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_33;3240;1318;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_34;3456;1318;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_35;3672;1318;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_36;0;953;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_37;216;953;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_38;432;953;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_39;648;953;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_40;864;953;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_41;1080;953;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_42;1296;953;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_43;1512;953;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_44;1728;953;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_45;1944;953;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_46;2160;953;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_47;2376;953;216;365; 0.5;0.5; 0;0;0;0
+Armature_Walk_48;2592;953;216;365; 0.5;0.5; 0;0;0;0
