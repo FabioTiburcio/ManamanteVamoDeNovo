@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDisplay: {fileID: -1348414953002447949, guid: 9a63226fb25836042ae650e7ab3b52ec,
     type: 3}
-  name: Cogumelos Azuis
+  name: Cogumelo Azul
   stackable: 1
   type: 2
   potionType: 0

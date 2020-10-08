@@ -53,10 +53,12 @@ public class PlayerMovement : MonoBehaviour
         {
             if (computerScreen.activeSelf)
             {
+                
                 computerScreen.SetActive(false);
             }
             else
             {
+                
                 computerScreen.SetActive(true);
             }
         }

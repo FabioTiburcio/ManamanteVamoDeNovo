@@ -8,6 +8,15 @@ public class SkillController : MonoBehaviour
     public Transform firePoint;
     public int activeSkill;
     public float attackCooldown;
+
+    public bool canIce;
+    public bool canPoison;
+    public bool canElectric;
+
+    public GameObject computadorScreen;
+    public GameObject diaryScreen;
+    public GameObject inventoryScreen;
+    public GameObject craftScreen;
     
     public GameObject firePrefab;
     public GameObject fireArea;
@@ -37,29 +46,43 @@ public class SkillController : MonoBehaviour
         {
             activeSkill = 1;
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
+        else if (Input.GetKeyDown(KeyCode.Alpha2) && canIce)
         {
             activeSkill = 2;
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha3))
+        else if (Input.GetKeyDown(KeyCode.Alpha3) && canElectric)
         {
             activeSkill = 3;
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha4))
+        else if (Input.GetKeyDown(KeyCode.Alpha4) && canPoison)
         {
             activeSkill = 4;
         }
 
         if (Input.GetButtonDown("Fire1") && attackCooldown > 1.5f)
         {
-            Shoot();
-            attackCooldown = 0;
+            if(inventoryScreen.activeSelf == true || diaryScreen.activeSelf == true || craftScreen.activeSelf == true || computadorScreen.activeSelf == true)
+            {
+                Debug.Log("n vo matar n");
+            } else
+            {
+                Shoot();
+                attackCooldown = 0;
+            }
+
         }
 
         if (Input.GetButtonDown("Fire2") && attackCooldown > 1.5f)
         {
-            Cast();
-            attackCooldown = 0;
+            if (inventoryScreen.activeSelf == true || diaryScreen.activeSelf == true || craftScreen.activeSelf == true || computadorScreen.activeSelf == true)
+            {
+                Debug.Log("n vo matar n");
+            }
+            else
+            {
+                Cast();
+                attackCooldown = 0;
+            }
         }
 
 

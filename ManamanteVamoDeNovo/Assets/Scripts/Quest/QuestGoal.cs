@@ -33,11 +33,17 @@ public class QuestGoal
         currentAmount++;
     }
 
+    public void Searched()
+    {
+        currentAmount++;
+    }
+
 }
 
 public enum GoalType
 {
     Kill,
     Gathering,
-    Crafting
+    Crafting,
+    Searching
 }

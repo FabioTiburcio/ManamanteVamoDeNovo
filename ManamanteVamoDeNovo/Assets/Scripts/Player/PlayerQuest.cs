@@ -14,6 +14,7 @@ public class PlayerQuest : MonoBehaviour {
     public ItemDatabaseObject itens;
     public DiaryInfoController diaryInfoController;
     public bool attDiaryInfo;
+    public GameObject searchText;
 
 // Start is called before the first frame update
 void Start()
@@ -104,6 +105,11 @@ void Start()
                 {
                     Debug.Log("CRAFTEI");
                     quest.goal.ItemCrafted();
+                } else if (quest.goal.goalType == GoalType.Searching)
+                {
+                    Debug.Log("PESQUISEI");
+                    quest.goal.Searched();
+                    searchText.SetActive(true);
                 }
 
             }
