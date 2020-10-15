@@ -55,6 +55,8 @@ public class EnemyController : MonoBehaviour {
         {
             attackRange = 2f;
         }
+        player = GameObject.FindGameObjectWithTag("Player");
+        
         fieldOfView = GetComponentInChildren<FieldOfView>();
         aIPath = GetComponent<AIPath>();
         enemyRb = GetComponent<Rigidbody2D>();
