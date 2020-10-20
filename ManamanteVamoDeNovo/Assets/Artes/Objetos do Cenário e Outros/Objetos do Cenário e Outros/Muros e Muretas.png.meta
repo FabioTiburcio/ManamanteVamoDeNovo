@@ -1,7 +1,97 @@
 fileFormatVersion: 2
 guid: 35f9f1a15cf3e394db180c2d260d9c67
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7503441636439934356
+    second: Muros e Muretas_0
+  - first:
+      213: -7339013841763111070
+    second: Muros e Muretas_1
+  - first:
+      213: 5350067450016992572
+    second: Muros e Muretas_2
+  - first:
+      213: 5252817856044343100
+    second: Muros e Muretas_3
+  - first:
+      213: 2217493651486461718
+    second: Muros e Muretas_4
+  - first:
+      213: -4982318913933275115
+    second: Muros e Muretas_5
+  - first:
+      213: -3412977349955132481
+    second: Muros e Muretas_6
+  - first:
+      213: 7897887280857605343
+    second: Muros e Muretas_7
+  - first:
+      213: -489942209217871804
+    second: Muros e Muretas_8
+  - first:
+      213: -7418003132773691080
+    second: Muros e Muretas_9
+  - first:
+      213: 7706374641751722890
+    second: Muros e Muretas_10
+  - first:
+      213: 7901358226610900936
+    second: Muros e Muretas_11
+  - first:
+      213: -8011905651524858354
+    second: Muros e Muretas_12
+  - first:
+      213: -5267022979105755649
+    second: Muros e Muretas_13
+  - first:
+      213: 4774037527698356041
+    second: Muros e Muretas_14
+  - first:
+      213: 4185608211119885996
+    second: Muros e Muretas_0
+  - first:
+      213: 5666453048761900339
+    second: Muros e Muretas_1
+  - first:
+      213: -8672743976229890897
+    second: Muros e Muretas_2
+  - first:
+      213: 3799474635248191282
+    second: Muros e Muretas_3
+  - first:
+      213: 757233552539050815
+    second: Muros e Muretas_4
+  - first:
+      213: -382544683280591860
+    second: Muros e Muretas_5
+  - first:
+      213: 721038214412319744
+    second: Muros e Muretas_6
+  - first:
+      213: 4709134887337604862
+    second: Muros e Muretas_7
+  - first:
+      213: 5515708615347372746
+    second: Muros e Muretas_8
+  - first:
+      213: 1770351633309935689
+    second: Muros e Muretas_9
+  - first:
+      213: -3044345033554245192
+    second: Muros e Muretas_10
+  - first:
+      213: -5997741653509827416
+    second: Muros e Muretas_11
+  - first:
+      213: -1548523985427714913
+    second: Muros e Muretas_12
+  - first:
+      213: 743459389319238098
+    second: Muros e Muretas_13
+  - first:
+      213: 2236247005560649024
+    second: Muros e Muretas_14
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +130,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +161,336 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Muros e Muretas_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 780
+        width: 260
+        height: 255
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae42c0ed74461a30800000000000000
+      internalID: 4185608211119885996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muros e Muretas_1
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 735
+        width: 118
+        height: 300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33dd1e3960943ae40800000000000000
+      internalID: 5666453048761900339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muros e Muretas_2
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 740
+        width: 118
+        height: 300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa498e4cd4934a780800000000000000
+      internalID: -8672743976229890897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muros e Muretas_3
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 760
+        width: 249
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237431fdc027ab430800000000000000
+      internalID: 3799474635248191282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muros e Muretas_4
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 754
+        width: 249
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33e81f67eb328a00800000000000000
+      internalID: 757233552539050815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muros e Muretas_5
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 450
+        width: 260
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04985a23ade0baf0800000000000000
+      internalID: -382544683280591860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muros e Muretas_6
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 432
+        width: 118
+        height: 119
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c378f8f64a10a00800000000000000
+      internalID: 721038214412319744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muros e Muretas_7
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 434
+        width: 118
+        height: 119
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6382fda353a5140800000000000000
+      internalID: 4709134887337604862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muros e Muretas_8
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 441
+        width: 249
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2875e13cbbb8c40800000000000000
+      internalID: 5515708615347372746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muros e Muretas_9
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 439
+        width: 249
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948a8f64e6d819810800000000000000
+      internalID: 1770351633309935689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muros e Muretas_10
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 160
+        width: 225
+        height: 134
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b94645525050c5d0800000000000000
+      internalID: -3044345033554245192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muros e Muretas_11
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 137
+        width: 102
+        height: 157
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a49bf75ebdb3cca0800000000000000
+      internalID: -5997741653509827416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muros e Muretas_12
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 139
+        width: 102
+        height: 158
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ca862c3a9828ae0800000000000000
+      internalID: -1548523985427714913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muros e Muretas_13
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 150
+        width: 216
+        height: 132
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d15d45206c415a00800000000000000
+      internalID: 743459389319238098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muros e Muretas_14
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 146
+        width: 216
+        height: 133
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045397cadceb80f10800000000000000
+      internalID: 2236247005560649024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

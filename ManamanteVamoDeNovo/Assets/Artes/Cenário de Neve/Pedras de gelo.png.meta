@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: d035b0d79df398640b8017716f5c1c7c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3903677334284687938
+    second: Pedras de gelo_0
+  - first:
+      213: 6347749922870369090
+    second: Pedras de gelo_1
+  - first:
+      213: 2728193718735203316
+    second: Pedras de gelo_2
+  - first:
+      213: -7125027588129732298
+    second: Pedras de gelo_3
+  - first:
+      213: 3819571364456288343
+    second: Pedras de gelo_0
+  - first:
+      213: 4588893663824458784
+    second: Pedras de gelo_1
+  - first:
+      213: -8724491076299822334
+    second: Pedras de gelo_2
+  - first:
+      213: 7150450121628174847
+    second: Pedras de gelo_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +64,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +95,105 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Pedras de gelo_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 244
+        width: 116
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750dba44be7d10530800000000000000
+      internalID: 3819571364456288343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedras de gelo_1
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 245
+        width: 104
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0243c4869760faf30800000000000000
+      internalID: 4588893663824458784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedras de gelo_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 90
+        width: 99
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b651727916ce680800000000000000
+      internalID: -8724491076299822334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedras de gelo_3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 90
+        width: 78
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9cbcb30808b3360800000000000000
+      internalID: 7150450121628174847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
