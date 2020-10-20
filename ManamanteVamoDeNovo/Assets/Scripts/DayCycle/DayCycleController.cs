@@ -16,6 +16,8 @@ public class DayCycleController : MonoBehaviour
     public float dayHour;
     public float daySpeed;
     private float timeChangingColor = 1f;
+    private float chuvaTimer;
+    public ParticleSystem chuva;
     // Start is called before the first frame update
     void Start()
     {

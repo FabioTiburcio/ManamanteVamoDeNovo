@@ -16,8 +16,15 @@ public class Skill : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(this.tag == "EnemyAttack" && collision.tag == "Player") Destroy(gameObject);
-        if(this.tag == "Attack" && collision.tag == "Enemy") Destroy(gameObject);
-
+        if (this.tag == "EnemyAttack" && collision.tag == "Player")
+        {
+            Destroy(gameObject);
+            Instantiate(hitEffect);
+        }
+        if (this.tag == "Attack" && collision.tag == "Enemy")
+        {
+            Destroy(gameObject);
+            Instantiate(hitEffect);
+        }
     }
 }
