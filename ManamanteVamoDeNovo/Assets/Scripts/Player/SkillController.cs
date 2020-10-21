@@ -27,8 +27,8 @@ public class SkillController : MonoBehaviour
     public GameObject windPrefab;
     public GameObject windArea;
 
-    public GameObject earthPrefab;
-    public GameObject earthArea;
+    public GameObject posionPrefab;
+    public GameObject poisonArea;
 
     public float bulletForce = 20f;
 
@@ -107,7 +107,7 @@ public class SkillController : MonoBehaviour
         }
         else if (activeSkill == 4)
         {
-            GameObject area = Instantiate(earthArea, player.mousePos, Quaternion.identity);
+            GameObject area = Instantiate(poisonArea, player.mousePos, Quaternion.identity);
             
         }
     }
@@ -131,7 +131,7 @@ public class SkillController : MonoBehaviour
             rb.AddForce(player.lookDir * bulletForce, ForceMode2D.Impulse);
         } else if (activeSkill == 4)
         {
-            GameObject bullet = Instantiate(earthPrefab, firePoint.position, firePoint.rotation);
+            GameObject bullet = Instantiate(posionPrefab, firePoint.position, firePoint.rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
             rb.AddForce(player.lookDir * bulletForce, ForceMode2D.Impulse);
         }

@@ -25,7 +25,7 @@ public class EnemyController : MonoBehaviour {
     public string enemyName;
     public int enemyDamage;
     public int enemyAttackSpeed;
-    private int enemyHP = 100;
+    private Health enemyHP;
     private float attackRange;
     private AIPath aIPath;
     public enemyState currentState = enemyState.IDLE;
@@ -44,7 +44,7 @@ public class EnemyController : MonoBehaviour {
     private bool attackAnimEnded;
     private bool SeeingPlayer;
 
-
+    float t;
     private void Start()
     {
         if (tipoInimigo == enemyType.MEELE)
@@ -56,7 +56,7 @@ public class EnemyController : MonoBehaviour {
             attackRange = 2f;
         }
         player = GameObject.FindGameObjectWithTag("Player");
-        
+        enemyHP = GetComponent<Health>();
         fieldOfView = GetComponentInChildren<FieldOfView>();
         aIPath = GetComponent<AIPath>();
         enemyRb = GetComponent<Rigidbody2D>();
@@ -66,13 +66,17 @@ public class EnemyController : MonoBehaviour {
     private void OnEnable()
     {
         currentState = enemyState.IDLE;
+        t = 0;
     }
     private void Update()
     {
-        FindTargetPlayer();
-        if (enemyHP <= 0)
+        if (enemyHP.health <= 0)
         {
             currentState = enemyState.DYING;
+        }
+        else
+        {
+            FindTargetPlayer();
         }
         switch (currentState)
         {
@@ -167,6 +171,9 @@ public class EnemyController : MonoBehaviour {
                 //anim.setBool("Stun",true);
                 break;
             case enemyState.DYING:
+                aIPath.canMove = false;
+                t += 0.5f * Time.deltaTime;
+                enemyHP.dissolveMaterial.SetFloat("Vector1_7A56B514", Mathf.Lerp(-1, 1, t));
                 break;
         }
     }
@@ -223,5 +230,4 @@ public class EnemyController : MonoBehaviour {
     {
         
     }
-
 }

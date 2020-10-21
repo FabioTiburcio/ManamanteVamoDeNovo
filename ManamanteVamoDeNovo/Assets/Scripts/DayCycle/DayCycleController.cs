@@ -14,10 +14,14 @@ public class DayCycleController : MonoBehaviour
     public float daySeconds;
     public float dayMinute;
     public float dayHour;
+    public float day;
     public float daySpeed;
     private float timeChangingColor = 1f;
-    private float chuvaTimer;
-    public ParticleSystem chuva;
+    private float minRainChance = 0;
+    private float rainingChance;
+    private float rainingTimer;
+    private bool isRaining;
+    public GameObject chuva;
     // Start is called before the first frame update
     void Start()
     {
@@ -42,9 +46,37 @@ public class DayCycleController : MonoBehaviour
         if(dayHour == 24)
         {
             dayHour = 0;
+            day++;
+            RainingController();
+        }
+        if (isRaining)
+        {
+            rainingTimer += Time.deltaTime;
+            if (rainingTimer > 240)
+            {
+                isRaining = false;
+                rainingTimer = 0;
+                chuva.SetActive(false);
+                minRainChance = 0;
+            }
         }
     }
 
+    public void RainingController()
+    {
+        rainingChance = Random.Range(minRainChance, 100);
+        if(rainingChance > 50)
+        {
+            isRaining = true;
+            chuva.SetActive(true);
+        }
+        else
+        {
+            minRainChance += 10;
+            isRaining = false;
+            chuva.SetActive(false);
+        }
+    }
     public void changeIntensity()
     {
         if (dayHour == 5)

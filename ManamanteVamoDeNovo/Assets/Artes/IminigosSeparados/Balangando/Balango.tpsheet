@@ -1,0 +1,24 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:7bb4d577e5fdbebd702d3a7f3a5a532c:b7cf0d78c64e59c53a15af4e9c469783:73b92f73e7971dac95ab7426171287aa$
+#
+:format=40300
+:texture=Balango.png
+:size=4096x2048
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+ArmatureMorcego_animtion0_0;0;1407;1060;641; 0.5;0.5; 0;0;0;0
+ArmatureMorcego_animtion0_1;1060;1407;1060;641; 0.5;0.5; 0;0;0;0
+ArmatureMorcego_animtion0_2;2120;1407;1060;641; 0.5;0.5; 0;0;0;0
+ArmatureMorcego_animtion0_3;0;766;1060;641; 0.5;0.5; 0;0;0;0
+ArmatureMorcego_animtion0_4;1060;766;1060;641; 0.5;0.5; 0;0;0;0
+ArmatureMorcego_animtion0_5;2120;766;1060;641; 0.5;0.5; 0;0;0;0
+ArmatureMorcego_animtion0_6;0;125;1060;641; 0.5;0.5; 0;0;0;0
+ArmatureMorcego_animtion0_7;1060;125;1060;641; 0.5;0.5; 0;0;0;0
+ArmatureMorcego_animtion0_8;2120;125;1060;641; 0.5;0.5; 0;0;0;0

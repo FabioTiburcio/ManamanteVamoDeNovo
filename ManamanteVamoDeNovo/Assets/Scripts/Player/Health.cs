@@ -11,7 +11,14 @@ public class Health : MonoBehaviour
     public PlayerQuest activeQuest;
     private SpriteRenderer spr;
     public bool respawnPlayer;
-
+    public Material normalMaterial;
+    public Material dissolveMaterial;
+    public GameObject poisonParticle;
+    public int poisonStack;
+    bool isPoisoned;
+    float poisonTimer;
+    float poisonTimerRunOff;
+    int poisonDamageOverTime = 2;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +32,16 @@ public class Health : MonoBehaviour
         {
             StartCoroutine(DamageCooldown(1f));
         }
+        if (isPoisoned)
+        {
+            PoisonState();
+        }
+        else
+        {
+            poisonParticle.SetActive(false);
+            spr.color = new Color(255, 255, 255, 255);
+        }
+
         if(health <= 0)
         {
             damageCooldown = false;
@@ -36,9 +53,8 @@ public class Health : MonoBehaviour
             {
                 respawnPlayer = true;
             }
-            gameObject.SetActive(false);
-            health = maxHealth;
-            spr.color = new Color(spr.color.r, spr.color.g, spr.color.b, 255);
+            spr.material = dissolveMaterial;
+            StartCoroutine(DissolveEffect());
         }
         else if(health > 100)
         {
@@ -54,6 +70,15 @@ public class Health : MonoBehaviour
     {
         healAmount = amount;
     }
+    IEnumerator DissolveEffect()
+    {
+        yield return new WaitForSeconds(1.5f);
+        gameObject.SetActive(false);
+        health = maxHealth;
+        dissolveMaterial.SetFloat("Vector1_7A56B514", -1);
+        spr.material = normalMaterial;
+    }
+
     IEnumerator DamageCooldown(float timer)
     {
         yield return new WaitForSeconds(timer);
@@ -69,18 +94,41 @@ public class Health : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         spr.color = new Color(spr.color.r, spr.color.g, spr.color.b, 255);
     }
+
+    public void ApplyPoison()
+    {
+        poisonStack += 1;
+        isPoisoned = true;
+        poisonTimerRunOff = 0;
+    }
+    public void PoisonState()
+    {
+        poisonParticle.SetActive(true);
+        spr.color = new Color(0.4f,1,0.4f);
+        poisonTimer += Time.deltaTime;
+        poisonTimerRunOff += Time.deltaTime;
+        if (poisonTimer >= 2f)
+        {
+            poisonTimer = 0;
+            health -= poisonDamageOverTime;
+        }
+        if (poisonTimerRunOff >= 10f)
+        {
+            isPoisoned = false;
+            poisonStack = 0;
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (this.tag == "Player" && collision.tag == "EnemyAttack" && !damageCooldown)
         {
             DamageEffect();
-            health -= 10;
             damageCooldown = true;
         }
         else if(this.tag == "Enemy" && collision.tag == "Attack" && !damageCooldown)
         {
             DamageEffect();
-            health -= 10;
             damageCooldown = true;
         }
     }
