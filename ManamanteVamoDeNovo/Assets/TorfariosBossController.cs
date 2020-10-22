@@ -57,6 +57,16 @@ public class TorfariosBossController : MonoBehaviour
                 currentState = TorfariosState.Idle;
                 break;
             case TorfariosState.Berseker:
+                if (attackTimer <= attackCooldown/3)
+                {
+                    attackTimer += Time.deltaTime;
+                    return;
+                }
+                enemyAnim.Play("Attack");
+                attackTimer = 0;
+                enemySkill = Instantiate(torfariosAttack, firePoint.position, torfariosAttack.transform.rotation);
+                rb = enemySkill.GetComponent<Rigidbody2D>();
+                rb.AddForce(firePoint.forward * projectileVelocity, ForceMode2D.Impulse);
                 break;
             case TorfariosState.AreaAttack:
                 break;

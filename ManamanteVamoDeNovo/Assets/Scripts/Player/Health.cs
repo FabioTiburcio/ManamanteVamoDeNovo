@@ -30,7 +30,10 @@ public class Health : MonoBehaviour
     {
         health = maxHealth;
         spr = GetComponent<SpriteRenderer>();
-        speed = this.gameObject.GetComponent<AIPath>().maxSpeed;
+        if(this.tag == "Enemy")
+        {
+            speed = GetComponent<AIPath>().maxSpeed;
+        }
     }
 
     private void Update()
@@ -39,20 +42,22 @@ public class Health : MonoBehaviour
         {
             StartCoroutine(DamageCooldown(1f));
         }
-        if (isPoisoned)
+        if (isFrozen)
+        {
+            IceState();
+            isPoisoned = false;
+        }
+        else if (isPoisoned)
         {
             PoisonState();
+            isFrozen = false;
         }
-        else
+        else if (!isPoisoned)
         {
             poisonParticle.SetActive(false);
             spr.color = new Color(255, 255, 255, 255);
         }
-
-        if (isFrozen)
-        {
-            IceState();
-        } else
+        else if(!isFrozen)
         {
             spr.color = new Color(255, 255, 255, 255);
         }
@@ -138,6 +143,7 @@ public class Health : MonoBehaviour
     {
         isFrozen = false;
         this.gameObject.GetComponent<AIPath>().maxSpeed = speed;
+        iceTimerRunOff = 0;
     }
 
     public void ApplyIce()
@@ -156,7 +162,11 @@ public class Health : MonoBehaviour
         {
             iceTimer = 0;
             health -= iceDamageOverTime;
-        }       
+        }
+        if (iceTimerRunOff >= 3f)
+        {
+            RemoveIce();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

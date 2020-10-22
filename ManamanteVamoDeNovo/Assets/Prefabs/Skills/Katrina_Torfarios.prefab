@@ -118,8 +118,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isProjectile: 1
-  skillDamage: 0
+  skillDamage: 10
   poisonSkill: 0
+  iceSkill: 0
+  iceSkillArea: 0
   hitEffect: {fileID: 0}
 --- !u!61 &-3479262783529329232
 BoxCollider2D:

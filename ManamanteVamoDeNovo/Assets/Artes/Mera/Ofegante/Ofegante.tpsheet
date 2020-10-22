@@ -4,7 +4,7 @@
 # To import these sprites into your Unity project, download "TexturePackerImporter":
 # https://www.codeandweb.com/texturepacker/unity
 #
-# $TexturePacker:SmartUpdate:092a4c1a1dee165f6de228f385cbd903:50d272c5b709c5254108dc7b0304fe86:943134791b91f921d7470691de1e5a60$
+# $TexturePacker:SmartUpdate:cb91e11209c4682a2153b0cb8209f847:50d272c5b709c5254108dc7b0304fe86:943134791b91f921d7470691de1e5a60$
 #
 :format=40300
 :texture=Ofegante.png
@@ -13,16 +13,16 @@
 :borders=disabled
 :alphahandling=ClearTransparentPixels
 
-Armature_Ofegante_00;0;1694;164;354; 0.5;0.5; 0;0;0;0
-Armature_Ofegante_01;164;1694;164;354; 0.5;0.5; 0;0;0;0
-Armature_Ofegante_02;328;1694;164;354; 0.5;0.5; 0;0;0;0
-Armature_Ofegante_03;0;1340;164;354; 0.5;0.5; 0;0;0;0
-Armature_Ofegante_04;164;1340;164;354; 0.5;0.5; 0;0;0;0
-Armature_Ofegante_05;328;1340;164;354; 0.5;0.5; 0;0;0;0
-Armature_Ofegante_06;0;986;164;354; 0.5;0.5; 0;0;0;0
-Armature_Ofegante_07;164;986;164;354; 0.5;0.5; 0;0;0;0
-Armature_Ofegante_08;328;986;164;354; 0.5;0.5; 0;0;0;0
-Armature_Ofegante_09;0;632;164;354; 0.5;0.5; 0;0;0;0
-Armature_Ofegante_10;164;632;164;354; 0.5;0.5; 0;0;0;0
-Armature_Ofegante_11;328;632;164;354; 0.5;0.5; 0;0;0;0
-Armature_Ofegante_12;0;278;164;354; 0.5;0.5; 0;0;0;0
+Armature_Ofegante_00;0;1694;164;354; 0.5;0; 0;0;0;0
+Armature_Ofegante_01;164;1694;164;354; 0.5;0; 0;0;0;0
+Armature_Ofegante_02;328;1694;164;354; 0.5;0; 0;0;0;0
+Armature_Ofegante_03;0;1340;164;354; 0.5;0; 0;0;0;0
+Armature_Ofegante_04;164;1340;164;354; 0.5;0; 0;0;0;0
+Armature_Ofegante_05;328;1340;164;354; 0.5;0; 0;0;0;0
+Armature_Ofegante_06;0;986;164;354; 0.5;0; 0;0;0;0
+Armature_Ofegante_07;164;986;164;354; 0.5;0; 0;0;0;0
+Armature_Ofegante_08;328;986;164;354; 0.5;0; 0;0;0;0
+Armature_Ofegante_09;0;632;164;354; 0.5;0; 0;0;0;0
+Armature_Ofegante_10;164;632;164;354; 0.5;0; 0;0;0;0
+Armature_Ofegante_11;328;632;164;354; 0.5;0; 0;0;0;0
+Armature_Ofegante_12;0;278;164;354; 0.5;0; 0;0;0;0

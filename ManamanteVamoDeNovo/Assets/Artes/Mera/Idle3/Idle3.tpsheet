@@ -4,7 +4,7 @@
 # To import these sprites into your Unity project, download "TexturePackerImporter":
 # https://www.codeandweb.com/texturepacker/unity
 #
-# $TexturePacker:SmartUpdate:6e15ba2c4b8c808403c5d671b9176e71:8614944282afebb3df0f405208f67ac3:a10f0c2a39b9791ebd1f26eb2970d5e9$
+# $TexturePacker:SmartUpdate:c7fee50eb7711f6721678b3a28092e1d:237d7a8a1ca028fd81e95f741711197a:a10f0c2a39b9791ebd1f26eb2970d5e9$
 #
 :format=40300
 :texture=Idle3.png
@@ -13,16 +13,16 @@
 :borders=disabled
 :alphahandling=ClearTransparentPixels
 
-Armature_Idle3_00;0;1698;170;350; 0.5;0.5; 0;0;0;0
-Armature_Idle3_01;170;1698;170;350; 0.5;0.5; 0;0;0;0
-Armature_Idle3_02;340;1698;170;350; 0.5;0.5; 0;0;0;0
-Armature_Idle3_03;0;1348;170;350; 0.5;0.5; 0;0;0;0
-Armature_Idle3_04;170;1348;170;350; 0.5;0.5; 0;0;0;0
-Armature_Idle3_05;340;1348;170;350; 0.5;0.5; 0;0;0;0
-Armature_Idle3_06;0;998;170;350; 0.5;0.5; 0;0;0;0
-Armature_Idle3_07;170;998;170;350; 0.5;0.5; 0;0;0;0
-Armature_Idle3_08;340;998;170;350; 0.5;0.5; 0;0;0;0
-Armature_Idle3_09;0;648;170;350; 0.5;0.5; 0;0;0;0
-Armature_Idle3_10;170;648;170;350; 0.5;0.5; 0;0;0;0
-Armature_Idle3_11;340;648;170;350; 0.5;0.5; 0;0;0;0
-Armature_Idle3_12;0;298;170;350; 0.5;0.5; 0;0;0;0
+Armature_Idle2_00;0;1689;169;359; 0.5;0; 0;0;0;0
+Armature_Idle2_01;169;1689;169;359; 0.5;0; 0;0;0;0
+Armature_Idle2_02;338;1689;169;359; 0.5;0; 0;0;0;0
+Armature_Idle2_03;0;1330;169;359; 0.5;0; 0;0;0;0
+Armature_Idle2_04;169;1330;169;359; 0.5;0; 0;0;0;0
+Armature_Idle2_05;338;1330;169;359; 0.5;0; 0;0;0;0
+Armature_Idle2_06;0;971;169;359; 0.5;0; 0;0;0;0
+Armature_Idle2_07;169;971;169;359; 0.5;0; 0;0;0;0
+Armature_Idle2_08;338;971;169;359; 0.5;0; 0;0;0;0
+Armature_Idle2_09;0;612;169;359; 0.5;0; 0;0;0;0
+Armature_Idle2_10;169;612;169;359; 0.5;0; 0;0;0;0
+Armature_Idle2_11;338;612;169;359; 0.5;0; 0;0;0;0
+Armature_Idle2_12;0;253;169;359; 0.5;0; 0;0;0;0

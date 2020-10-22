@@ -51,6 +51,16 @@ public class Skill : MonoBehaviour
             
         }
     }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (this.tag == "Attack" && collision.tag == "Enemy")
+        {
+            if (iceSkillArea)
+            {
+                collision.GetComponent<Health>().ApplyIce();
+            }
+        }
+    }
 
     private void OnTriggerExit2D(Collider2D collision)
     {

@@ -10,7 +10,7 @@ tpsheetFileNames:
 - Assets/Artes/IminigosSeparados/Torfarios/Attack.tpsheet
 - Assets/Artes/IminigosSeparados/Torfarios/Idle1.tpsheet
 - Assets/Artes/Mera/Attack/Attack.tpsheet
-- Assets/Artes/Mera/Idle1/Idle1.tpsheet
+- Assets/Artes/Mera/Idle1/Idle.tpsheet
 - Assets/Artes/Mera/Idle2/Idle2.tpsheet
 - Assets/Artes/Mera/Idle3/Idle3.tpsheet
 - Assets/Artes/Mera/Ofegante/Ofegante.tpsheet
