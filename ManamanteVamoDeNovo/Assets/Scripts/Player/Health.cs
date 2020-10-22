@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Pathfinding;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -19,11 +20,17 @@ public class Health : MonoBehaviour
     float poisonTimer;
     float poisonTimerRunOff;
     int poisonDamageOverTime = 2;
+    bool isFrozen;
+    float iceTimer;
+    float iceTimerRunOff;
+    int iceDamageOverTime = 1;
+    float speed; 
     // Start is called before the first frame update
     void Start()
     {
         health = maxHealth;
         spr = GetComponent<SpriteRenderer>();
+        speed = this.gameObject.GetComponent<AIPath>().maxSpeed;
     }
 
     private void Update()
@@ -39,6 +46,14 @@ public class Health : MonoBehaviour
         else
         {
             poisonParticle.SetActive(false);
+            spr.color = new Color(255, 255, 255, 255);
+        }
+
+        if (isFrozen)
+        {
+            IceState();
+        } else
+        {
             spr.color = new Color(255, 255, 255, 255);
         }
 
@@ -117,6 +132,31 @@ public class Health : MonoBehaviour
             isPoisoned = false;
             poisonStack = 0;
         }
+    }
+
+    public void RemoveIce()
+    {
+        isFrozen = false;
+        this.gameObject.GetComponent<AIPath>().maxSpeed = speed;
+    }
+
+    public void ApplyIce()
+    {
+        isFrozen = true;
+        this.gameObject.GetComponent<AIPath>().maxSpeed = speed / 2;
+        
+    }
+
+    public void IceState()
+    {
+        spr.color = new Color(0.4f,0.99f,0.97f);
+        iceTimer += Time.deltaTime;
+        iceTimerRunOff += Time.deltaTime;
+        if (iceTimer >= 1f)
+        {
+            iceTimer = 0;
+            health -= iceDamageOverTime;
+        }       
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

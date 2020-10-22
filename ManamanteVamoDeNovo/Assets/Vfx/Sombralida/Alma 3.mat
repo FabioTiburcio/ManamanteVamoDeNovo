@@ -10,7 +10,7 @@ Material:
   m_Name: Alma 3
   m_Shader: {fileID: -6465566751694194690, guid: 7c7dd3bf67a4ed2418de4f160830ed87,
     type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0

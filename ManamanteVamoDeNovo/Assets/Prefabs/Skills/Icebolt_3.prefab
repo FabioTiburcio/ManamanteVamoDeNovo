@@ -149,6 +149,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isProjectile: 1
+  skillDamage: 0
+  poisonSkill: 0
+  iceSkill: 1
+  iceSkillArea: 0
   hitEffect: {fileID: 0}
 --- !u!50 &718948868923153536
 Rigidbody2D:

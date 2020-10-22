@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 3103819487978071850, guid: a181e65e135bb744ea1ac3290684e2cb,
     type: 3}
   m_Color: {r: 0.12931287, g: 0.9811321, b: 0.032395888, a: 1}
@@ -100,6 +100,8 @@ MonoBehaviour:
   isProjectile: 1
   skillDamage: 3
   poisonSkill: 1
+  iceSkill: 0
+  iceSkillArea: 0
   hitEffect: {fileID: 0}
 --- !u!50 &1936333303619882997
 Rigidbody2D:

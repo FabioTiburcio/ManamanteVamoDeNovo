@@ -7,7 +7,10 @@ public class Skill : MonoBehaviour
     public bool isProjectile;
     public int skillDamage;
     public bool poisonSkill;
+    public bool iceSkill;
+    public bool iceSkillArea;
     public GameObject hitEffect;
+    
 
     private void Start()
     {
@@ -15,7 +18,8 @@ public class Skill : MonoBehaviour
     private void Update()
     {
         Destroy(gameObject, 3f);
-
+        
+       
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -28,13 +32,37 @@ public class Skill : MonoBehaviour
         if (this.tag == "Attack" && collision.tag == "Enemy")
         {
             collision.GetComponent<Health>().health -= skillDamage;
-            Destroy(gameObject);
+            if(isProjectile) Destroy(gameObject);
             //Instantiate(hitEffect);
             if (poisonSkill)
             {
                 collision.GetComponent<Health>().ApplyPoison();
             }
+
+            if (iceSkill)
+            {
+                
+            }
+
+            if (iceSkillArea)
+            {
+                collision.GetComponent<Health>().ApplyIce();
+            }
             
         }
     }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (this.tag == "Attack" && collision.tag == "Enemy")
+        {
+            
+            if (iceSkillArea)
+            {
+                collision.GetComponent<Health>().RemoveIce();
+
+            }
+        }
+    }
+
 }

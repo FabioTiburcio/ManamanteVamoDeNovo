@@ -85,7 +85,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 1
+  m_SpriteSortPoint: 0
 --- !u!95 &4797881418288497563
 Animator:
   serializedVersion: 3
@@ -118,6 +118,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isProjectile: 1
+  skillDamage: 0
+  poisonSkill: 0
   hitEffect: {fileID: 0}
 --- !u!50 &2792028634806647990
 Rigidbody2D:
