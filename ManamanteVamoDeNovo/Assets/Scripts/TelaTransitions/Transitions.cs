@@ -16,11 +16,15 @@ public class Transitions : MonoBehaviour
     public GameObject FlorestaSombralida;
     public GameObject casaMera;
     public GameObject fazenda;
+    public GameObject florestaGelo;
+    public GameObject cidadeGelo;
 
     public Transform cidadeInstantPoint;
     public Transform sombralidaInstantPoint;
     public Transform casaMeraInstantPoint;
     public Transform fazendaInstantPoint;
+    public Transform florestaGInstantPoint;
+    public Transform cidadeGInstantPoint;
 
     public ColliderTransition sombralidaCTransition;
     public ColliderTransition cidadeSTransition;
@@ -28,6 +32,10 @@ public class Transitions : MonoBehaviour
     public ColliderTransition cidadeFTransition;
     public ColliderTransition casaCTransition;
     public ColliderTransition fazendaCTransition;
+    public ColliderTransition cidadeGTransition;
+    public ColliderTransition florestagCTransition;
+    public ColliderTransition florestagCGTransition;
+    public ColliderTransition cidadeGeloFGTransition;
 
     public float transitionCooldown = 5;
 
@@ -128,6 +136,54 @@ public class Transitions : MonoBehaviour
             player.transform.position = cidadeInstantPoint.position;
             robo.transform.position = cidadeInstantPoint.position;
             cidadeFTransition.playerCollided = false;
+            transitionCooldown = 0;
+
+        }
+        else if (cidadeGTransition.playerCollided)
+        {
+            StartCoroutine(LightsOut());
+            fakeLoading.Fade(1f);
+            florestaGelo.SetActive(true);
+            cidadePrincipal.SetActive(false);
+            player.transform.position = florestaGInstantPoint.position;
+            robo.transform.position = florestaGInstantPoint.position;
+            cidadeGTransition.playerCollided = false;
+            transitionCooldown = 0;
+
+        }
+        else if (florestagCGTransition.playerCollided)
+        {
+            StartCoroutine(LightsOut());
+            fakeLoading.Fade(1f);
+            florestaGelo.SetActive(false);
+            cidadeGelo.SetActive(true);
+            player.transform.position = cidadeGInstantPoint.position;
+            robo.transform.position = cidadeGInstantPoint.position;
+            cidadeGTransition.playerCollided = false;
+            transitionCooldown = 0;
+
+        }
+        else if (cidadeGeloFGTransition.playerCollided)
+        {
+            StartCoroutine(LightsOut());
+            fakeLoading.Fade(1f);
+            florestaGelo.SetActive(true);
+            cidadeGelo.SetActive(false);
+            player.transform.position = florestaGInstantPoint.position;
+            robo.transform.position = florestaGInstantPoint.position;
+            cidadeGeloFGTransition.playerCollided = false;
+            transitionCooldown = 0;
+
+        }
+        else if (florestagCTransition.playerCollided)
+        {
+            StartCoroutine(LightsOut());
+            fakeLoading.Fade(1f);
+            florestaGelo.SetActive(false);
+            cidadePrincipal.SetActive(true);
+            player.transform.position = cidadeInstantPoint.position;
+            robo.transform.position = cidadeInstantPoint.position;
+            florestagCTransition.playerCollided = false;
             transitionCooldown = 0;
 
         }
