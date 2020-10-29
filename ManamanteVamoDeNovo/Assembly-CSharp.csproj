@@ -102,6 +102,7 @@
     <Compile Include="Assets\Scripts\SearchScript.cs" />
     <Compile Include="Assets\Scripts\TelaTransitions\ColliderTransition.cs" />
     <Compile Include="Assets\Scripts\TelaTransitions\Transitions.cs" />
+    <Compile Include="Assets\Scripts\TransparencySortGraphicsHelper.cs" />
     <Compile Include="Assets\TorfariosBossController.cs" />
     <Compile Include="Assets\_\Base\BaseScripts\CharacterAimHandler.cs" />
     <Compile Include="Assets\_\Base\BaseScripts\CharacterPositionMovementHandler.cs" />
