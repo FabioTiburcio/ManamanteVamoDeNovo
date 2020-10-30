@@ -31,7 +31,6 @@ public class SkillController : MonoBehaviour
     public GameObject poisonArea;
 
     public float bulletForce = 20f;
-
     private void Start()
     {
         activeSkill = 1;
@@ -41,7 +40,7 @@ public class SkillController : MonoBehaviour
     void Update()
     {
         attackCooldown += Time.deltaTime;
-
+        firePoint.transform.up = player.lookDir;
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             activeSkill = 1;
@@ -118,22 +117,22 @@ public class SkillController : MonoBehaviour
         {
             GameObject bullet = Instantiate(firePrefab, firePoint.position, firePoint.rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-            rb.AddForce(player.lookDir * bulletForce, ForceMode2D.Impulse);
+            rb.AddForce(firePoint.transform.up * bulletForce, ForceMode2D.Impulse);
         } else if (activeSkill == 2)
         {
             GameObject bullet = Instantiate(icePrefab, firePoint.position, firePoint.rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-            rb.AddForce(player.lookDir * bulletForce, ForceMode2D.Impulse);
+            rb.AddForce(firePoint.transform.up * bulletForce, ForceMode2D.Impulse);
         } else if (activeSkill == 3)
         {
             GameObject bullet = Instantiate(windPrefab, firePoint.position, firePoint.rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-            rb.AddForce(player.lookDir * bulletForce, ForceMode2D.Impulse);
+            rb.AddForce(firePoint.transform.up * bulletForce, ForceMode2D.Impulse);
         } else if (activeSkill == 4)
         {
             GameObject bullet = Instantiate(posionPrefab, firePoint.position, firePoint.rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-            rb.AddForce(player.lookDir * bulletForce, ForceMode2D.Impulse);
+            rb.AddForce(firePoint.transform.up * bulletForce, ForceMode2D.Impulse);
         }
     }
 }

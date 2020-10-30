@@ -14,6 +14,7 @@ public class Health : MonoBehaviour
     public bool respawnPlayer;
     public Material normalMaterial;
     public Material dissolveMaterial;
+    public Material poisonMaterial;
     public GameObject poisonParticle;
     public int poisonStack;
     bool isPoisoned;
