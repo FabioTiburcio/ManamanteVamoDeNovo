@@ -24,8 +24,15 @@ public class PlayerMovement : MonoBehaviour
 
     public bool upgradedRobo = true;
 
+    //Footsteps
+    public float footStepRatePlay;
+    AudioSource playerAudioSource;
+    public AudioClip[] footSteps;
+    public float timer;
+
     private void Start()
     {
+        playerAudioSource = gameObject.GetComponent<AudioSource>();
         playerRb = GetComponent<Rigidbody2D>();
         playerAnim = GetComponent<Animator>();
         spr = GetComponent<SpriteRenderer>();
@@ -41,6 +48,7 @@ public class PlayerMovement : MonoBehaviour
         movement.y = Input.GetAxis("Vertical");
         if(movement.x != 0 || movement.y != 0)
         {
+            
             playerAnim.SetBool("Walking", true);
         }
         else
@@ -67,6 +75,15 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         playerRb.MovePosition(playerRb.position + movement * movementSpeed * Time.deltaTime);
+        if(Input.GetKey (KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
+        {
+            if (Time.time > timer)
+            {
+                timer = Time.time + 1 / footStepRatePlay;
+                FootStepRandomize();
+            }
+        }
+            
         lookDir = mousePos - playerRb.position;
         if(lookDir.x > 0)
         {
@@ -103,5 +120,11 @@ public class PlayerMovement : MonoBehaviour
         {
             computerRange = false;
         }
+    }
+
+    void FootStepRandomize()
+    {
+        AudioClip soundToPlay = footSteps[Random.Range(0, footSteps.Length)];
+        playerAudioSource.PlayOneShot(soundToPlay);
     }
 }

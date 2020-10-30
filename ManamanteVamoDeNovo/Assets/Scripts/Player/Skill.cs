@@ -10,10 +10,14 @@ public class Skill : MonoBehaviour
     public bool iceSkill;
     public bool iceSkillArea;
     public GameObject hitEffect;
-    
+    public GameObject hitSoundObject;
+    public GameObject spawnSoundObject;
+    public SpriteRenderer skillSprite;
+
 
     private void Start()
     {
+        
     }
     private void Update()
     {
@@ -32,7 +36,13 @@ public class Skill : MonoBehaviour
         if (this.tag == "Attack" && collision.tag == "Enemy")
         {
             collision.GetComponent<Health>().health -= skillDamage;
-            if(isProjectile) Destroy(gameObject);
+            if (isProjectile)
+            {
+                skillSprite.enabled = false;
+                spawnSoundObject.SetActive(false);
+                Destroy(gameObject, 1f);
+            }
+            hitSoundObject.SetActive(true);
             //Instantiate(hitEffect);
             if (poisonSkill)
             {
