@@ -278,7 +278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isProjectile: 1
-  skillDamage: 0
+  skillDamage: 10
   poisonSkill: 0
   iceSkill: 1
   iceSkillArea: 0

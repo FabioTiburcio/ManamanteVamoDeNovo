@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    public int maxHealth = 100;
+    public int maxHealth;
     public int health;
     public static int healAmount;
     public bool damageCooldown;
@@ -31,7 +31,8 @@ public class Health : MonoBehaviour
     {
         health = maxHealth;
         spr = GetComponent<SpriteRenderer>();
-        if(this.tag == "Enemy")
+        activeQuest = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerQuest>();
+        if(this.tag == "Enemy" && this.name != "Torfarios")
         {
             speed = GetComponent<AIPath>().maxSpeed;
         }
@@ -77,9 +78,9 @@ public class Health : MonoBehaviour
             spr.material = dissolveMaterial;
             StartCoroutine(DissolveEffect());
         }
-        else if(health > 100)
+        else if(health > maxHealth)
         {
-            health = 100;
+            health = maxHealth;
         }
         if (healAmount != 0)
         {

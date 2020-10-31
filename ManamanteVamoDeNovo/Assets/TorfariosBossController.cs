@@ -21,6 +21,8 @@ public class TorfariosBossController : MonoBehaviour
 
     private Animator enemyAnim;
     private float attackTimer;
+    float idleTime = 0;
+    float summonCooldown = 0;
 
     public GameObject enemyToSummon;
     public GameObject basicEnemyToSummon;
@@ -37,31 +39,34 @@ public class TorfariosBossController : MonoBehaviour
         enemyAnim = GetComponent<Animator>();
         currentFightState = FightState.BeginOfFight;
         ChangeFightStates();
+        bossHealth.health = 500;
     }
 
     // Update is called once per frame
     void Update()
     {
         TorfariosStates();
+        firePoint.transform.up = player.transform.position - this.transform.position;
         battleTime += Time.deltaTime;
+        summonCooldown += Time.deltaTime;
         switch (currentFightState)
         {
             case FightState.BeginOfFight:
-                if (battleTime > 120f || bossHealth.health < 475)
+                if (battleTime > 120 || bossHealth.health < 375)
                 {
                     currentFightState = FightState.SecondMomentum;
                     ChangeFightStates();
                 }
                 break;
             case FightState.SecondMomentum:
-                if (battleTime > 500f || bossHealth.health < 250)
+                if (battleTime > 500 || bossHealth.health < 250)
                 {
                     currentFightState = FightState.ThirdMomentum;
                     ChangeFightStates();
                 }
                 break;
             case FightState.ThirdMomentum:
-                if (battleTime > 800f || bossHealth.health < 125)
+                if (battleTime > 800 || bossHealth.health < 125)
                 {
                     currentFightState = FightState.HardestMomentum;
                     ChangeFightStates();
@@ -118,7 +123,14 @@ public class TorfariosBossController : MonoBehaviour
         int randomState = Random.Range(stateChangerRandomMin, stateChangerRandomMax);
         if (randomState <= 30)
         {
-            currentTorfariosState = TorfariosState.Idle;
+            if(currentTorfariosState == TorfariosState.Idle)
+            {
+                BossStateChanger();
+            }
+            else
+            {
+                currentTorfariosState = TorfariosState.Idle;
+            }
         }
         else if(randomState >30 && randomState <= 50)
         {
@@ -139,6 +151,12 @@ public class TorfariosBossController : MonoBehaviour
         switch (currentTorfariosState)
         {
             case TorfariosState.Idle:
+                idleTime += Time.deltaTime;
+                if (idleTime >= 2.5)
+                {
+                    idleTime = 0;
+                    BossStateChanger();
+                }
                 break;
             case TorfariosState.Attacking:
                 if (attackTimer <= attackCooldown)
@@ -148,13 +166,24 @@ public class TorfariosBossController : MonoBehaviour
                 }
                 enemyAnim.Play("Attack");
                 attackTimer = 0;
-                enemySkill = Instantiate(torfariosAttack, firePoint.position, firePoint.rotation);
+                enemySkill = Instantiate(torfariosAttack, firePoint.position, torfariosAttack.transform.rotation);
                 Rigidbody2D rb = enemySkill.GetComponent<Rigidbody2D>();
-                rb.AddForce(player.transform.position - this.transform.position, ForceMode2D.Impulse);
+                rb.AddForce(firePoint.transform.up * projectileVelocity, ForceMode2D.Impulse);
+                BossStateChanger();
                 break;
             case TorfariosState.AreaAttack:
+                BossStateChanger();
                 break;
             case TorfariosState.Sumonning:
+                if (summonCooldown > 50)
+                {
+                    Instantiate(enemyToSummon, enemysSpawnPoints[0].position, enemysSpawnPoints[0].rotation);
+                    Instantiate(enemyToSummon, enemysSpawnPoints[1].position, enemysSpawnPoints[1].rotation);
+                    Instantiate(enemyToSummon, enemysSpawnPoints[2].position, enemysSpawnPoints[2].rotation);
+                    Instantiate(enemyToSummon, enemysSpawnPoints[3].position, enemysSpawnPoints[3].rotation);
+                    summonCooldown = 0;
+                }
+                BossStateChanger();
                 break;
         }
     }

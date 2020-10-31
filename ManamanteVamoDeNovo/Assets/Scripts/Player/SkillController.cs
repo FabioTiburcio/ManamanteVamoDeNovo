@@ -8,6 +8,7 @@ public class SkillController : MonoBehaviour
     public Transform firePoint;
     public int activeSkill;
     public float attackCooldown;
+    public bool isShotting;
 
     public bool canIce;
     public bool canPoison;
@@ -65,6 +66,9 @@ public class SkillController : MonoBehaviour
                 Debug.Log("n vo matar n");
             } else
             {
+                player.freezePlayer = true;
+                isShotting = true;
+                StartCoroutine(timeAttacking());
                 Shoot();
                 attackCooldown = 0;
             }
@@ -79,6 +83,9 @@ public class SkillController : MonoBehaviour
             }
             else
             {
+                player.freezePlayer = true;
+                isShotting = true;
+                StartCoroutine(timeAttacking());
                 Cast();
                 attackCooldown = 0;
             }
@@ -134,5 +141,12 @@ public class SkillController : MonoBehaviour
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
             rb.AddForce(firePoint.transform.up * bulletForce, ForceMode2D.Impulse);
         }
+    }
+
+    IEnumerator timeAttacking()
+    {
+        yield return new WaitForSeconds(0.5f);
+        player.freezePlayer = false;
+        isShotting = false;
     }
 }

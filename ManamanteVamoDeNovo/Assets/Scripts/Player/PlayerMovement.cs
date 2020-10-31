@@ -5,7 +5,8 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float movementSpeed = 5f;
-    
+
+    public SkillController skillController;
     private Rigidbody2D playerRb;
     private SpriteRenderer spr;
     private Animator playerAnim;
@@ -42,10 +43,18 @@ public class PlayerMovement : MonoBehaviour
     {
         if (freezePlayer)
         {
-            return;
+            movement.x = 0;
+            movement.y = 0;
+            if (skillController.isShotting)
+            {
+                playerAnim.Play("Attack");
+            }
         }
-        movement.x = Input.GetAxis("Horizontal");
-        movement.y = Input.GetAxis("Vertical");
+        else
+        {
+            movement.x = Input.GetAxis("Horizontal");
+            movement.y = Input.GetAxis("Vertical");
+        }
         if(movement.x != 0 || movement.y != 0)
         {
             
@@ -88,10 +97,12 @@ public class PlayerMovement : MonoBehaviour
         if(lookDir.x > 0)
         {
             spr.flipX = false;
+            //skillController.transform.position = new Vector3(skillController.transform.position.x, skillController.transform.position.y, skillController.transform.position.z);
         }
         else
         {
             spr.flipX = true;
+            //skillController.transform.position = new Vector3(-skillController.transform.position.x, skillController.transform.position.y, skillController.transform.position.z);
         }
         skillSpawnRotation.transform.up = lookDir;
         //transform.up = lookDir.normalized;
