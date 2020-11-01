@@ -9,6 +9,10 @@ TagManager:
   - Enemy
   - EnemyAttack
   - Computer
+  - Ground
+  - Grass
+  - Snow
+  - Wood
   layers:
   - Default
   - TransparentFX

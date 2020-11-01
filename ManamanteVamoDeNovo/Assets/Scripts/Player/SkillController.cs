@@ -14,6 +14,8 @@ public class SkillController : MonoBehaviour
     public bool canPoison;
     public bool canElectric;
 
+    public bool isShieldOn;
+
     public GameObject computadorScreen;
     public GameObject diaryScreen;
     public GameObject inventoryScreen;
@@ -25,8 +27,8 @@ public class SkillController : MonoBehaviour
     public GameObject icePrefab;
     public GameObject iceArea;
 
-    public GameObject windPrefab;
-    public GameObject windArea;
+    public GameObject thunderPrefab;
+    public GameObject thunderArea;
 
     public GameObject posionPrefab;
     public GameObject poisonArea;
@@ -98,7 +100,7 @@ public class SkillController : MonoBehaviour
     {
         if (activeSkill == 1)
         {
-            GameObject area = Instantiate(fireArea, player.mousePos, Quaternion.identity);
+            fireArea.SetActive(true);
             
         }
         else if (activeSkill == 2)
@@ -108,7 +110,7 @@ public class SkillController : MonoBehaviour
         }
         else if (activeSkill == 3)
         {
-            GameObject area = Instantiate(windArea, player.mousePos, Quaternion.identity);
+            GameObject area = Instantiate(thunderArea, player.mousePos, Quaternion.identity);
             
         }
         else if (activeSkill == 4)
@@ -132,7 +134,7 @@ public class SkillController : MonoBehaviour
             rb.AddForce(firePoint.transform.up * bulletForce, ForceMode2D.Impulse);
         } else if (activeSkill == 3)
         {
-            GameObject bullet = Instantiate(windPrefab, firePoint.position, firePoint.rotation);
+            GameObject bullet = Instantiate(thunderPrefab, firePoint.position, firePoint.rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
             rb.AddForce(firePoint.transform.up * bulletForce, ForceMode2D.Impulse);
         } else if (activeSkill == 4)

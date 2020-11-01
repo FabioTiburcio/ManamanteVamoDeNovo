@@ -29,6 +29,10 @@ public class PlayerMovement : MonoBehaviour
     public float footStepRatePlay;
     AudioSource playerAudioSource;
     public AudioClip[] footSteps;
+    public AudioClip[] footStepsGrass;
+    public AudioClip[] footStepsWood;
+    public AudioClip[] footStepsSnow;
+    public AudioClip[] footStepsGround;
     public float timer;
 
     private void Start()
@@ -37,6 +41,7 @@ public class PlayerMovement : MonoBehaviour
         playerRb = GetComponent<Rigidbody2D>();
         playerAnim = GetComponent<Animator>();
         spr = GetComponent<SpriteRenderer>();
+       
     }
 
     private void Update()
@@ -116,13 +121,37 @@ public class PlayerMovement : MonoBehaviour
         Gizmos.DrawWireSphere(mousePos, 0.05f);
     }
 
+   
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Computer" || collision.name == "Robo" && upgradedRobo)
         {
             computerRange = true;
         }
-        
+
+        if (collision.gameObject.tag == "Grass")
+        {
+            footSteps = footStepsGrass;
+            footStepRatePlay = 1.8f;
+        }
+
+        if (collision.gameObject.tag == "Snow")
+        {
+            footSteps = footStepsSnow;
+            footStepRatePlay = 2;
+        }
+
+        if (collision.gameObject.tag == "Wood")
+        {
+            footSteps = footStepsWood;
+            footStepRatePlay = 1.8f;
+        }
+
+        if (collision.gameObject.tag == "Ground")
+        {
+            footSteps = footStepsGround;
+            footStepRatePlay = 1.8f;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)

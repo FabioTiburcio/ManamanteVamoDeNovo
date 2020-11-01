@@ -278,10 +278,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isProjectile: 1
-  skillDamage: 10
+  skillDamage: 15
   poisonSkill: 0
   iceSkill: 1
   iceSkillArea: 0
+  thunderSkill: 0
+  thunderSkillArea: 0
   hitEffect: {fileID: 0}
   hitSoundObject: {fileID: 7781445047265217962}
   spawnSoundObject: {fileID: 1225698651163148321}
