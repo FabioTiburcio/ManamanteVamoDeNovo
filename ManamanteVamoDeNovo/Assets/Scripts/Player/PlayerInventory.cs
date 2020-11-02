@@ -58,7 +58,7 @@ public class PlayerInventory : MonoBehaviour
         {
             mailboxUI.SetActive(true);
         }
-        else if (Input.GetKeyDown(KeyCode.Tab) && collidingWithRobot)
+        else if (Input.GetKeyDown(KeyCode.E) && collidingWithRobot)
         {
             if (robotUI.activeSelf)
             {
