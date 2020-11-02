@@ -5,6 +5,7 @@ using UnityEngine;
 public class SkillController : MonoBehaviour
 {
     public PlayerMovement player;
+    public Material glowMaterial;
     public Transform firePoint;
     public int activeSkill;
     public float attackCooldown;
@@ -46,18 +47,22 @@ public class SkillController : MonoBehaviour
         firePoint.transform.up = player.lookDir;
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
+            glowMaterial.SetColor("_Color", Color.red);
             activeSkill = 1;
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2) && canIce)
         {
+            glowMaterial.SetColor("_Color", Color.cyan);
             activeSkill = 2;
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3) && canElectric)
         {
+            glowMaterial.SetColor("_Color", Color.yellow);
             activeSkill = 3;
         }
         else if (Input.GetKeyDown(KeyCode.Alpha4) && canPoison)
         {
+            glowMaterial.SetColor("_Color", Color.green);
             activeSkill = 4;
         }
 
@@ -150,5 +155,10 @@ public class SkillController : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         player.freezePlayer = false;
         isShotting = false;
+    }
+
+    private void OnApplicationQuit()
+    {
+        glowMaterial.SetColor("_Color", Color.white);
     }
 }
