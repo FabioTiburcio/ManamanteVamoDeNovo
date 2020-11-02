@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    public int maxHealth;
+    public int maxHealth = 100;
     public int health;
     public static int healAmount;
     public bool damageCooldown;
@@ -14,7 +14,6 @@ public class Health : MonoBehaviour
     public bool respawnPlayer;
     public Material normalMaterial;
     public Material dissolveMaterial;
-    public Material poisonMaterial;
     public GameObject poisonParticle;
     public int poisonStack;
     bool isPoisoned;
@@ -25,17 +24,13 @@ public class Health : MonoBehaviour
     float iceTimer;
     float iceTimerRunOff;
     int iceDamageOverTime = 1;
-    float speed;
-    bool isStuned;
-    float stunTimer;
-
+    float speed; 
     // Start is called before the first frame update
     void Start()
     {
         health = maxHealth;
         spr = GetComponent<SpriteRenderer>();
-        activeQuest = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerQuest>();
-        if(this.tag == "Enemy" && this.name != "Torfarios")
+        if(this.tag == "Enemy")
         {
             speed = GetComponent<AIPath>().maxSpeed;
         }
@@ -56,10 +51,6 @@ public class Health : MonoBehaviour
         {
             PoisonState();
             isFrozen = false;
-        } else if (isStuned)
-        {
-            StunState();
-            isStuned = false;
         }
         else if (!isPoisoned)
         {
@@ -67,9 +58,6 @@ public class Health : MonoBehaviour
             spr.color = new Color(255, 255, 255, 255);
         }
         else if(!isFrozen)
-        {
-            spr.color = new Color(255, 255, 255, 255);
-        } else if (!isStuned)
         {
             spr.color = new Color(255, 255, 255, 255);
         }
@@ -88,9 +76,9 @@ public class Health : MonoBehaviour
             spr.material = dissolveMaterial;
             StartCoroutine(DissolveEffect());
         }
-        else if(health > maxHealth)
+        else if(health > 100)
         {
-            health = maxHealth;
+            health = 100;
         }
         if (healAmount != 0)
         {
@@ -165,17 +153,6 @@ public class Health : MonoBehaviour
         
     }
 
-    public void RemoveEletric()
-    {
-        this.gameObject.GetComponent<AIPath>().maxSpeed = speed;
-    }
-
-    public void ApplyEletric()
-    {
-        isStuned = true;
-        this.gameObject.GetComponent<AIPath>().maxSpeed = 0;
-    }
-
     public void IceState()
     {
         spr.color = new Color(0.4f,0.99f,0.97f);
@@ -189,17 +166,6 @@ public class Health : MonoBehaviour
         if (iceTimerRunOff >= 3f)
         {
             RemoveIce();
-        }
-    }
-
-    public void StunState()
-    {
-        spr.color = new Color(0.92f, 0.93f, 0.23f);
-        stunTimer += Time.deltaTime;
-        
-        if (stunTimer >= 2f)
-        {
-            RemoveEletric();
         }
     }
 
