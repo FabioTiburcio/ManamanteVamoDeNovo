@@ -8,10 +8,13 @@ public class SkillController : MonoBehaviour
     public Transform firePoint;
     public int activeSkill;
     public float attackCooldown;
+    public bool isShotting;
 
     public bool canIce;
     public bool canPoison;
     public bool canElectric;
+
+    public bool isShieldOn;
 
     public GameObject computadorScreen;
     public GameObject diaryScreen;
@@ -24,14 +27,13 @@ public class SkillController : MonoBehaviour
     public GameObject icePrefab;
     public GameObject iceArea;
 
-    public GameObject windPrefab;
-    public GameObject windArea;
+    public GameObject thunderPrefab;
+    public GameObject thunderArea;
 
     public GameObject posionPrefab;
     public GameObject poisonArea;
 
     public float bulletForce = 20f;
-
     private void Start()
     {
         activeSkill = 1;
@@ -41,7 +43,7 @@ public class SkillController : MonoBehaviour
     void Update()
     {
         attackCooldown += Time.deltaTime;
-
+        firePoint.transform.up = player.lookDir;
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             activeSkill = 1;
@@ -66,6 +68,9 @@ public class SkillController : MonoBehaviour
                 Debug.Log("n vo matar n");
             } else
             {
+                player.freezePlayer = true;
+                isShotting = true;
+                StartCoroutine(timeAttacking());
                 Shoot();
                 attackCooldown = 0;
             }
@@ -80,6 +85,9 @@ public class SkillController : MonoBehaviour
             }
             else
             {
+                player.freezePlayer = true;
+                isShotting = true;
+                StartCoroutine(timeAttacking());
                 Cast();
                 attackCooldown = 0;
             }
@@ -92,7 +100,7 @@ public class SkillController : MonoBehaviour
     {
         if (activeSkill == 1)
         {
-            GameObject area = Instantiate(fireArea, player.mousePos, Quaternion.identity);
+            fireArea.SetActive(true);
             
         }
         else if (activeSkill == 2)
@@ -102,7 +110,7 @@ public class SkillController : MonoBehaviour
         }
         else if (activeSkill == 3)
         {
-            GameObject area = Instantiate(windArea, player.mousePos, Quaternion.identity);
+            GameObject area = Instantiate(thunderArea, player.mousePos, Quaternion.identity);
             
         }
         else if (activeSkill == 4)
@@ -118,22 +126,29 @@ public class SkillController : MonoBehaviour
         {
             GameObject bullet = Instantiate(firePrefab, firePoint.position, firePoint.rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-            rb.AddForce(player.lookDir * bulletForce, ForceMode2D.Impulse);
+            rb.AddForce(firePoint.transform.up * bulletForce, ForceMode2D.Impulse);
         } else if (activeSkill == 2)
         {
             GameObject bullet = Instantiate(icePrefab, firePoint.position, firePoint.rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-            rb.AddForce(player.lookDir * bulletForce, ForceMode2D.Impulse);
+            rb.AddForce(firePoint.transform.up * bulletForce, ForceMode2D.Impulse);
         } else if (activeSkill == 3)
         {
-            GameObject bullet = Instantiate(windPrefab, firePoint.position, firePoint.rotation);
+            GameObject bullet = Instantiate(thunderPrefab, firePoint.position, firePoint.rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-            rb.AddForce(player.lookDir * bulletForce, ForceMode2D.Impulse);
+            rb.AddForce(firePoint.transform.up * bulletForce, ForceMode2D.Impulse);
         } else if (activeSkill == 4)
         {
             GameObject bullet = Instantiate(posionPrefab, firePoint.position, firePoint.rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-            rb.AddForce(player.lookDir * bulletForce, ForceMode2D.Impulse);
+            rb.AddForce(firePoint.transform.up * bulletForce, ForceMode2D.Impulse);
         }
+    }
+
+    IEnumerator timeAttacking()
+    {
+        yield return new WaitForSeconds(0.5f);
+        player.freezePlayer = false;
+        isShotting = false;
     }
 }
