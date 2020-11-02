@@ -9,15 +9,33 @@ public class Skill : MonoBehaviour
     public bool poisonSkill;
     public bool iceSkill;
     public bool iceSkillArea;
+    public bool fireShield;
+    public bool thunderSkill;
+    public bool thunderSkillArea;
     public GameObject hitEffect;
-    
+    public GameObject hitSoundObject;
+    public GameObject spawnSoundObject;
+    public SpriteRenderer skillSprite;
+
 
     private void Start()
     {
+        
     }
     private void Update()
     {
-        Destroy(gameObject, 3f);
+        if (thunderSkill)
+        {
+            Destroy(gameObject, 1.5f);
+        } if (fireShield)
+        {
+            StartCoroutine(RemoveAfterSeconds(3, gameObject));
+        }
+        else
+        {
+            Destroy(gameObject, 3f);
+        }
+        
         
        
     }
@@ -29,14 +47,31 @@ public class Skill : MonoBehaviour
             Destroy(gameObject);
             //Instantiate(hitEffect);
         }
+
+        if (this.tag == "Shield" && collision.tag == "EnemyAttack")
+        {
+            Destroy(gameObject);
+        }
+
         if (this.tag == "Attack" && collision.tag == "Enemy")
         {
             collision.GetComponent<Health>().health -= skillDamage;
-            if(isProjectile) Destroy(gameObject);
+            if (isProjectile)
+            {
+                skillSprite.gameObject.SetActive(false);
+                spawnSoundObject.SetActive(false);
+                Destroy(gameObject, 1f);
+            }
+            hitSoundObject.SetActive(true);
             //Instantiate(hitEffect);
             if (poisonSkill)
             {
                 collision.GetComponent<Health>().ApplyPoison();
+            }
+
+            if (poisonSkill)
+            {
+                collision.GetComponent<Health>().ApplyEletric();
             }
 
             if (iceSkill)
@@ -73,6 +108,12 @@ public class Skill : MonoBehaviour
 
             }
         }
+    }
+
+    IEnumerator RemoveAfterSeconds(int seconds, GameObject obj)
+    {
+        yield return new WaitForSeconds(seconds);
+        obj.SetActive(false);
     }
 
 }
