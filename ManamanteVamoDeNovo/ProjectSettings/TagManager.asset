@@ -9,6 +9,10 @@ TagManager:
   - Enemy
   - EnemyAttack
   - Computer
+  - Ground
+  - Grass
+  - Snow
+  - Wood
   layers:
   - Default
   - TransparentFX
@@ -45,4 +49,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Frente
+    uniqueID: 1432327231
+    locked: 0
+  - name: Skill
+    uniqueID: 2411724757
     locked: 0

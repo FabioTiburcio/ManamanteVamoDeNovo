@@ -1,0 +1,1103 @@
+fileFormatVersion: 2
+guid: 5d83e4f7654fa3746a4313097494a59f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1965631008137774298
+    second: PropsChao_0
+  - first:
+      213: -4243779263203290539
+    second: PropsChao_1
+  - first:
+      213: 7575330708249713718
+    second: PropsChao_2
+  - first:
+      213: -5502126239285853239
+    second: PropsChao_3
+  - first:
+      213: 2387267003256684706
+    second: PropsChao_4
+  - first:
+      213: -6728174588617988643
+    second: PropsChao_5
+  - first:
+      213: 8070590402725292243
+    second: PropsChao_6
+  - first:
+      213: 1114646930997590755
+    second: PropsChao_7
+  - first:
+      213: -4841715662390130587
+    second: PropsChao_8
+  - first:
+      213: 1985960568772408447
+    second: PropsChao_9
+  - first:
+      213: -1473492261788249372
+    second: PropsChao_10
+  - first:
+      213: 1523787238532445950
+    second: PropsChao_11
+  - first:
+      213: -9095336930502654113
+    second: PropsChao_12
+  - first:
+      213: -7095103849444140537
+    second: PropsChao_13
+  - first:
+      213: -3392868789181154091
+    second: PropsChao_14
+  - first:
+      213: -7726501834797260504
+    second: PropsChao_15
+  - first:
+      213: -3516513965449039546
+    second: PropsChao_16
+  - first:
+      213: 2851336551683349035
+    second: PropsChao_17
+  - first:
+      213: -5409573023349863131
+    second: PropsChao_18
+  - first:
+      213: -944768160813762779
+    second: PropsChao_19
+  - first:
+      213: 6937590763244973319
+    second: PropsChao_20
+  - first:
+      213: -1723525730173146331
+    second: PropsChao_21
+  - first:
+      213: 3207891526299069607
+    second: PropsChao_22
+  - first:
+      213: 275182097457883224
+    second: PropsChao_23
+  - first:
+      213: 479645934780898544
+    second: PropsChao_24
+  - first:
+      213: 5546538540392305634
+    second: PropsChao_25
+  - first:
+      213: -296701843521012651
+    second: PropsChao_26
+  - first:
+      213: -2538502742261388158
+    second: PropsChao_27
+  - first:
+      213: 9018176655157009869
+    second: PropsChao_28
+  - first:
+      213: -4061056217666246368
+    second: PropsChao_29
+  - first:
+      213: -5051968646729679933
+    second: PropsChao_30
+  - first:
+      213: 2479761841777656431
+    second: PropsChao_31
+  - first:
+      213: -597161521078178029
+    second: PropsChao_32
+  - first:
+      213: 4928775543712665590
+    second: PropsChao_33
+  - first:
+      213: 5806452452887504618
+    second: PropsChao_34
+  - first:
+      213: 626479128991839365
+    second: PropsChao_35
+  - first:
+      213: -3279779536480163387
+    second: PropsChao_36
+  - first:
+      213: -7767562873146238636
+    second: PropsChao_0
+  - first:
+      213: -1533823105807217861
+    second: PropsChao_1
+  - first:
+      213: -1137127169232777292
+    second: PropsChao_2
+  - first:
+      213: -4189579290242829176
+    second: PropsChao_3
+  - first:
+      213: -6114877547154091557
+    second: PropsChao_4
+  - first:
+      213: -963613826536577093
+    second: PropsChao_5
+  - first:
+      213: -660809108254431512
+    second: PropsChao_6
+  - first:
+      213: 2409676318331001334
+    second: PropsChao_7
+  - first:
+      213: -4142059759423467164
+    second: PropsChao_8
+  - first:
+      213: -8062970222666365113
+    second: PropsChao_9
+  - first:
+      213: 2391175179399751517
+    second: PropsChao_10
+  - first:
+      213: -6054203887359152321
+    second: PropsChao_11
+  - first:
+      213: -1080739509230295281
+    second: PropsChao_12
+  - first:
+      213: 3001957457782493119
+    second: PropsChao_13
+  - first:
+      213: 4079339294064319147
+    second: PropsChao_14
+  - first:
+      213: 6740485614306076816
+    second: PropsChao_15
+  - first:
+      213: 5907772066811963264
+    second: PropsChao_16
+  - first:
+      213: 2638987051438692019
+    second: PropsChao_17
+  - first:
+      213: -6008292621066573363
+    second: PropsChao_18
+  - first:
+      213: -2688051596666616565
+    second: PropsChao_19
+  - first:
+      213: -7887666029280123744
+    second: PropsChao_20
+  - first:
+      213: 8100250936861472620
+    second: PropsChao_21
+  - first:
+      213: -8233188884541124592
+    second: PropsChao_22
+  - first:
+      213: 2077292500368230296
+    second: PropsChao_23
+  - first:
+      213: 5872089694507009259
+    second: PropsChao_24
+  - first:
+      213: -3725765099483145830
+    second: PropsChao_25
+  - first:
+      213: -8880948087779190604
+    second: PropsChao_26
+  - first:
+      213: -4382965664605086633
+    second: PropsChao_27
+  - first:
+      213: -2853527585559760979
+    second: PropsChao_28
+  - first:
+      213: 2289806531169080309
+    second: PropsChao_29
+  - first:
+      213: 6445628143406256027
+    second: PropsChao_30
+  - first:
+      213: 8964795375670724321
+    second: PropsChao_31
+  - first:
+      213: -6617154008607854116
+    second: PropsChao_32
+  - first:
+      213: 1350128166925059946
+    second: PropsChao_33
+  - first:
+      213: -2333410892278884209
+    second: PropsChao_34
+  - first:
+      213: 1575336109901919104
+    second: PropsChao_35
+  - first:
+      213: -2927105791483992884
+    second: PropsChao_36
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PropsChao_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 93
+        width: 26
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4591b9f98b2143490800000000000000
+      internalID: -7767562873146238636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 92
+        width: 34
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b03160304c6bae0800000000000000
+      internalID: -1533823105807217861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_2
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 92
+        width: 35
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf4f654ddc1830f0800000000000000
+      internalID: -1137127169232777292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 106
+        width: 31
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8843eb635df9bd5c0800000000000000
+      internalID: -4189579290242829176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_4
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 107
+        width: 23
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd15ed4d447932ba0800000000000000
+      internalID: -6114877547154091557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_5
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 85
+        width: 32
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7e1a8845e80a2f0800000000000000
+      internalID: -963613826536577093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_6
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 85
+        width: 27
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6e62efd9554d6f0800000000000000
+      internalID: -660809108254431512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 93
+        width: 29
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f95ac138d3e07120800000000000000
+      internalID: 2409676318331001334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_8
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 85
+        width: 29
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461df1928927486c0800000000000000
+      internalID: -4142059759423467164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_9
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 86
+        width: 24
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7474b6b4d439a1090800000000000000
+      internalID: -8062970222666365113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_10
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 87
+        width: 22
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d576adb18292f2120800000000000000
+      internalID: 2391175179399751517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_11
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 87
+        width: 16
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f2b2814a52bfba0800000000000000
+      internalID: -6054203887359152321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_12
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 85
+        width: 26
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07299174217001f0800000000000000
+      internalID: -1080739509230295281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_13
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 85
+        width: 37
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfc5fd176819a920800000000000000
+      internalID: 3001957457782493119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_14
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 88
+        width: 32
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa1ff48979bc9830800000000000000
+      internalID: 4079339294064319147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_15
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 86
+        width: 41
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098285e14f30b8d50800000000000000
+      internalID: 6740485614306076816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_16
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 77
+        width: 29
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0876d40e46f9cf150800000000000000
+      internalID: 5907772066811963264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_17
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 80
+        width: 26
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6dbd7cdb09f9420800000000000000
+      internalID: 2638987051438692019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 56
+        width: 21
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9e9b6c1b14e9ca0800000000000000
+      internalID: -6008292621066573363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_19
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 56
+        width: 19
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05c3c2905f12bad0800000000000000
+      internalID: -2688051596666616565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_20
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 55
+        width: 23
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4a7d97981698290800000000000000
+      internalID: -7887666029280123744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_21
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 55
+        width: 13
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6737236f4fd96070800000000000000
+      internalID: 8100250936861472620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_22
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 43
+        width: 24
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0105b30b456ddbd80800000000000000
+      internalID: -8233188884541124592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_23
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 18
+        width: 78
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897080be58604dc10800000000000000
+      internalID: 2077292500368230296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_24
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 13
+        width: 76
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4825a277add7150800000000000000
+      internalID: 5872089694507009259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_25
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 44
+        width: 22
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9952c8c16c6b4cc0800000000000000
+      internalID: -3725765099483145830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_26
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 46
+        width: 16
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b89c3774c880c480800000000000000
+      internalID: -8880948087779190604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_27
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 29
+        width: 14
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cda7233f39c23c0800000000000000
+      internalID: -4382965664605086633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_28
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 9
+        width: 71
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafaee197cb3668d0800000000000000
+      internalID: -2853527585559760979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_29
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 7
+        width: 90
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3d3be78e607cf10800000000000000
+      internalID: 2289806531169080309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_30
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 21
+        width: 48
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f8df165a8737950800000000000000
+      internalID: 6445628143406256027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_31
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 12
+        width: 22
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e60bea85e9596c70800000000000000
+      internalID: 8964795375670724321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_32
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1
+        width: 40
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd170e40d752b24a0800000000000000
+      internalID: -6617154008607854116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_33
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 7
+        width: 28
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6741de1a6e9cb210800000000000000
+      internalID: 1350128166925059946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_34
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 5
+        width: 24
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8890ba082f0e9fd0800000000000000
+      internalID: -2333410892278884209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_35
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 6
+        width: 21
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083bc8078d7bcd510800000000000000
+      internalID: 1575336109901919104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PropsChao_36
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 18
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4ab968ac4d067d0800000000000000
+      internalID: -2927105791483992884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
