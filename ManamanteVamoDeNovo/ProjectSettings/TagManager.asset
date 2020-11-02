@@ -53,3 +53,6 @@ TagManager:
   - name: Frente
     uniqueID: 1432327231
     locked: 0
+  - name: Skill
+    uniqueID: 2411724757
+    locked: 0

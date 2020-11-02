@@ -9744,7 +9744,7 @@ MonoBehaviour:
   m_Color: {r: 0.9811321, g: 0.4766794, b: 0.30081883, a: 1}
   m_Intensity: 0.2
   m_LightVolumeOpacity: 0
-  m_ApplyToSortingLayers: c3e8a4ea196d85764d103c0da9d0776800000000df1541744f1c97a2
+  m_ApplyToSortingLayers: d5ffbf8f
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 1
   m_LightOrder: 0
@@ -9840,6 +9840,9 @@ MonoBehaviour:
   poisonSkill: 0
   iceSkill: 0
   iceSkillArea: 0
+  fireShield: 0
+  thunderSkill: 0
+  thunderSkillArea: 0
   hitEffect: {fileID: 8334512815379389545, guid: f8aa6bc9716d04f4c8766c463fc6810c,
     type: 3}
   hitSoundObject: {fileID: 4157644661709299745}
