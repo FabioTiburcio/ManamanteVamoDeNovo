@@ -4,12 +4,24 @@ using UnityEngine;
 
 public class SkillController : MonoBehaviour
 {
+
     public PlayerMovement player;
     public Material glowMaterial;
+    [ColorUsage(false,hdr:true)]
+    public Color fireHairColor;
+    [ColorUsage(false, hdr: true)]
+    public Color iceHairColor;
+    [ColorUsage(false, hdr: true)]
+    public Color thunderHairColor;
+    [ColorUsage(false, hdr: true)]
+    public Color poisonHairColor;
     public Transform firePoint;
     public int activeSkill;
     public float attackCooldown;
     public bool isShotting;
+
+    float colorIntensity = 1f;
+    float timeToAddMana;
 
     public bool canIce;
     public bool canPoison;
@@ -38,6 +50,7 @@ public class SkillController : MonoBehaviour
     private void Start()
     {
         activeSkill = 1;
+        glowMaterial.SetColor("_Color", fireHairColor);
     }
 
     // Update is called once per frame
@@ -45,27 +58,41 @@ public class SkillController : MonoBehaviour
     {
         attackCooldown += Time.deltaTime;
         firePoint.transform.up = player.lookDir;
+        timeToAddMana += Time.deltaTime;
+        if(timeToAddMana >= 3)
+        {
+            if (colorIntensity < 1)
+            {
+                colorIntensity += 0.2f;
+            }
+            glowMaterial.SetFloat("_ColorIntensity", colorIntensity);
+            timeToAddMana = 0;
+        }
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            glowMaterial.SetColor("_Color", Color.red);
+            glowMaterial.SetColor("_Color", fireHairColor);
             activeSkill = 1;
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2) && canIce)
         {
-            glowMaterial.SetColor("_Color", Color.cyan);
+            glowMaterial.SetColor("_Color", iceHairColor);
             activeSkill = 2;
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3) && canElectric)
         {
-            glowMaterial.SetColor("_Color", Color.yellow);
+            glowMaterial.SetColor("_Color", thunderHairColor);
             activeSkill = 3;
         }
         else if (Input.GetKeyDown(KeyCode.Alpha4) && canPoison)
         {
-            glowMaterial.SetColor("_Color", Color.green);
+            glowMaterial.SetColor("_Color", poisonHairColor);
             activeSkill = 4;
         }
-
+        if (colorIntensity <= 0)
+        {
+            colorIntensity = 0;
+            return;
+        }
         if (Input.GetButtonDown("Fire1") && attackCooldown > 1.5f)
         {
             if(inventoryScreen.activeSelf == true || diaryScreen.activeSelf == true || craftScreen.activeSelf == true || computadorScreen.activeSelf == true)
@@ -73,6 +100,8 @@ public class SkillController : MonoBehaviour
                 Debug.Log("n vo matar n");
             } else
             {
+                colorIntensity -= 0.2f;
+                glowMaterial.SetFloat("_ColorIntensity", colorIntensity);
                 player.freezePlayer = true;
                 isShotting = true;
                 StartCoroutine(timeAttacking());
@@ -90,7 +119,8 @@ public class SkillController : MonoBehaviour
             }
             else
             {
-                player.freezePlayer = true;
+                colorIntensity -= 0.4f;
+                glowMaterial.SetFloat("_ColorIntensity", colorIntensity);
                 isShotting = true;
                 StartCoroutine(timeAttacking());
                 Cast();

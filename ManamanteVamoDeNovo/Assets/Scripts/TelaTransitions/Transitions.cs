@@ -11,50 +11,85 @@ public class Transitions : MonoBehaviour
     public FakeLoading fakeLoading;
     public GameObject globalLight;
     public GameObject dayCycle;
+    public GameObject chuva;
     // Start is called before the first frame update
-    public GameObject cidadePrincipal;
-    public GameObject FlorestaSombralida;
+    public string mapaAnterior;
+    public GameObject mapaAtivo;
+    public GameObject mapaDaEsquerda;
+    public GameObject mapaDaDireita;
+    public GameObject mapaDeCima;
+    public GameObject mapaDeBaixo;
     public GameObject casaMera;
-    public GameObject fazenda;
-    public GameObject florestaGelo;
-    public GameObject cidadeGelo;
 
-    public Transform cidadeInstantPoint;
-    public Transform sombralidaInstantPoint;
+    public Transform chegadaEsquerda;
+    public Transform chegadaDireita;
+    public Transform chegadaCima;
+    public Transform chegadaBaixo;
+
     public Transform casaMeraInstantPoint;
-    public Transform fazendaInstantPoint;
-    public Transform florestaGInstantPoint;
-    public Transform cidadeGInstantPoint;
 
-    public ColliderTransition sombralidaCTransition;
-    public ColliderTransition cidadeSTransition;
-    public ColliderTransition cidadeCTransition;
-    public ColliderTransition cidadeFTransition;
-    public ColliderTransition casaCTransition;
-    public ColliderTransition fazendaCTransition;
-    public ColliderTransition cidadeGTransition;
-    public ColliderTransition florestagCTransition;
-    public ColliderTransition florestagCGTransition;
-    public ColliderTransition cidadeGeloFGTransition;
+
 
     public float transitionCooldown = 5;
 
-    void Start()
+    private void OnEnable()
     {
-        
+        StartCoroutine(LightsOut());
+        fakeLoading.Fade(2f);
+        switch (mapaAnterior)
+        {
+            case "SaidaEsquerda":
+                player.transform.position = chegadaDireita.position;
+                robo.position = chegadaDireita.position;
+                break;
+            case "SaidaDireita":
+                player.transform.position = chegadaEsquerda.position;
+                robo.position = chegadaDireita.position;
+                break;
+            case "SaidaCima":
+                player.transform.position = chegadaBaixo.position;
+                robo.position = chegadaBaixo.position;
+                break;
+            case "SaidaBaixo":
+                player.transform.position = chegadaCima.position;
+                robo.position = chegadaCima.position;
+                break;
+        }
     }
-
     // Update is called once per frame
     void Update()
     {
+        if(mapaAtivo.name == "CasaMera")
+        {
+            if (chuva.activeSelf)
+            {
+                chuva.SetActive(false);
+            }
+            if (globalLight.activeSelf)
+            {
+                globalLight.SetActive(false);
+            }
+        }
+        else if(mapaAtivo.name == "FlorestaSombralida")
+        {
+            if (globalLight.activeSelf)
+            {
+                globalLight.SetActive(false);
+            }
+        }
+        else
+        {
+            if (!globalLight.activeSelf)
+            {
+                globalLight.SetActive(true);
+            }
+        }
         transitionCooldown += Time.deltaTime;
         if (playerHealth.respawnPlayer)
         {
             StartCoroutine(LightsOut());
             fakeLoading.Fade(3f);
-            cidadePrincipal.SetActive(false);
-            FlorestaSombralida.SetActive(false);
-            fazenda.SetActive(false);
+            mapaAtivo.SetActive(false);
             casaMera.SetActive(true);
             player.transform.position = casaMeraInstantPoint.position;
             robo.transform.position = casaMeraInstantPoint.position;
@@ -66,133 +101,38 @@ public class Transitions : MonoBehaviour
         {
             return;
         }
-        if (cidadeSTransition.playerCollided)
-        {
-            StartCoroutine(LightsOut());
-            fakeLoading.Fade(1f);
-            cidadePrincipal.SetActive(false);
-            FlorestaSombralida.SetActive(true);
-            player.transform.position = sombralidaInstantPoint.position;
-            robo.transform.position = sombralidaInstantPoint.position;
-            cidadeSTransition.playerCollided = false;
-            transitionCooldown = 0;
-            dayCycle.SetActive(false);
+    }
 
-        }
-        else if(sombralidaCTransition.playerCollided)
+    public void SaidaUsada(string direcao)
+    {
+        switch (direcao)
         {
-            StartCoroutine(LightsOut());
-            fakeLoading.Fade(1f);
-            FlorestaSombralida.SetActive(false);
-            cidadePrincipal.SetActive(true);
-            player.transform.position = cidadeInstantPoint.position;
-            robo.transform.position = cidadeInstantPoint.position;
-            sombralidaCTransition.playerCollided = false;
-            transitionCooldown = 0;
-            dayCycle.SetActive(true);
-        }
-        else if (cidadeCTransition.playerCollided)
-        {
-            StartCoroutine(LightsOut());
-            fakeLoading.Fade(1f);
-            cidadePrincipal.SetActive(false);
-            casaMera.SetActive(true);
-            player.transform.position = casaMeraInstantPoint.position;
-            robo.transform.position = casaMeraInstantPoint.position;
-            cidadeCTransition.playerCollided = false;
-            transitionCooldown = 0;
-
-        }
-        else if (casaCTransition.playerCollided)
-        {
-            StartCoroutine(LightsOut());
-            fakeLoading.Fade(1f);
-            casaMera.SetActive(false);
-            cidadePrincipal.SetActive(true);
-            player.transform.position = cidadeInstantPoint.position;
-            robo.transform.position = cidadeInstantPoint.position;
-            casaCTransition.playerCollided = false;
-            transitionCooldown = 0;
-
-        }
-        else if (cidadeFTransition.playerCollided)
-        {
-            StartCoroutine(LightsOut());
-            fakeLoading.Fade(1f);
-            cidadePrincipal.SetActive(false);
-            fazenda.SetActive(true);
-            player.transform.position = fazendaInstantPoint.position;
-            robo.transform.position = fazendaInstantPoint.position;
-            cidadeFTransition.playerCollided = false;
-            transitionCooldown = 0;
-
-        }
-        else if (fazendaCTransition.playerCollided)
-        {
-            StartCoroutine(LightsOut());
-            fakeLoading.Fade(1f);
-            fazenda.SetActive(false);
-            cidadePrincipal.SetActive(true);
-            player.transform.position = cidadeInstantPoint.position;
-            robo.transform.position = cidadeInstantPoint.position;
-            cidadeFTransition.playerCollided = false;
-            transitionCooldown = 0;
-
-        }
-        else if (cidadeGTransition.playerCollided)
-        {
-            StartCoroutine(LightsOut());
-            fakeLoading.Fade(1f);
-            florestaGelo.SetActive(true);
-            cidadePrincipal.SetActive(false);
-            player.transform.position = florestaGInstantPoint.position;
-            robo.transform.position = florestaGInstantPoint.position;
-            cidadeGTransition.playerCollided = false;
-            transitionCooldown = 0;
-
-        }
-        else if (florestagCGTransition.playerCollided)
-        {
-            StartCoroutine(LightsOut());
-            fakeLoading.Fade(1f);
-            florestaGelo.SetActive(false);
-            cidadeGelo.SetActive(true);
-            player.transform.position = cidadeGInstantPoint.position;
-            robo.transform.position = cidadeGInstantPoint.position;
-            cidadeGTransition.playerCollided = false;
-            transitionCooldown = 0;
-
-        }
-        else if (cidadeGeloFGTransition.playerCollided)
-        {
-            StartCoroutine(LightsOut());
-            fakeLoading.Fade(1f);
-            florestaGelo.SetActive(true);
-            cidadeGelo.SetActive(false);
-            player.transform.position = florestaGInstantPoint.position;
-            robo.transform.position = florestaGInstantPoint.position;
-            cidadeGeloFGTransition.playerCollided = false;
-            transitionCooldown = 0;
-
-        }
-        else if (florestagCTransition.playerCollided)
-        {
-            StartCoroutine(LightsOut());
-            fakeLoading.Fade(1f);
-            florestaGelo.SetActive(false);
-            cidadePrincipal.SetActive(true);
-            player.transform.position = cidadeInstantPoint.position;
-            robo.transform.position = cidadeInstantPoint.position;
-            florestagCTransition.playerCollided = false;
-            transitionCooldown = 0;
-
+            case "SaidaEsquerda":
+                mapaAtivo.SetActive(false);
+                mapaDaEsquerda.GetComponentInChildren<Transitions>().mapaAnterior = direcao;
+                mapaDaEsquerda.SetActive(true);
+                break;
+            case "SaidaDireita":
+                mapaAtivo.SetActive(false);
+                mapaDaDireita.GetComponentInChildren<Transitions>().mapaAnterior = direcao;
+                mapaDaDireita.SetActive(true); 
+                break;
+            case "SaidaCima":
+                mapaAtivo.SetActive(false);
+                mapaDeCima.GetComponentInChildren<Transitions>().mapaAnterior = direcao;
+                mapaDeCima.SetActive(true);
+                break;
+            case "SaidaBaixo":
+                mapaAtivo.SetActive(false);
+                mapaDeBaixo.GetComponentInChildren<Transitions>().mapaAnterior = direcao;
+                mapaDeBaixo.SetActive(true);
+                break;
         }
     }
     IEnumerator LightsOut()
     {
         globalLight.SetActive(false);
         yield return new WaitForSeconds(1f);
-        globalLight.SetActive(true);
         playerHealth.gameObject.SetActive(true);
     }
 }

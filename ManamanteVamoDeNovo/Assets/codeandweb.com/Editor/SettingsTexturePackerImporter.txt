@@ -14,6 +14,7 @@ tpsheetFileNames:
 - Assets/Artes/Mera/Idle2/Idle2.tpsheet
 - Assets/Artes/Mera/Idle3/Idle3.tpsheet
 - Assets/Artes/Mera/MeraMainTexture.tpsheet
+- Assets/Artes/Mera/MeraMainTextureCerta.tpsheet
 - Assets/Artes/Mera/Ofegante/Ofegante.tpsheet
 - Assets/Artes/Mera/Walk/Walk.tpsheet
 - Assets/Artes/Objetos do Cenário e Outros/Objetos do Cenário e Outros/Coletaveis.png.tpsheet
@@ -33,12 +34,14 @@ textureFileNames:
 - Assets/Artes/Mera/Idle2/Idle2.png
 - Assets/Artes/Mera/Idle3/Idle3.png
 - Assets/Artes/Mera/MeraMainTexture.png
+- Assets/Artes/Mera/MeraMainTextureCerta.png
 - Assets/Artes/Mera/Ofegante/Ofegante.png
 - Assets/Artes/Mera/Walk/Walk.png
 - Assets/Artes/Objetos do Cenário e Outros/Objetos do Cenário e Outros/Coletaveis.png.png
 - Assets/Artes/Objetos do Cenário e Outros/Objetos do Cenário e Outros/Coletaveis.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
+- 
 - 
 - 
 - 
