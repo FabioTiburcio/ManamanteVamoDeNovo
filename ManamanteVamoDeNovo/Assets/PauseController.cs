@@ -41,4 +41,14 @@ public class PauseController : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+
+    public void SetScaleOne()
+    {
+        Time.timeScale = 1;
+    }
+
+    public void SetScaleZero()
+    {
+        Time.timeScale = 0;
+    }
 }

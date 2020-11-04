@@ -59,24 +59,25 @@ public class Skill : MonoBehaviour
             if (isProjectile)
             {
                 skillSprite.gameObject.SetActive(false);
+                hitSoundObject.SetActive(true);
                 spawnSoundObject.SetActive(false);
-                Destroy(gameObject, 1f);
+                Destroy(gameObject, 2f);
             }
-            hitSoundObject.SetActive(true);
+           
             //Instantiate(hitEffect);
             if (poisonSkill)
             {
                 collision.GetComponent<Health>().ApplyPoison();
             }
 
-            if (poisonSkill)
+            if (thunderSkill)
             {
                 collision.GetComponent<Health>().ApplyEletric();
             }
 
             if (iceSkill)
             {
-                
+                collision.GetComponent<Health>().ApplyIce();
             }
 
             if (iceSkillArea)

@@ -44,11 +44,13 @@ public class PlayerInventory : MonoBehaviour
         {
             if (craftingTableUI.activeSelf)
             {
+                Time.timeScale = 1;
                 craftingTableUI.SetActive(false);
                 robotUI.SetActive(false);
             }
             else
             {
+                Time.timeScale = 0;
                 craftingTableUI.SetActive(true);
                 robotUI.SetActive(true);
             }

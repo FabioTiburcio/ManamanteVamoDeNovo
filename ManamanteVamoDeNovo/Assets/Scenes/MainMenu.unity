@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -3939,9 +3939,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Jogar
-
-'
+  m_Text: Jogar
 --- !u!222 &809482750
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4475,9 +4473,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Sair do jogo
-
-'
+  m_Text: Sair do jogo
 --- !u!222 &990481706
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6840,7 +6836,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 438ffbc2fc10beb4bb8f65218ad870fa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 33eb51994e93c6e41beb1f6d2d1b734d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7347,10 +7343,10 @@ RectTransform:
   m_Father: {fileID: 2035301102}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 15}
+  m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1785689878
 MonoBehaviour:
@@ -7383,7 +7379,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Op\xE7\xF5es\n"
+  m_Text: "Op\xE7\xF5es"
 --- !u!222 &1785689879
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8187,7 +8183,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Tutorial b\xE1sico\n"
+  m_Text: "Dicas b\xE1sicas\n"
 --- !u!222 &1941076662
 CanvasRenderer:
   m_ObjectHideFlags: 0

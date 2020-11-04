@@ -41,11 +41,17 @@ public class PlayerMovement : MonoBehaviour
         playerRb = GetComponent<Rigidbody2D>();
         playerAnim = GetComponent<Animator>();
         spr = GetComponent<SpriteRenderer>();
-       
+        movement.x = 0;
+        movement.y = 0;
+
     }
 
     private void Update()
     {
+
+        Debug.Log(movement.x);
+        Debug.Log(movement.y);
+
         if (freezePlayer)
         {
             movement.x = 0;
@@ -64,10 +70,12 @@ public class PlayerMovement : MonoBehaviour
         {
             
             playerAnim.SetBool("Walking", true);
+            
         }
         else
         {
             playerAnim.SetBool("Walking", false);
+            
         }
         mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
@@ -77,11 +85,12 @@ public class PlayerMovement : MonoBehaviour
             {
                 
                 computerScreen.SetActive(false);
+                Time.timeScale = 1;
             }
             else
-            {
-                
+            {               
                 computerScreen.SetActive(true);
+                Time.timeScale = 0;
             }
         }
     }
@@ -89,15 +98,23 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         playerRb.MovePosition(playerRb.position + movement * movementSpeed * Time.deltaTime);
-        if(Input.GetKey (KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
+        if(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
         {
+            freezePlayer = false;
             if (Time.time > timer)
             {
                 timer = Time.time + 1 / footStepRatePlay;
                 FootStepRandomize();
             }
         }
-            
+
+        if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.D))
+        {
+            freezePlayer = true;
+        }
+
+        
+
         lookDir = mousePos - playerRb.position;
         if(lookDir.x > 0)
         {
