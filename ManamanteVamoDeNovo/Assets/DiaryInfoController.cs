@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class DiaryInfoController : MonoBehaviour
 {
     public PrefabInfos[] infosInPagesPrefabs;
-    public Sprite testImage;
     
     // Start is called before the first frame update
     void Start()

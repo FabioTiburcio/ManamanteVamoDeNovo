@@ -11,12 +11,14 @@ public class EnemyController : MonoBehaviour {
     public enum enemyType { RANGED, MEELE}
     private Rigidbody2D enemyRb;
 
-    
+
+    public GameObject dropItemPrefab;
+    public ItemObject dropMorcego;
+    public ItemObject dropAlma;
     public GameObject player;
     public SkillController PlayerSkillController;
     public Transform firePoint;
     public GameObject enemyFirePrefab;
-    public GameObject TorfariosAttack;
     public GameObject enemyIcePrefab;
     private FieldOfView fieldOfView;
 
@@ -45,6 +47,7 @@ public class EnemyController : MonoBehaviour {
     private bool SeeingPlayer;
 
     float t;
+
     private void Start()
     {
         if (tipoInimigo == enemyType.MEELE)
@@ -68,10 +71,14 @@ public class EnemyController : MonoBehaviour {
         currentState = enemyState.IDLE;
         t = 0;
     }
+    private void OnDisable()
+    {
+        DropItem();
+    }
     private void Update()
     {
         if (enemyHP.health <= 0)
-        {
+        {            
             currentState = enemyState.DYING;
         }
         else
@@ -134,19 +141,6 @@ public class EnemyController : MonoBehaviour {
                     } 
                     Rigidbody2D rb = enemySkill.GetComponent<Rigidbody2D>();
                     rb.AddForce(spawnDirection.transform.up, ForceMode2D.Impulse);
-                }
-                else if(enemyName == "Torfarios")
-                {
-                    if (attackTimer <= attackCooldown/enemyAttackSpeed)
-                    {
-                        attackTimer += Time.deltaTime;
-                        return;
-                    }
-                    enemyAnim.Play("Attack");
-                    attackTimer = 0;
-                    enemySkill = Instantiate(TorfariosAttack, firePoint.position, firePoint.rotation);
-                    Rigidbody2D rb = enemySkill.GetComponent<Rigidbody2D>();
-                    rb.AddForce(player.transform.position - this.transform.position, ForceMode2D.Impulse);
                 }
                 else if(enemyName == "Morcego")
                 {
@@ -224,6 +218,23 @@ public class EnemyController : MonoBehaviour {
         timeChasing = 0;
         aIPath.canMove = true;
         currentState = enemyState.CHASING;
+    }
+
+    private void DropItem()
+    {
+        int chanceOfDrop = Random.Range(0, 100);
+        if(chanceOfDrop <= 50)
+        {
+            if (enemyName == "Alma")
+            {
+                dropItemPrefab.GetComponent<GroundItem>().itemObject = dropAlma;
+            }
+            else if (enemyName == "Morcego")
+            {
+                dropItemPrefab.GetComponent<GroundItem>().itemObject = dropMorcego;
+            }
+            Instantiate(dropItemPrefab, transform.position, dropItemPrefab.transform.rotation);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

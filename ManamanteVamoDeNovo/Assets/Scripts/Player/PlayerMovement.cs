@@ -48,10 +48,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-
-        Debug.Log(movement.x);
-        Debug.Log(movement.y);
-
         if (freezePlayer)
         {
             movement.x = 0;
@@ -60,6 +56,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 playerAnim.Play("Attack");
             }
+            return;
         }
         else
         {
@@ -98,9 +95,9 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         playerRb.MovePosition(playerRb.position + movement * movementSpeed * Time.deltaTime);
-        if(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
+        if((Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D)) && !freezePlayer)
         {
-            freezePlayer = false;
+            //freezePlayer = false;
             if (Time.time > timer)
             {
                 timer = Time.time + 1 / footStepRatePlay;
@@ -110,7 +107,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.D))
         {
-            freezePlayer = true;
+            //freezePlayer = true;
         }
 
         

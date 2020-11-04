@@ -14,4 +14,9 @@ public class GroundItem : MonoBehaviour, ISerializationCallbackReceiver
     {
         GetComponentInChildren<SpriteRenderer>().sprite = itemObject.uiDisplay;
     }
+
+    public void OnEnable()
+    {
+        GetComponentInChildren<SpriteRenderer>().sprite = itemObject.uiDisplay;
+    }
 }

@@ -49,6 +49,7 @@ MonoBehaviour:
   respawnPlayer: 0
   normalMaterial: {fileID: 0}
   dissolveMaterial: {fileID: 0}
+  poisonMaterial: {fileID: 0}
   poisonParticle: {fileID: 4171677001033429880}
   poisonStack: 0
 --- !u!1001 &1997729304420879303
@@ -256,6 +257,12 @@ PrefabInstance:
       propertyPath: enemyName
       value: Alma
       objectReference: {fileID: 0}
+    - target: {fileID: 2867090325316567251, guid: c14ec52f13d346e4b9bd9dff7db90a86,
+        type: 3}
+      propertyPath: dropItem
+      value: 
+      objectReference: {fileID: 7073920090306609089, guid: 8a71d84382f85414a83203b4e8c63cf9,
+        type: 3}
     - target: {fileID: 2867090325316567254, guid: c14ec52f13d346e4b9bd9dff7db90a86,
         type: 3}
       propertyPath: m_Name

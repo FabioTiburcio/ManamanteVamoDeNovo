@@ -124,6 +124,30 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7704232344187558338, guid: ebdcc09349d7e074dbe6367417bd86b8,
         type: 3}
+    - target: {fileID: 1271656617739524945, guid: b6cc5ce9368af2245ab2e2aff2eec425,
+        type: 3}
+      propertyPath: dropItem
+      value: 
+      objectReference: {fileID: 7073920090306609089, guid: 8a71d84382f85414a83203b4e8c63cf9,
+        type: 3}
+    - target: {fileID: 1271656617739524945, guid: b6cc5ce9368af2245ab2e2aff2eec425,
+        type: 3}
+      propertyPath: dropMorcego
+      value: 
+      objectReference: {fileID: 11400000, guid: 99ac390686240a8409b71af3d076be5a,
+        type: 2}
+    - target: {fileID: 1271656617739524945, guid: b6cc5ce9368af2245ab2e2aff2eec425,
+        type: 3}
+      propertyPath: dropAlma
+      value: 
+      objectReference: {fileID: 11400000, guid: e03441e72b14e5b4e9f22940d2ecd9cf,
+        type: 2}
+    - target: {fileID: 1271656617739524945, guid: b6cc5ce9368af2245ab2e2aff2eec425,
+        type: 3}
+      propertyPath: dropItemPrefab
+      value: 
+      objectReference: {fileID: 7073920090306609089, guid: 8a71d84382f85414a83203b4e8c63cf9,
+        type: 3}
     - target: {fileID: 1271656617739524947, guid: b6cc5ce9368af2245ab2e2aff2eec425,
         type: 3}
       propertyPath: target
