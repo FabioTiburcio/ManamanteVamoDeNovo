@@ -118,9 +118,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isProjectile: 1
-  skillDamage: 0
+  skillDamage: 10
   poisonSkill: 0
+  iceSkill: 0
+  iceSkillArea: 0
+  fireShield: 0
+  thunderSkill: 0
+  thunderSkillArea: 0
   hitEffect: {fileID: 0}
+  hitSoundObject: {fileID: 0}
+  spawnSoundObject: {fileID: 0}
+  skillSprite: {fileID: 0}
 --- !u!50 &2792028634806647990
 Rigidbody2D:
   serializedVersion: 4

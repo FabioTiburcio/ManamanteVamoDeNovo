@@ -17,6 +17,14 @@ public class Health : MonoBehaviour
     public Material poisonMaterial;
     public GameObject poisonParticle;
     public int poisonStack;
+    public bool isPlayer;
+    public AudioSource saidaDeSom;
+    public AudioClip coracaoBatendo1;
+    public AudioClip coracaoBatendo2;
+    public AudioClip coracaoBatendo3;
+    public AudioClip damageTaken;
+    public AudioClip deadSound;
+    float soundCooldown;
     bool isPoisoned;
     float poisonTimer;
     float poisonTimerRunOff;
@@ -43,6 +51,7 @@ public class Health : MonoBehaviour
 
     private void Update()
     {
+
         if (damageCooldown)
         {
             StartCoroutine(DamageCooldown(1f));
@@ -80,13 +89,15 @@ public class Health : MonoBehaviour
             if (this.name != "Player")
             {
                 activeQuest.QuestAtt(this.gameObject.GetComponent<EnemyController>().enemyName, true);
+                spr.material = dissolveMaterial;
+                StartCoroutine(DissolveEffect());
             }
             else
             {
                 respawnPlayer = true;
+                health = maxHealth;
             }
-            spr.material = dissolveMaterial;
-            StartCoroutine(DissolveEffect());
+            
         }
         else if(health > maxHealth)
         {
@@ -97,6 +108,32 @@ public class Health : MonoBehaviour
             health += healAmount;
             healAmount = 0;
         }
+
+        if (isPlayer)
+        {
+            soundCooldown += Time.deltaTime;
+            if (soundCooldown > 3)
+            {
+                if (health <= 75 && health > 50)
+                {
+                    saidaDeSom.clip = coracaoBatendo1;
+                    saidaDeSom.Play();
+                }
+                else if (health <= 50 && health > 25)
+                {
+                    saidaDeSom.clip = coracaoBatendo2;
+                    saidaDeSom.Play();
+                }
+                else if (health <= 25)
+                {
+                    saidaDeSom.clip = coracaoBatendo3;
+                    saidaDeSom.Play();
+                }
+                soundCooldown = 0;
+            }
+        }
+        
+        
     }
     public static void HealAmount(int amount)
     {
@@ -208,10 +245,28 @@ public class Health : MonoBehaviour
         if (this.tag == "Player" && collision.tag == "EnemyAttack" && !damageCooldown)
         {
             DamageEffect();
+            if(health <= 0)
+            {
+                saidaDeSom.PlayOneShot(deadSound);
+            }
+            else if(health > 0)
+            {
+                saidaDeSom.PlayOneShot(damageTaken);
+            }
+            
             damageCooldown = true;
         }
         else if(this.tag == "Enemy" && collision.tag == "Attack" && !damageCooldown)
         {
+            
+            //if (health <= 0)
+            //{
+            //    saidaDeSom.PlayOneShot(deadSound);
+            //}
+            //else if (health > 0)
+            //{
+            //    saidaDeSom.PlayOneShot(damageTaken);
+            //}
             DamageEffect();
             damageCooldown = true;
         }
