@@ -69,6 +69,7 @@ public abstract class UserInterface : MonoBehaviour
     {
         if (clickingTime < 0.1f && slotsOnInterface[obj].item.Id >= 0)
         {
+            Debug.Log(Time.timeScale);
             inventory.UseItem(slotsOnInterface[obj].item);
         }
         clickingTime = 0;

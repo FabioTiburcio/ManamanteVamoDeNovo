@@ -7,6 +7,8 @@ public class PlayerInventory : MonoBehaviour
     public Inventory inventory;
     public Inventory playerTrash;
 
+    public PlayerMovement playerMovement;
+
     public bool collidingWithItem;
     public bool collidingWithCraftingTable;
     public GameObject craftingTableUI;
@@ -45,14 +47,14 @@ public class PlayerInventory : MonoBehaviour
         {
             if (craftingTableUI.activeSelf)
             {
-                Time.timeScale = 1;
+                playerMovement.freezePlayer = false;
                 craftingTableUI.SetActive(false);
                 robotUI.SetActive(false);
                 merinhaRobo.SetActive(false);
             }
             else
             {
-                Time.timeScale = 0;
+                playerMovement.freezePlayer = true;
                 craftingTableUI.SetActive(true);
                 robotUI.SetActive(true);
                 merinhaRobo.SetActive(true);
