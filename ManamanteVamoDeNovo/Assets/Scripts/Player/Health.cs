@@ -10,6 +10,8 @@ public class Health : MonoBehaviour
     public static int healAmount;
     public bool damageCooldown;
     public PlayerQuest activeQuest;
+    public SpriteRenderer spriteMerinha;
+    public Color corLaranja;
     private SpriteRenderer spr;
     public bool respawnPlayer;
     public Material normalMaterial;
@@ -36,6 +38,7 @@ public class Health : MonoBehaviour
     float speed;
     bool isStuned;
     float stunTimer;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -94,6 +97,7 @@ public class Health : MonoBehaviour
             }
             else
             {
+                saidaDeSom.PlayOneShot(deadSound);
                 respawnPlayer = true;
                 health = maxHealth;
             }
@@ -108,24 +112,31 @@ public class Health : MonoBehaviour
             health += healAmount;
             healAmount = 0;
         }
-
         if (isPlayer)
         {
+            
             soundCooldown += Time.deltaTime;
             if (soundCooldown > 3)
             {
-                if (health <= 75 && health > 50)
+                if(health > 75)
                 {
+                    spriteMerinha.color = Color.green;
+                }
+                else if (health <= 75 && health > 50)
+                {
+                    spriteMerinha.color = Color.yellow;
                     saidaDeSom.clip = coracaoBatendo1;
                     saidaDeSom.Play();
                 }
                 else if (health <= 50 && health > 25)
                 {
+                    spriteMerinha.color = corLaranja;
                     saidaDeSom.clip = coracaoBatendo2;
                     saidaDeSom.Play();
                 }
                 else if (health <= 25)
                 {
+                    spriteMerinha.color = Color.red;
                     saidaDeSom.clip = coracaoBatendo3;
                     saidaDeSom.Play();
                 }
@@ -155,13 +166,15 @@ public class Health : MonoBehaviour
     }
     public void DamageEffect()
     {
-        spr.color = new Color(spr.color.r,spr.color.g,spr.color.b, 0);
+        spr.enabled = false;
+        //spr.color = new Color(spr.color.r,spr.color.g,spr.color.b, 0);
         StartCoroutine(damageEffectTime());
     }
     IEnumerator damageEffectTime()
     {
         yield return new WaitForSeconds(0.1f);
-        spr.color = new Color(spr.color.r, spr.color.g, spr.color.b, 255);
+        spr.enabled = true;
+        //spr.color = new Color(spr.color.r, spr.color.g, spr.color.b, 1);
     }
 
     public void ApplyPoison()
@@ -245,11 +258,8 @@ public class Health : MonoBehaviour
         if (this.tag == "Player" && collision.tag == "EnemyAttack" && !damageCooldown)
         {
             DamageEffect();
-            if(health <= 0)
-            {
-                saidaDeSom.PlayOneShot(deadSound);
-            }
-            else if(health > 0)
+
+            if(health > 0)
             {
                 saidaDeSom.PlayOneShot(damageTaken);
             }

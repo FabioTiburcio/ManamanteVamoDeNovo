@@ -46,12 +46,21 @@ MonoBehaviour:
   health: 0
   damageCooldown: 0
   activeQuest: {fileID: 0}
+  spriteMerinha: {fileID: 0}
+  corLaranja: {r: 0, g: 0, b: 0, a: 0}
   respawnPlayer: 0
   normalMaterial: {fileID: 0}
   dissolveMaterial: {fileID: 0}
   poisonMaterial: {fileID: 0}
   poisonParticle: {fileID: 4171677001033429880}
   poisonStack: 0
+  isPlayer: 0
+  saidaDeSom: {fileID: 0}
+  coracaoBatendo1: {fileID: 0}
+  coracaoBatendo2: {fileID: 0}
+  coracaoBatendo3: {fileID: 0}
+  damageTaken: {fileID: 0}
+  deadSound: {fileID: 0}
 --- !u!1001 &1997729304420879303
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -262,6 +271,18 @@ PrefabInstance:
       propertyPath: dropItem
       value: 
       objectReference: {fileID: 7073920090306609089, guid: 8a71d84382f85414a83203b4e8c63cf9,
+        type: 3}
+    - target: {fileID: 2867090325316567251, guid: c14ec52f13d346e4b9bd9dff7db90a86,
+        type: 3}
+      propertyPath: enemyEletricPrefab
+      value: 
+      objectReference: {fileID: 1873132841922591593, guid: cc24bef5f5c90f446a2b350913e84bc2,
+        type: 3}
+    - target: {fileID: 2867090325316567251, guid: c14ec52f13d346e4b9bd9dff7db90a86,
+        type: 3}
+      propertyPath: enemyPoisonPrefab
+      value: 
+      objectReference: {fileID: 4034193321657810229, guid: 450aee43d18374243b5991d5d0c515e7,
         type: 3}
     - target: {fileID: 2867090325316567254, guid: c14ec52f13d346e4b9bd9dff7db90a86,
         type: 3}

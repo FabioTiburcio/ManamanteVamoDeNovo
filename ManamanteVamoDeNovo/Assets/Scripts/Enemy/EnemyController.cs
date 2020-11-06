@@ -15,11 +15,14 @@ public class EnemyController : MonoBehaviour {
     public GameObject dropItemPrefab;
     public ItemObject dropMorcego;
     public ItemObject dropAlma;
+    public ItemObject dropGelo;
     public GameObject player;
     public SkillController PlayerSkillController;
     public Transform firePoint;
     public GameObject enemyFirePrefab;
     public GameObject enemyIcePrefab;
+    public GameObject enemyEletricPrefab;
+    public GameObject enemyPoisonPrefab;
     private FieldOfView fieldOfView;
 
     public Transform spawnDirection;
@@ -133,12 +136,26 @@ public class EnemyController : MonoBehaviour {
                             enemySkill = Instantiate(enemyIcePrefab, firePoint.position, firePoint.rotation);
                             break;
                         case 3:
-                            enemySkill = Instantiate(enemyFirePrefab, firePoint.position, firePoint.rotation);
+                            enemySkill = Instantiate(enemyEletricPrefab, firePoint.position, firePoint.rotation);
                             break;
                         case 4:
-                            enemySkill = Instantiate(enemyIcePrefab, firePoint.position, firePoint.rotation);
+                            enemySkill = Instantiate(enemyPoisonPrefab, firePoint.position, firePoint.rotation);
                             break;
                     } 
+                    Rigidbody2D rb = enemySkill.GetComponent<Rigidbody2D>();
+                    rb.AddForce(spawnDirection.transform.up, ForceMode2D.Impulse);
+                }
+                else if (enemyName == "GeloRanged")
+                {
+                    spawnDirection.transform.up = player.transform.position - this.transform.position;
+                    if (attackTimer <= attackCooldown)
+                    {
+                        attackTimer += Time.deltaTime;
+                        return;
+                    }
+                    //enemyAnim.Play("Attack");
+                    attackTimer = 0;
+                    enemySkill = Instantiate(enemyIcePrefab, firePoint.position, firePoint.rotation);
                     Rigidbody2D rb = enemySkill.GetComponent<Rigidbody2D>();
                     rb.AddForce(spawnDirection.transform.up, ForceMode2D.Impulse);
                 }
@@ -232,6 +249,10 @@ public class EnemyController : MonoBehaviour {
             else if (enemyName == "Morcego")
             {
                 dropItemPrefab.GetComponent<GroundItem>().itemObject = dropMorcego;
+            }
+            else if(enemyName == "GeloRanged")
+            {
+                dropItemPrefab.GetComponent<GroundItem>().itemObject = dropGelo;
             }
             Instantiate(dropItemPrefab, transform.position, dropItemPrefab.transform.rotation);
         }

@@ -107,10 +107,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 666.6667
-        height: 500
+        width: 500
+        height: 524
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -126,12 +126,12 @@ TextureImporter:
       name: Choquenelas_1
       rect:
         serializedVersion: 2
-        x: 666
-        y: 0
-        width: 666.6667
-        height: 500
+        x: 0
+        y: 512
+        width: 500
+        height: 776
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -147,12 +147,12 @@ TextureImporter:
       name: Choquenelas_2
       rect:
         serializedVersion: 2
-        x: 1332
-        y: 0
-        width: 666.6667
-        height: 500
+        x: 0
+        y: 1303
+        width: 500
+        height: 697
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

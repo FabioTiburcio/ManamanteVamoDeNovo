@@ -17,7 +17,6 @@ public class DiaryInfoController : MonoBehaviour
     {
         
     }
-
     public void SetInfo(string title , Sprite image, string description, string Pagina, string Tipo)
     {
         switch (Pagina)

@@ -75,7 +75,7 @@ public class TorfariosBossController : MonoBehaviour
             case FightState.HardestMomentum:
                 if (bossHealth.health <= 0)
                 {
-                    //TorfariosMorre
+                    Destroy(gameObject);
                 }
                 break;
         }
@@ -112,7 +112,7 @@ public class TorfariosBossController : MonoBehaviour
                 attackDamage = 20;
                 attackCooldown = 2;
                 enemyToSummon = hardestEnemyToSummon;
-                stateChangerRandomMin = 51;
+                stateChangerRandomMin = 31;
                 stateChangerRandomMax = 100;
                 break;
         }

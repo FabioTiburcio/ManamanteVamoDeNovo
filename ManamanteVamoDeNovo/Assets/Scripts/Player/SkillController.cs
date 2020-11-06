@@ -59,7 +59,7 @@ public class SkillController : MonoBehaviour
         attackCooldown += Time.deltaTime;
         firePoint.transform.up = player.lookDir;
         timeToAddMana += Time.deltaTime;
-        if(timeToAddMana >= 3)
+        if(timeToAddMana >= 9)
         {
             if (colorIntensity < 1)
             {

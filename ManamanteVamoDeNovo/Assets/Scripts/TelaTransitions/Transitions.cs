@@ -87,15 +87,7 @@ public class Transitions : MonoBehaviour
         transitionCooldown += Time.deltaTime;
         if (playerHealth.respawnPlayer)
         {
-            StartCoroutine(LightsOut());
-            fakeLoading.Fade(3f);
-            mapaAtivo.SetActive(false);
-            casaMera.SetActive(true);
-            player.transform.position = casaMeraInstantPoint.position;
-            robo.transform.position = casaMeraInstantPoint.position;
-            transitionCooldown = 0;
-            dayCycle.SetActive(true);
-            playerHealth.respawnPlayer = false;
+            StartCoroutine(timeToSpawnPlayer());
         }
         if(transitionCooldown< 5f)
         {
@@ -129,6 +121,20 @@ public class Transitions : MonoBehaviour
                 break;
         }
     }
+    IEnumerator timeToSpawnPlayer()
+    {
+        yield return new WaitForSeconds(2f);
+        StartCoroutine(LightsOut());
+        fakeLoading.Fade(3f);
+        mapaAtivo.SetActive(false);
+        casaMera.SetActive(true);
+        player.transform.position = casaMeraInstantPoint.position;
+        robo.transform.position = casaMeraInstantPoint.position;
+        transitionCooldown = 0;
+        dayCycle.SetActive(true);
+        playerHealth.respawnPlayer = false;
+    }
+
     IEnumerator LightsOut()
     {
         globalLight.SetActive(false);
