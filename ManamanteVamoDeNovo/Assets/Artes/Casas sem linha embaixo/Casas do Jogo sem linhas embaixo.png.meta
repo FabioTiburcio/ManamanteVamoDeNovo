@@ -1,7 +1,61 @@
 fileFormatVersion: 2
 guid: fa9e8771923a0734aa3d552dbc219036
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3618399228679608697
+    second: Casas do Jogo sem linhas embaixo_0
+  - first:
+      213: 4334202447582848169
+    second: Casas do Jogo sem linhas embaixo_1
+  - first:
+      213: 7705974209199450416
+    second: Casas do Jogo sem linhas embaixo_2
+  - first:
+      213: 6346457639629818813
+    second: Casas do Jogo sem linhas embaixo_3
+  - first:
+      213: -5126105792843383500
+    second: Casas do Jogo sem linhas embaixo_4
+  - first:
+      213: -8887799018921096764
+    second: Casas do Jogo sem linhas embaixo_5
+  - first:
+      213: -6348833374526701823
+    second: Casas do Jogo sem linhas embaixo_6
+  - first:
+      213: -6836688119816634559
+    second: Casas do Jogo sem linhas embaixo_7
+  - first:
+      213: 3147396175194811667
+    second: Casas do Jogo sem linhas embaixo_8
+  - first:
+      213: 8343907713576810369
+    second: Casas do Jogo sem linhas embaixo_9
+  - first:
+      213: -473069738476680462
+    second: Casas do Jogo sem linhas embaixo_10
+  - first:
+      213: -7846545824633863442
+    second: Casas do Jogo sem linhas embaixo_11
+  - first:
+      213: -8571090961355410119
+    second: Casas do Jogo sem linhas embaixo_12
+  - first:
+      213: -6087700215245655876
+    second: Casas do Jogo sem linhas embaixo_13
+  - first:
+      213: 4042354412214953973
+    second: Casas do Jogo sem linhas embaixo_14
+  - first:
+      213: 3642239570457951324
+    second: Casas do Jogo sem linhas embaixo_15
+  - first:
+      213: 7715717439143191834
+    second: Casas do Jogo sem linhas embaixo_16
+  - first:
+      213: -6340835555283668194
+    second: Casas do Jogo sem linhas embaixo_17
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +94,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +125,399 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Casas do Jogo sem linhas embaixo_0
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1509
+        width: 263
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7862107921dd8cdc0800000000000000
+      internalID: -3618399228679608697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas do Jogo sem linhas embaixo_1
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1509
+        width: 347
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4edc8992e262c30800000000000000
+      internalID: 4334202447582848169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas do Jogo sem linhas embaixo_2
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1509
+        width: 347
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039a7ab17be11fa60800000000000000
+      internalID: 7705974209199450416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas do Jogo sem linhas embaixo_3
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 1509
+        width: 347
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb03382995231850800000000000000
+      internalID: 6346457639629818813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas do Jogo sem linhas embaixo_4
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 1509
+        width: 270
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d7f70d0f96cd8b0800000000000000
+      internalID: -5126105792843383500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas do Jogo sem linhas embaixo_5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1012
+        width: 343
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c98422c1e138a480800000000000000
+      internalID: -8887799018921096764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas do Jogo sem linhas embaixo_6
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1013
+        width: 365
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ff035fea964e7a0800000000000000
+      internalID: -6348833374526701823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas do Jogo sem linhas embaixo_7
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 1012
+        width: 366
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f323a90643f11a0800000000000000
+      internalID: -6836688119816634559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas do Jogo sem linhas embaixo_8
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1012
+        width: 461
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31de8ed452ccdab20800000000000000
+      internalID: 3147396175194811667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas do Jogo sem linhas embaixo_9
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 1012
+        width: 322
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187336a8bd38bc370800000000000000
+      internalID: 8343907713576810369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas do Jogo sem linhas embaixo_10
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 480
+        width: 259
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa4c1c44915f69f0800000000000000
+      internalID: -473069738476680462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas do Jogo sem linhas embaixo_11
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 482
+        width: 258
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2cfd035287b1390800000000000000
+      internalID: -7846545824633863442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas do Jogo sem linhas embaixo_12
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 480
+        width: 259
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93579d6ae2e5d0980800000000000000
+      internalID: -8571090961355410119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas do Jogo sem linhas embaixo_13
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 480
+        width: 258
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0b63388e4248ba0800000000000000
+      internalID: -6087700215245655876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas do Jogo sem linhas embaixo_14
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 481
+        width: 484
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f72e4cabe3591830800000000000000
+      internalID: 4042354412214953973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas do Jogo sem linhas embaixo_15
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 44
+        width: 464
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c74088795db8230800000000000000
+      internalID: 3642239570457951324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas do Jogo sem linhas embaixo_16
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 122
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15aa6b912cb31b60800000000000000
+      internalID: 7715717439143191834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Casas do Jogo sem linhas embaixo_17
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 45
+        width: 326
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13762c58a3d008a0800000000000000
+      internalID: -6340835555283668194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
