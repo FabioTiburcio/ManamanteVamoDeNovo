@@ -48,6 +48,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         if (freezePlayer)
         {
             movement.x = 0;
@@ -74,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
             playerAnim.SetBool("Walking", false);
             
         }
-        mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        
 
         if (computerRange && Input.GetKeyDown(KeyCode.C))
         {

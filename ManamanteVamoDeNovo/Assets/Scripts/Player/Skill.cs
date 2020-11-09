@@ -17,7 +17,7 @@ public class Skill : MonoBehaviour
     public GameObject spawnSoundObject;
     public SpriteRenderer skillSprite;
 
-
+    float eletricDamageCooldown;
     private void Start()
     {
         
@@ -26,7 +26,7 @@ public class Skill : MonoBehaviour
     {
         if (thunderSkill)
         {
-            Destroy(gameObject, 1.5f);
+            return;
         } if (fireShield)
         {
             StartCoroutine(RemoveAfterSeconds(3, gameObject));
@@ -43,6 +43,7 @@ public class Skill : MonoBehaviour
     {
         if (this.tag == "EnemyAttack" && collision.tag == "Player")
         {
+            collision.GetComponent<Health>().DamageEffect();
             collision.GetComponent<Health>().health -= skillDamage;
             Destroy(gameObject);
             //Instantiate(hitEffect);
@@ -55,6 +56,7 @@ public class Skill : MonoBehaviour
 
         if (this.tag == "Attack" && collision.tag == "Enemy")
         {
+            collision.GetComponent<Health>().DamageEffect();
             collision.GetComponent<Health>().health -= skillDamage;
             if (isProjectile)
             {
@@ -94,6 +96,17 @@ public class Skill : MonoBehaviour
             if (iceSkillArea)
             {
                 collision.GetComponent<Health>().ApplyIce();
+            }
+            if (thunderSkill || thunderSkillArea)
+            {
+                collision.GetComponent<Health>().ApplyEletric();
+                
+                eletricDamageCooldown += Time.deltaTime;
+                if (eletricDamageCooldown > 0.5f)
+                {
+                    collision.GetComponent<Health>().health -= skillDamage;
+                    eletricDamageCooldown = 0;
+                }
             }
         }
     }

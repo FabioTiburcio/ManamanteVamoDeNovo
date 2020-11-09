@@ -20,8 +20,9 @@ public class SkillController : MonoBehaviour
     public float attackCooldown;
     public bool isShotting;
 
-    float colorIntensity = 1f;
+    public float colorIntensity = 1f;
     float timeToAddMana;
+    float timeToConsumeMana;
 
     public bool canIce;
     public bool canPoison;
@@ -40,7 +41,7 @@ public class SkillController : MonoBehaviour
     public GameObject icePrefab;
     public GameObject iceArea;
 
-    public GameObject thunderPrefab;
+    public GameObject thunderSkill;
     public GameObject thunderArea;
 
     public GameObject posionPrefab;
@@ -91,8 +92,10 @@ public class SkillController : MonoBehaviour
         if (colorIntensity <= 0)
         {
             colorIntensity = 0;
+            glowMaterial.SetFloat("_ColorIntensity", colorIntensity);
             return;
         }
+
         if (Input.GetButtonDown("Fire1") && attackCooldown > 1.5f)
         {
             if(inventoryScreen.activeSelf == true || diaryScreen.activeSelf == true || craftScreen.activeSelf == true || computadorScreen.activeSelf == true)
@@ -100,16 +103,44 @@ public class SkillController : MonoBehaviour
                 Debug.Log("n vo matar n");
             } else
             {
-                colorIntensity -= 0.2f;
-                glowMaterial.SetFloat("_ColorIntensity", colorIntensity);
                 player.freezePlayer = true;
                 isShotting = true;
-                StartCoroutine(timeAttacking());
+                if (activeSkill != 3)
+                {
+                    colorIntensity -= 0.2f;
+                    glowMaterial.SetFloat("_ColorIntensity", colorIntensity);
+                }
+                else
+                {
+                    StartCoroutine(timeAttacking());
+                }
                 Shoot();
                 attackCooldown = 0;
             }
 
         }
+
+        //EletricSkillController
+        if (Input.GetButton("Fire1") && activeSkill == 3)
+        {
+            player.freezePlayer = true;
+            timeToConsumeMana += Time.deltaTime;
+            if (timeToConsumeMana > 1)
+            {
+                colorIntensity -= 0.2f;
+                glowMaterial.SetFloat("_ColorIntensity", colorIntensity);
+                timeToConsumeMana = 0;
+            }
+            thunderSkill.transform.up = player.lookDir;
+        }
+        if (Input.GetButtonUp("Fire1") || colorIntensity <= 0)
+        {
+            player.freezePlayer = false;
+            isShotting = false;
+            thunderSkill.SetActive(false);
+        }
+        //EndOfEletricSkillController
+
 
         if (Input.GetButtonDown("Fire2") && attackCooldown > 1.5f)
         {
@@ -150,7 +181,7 @@ public class SkillController : MonoBehaviour
         }
         else if (activeSkill == 4)
         {
-            GameObject area = Instantiate(poisonArea, player.mousePos, Quaternion.identity);
+            
             
         }
     }
@@ -169,9 +200,7 @@ public class SkillController : MonoBehaviour
             rb.AddForce(firePoint.transform.up * bulletForce, ForceMode2D.Impulse);
         } else if (activeSkill == 3)
         {
-            GameObject bullet = Instantiate(thunderPrefab, firePoint.position, firePoint.rotation);
-            Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-            rb.AddForce(firePoint.transform.up * bulletForce, ForceMode2D.Impulse);
+            thunderSkill.SetActive(true);
         } else if (activeSkill == 4)
         {
             GameObject bullet = Instantiate(posionPrefab, firePoint.position, firePoint.rotation);

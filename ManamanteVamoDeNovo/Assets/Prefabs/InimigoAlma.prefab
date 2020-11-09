@@ -224,6 +224,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -6029905254967674180, guid: 7707564f86b02fe41a7e549516cf2016,
         type: 3}
+    - target: {fileID: 2867090325316567250, guid: c14ec52f13d346e4b9bd9dff7db90a86,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2867090325316567250, guid: c14ec52f13d346e4b9bd9dff7db90a86,
+        type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2867090325316567251, guid: c14ec52f13d346e4b9bd9dff7db90a86,
         type: 3}
       propertyPath: player

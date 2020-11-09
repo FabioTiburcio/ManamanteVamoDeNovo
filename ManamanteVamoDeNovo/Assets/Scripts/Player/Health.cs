@@ -10,6 +10,7 @@ public class Health : MonoBehaviour
     public static int healAmount;
     public bool damageCooldown;
     public PlayerQuest activeQuest;
+    public SkillController playerSkillController;
     public SpriteRenderer spriteMerinha;
     public Color corLaranja;
     private SpriteRenderer spr;
@@ -18,6 +19,7 @@ public class Health : MonoBehaviour
     public Material dissolveMaterial;
     public Material poisonMaterial;
     public GameObject poisonParticle;
+    public GameObject poisonExplosionParticle;
     public int poisonStack;
     public bool isPlayer;
     public AudioSource saidaDeSom;
@@ -31,6 +33,7 @@ public class Health : MonoBehaviour
     float poisonTimer;
     float poisonTimerRunOff;
     int poisonDamageOverTime = 2;
+    int poisonAreaDamage = 3;
     bool isFrozen;
     float iceTimer;
     float iceTimerRunOff;
@@ -185,6 +188,14 @@ public class Health : MonoBehaviour
     }
     public void PoisonState()
     {
+        if (Input.GetButtonDown("Fire2") && playerSkillController.colorIntensity>= 0.6f)
+        {
+            poisonExplosionParticle.SetActive(true);
+            StartCoroutine(StopPoisonExplosion());
+            playerSkillController.colorIntensity -= 0.6f;
+            health -= poisonAreaDamage * poisonStack;
+            poisonTimerRunOff = 0;
+        }
         poisonParticle.SetActive(true);
         spr.color = new Color(0.4f,1,0.4f);
         poisonTimer += Time.deltaTime;
@@ -257,8 +268,6 @@ public class Health : MonoBehaviour
     {
         if (this.tag == "Player" && collision.tag == "EnemyAttack" && !damageCooldown)
         {
-            DamageEffect();
-
             if(health > 0)
             {
                 saidaDeSom.PlayOneShot(damageTaken);
@@ -280,5 +289,11 @@ public class Health : MonoBehaviour
             DamageEffect();
             damageCooldown = true;
         }
+    }
+
+    IEnumerator StopPoisonExplosion()
+    {
+        yield return new WaitForSeconds(2f);
+        poisonExplosionParticle.SetActive(false);
     }
 }

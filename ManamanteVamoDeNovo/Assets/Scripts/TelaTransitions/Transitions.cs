@@ -77,6 +77,13 @@ public class Transitions : MonoBehaviour
                 globalLight.SetActive(false);
             }
         }
+        else if (mapaAtivo.name == "TorfariosBattle")
+        {
+            if (globalLight.activeSelf)
+            {
+                globalLight.SetActive(false);
+            }
+        }
         else
         {
             if (!globalLight.activeSelf)
