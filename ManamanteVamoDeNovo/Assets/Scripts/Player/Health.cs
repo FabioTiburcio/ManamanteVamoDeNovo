@@ -97,6 +97,11 @@ public class Health : MonoBehaviour
                 activeQuest.QuestAtt(this.gameObject.GetComponent<EnemyController>().enemyName, true);
                 spr.material = dissolveMaterial;
                 StartCoroutine(DissolveEffect());
+            } else if (this.name == "Torfarios")
+            {
+                activeQuest.QuestAtt("Torfarios", true);
+                spr.material = dissolveMaterial;
+                StartCoroutine(DissolveEffect());
             }
             else
             {
