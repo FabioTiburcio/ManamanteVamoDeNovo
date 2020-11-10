@@ -7,11 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstarPathfindingProject", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V_Animation", "V_Animation.csproj", "{0A83A9CD-B711-845B-3657-FA0900EB1036}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{DA58CBBC-0330-7D5B-22AD-A12DEEAEC465}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstarPathfindingProjectEditor", "AstarPathfindingProjectEditor.csproj", "{B5E1AD2E-F24F-26ED-522A-B88600880F4B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackageToolsEditor", "PackageToolsEditor.csproj", "{A960E6EF-2FE6-48E5-59C4-D50D5E1D2211}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{DA58CBBC-0330-7D5B-22AD-A12DEEAEC465}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +31,10 @@ Global
 		{0A83A9CD-B711-845B-3657-FA0900EB1036}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A83A9CD-B711-845B-3657-FA0900EB1036}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A83A9CD-B711-845B-3657-FA0900EB1036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA58CBBC-0330-7D5B-22AD-A12DEEAEC465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA58CBBC-0330-7D5B-22AD-A12DEEAEC465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA58CBBC-0330-7D5B-22AD-A12DEEAEC465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA58CBBC-0330-7D5B-22AD-A12DEEAEC465}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B5E1AD2E-F24F-26ED-522A-B88600880F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B5E1AD2E-F24F-26ED-522A-B88600880F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5E1AD2E-F24F-26ED-522A-B88600880F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,10 +43,6 @@ Global
 		{A960E6EF-2FE6-48E5-59C4-D50D5E1D2211}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A960E6EF-2FE6-48E5-59C4-D50D5E1D2211}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A960E6EF-2FE6-48E5-59C4-D50D5E1D2211}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DA58CBBC-0330-7D5B-22AD-A12DEEAEC465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DA58CBBC-0330-7D5B-22AD-A12DEEAEC465}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DA58CBBC-0330-7D5B-22AD-A12DEEAEC465}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DA58CBBC-0330-7D5B-22AD-A12DEEAEC465}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

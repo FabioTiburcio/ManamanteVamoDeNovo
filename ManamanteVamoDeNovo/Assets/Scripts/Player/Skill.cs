@@ -27,6 +27,10 @@ public class Skill : MonoBehaviour
         if (thunderSkill)
         {
             return;
+        }
+        if (thunderSkillArea)
+        {
+            Destroy(gameObject, 0.25f);
         } if (fireShield)
         {
             StartCoroutine(RemoveAfterSeconds(3, gameObject));

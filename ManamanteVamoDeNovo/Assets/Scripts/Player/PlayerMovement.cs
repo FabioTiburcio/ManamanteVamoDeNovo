@@ -55,7 +55,15 @@ public class PlayerMovement : MonoBehaviour
             movement.y = 0;
             if (skillController.isShotting)
             {
-                playerAnim.Play("Attack");
+                if(skillController.activeSkill == 3)
+                {
+                    playerAnim.SetBool("RaioAttack", true);
+                }
+                else
+                {
+                    playerAnim.Play("Attack");
+                }
+                
             }
             return;
         }
@@ -64,7 +72,8 @@ public class PlayerMovement : MonoBehaviour
             movement.x = Input.GetAxis("Horizontal");
             movement.y = Input.GetAxis("Vertical");
         }
-        if(movement.x != 0 || movement.y != 0)
+        playerAnim.SetBool("RaioAttack", false);
+        if (movement.x != 0 || movement.y != 0)
         {
             
             playerAnim.SetBool("Walking", true);

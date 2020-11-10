@@ -109,9 +109,6 @@ public class SkillController : MonoBehaviour
                 {
                     colorIntensity -= 0.2f;
                     glowMaterial.SetFloat("_ColorIntensity", colorIntensity);
-                }
-                else
-                {
                     StartCoroutine(timeAttacking());
                 }
                 Shoot();
