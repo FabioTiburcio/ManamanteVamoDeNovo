@@ -30,10 +30,7 @@ public class DiaryController : MonoBehaviour
             else
             {
                 diary.SetActive(true);
-                for (int i = 0; i < capasCostas.Length; i++)
-                {
-                    capasCostas[i].SetActive(false);
-                }
+                Anotacoes();
             }
         }
     }

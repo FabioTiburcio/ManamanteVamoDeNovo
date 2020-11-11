@@ -5,6 +5,7 @@ using UnityEngine;
 public class Skill : MonoBehaviour
 {
     public bool isProjectile;
+    public bool areaAttack;
     public int skillDamage;
     public bool poisonSkill;
     public bool iceSkill;
@@ -20,6 +21,10 @@ public class Skill : MonoBehaviour
     float eletricDamageCooldown;
     private void Start()
     {
+        if (areaAttack)
+        {
+            Instantiate(hitEffect, transform.position, transform.rotation);
+        }
         
     }
     private void Update()
@@ -30,14 +35,14 @@ public class Skill : MonoBehaviour
         }
         if (thunderSkillArea)
         {
-            Destroy(gameObject, 0.25f);
+            Destroy(gameObject, 0.75f);
         } if (fireShield)
         {
             StartCoroutine(RemoveAfterSeconds(3, gameObject));
         }
         else
         {
-            Destroy(gameObject, 3f);
+            Destroy(gameObject, 3.5f);
         }
         
         
@@ -49,8 +54,12 @@ public class Skill : MonoBehaviour
         {
             collision.GetComponent<Health>().DamageEffect();
             collision.GetComponent<Health>().health -= skillDamage;
-            Destroy(gameObject);
-            //Instantiate(hitEffect);
+            if (isProjectile)
+            {
+                Destroy(gameObject);
+                Instantiate(hitEffect, transform.position, transform.rotation);
+            }
+            
         }
 
         if (this.tag == "Shield" && collision.tag == "EnemyAttack")

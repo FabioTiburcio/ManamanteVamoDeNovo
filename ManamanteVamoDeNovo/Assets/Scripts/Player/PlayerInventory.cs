@@ -8,6 +8,7 @@ public class PlayerInventory : MonoBehaviour
     public Inventory playerTrash;
 
     public PlayerMovement playerMovement;
+    public ItemScanner playerScan;
 
     public bool collidingWithItem;
     public bool collidingWithCraftingTable;
@@ -30,7 +31,7 @@ public class PlayerInventory : MonoBehaviour
         {
             //inventory.Load();
         }
-        if (Input.GetKeyDown(KeyCode.E) && collidingWithItem)
+        if (Input.GetKeyDown(KeyCode.E) && collidingWithItem && !playerScan.isScanning)
         {
             var item = itemCollided.GetComponent<GroundItem>().itemObject;
             if (item)

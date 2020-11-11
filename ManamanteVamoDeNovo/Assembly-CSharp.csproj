@@ -64,6 +64,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Artes\Robô\PetMovement.cs" />
+    <Compile Include="Assets\BossController.cs" />
+    <Compile Include="Assets\DestroyOverTime.cs" />
     <Compile Include="Assets\DiaryInfoController.cs" />
     <Compile Include="Assets\EndGameControl.cs" />
     <Compile Include="Assets\FieldOfView\Scripts\FieldOfView.cs" />

@@ -5,6 +5,7 @@ using UnityEngine;
 public class GroundItem : MonoBehaviour, ISerializationCallbackReceiver
 {
     public ItemObject itemObject;
+    public GameObject scanEffect;
 
     public void OnAfterDeserialize()
     {

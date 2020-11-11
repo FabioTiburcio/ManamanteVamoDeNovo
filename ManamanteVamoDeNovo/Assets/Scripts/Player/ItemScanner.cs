@@ -11,6 +11,8 @@ public class ItemScanner : MonoBehaviour
     
     public bool canScan = false;
 
+    public bool isScanning = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,8 +22,11 @@ public class ItemScanner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(canScan && Input.GetKeyDown(KeyCode.R))
+        if(canScan && Input.GetKeyDown(KeyCode.R) && !isScanning)
         {
+            isScanning = true;
+            item.scanEffect.SetActive(true);
+            StartCoroutine(scanEffectTime());
             switch (item.itemObject.type)
             {
                 case ItemType.Crafting:
@@ -50,6 +55,13 @@ public class ItemScanner : MonoBehaviour
             }
                 
         }
+    }
+
+    IEnumerator scanEffectTime()
+    {
+        yield return new WaitForSeconds(3.2f);
+        item.scanEffect.SetActive(false);
+        isScanning = false;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
