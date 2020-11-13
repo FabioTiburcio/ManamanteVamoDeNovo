@@ -5,17 +5,25 @@ using UnityEngine.UI;
 
 public class SearchScript : MonoBehaviour
 {
-
+    public GameObject pesquisaGrande;
+    public GameObject pesquisaPequena;
     public Text conclusionText;
     public PlayerQuest player;
     public InputField inputField;
+    public InputField inputField2;
     public SkillController skills;
     public DiaryInfoController diaryInfoController;
-    [TextArea]
-    public string description;
-    public string title;
-    public Sprite torfarios;
+    public PesquisaEllgog pesquisaEllgog;
     // Start is called before the first frame update
+
+
+    private void OnEnable()
+    {
+        pesquisaEllgog.Resultado.SetActive(false);
+        pesquisaEllgog.semResultado.SetActive(false);
+        pesquisaPequena.SetActive(false);
+        pesquisaGrande.SetActive(true);   
+    }
     void Start()
     {
         
@@ -27,15 +35,27 @@ public class SearchScript : MonoBehaviour
         
     }
 
-    public void Search()
+    public void Search(string info)
     {
-        player.QuestAtt(inputField.text, true);
-        if(inputField.text == "Torfarios")
+        if (info == "Field1")
         {
-            Debug.Log("pesquisei toda mona");
-            diaryInfoController.SetInfo(title, torfarios, description, "Inimigos", "Inimigo");
-            skills.canIce = true;
+            pesquisaEllgog.attInfo(inputField.text);
         }
-        
+        else if (info == "Field2")
+        {
+            pesquisaEllgog.attInfo(inputField2.text);
+        }
+        else if (info == "Relacionada1")
+        {
+            pesquisaEllgog.attInfo(pesquisaEllgog.pesquisaRelacionada1.text);
+        }
+        else if (info == "Relacionada2")
+        {
+            pesquisaEllgog.attInfo(pesquisaEllgog.pesquisaRelacionada2.text);
+        }
+        player.QuestAtt(inputField.text, true);
+        diaryInfoController.SetInfo(pesquisaEllgog.pesquisaTitle, pesquisaEllgog.imagemPesquisa.sprite, pesquisaEllgog.descricaoPesquisa.text, "Inimigos", "Inimigo");
+        skills.canIce = true;
+
     }
 }
