@@ -11,6 +11,7 @@ public class EmailScreen : MonoBehaviour
     public PlayerQuest playerQuest;
     public QuestGiver[] quests;
     private int questsCompleted;
+    public GameObject[] messageList;
 
     private void Start()
     {
@@ -20,10 +21,7 @@ public class EmailScreen : MonoBehaviour
     void Update()
     {
         questsCompleted = PlayerPrefs.GetInt("QuestsCompleted");
-
-        fotoTela.sprite = quests[questsCompleted].quest.npcFoto;
-        assuntoTela.text = quests[questsCompleted].quest.title;
-        descricaoTela.text = quests[questsCompleted].quest.description;
+        messageList[questsCompleted].SetActive(true);
 
     }
 
@@ -31,6 +29,14 @@ public class EmailScreen : MonoBehaviour
     {    
             quests[questsCompleted].AcceptQuest();      
     }
+
+    public void openQuest(int questNumber)
+    {
+        fotoTela.sprite = quests[questNumber].quest.npcFoto;
+        assuntoTela.text = quests[questNumber].quest.title;
+        descricaoTela.text = quests[questNumber].quest.description;
+    }
+
     private void OnApplicationQuit()
     {
         PlayerPrefs.SetInt("QuestsCompleted", 0);
