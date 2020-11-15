@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CraftingController : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class CraftingController : MonoBehaviour
     public PlayerQuest activeQuest;
     public Inventory craftingInvetory;
     public Inventory playerInventory;
+    public Text feedBackCraftingText;
     public Item item1;
     public Item item2;
     public Item item3;
@@ -22,11 +24,18 @@ public class CraftingController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
+
+    }
+
+    public void DoCraft()
+    {
         if (craftingInvetory.Container.Items[0].item.Id >= 0 && craftingInvetory.Container.Items[1].item.Id >= 0)
         {
             item1 = craftingInvetory.Container.Items[0].item;
             item2 = craftingInvetory.Container.Items[1].item;
-            if(item1.craftingItemType != CraftingItemType.Nenhum)
+            if (item1.craftingItemType != CraftingItemType.Nenhum)
             {
                 switch (item1.craftingItemType)
                 {
@@ -68,23 +77,22 @@ public class CraftingController : MonoBehaviour
                         break;
                 }
             }
-            else if(item1.potionType != PotionType.Nenhum)
-            {
-                switch (item1.potionType)
-                {
-                    case PotionType.HealLow:
-                        switch (item2.craftingItemType)
-                        {
-                            case CraftingItemType.Flor:
-                                break;
-                        }
-                        break;
-                }
-            }
-           
+
+        }
+        if (craftingInvetory.Container.Items[2].item.Id >= 0)
+        {
+            feedBackCraftingText.text = item3.name + " construida";
+        }
+        else
+        {
+            feedBackCraftingText.text = "Nada construido";
         }
 
+    }
 
+    private void OnDisable()
+    {
+        feedBackCraftingText.text = "";
     }
     private void OnApplicationQuit()
     {

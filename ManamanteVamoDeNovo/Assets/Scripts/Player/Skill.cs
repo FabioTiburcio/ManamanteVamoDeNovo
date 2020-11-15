@@ -71,6 +71,7 @@ public class Skill : MonoBehaviour
         {
             collision.GetComponent<Health>().DamageEffect();
             collision.GetComponent<Health>().health -= skillDamage;
+            
             if (isProjectile)
             {
                 skillSprite.gameObject.SetActive(false);

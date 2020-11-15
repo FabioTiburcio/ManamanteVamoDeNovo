@@ -1,6 +1,7 @@
 version: 2
 importPivots: 1
 tpsheetFileNames:
+- Assets/Artes/cobra/Walk/Walk.tpsheet
 - Assets/Artes/IminigosSeparados/Balangando/Balango.tpsheet
 - Assets/Artes/IminigosSeparados/Ice/AttackSpriteSheet.tpsheet
 - Assets/Artes/IminigosSeparados/Ice/DamageSpriteSheet.tpsheet
@@ -21,6 +22,7 @@ tpsheetFileNames:
 - Assets/Artes/Objetos do Cenário e Outros/Objetos do Cenário e Outros/Coletaveis.tpsheet
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 textureFileNames:
+- Assets/Artes/cobra/Walk/Walk.png
 - Assets/Artes/IminigosSeparados/Balangando/Balango.png
 - Assets/Artes/IminigosSeparados/Ice/AttackSpriteSheet.png
 - Assets/Artes/IminigosSeparados/Ice/DamageSpriteSheet.png
@@ -41,6 +43,7 @@ textureFileNames:
 - Assets/Artes/Objetos do Cenário e Outros/Objetos do Cenário e Outros/Coletaveis.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
+- 
 - 
 - 
 - 

@@ -11,7 +11,6 @@ public class EnemyController : MonoBehaviour {
     public enum enemyType { RANGED, MEELE}
     private Rigidbody2D enemyRb;
 
-
     public GameObject dropItemPrefab;
     public ItemObject dropMorcego;
     public ItemObject dropAlma;

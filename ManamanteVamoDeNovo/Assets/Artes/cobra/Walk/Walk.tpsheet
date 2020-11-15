@@ -1,0 +1,32 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:9adb6d63febafe19c9fd2fd5b436e7aa:12be80e307283f683b27b941653f6326:d2d941d8695fd848851474ee4cde5547$
+#
+:format=40300
+:texture=Walk.png
+:size=4096x2048
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Armature_walk_00;0;1435;656;613; 0.5;0.5; 0;0;0;0
+Armature_walk_01;656;1435;656;613; 0.5;0.5; 0;0;0;0
+Armature_walk_02;1312;1435;656;613; 0.5;0.5; 0;0;0;0
+Armature_walk_03;1968;1435;656;613; 0.5;0.5; 0;0;0;0
+Armature_walk_04;2624;1435;656;613; 0.5;0.5; 0;0;0;0
+Armature_walk_05;3280;1435;656;613; 0.5;0.5; 0;0;0;0
+Armature_walk_06;0;822;656;613; 0.5;0.5; 0;0;0;0
+Armature_walk_07;656;822;656;613; 0.5;0.5; 0;0;0;0
+Armature_walk_08;1312;822;656;613; 0.5;0.5; 0;0;0;0
+Armature_walk_09;1968;822;656;613; 0.5;0.5; 0;0;0;0
+Armature_walk_10;2624;822;656;613; 0.5;0.5; 0;0;0;0
+Armature_walk_11;3280;822;656;613; 0.5;0.5; 0;0;0;0
+Armature_walk_12;0;209;656;613; 0.5;0.5; 0;0;0;0
+Armature_walk_13;656;209;656;613; 0.5;0.5; 0;0;0;0
+Armature_walk_14;1312;209;656;613; 0.5;0.5; 0;0;0;0
+Armature_walk_15;1968;209;656;613; 0.5;0.5; 0;0;0;0
+Armature_walk_16;2624;209;656;613; 0.5;0.5; 0;0;0;0

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class ItemScanner : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class ItemScanner : MonoBehaviour
     public bool canScan = false;
 
     public bool isScanning = false;
+
+    public TMP_Text scanFeedbackText;
 
     // Start is called before the first frame update
     void Start()
@@ -62,6 +65,16 @@ public class ItemScanner : MonoBehaviour
         yield return new WaitForSeconds(3.2f);
         item.scanEffect.SetActive(false);
         isScanning = false;
+        scanFeedbackText.gameObject.SetActive(true);
+        scanFeedbackText.text = item.itemObject.name;
+        StartCoroutine(scanFeedBackText());
+    }
+
+    IEnumerator scanFeedBackText()
+    {
+        yield return new WaitForSeconds(3f);
+        scanFeedbackText.gameObject.SetActive(false);
+        scanFeedbackText.text = "";
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -44,7 +44,7 @@ public class Transitions : MonoBehaviour
                 break;
             case "SaidaDireita":
                 player.transform.position = chegadaEsquerda.position;
-                robo.position = chegadaDireita.position;
+                robo.position = chegadaEsquerda.position;
                 break;
             case "SaidaCima":
                 player.transform.position = chegadaBaixo.position;

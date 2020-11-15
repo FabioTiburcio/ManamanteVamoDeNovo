@@ -15,6 +15,7 @@ public class PlayerInventory : MonoBehaviour
     public GameObject craftingTableUI;
     public GameObject mailboxUI;
     public GameObject robotUI;
+    public GameObject robotMiniUi;
     public GameObject merinhaRobo;
     public GameObject itemCollided;
     public bool collidingWithMailBox;
@@ -50,6 +51,7 @@ public class PlayerInventory : MonoBehaviour
             {
                 playerMovement.freezePlayer = false;
                 craftingTableUI.SetActive(false);
+                robotMiniUi.SetActive(false);
                 robotUI.SetActive(false);
                 merinhaRobo.SetActive(false);
             }
@@ -58,6 +60,7 @@ public class PlayerInventory : MonoBehaviour
                 playerMovement.freezePlayer = true;
                 craftingTableUI.SetActive(true);
                 robotUI.SetActive(true);
+                robotMiniUi.SetActive(true);
                 merinhaRobo.SetActive(true);
             }
 
@@ -71,11 +74,13 @@ public class PlayerInventory : MonoBehaviour
             if (robotUI.activeSelf)
             {
                 robotUI.SetActive(false);
+                robotMiniUi.SetActive(false);
                 merinhaRobo.SetActive(false);
             }
             else
             {
                 robotUI.SetActive(true);
+                robotMiniUi.SetActive(true);
                 merinhaRobo.SetActive(true);
             }
         }
@@ -83,6 +88,7 @@ public class PlayerInventory : MonoBehaviour
         {
             craftingTableUI.SetActive(false);
             robotUI.SetActive(false);
+            robotMiniUi.SetActive(false);
             merinhaRobo.SetActive(false);
         }
         if (!collidingWithMailBox)
@@ -92,6 +98,7 @@ public class PlayerInventory : MonoBehaviour
         if (!collidingWithRobot)
         {
             robotUI.SetActive(false);
+            robotMiniUi.SetActive(false);
             merinhaRobo.SetActive(false);
         }
     }
