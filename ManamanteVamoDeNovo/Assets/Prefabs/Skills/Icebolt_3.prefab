@@ -41,7 +41,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: de8db56f8ae30e743892280d74093084, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 463036876c0109544be3d8b7db835171, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -278,10 +278,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isProjectile: 1
+  areaAttack: 0
   skillDamage: 15
   poisonSkill: 0
   iceSkill: 1
   iceSkillArea: 0
+  fireShield: 0
   thunderSkill: 0
   thunderSkillArea: 0
   hitEffect: {fileID: 0}
@@ -376,7 +378,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 18d1ac6442af2174192654cbe24b0310, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2f0a82ebe0357774b8e0d6c27b00e998, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

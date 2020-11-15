@@ -91,24 +91,28 @@ public class Health : MonoBehaviour
 
         if(health <= 0)
         {
-            damageCooldown = false;
-            if (this.name != "Player")
-            {
-                activeQuest.QuestAtt(this.gameObject.GetComponent<EnemyController>().enemyName, true);
-                spr.material = dissolveMaterial;
-                StartCoroutine(DissolveEffect());
-            } else if (this.name == "Torfarios")
-            {
-                activeQuest.QuestAtt("Torfarios", true);
-                spr.material = dissolveMaterial;
-                StartCoroutine(DissolveEffect());
-            }
-            else
+            //damageCooldown = false;
+            //if (this.name != "Player")
+            //{
+            //    activeQuest.QuestAtt(this.gameObject.GetComponent<EnemyController>().enemyName, true);
+            //    spr.material = dissolveMaterial;
+            //    StartCoroutine(DissolveEffect());
+            //} else if (this.name == "Torfarios")
+            //{
+            //    activeQuest.QuestAtt("Torfarios", true);
+            //    spr.material = dissolveMaterial;
+            //    StartCoroutine(DissolveEffect());
+            //}
+            //else
+            //{
+            if (this.name == "Player")
             {
                 saidaDeSom.PlayOneShot(deadSound);
                 respawnPlayer = true;
                 health = maxHealth;
             }
+                
+           //}
             
         }
         else if(health > maxHealth)
@@ -282,7 +286,7 @@ public class Health : MonoBehaviour
         }
         else if(this.tag == "Enemy" && collision.tag == "Attack" && !damageCooldown)
         {
-            
+
             //if (health <= 0)
             //{
             //    saidaDeSom.PlayOneShot(deadSound);
@@ -291,7 +295,26 @@ public class Health : MonoBehaviour
             //{
             //    saidaDeSom.PlayOneShot(damageTaken);
             //}
-            DamageEffect();
+            if (health <= 0)
+            {
+                damageCooldown = false;
+                if (this.name != "Player")
+                {
+                    if (this.name == "Torfarios")
+                    {
+                        activeQuest.QuestAtt("Torfarios", true);
+                        spr.material = dissolveMaterial;
+                        StartCoroutine(DissolveEffect());
+                    } else
+                    {
+                        activeQuest.QuestAtt(this.gameObject.GetComponent<EnemyController>().enemyName, true);
+                        spr.material = dissolveMaterial;
+                        StartCoroutine(DissolveEffect());
+                    }                   
+                }               
+            }
+
+                DamageEffect();
             damageCooldown = true;
         }
     }

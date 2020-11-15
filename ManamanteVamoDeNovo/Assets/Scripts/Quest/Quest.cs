@@ -10,6 +10,7 @@ public class Quest
     public bool isActive;
 
     public Sprite npcFoto;
+    public string npcName;
     public string title;
     [TextArea]
     public string description;

@@ -15,12 +15,15 @@ public class PlayerQuest : MonoBehaviour {
     public DiaryInfoController diaryInfoController;
     public bool attDiaryInfo;
     public GameObject searchText;
+    AudioSource playerAudioSource;
+    public AudioClip newMessageArrive;
 
-// Start is called before the first frame update
-void Start()
+    // Start is called before the first frame update
+    void Start()
     {
         inventario = GetComponent<PlayerInventory>();
-        
+        playerAudioSource = gameObject.GetComponent<AudioSource>();
+
         //Debug.Log(itens.Items[0].ToString());
         //Debug.Log(itens.Items[1].ToString());
         //Debug.Log(itens.Items[2].ToString());
@@ -133,6 +136,7 @@ void Start()
     public void UpdateQuests()
     {
         PlayerPrefs.SetInt("QuestsCompleted", PlayerPrefs.GetInt("QuestsCompleted") + 1);
+        playerAudioSource.PlayDelayed(2);
     }
 
 

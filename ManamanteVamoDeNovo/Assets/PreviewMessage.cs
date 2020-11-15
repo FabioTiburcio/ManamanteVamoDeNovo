@@ -11,6 +11,9 @@ public class PreviewMessage : MonoBehaviour
     public Text nomeTela;
     public int questNumber;
     public EmailScreen email;
+    private int questsCompleted;
+    private int questAccepted;
+    public GameObject newMessage;
     
 
 
@@ -18,15 +21,24 @@ public class PreviewMessage : MonoBehaviour
     void Start()
     {
 
-        
-        
     }
 
     // Update is called once per frame
     void Update()
     {
+        questsCompleted = PlayerPrefs.GetInt("QuestsCompleted");
+        questAccepted = PlayerPrefs.GetInt("QuestAccepted");
+        if (questAccepted == questNumber + 1 || questAccepted > questNumber + 1)
+        {
+            newMessage.SetActive(false);
+        }
+        else
+        {
+            newMessage.SetActive(true);
+        }
+
         fotoTela.sprite = email.quests[questNumber].quest.npcFoto;
         assuntoTela.text = email.quests[questNumber].quest.title;
-        nomeTela.text = email.quests[questNumber].quest.description;
+        nomeTela.text = email.quests[questNumber].quest.npcName;
     }
 }
