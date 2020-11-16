@@ -48,6 +48,7 @@ public class SkillController : MonoBehaviour
     public GameObject poisonArea;
 
     public float bulletForce = 20f;
+    public int habilityToUnlock;
     private void Start()
     {
         activeSkill = 1;
@@ -203,6 +204,22 @@ public class SkillController : MonoBehaviour
             GameObject bullet = Instantiate(posionPrefab, firePoint.position, firePoint.rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
             rb.AddForce(firePoint.transform.up * bulletForce, ForceMode2D.Impulse);
+        }
+    }
+
+    public void unlockHability()
+    {
+        switch (habilityToUnlock)
+        {
+            case 1:
+                canIce = true;
+                break;
+            case 2:
+                canElectric = true;
+                break;
+            case 3:
+                canPoison = true;
+                break;
         }
     }
 

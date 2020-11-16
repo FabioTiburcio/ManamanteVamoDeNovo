@@ -23,6 +23,9 @@ public class PetMovement : MonoBehaviour
     private Animator petAnim;
     private Vector2 directionPet;
 
+    public GameObject miniRobo;
+    public GameObject robozao;
+
     SpriteRenderer sprPet;
     // Start is called before the first frame update
     void Start()
@@ -47,11 +50,11 @@ public class PetMovement : MonoBehaviour
             directionPet = (playerTransform.position - petTransform.position).normalized;
             if (directionPet.x > 0)
             {
-                sprPet.flipX = true;
+                //sprPet.flipX = true;
             }
             else
             {
-                sprPet.flipX = false;
+                //sprPet.flipX = false;
             }
             ////enemyAnim.SetFloat("EnemyDirectionX", directionEnemy.x);
             ////enemyAnim.SetFloat("EnemyDirectionY", directionEnemy.y);

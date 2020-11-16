@@ -286,7 +286,8 @@ MonoBehaviour:
   fireShield: 0
   thunderSkill: 0
   thunderSkillArea: 0
-  hitEffect: {fileID: 0}
+  hitEffect: {fileID: 613028525089024166, guid: c5c77562ab9bb1f4aa6880b539afb8be,
+    type: 3}
   hitSoundObject: {fileID: 7781445047265217962}
   spawnSoundObject: {fileID: 1225698651163148321}
   skillSprite: {fileID: 3034205495776182597}

@@ -23,7 +23,8 @@ public class PlayerMovement : MonoBehaviour
     public bool computerRange;
     public GameObject computerScreen;
 
-    public bool upgradedRobo = true;
+    public bool upgradedRobo;
+    public PetMovement pet;
 
     //Footsteps
     public float footStepRatePlay;
@@ -43,7 +44,11 @@ public class PlayerMovement : MonoBehaviour
         spr = GetComponent<SpriteRenderer>();
         movement.x = 0;
         movement.y = 0;
-
+        if (upgradedRobo)
+        {
+            pet.miniRobo.SetActive(false);
+            pet.robozao.SetActive(true);
+        }
     }
 
     private void Update()

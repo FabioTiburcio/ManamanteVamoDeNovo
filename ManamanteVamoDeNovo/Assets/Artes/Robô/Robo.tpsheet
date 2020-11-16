@@ -1,0 +1,16 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:185221d55d983cdfc26047094926453c:c5cd2c015f95cfc234971600d9168d29:a0a530b9ce025f9060f4384a659528c4$
+#
+:format=40300
+:texture=RoboUpFrente.png
+:size=512x1024
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Robo2Frente;0;272;478;752; 0.5;0.5; 0;0;0;0

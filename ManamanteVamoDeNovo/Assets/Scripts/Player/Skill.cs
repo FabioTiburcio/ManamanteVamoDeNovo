@@ -56,8 +56,8 @@ public class Skill : MonoBehaviour
             collision.GetComponent<Health>().health -= skillDamage;
             if (isProjectile)
             {
-                Destroy(gameObject);
                 Instantiate(hitEffect, transform.position, transform.rotation);
+                Destroy(gameObject);
             }
             
         }
@@ -77,6 +77,7 @@ public class Skill : MonoBehaviour
                 skillSprite.gameObject.SetActive(false);
                 hitSoundObject.SetActive(true);
                 spawnSoundObject.SetActive(false);
+                Instantiate(hitEffect, transform.position, transform.rotation);
                 Destroy(gameObject, 2f);
             }
            

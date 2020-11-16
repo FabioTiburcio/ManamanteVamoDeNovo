@@ -41,11 +41,11 @@ namespace Pathfinding {
 		/// <summary>Updates the AI's destination every frame</summary>
 		void Update () {
 			if (target != null && ai != null) ai.destination = target.position;
-			if(target.position.x > transform.position.x)
+			if(target.position.x > transform.position.x && spr != null)
 			{
 				spr.flipX = true;
 			}
-			else if(target.position.x < transform.position.x)
+			else if(target.position.x < transform.position.x && spr != null)
 			{
 				spr.flipX = false;
 			}

@@ -9836,6 +9836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isProjectile: 1
+  areaAttack: 0
   skillDamage: 20
   poisonSkill: 0
   iceSkill: 0
@@ -9843,7 +9844,7 @@ MonoBehaviour:
   fireShield: 0
   thunderSkill: 0
   thunderSkillArea: 0
-  hitEffect: {fileID: 8334512815379389545, guid: f8aa6bc9716d04f4c8766c463fc6810c,
+  hitEffect: {fileID: 613028525089024166, guid: af603bd87525d6844b071d2a790eb593,
     type: 3}
   hitSoundObject: {fileID: 4157644661709299745}
   spawnSoundObject: {fileID: 7585761613835885978}
