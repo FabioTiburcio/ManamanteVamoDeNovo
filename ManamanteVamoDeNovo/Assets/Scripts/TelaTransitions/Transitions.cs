@@ -28,7 +28,8 @@ public class Transitions : MonoBehaviour
 
     public Transform casaMeraInstantPoint;
 
-
+    public AudioSource sombralidaAudio;
+    public AudioSource criogenicasAudio;
 
     public float transitionCooldown = 5;
 
@@ -54,6 +55,15 @@ public class Transitions : MonoBehaviour
                 player.transform.position = chegadaCima.position;
                 robo.position = chegadaCima.position;
                 break;
+        }
+
+        if (mapaAtivo.tag == "MapaGelo")
+        {
+            criogenicasAudio.Play();
+        }
+        else
+        {
+            criogenicasAudio.Stop();
         }
     }
     // Update is called once per frame
@@ -91,6 +101,8 @@ public class Transitions : MonoBehaviour
                 globalLight.SetActive(true);
             }
         }
+
+        
         transitionCooldown += Time.deltaTime;
         if (playerHealth.respawnPlayer)
         {

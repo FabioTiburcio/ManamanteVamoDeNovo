@@ -21,6 +21,8 @@ public class PlayerInventory : MonoBehaviour
     public bool collidingWithMailBox;
     public bool collidingWithRobot;
     public PlayerQuest activeQuest;
+    public AudioSource roboAudioSource;
+    public AudioClip[] audiosRobo;
 
     private void Update()
     {
@@ -73,12 +75,14 @@ public class PlayerInventory : MonoBehaviour
         {
             if (robotUI.activeSelf)
             {
+                roboAudioSource.PlayOneShot(audiosRobo[1]);
                 robotUI.SetActive(false);
                 robotMiniUi.SetActive(false);
                 merinhaRobo.SetActive(false);
             }
             else
             {
+                roboAudioSource.PlayOneShot(audiosRobo[0]);
                 robotUI.SetActive(true);
                 robotMiniUi.SetActive(true);
                 merinhaRobo.SetActive(true);
@@ -97,6 +101,7 @@ public class PlayerInventory : MonoBehaviour
         }
         if (!collidingWithRobot)
         {
+            
             robotUI.SetActive(false);
             robotMiniUi.SetActive(false);
             merinhaRobo.SetActive(false);

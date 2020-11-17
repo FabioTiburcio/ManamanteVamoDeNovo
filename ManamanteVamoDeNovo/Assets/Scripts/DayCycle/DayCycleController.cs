@@ -22,9 +22,14 @@ public class DayCycleController : MonoBehaviour
     private float rainingTimer;
     private bool isRaining;
     public GameObject chuva;
+    
+    public AudioSource noiteAudio;
+    
+    
     // Start is called before the first frame update
     void Start()
     {
+    
     }
 
     // Update is called once per frame
@@ -51,9 +56,11 @@ public class DayCycleController : MonoBehaviour
         }
         if (isRaining)
         {
+            
             rainingTimer += Time.deltaTime;
             if (rainingTimer > 240)
             {
+                
                 isRaining = false;
                 rainingTimer = 0;
                 chuva.SetActive(false);
@@ -109,6 +116,7 @@ public class DayCycleController : MonoBehaviour
         {
             case 6:
                 dayCycle.color = Color.Lerp(corNoite, corTarde, timeChangingColor);
+                noiteAudio.Stop();
                 break;
             case 12:
                 dayCycle.color = Color.Lerp(corAmanhecer, corTarde, timeChangingColor);
@@ -118,6 +126,7 @@ public class DayCycleController : MonoBehaviour
                 break;
             case 19:
                 dayCycle.color = Color.Lerp(corEntardecer, corNoite, timeChangingColor);
+                noiteAudio.Play();
                 break;
         }
 

@@ -14,6 +14,9 @@ public class ItemScanner : MonoBehaviour
 
     public bool isScanning = false;
 
+    public AudioSource roboAudioSource;
+    public AudioClip scanSound;
+
     public TMP_Text scanFeedbackText;
 
     // Start is called before the first frame update
@@ -28,8 +31,12 @@ public class ItemScanner : MonoBehaviour
         if(canScan && Input.GetKeyDown(KeyCode.R) && !isScanning)
         {
             isScanning = true;
+            roboAudioSource.loop = true;
+            roboAudioSource.clip = scanSound;
+            roboAudioSource.Play();
             item.scanEffect.SetActive(true);
             StartCoroutine(scanEffectTime());
+
             switch (item.itemObject.type)
             {
                 case ItemType.Crafting:
@@ -63,6 +70,8 @@ public class ItemScanner : MonoBehaviour
     IEnumerator scanEffectTime()
     {
         yield return new WaitForSeconds(3.2f);
+        roboAudioSource.loop = false;
+        roboAudioSource.Stop();
         item.scanEffect.SetActive(false);
         isScanning = false;
         scanFeedbackText.gameObject.SetActive(true);

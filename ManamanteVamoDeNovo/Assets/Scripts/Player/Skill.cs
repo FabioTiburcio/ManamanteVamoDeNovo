@@ -62,7 +62,7 @@ public class Skill : MonoBehaviour
             
         }
 
-        if (this.tag == "Shield" && collision.tag == "EnemyAttack")
+        if (this.tag == "EnemyAttack" && collision.tag == "Shield")
         {
             Destroy(gameObject);
         }

@@ -26,6 +26,8 @@ public class PlayerMovement : MonoBehaviour
     public bool upgradedRobo;
     public PetMovement pet;
 
+    public AudioClip[] pcSounds;
+
     //Footsteps
     public float footStepRatePlay;
     AudioSource playerAudioSource;
@@ -100,7 +102,8 @@ public class PlayerMovement : MonoBehaviour
                 Time.timeScale = 1;
             }
             else
-            {               
+            {
+                playerAudioSource.PlayOneShot(pcSounds[0]);
                 computerScreen.SetActive(true);
                 Time.timeScale = 0;
             }

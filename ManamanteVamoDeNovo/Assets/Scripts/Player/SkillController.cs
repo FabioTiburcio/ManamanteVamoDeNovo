@@ -47,11 +47,15 @@ public class SkillController : MonoBehaviour
     public GameObject posionPrefab;
     public GameObject poisonArea;
 
+    private AudioSource skillSpawnSource;
+    public AudioClip[] trocaDeSkills;
+
     public float bulletForce = 20f;
     public int habilityToUnlock;
     private void Start()
     {
         activeSkill = 1;
+        skillSpawnSource = gameObject.GetComponent<AudioSource>();
         glowMaterial.SetColor("_Color", fireHairColor);
     }
 
@@ -73,21 +77,25 @@ public class SkillController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             glowMaterial.SetColor("_Color", fireHairColor);
+            skillSpawnSource.PlayOneShot(trocaDeSkills[0]);
             activeSkill = 1;
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2) && canIce)
         {
             glowMaterial.SetColor("_Color", iceHairColor);
+            skillSpawnSource.PlayOneShot(trocaDeSkills[1]);
             activeSkill = 2;
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3) && canElectric)
         {
             glowMaterial.SetColor("_Color", thunderHairColor);
+            skillSpawnSource.PlayOneShot(trocaDeSkills[2]);
             activeSkill = 3;
         }
         else if (Input.GetKeyDown(KeyCode.Alpha4) && canPoison)
         {
             glowMaterial.SetColor("_Color", poisonHairColor);
+            skillSpawnSource.PlayOneShot(trocaDeSkills[3]);
             activeSkill = 4;
         }
         if (colorIntensity <= 0)

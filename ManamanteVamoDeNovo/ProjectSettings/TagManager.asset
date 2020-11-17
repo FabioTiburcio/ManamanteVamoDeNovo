@@ -15,6 +15,7 @@ TagManager:
   - Wood
   - Shield
   - Scan
+  - MapaGelo
   layers:
   - Default
   - TransparentFX
