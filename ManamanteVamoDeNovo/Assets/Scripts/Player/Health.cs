@@ -92,20 +92,20 @@ public class Health : MonoBehaviour
         if(health <= 0)
         {
             //damageCooldown = false;
-            //if (this.name != "Player")
-            //{
-            //    activeQuest.QuestAtt(this.gameObject.GetComponent<EnemyController>().enemyName, true);
-            //    spr.material = dissolveMaterial;
-            //    StartCoroutine(DissolveEffect());
-            //} else if (this.name == "Torfarios")
-            //{
-            //    activeQuest.QuestAtt("Torfarios", true);
-            //    spr.material = dissolveMaterial;
-            //    StartCoroutine(DissolveEffect());
-            //}
-            //else
-            //{
-            if (this.name == "Player")
+            if (this.name != "Player")
+            {
+                spr.material = dissolveMaterial;
+                StartCoroutine(DissolveEffect());
+            }
+                //} else if (this.name == "Torfarios")
+                //{
+                //    activeQuest.QuestAtt("Torfarios", true);
+                //    spr.material = dissolveMaterial;
+                //    StartCoroutine(DissolveEffect());
+                //}
+                //else
+                //{
+                if (this.name == "Player")
             {
                 saidaDeSom.PlayOneShot(deadSound);
                 respawnPlayer = true;
@@ -303,13 +303,13 @@ public class Health : MonoBehaviour
                     if (this.name == "Torfarios")
                     {
                         activeQuest.QuestAtt("Torfarios", true);
-                        spr.material = dissolveMaterial;
-                        StartCoroutine(DissolveEffect());
+                        //spr.material = dissolveMaterial;
+                        //StartCoroutine(DissolveEffect());
                     } else
                     {
                         activeQuest.QuestAtt(this.gameObject.GetComponent<EnemyController>().enemyName, true);
-                        spr.material = dissolveMaterial;
-                        StartCoroutine(DissolveEffect());
+                        //spr.material = dissolveMaterial;
+                        //StartCoroutine(DissolveEffect());
                     }                   
                 }               
             }
