@@ -1,0 +1,46 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:149afa80698e3bfdaf8954c3824295d6:9f614830d6c43f866a9325d3dab3b4c7:47f6d66e14b356ec15a1470c82778a11$
+#
+:format=40300
+:texture=Jump.png
+:size=4096x1024
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Armature_Jump_00;0;521;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_01;383;521;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_02;766;521;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_03;1149;521;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_04;1532;521;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_05;1915;521;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_06;2298;521;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_07;2681;521;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_08;3064;521;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_09;3447;521;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_10;0;18;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_11;383;18;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_12;766;18;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_13;1149;18;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_14;1532;18;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_15;1915;18;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_16;2298;18;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_17;2681;18;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_18;0;521;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_19;3064;18;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_20;3447;18;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_21;3447;18;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_22;3447;18;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_23;3447;18;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_24;3447;18;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_25;3064;18;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_26;0;521;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_27;0;521;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_28;0;521;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_29;0;521;383;503; 0.5;0.5; 0;0;0;0
+Armature_Jump_30;0;521;383;503; 0.5;0.5; 0;0;0;0

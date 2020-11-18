@@ -1,0 +1,28 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:9cb792c3ae759a8b0f92328e8b82b3ce:edb488e9dd1a6bc3f4c40205ef99cd2b:a0246744dc69b8f5a89a77cf524d6578$
+#
+:format=40300
+:texture=Idle.png
+:size=4096x512
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Armature_X_00;0;144;404;368; 0.5;0.5; 0;0;0;0
+Armature_X_01;404;144;404;368; 0.5;0.5; 0;0;0;0
+Armature_X_02;808;144;404;368; 0.5;0.5; 0;0;0;0
+Armature_X_03;404;144;404;368; 0.5;0.5; 0;0;0;0
+Armature_X_04;0;144;404;368; 0.5;0.5; 0;0;0;0
+Armature_X_05;1212;144;404;368; 0.5;0.5; 0;0;0;0
+Armature_X_06;1616;144;404;368; 0.5;0.5; 0;0;0;0
+Armature_X_07;1212;144;404;368; 0.5;0.5; 0;0;0;0
+Armature_X_08;0;144;404;368; 0.5;0.5; 0;0;0;0
+Armature_X_09;2020;144;404;368; 0.5;0.5; 0;0;0;0
+Armature_X_10;2424;144;404;368; 0.5;0.5; 0;0;0;0
+Armature_X_11;2020;144;404;368; 0.5;0.5; 0;0;0;0
+Armature_X_12;0;144;404;368; 0.5;0.5; 0;0;0;0
