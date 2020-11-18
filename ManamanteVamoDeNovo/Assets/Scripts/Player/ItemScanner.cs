@@ -17,6 +17,9 @@ public class ItemScanner : MonoBehaviour
     public AudioSource roboAudioSource;
     public AudioClip scanSound;
 
+    public AudioSource playerAudioSource;
+    public AudioClip writingDiaryClip;
+
     public TMP_Text scanFeedbackText;
 
     // Start is called before the first frame update
@@ -36,6 +39,7 @@ public class ItemScanner : MonoBehaviour
             roboAudioSource.Play();
             item.scanEffect.SetActive(true);
             StartCoroutine(scanEffectTime());
+            
 
             switch (item.itemObject.type)
             {
@@ -76,19 +80,21 @@ public class ItemScanner : MonoBehaviour
         isScanning = false;
         scanFeedbackText.gameObject.SetActive(true);
         scanFeedbackText.text = item.itemObject.name;
+        
         StartCoroutine(scanFeedBackText());
     }
 
     IEnumerator scanFeedBackText()
     {
-        yield return new WaitForSeconds(3f);
+        playerAudioSource.PlayOneShot(writingDiaryClip);
+        yield return new WaitForSeconds(3f);       
         scanFeedbackText.gameObject.SetActive(false);
         scanFeedbackText.text = "";
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Item")
+        if(collision.tag == "Item")
         {
             canScan = true;
             item = collision.gameObject.GetComponent<GroundItem>();
@@ -98,9 +104,10 @@ public class ItemScanner : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "item")
+        if (collision.tag == "Item")
         {
             canScan = false;
+            item = null;
         }
     }
 }

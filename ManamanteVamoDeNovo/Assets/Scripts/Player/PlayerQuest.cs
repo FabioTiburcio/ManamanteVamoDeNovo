@@ -17,13 +17,15 @@ public class PlayerQuest : MonoBehaviour {
     public GameObject searchText;
     public AudioSource roboAudioSource;
     public AudioClip newMailArrives;
-    
+    private AudioSource playerAudioSource;
+    public AudioClip writingDiaryClip;
+
 
     // Start is called before the first frame update
     void Start()
     {
         inventario = GetComponent<PlayerInventory>();
-        
+        playerAudioSource = GetComponent<AudioSource>();
 
         //Debug.Log(itens.Items[0].ToString());
         //Debug.Log(itens.Items[1].ToString());
@@ -68,6 +70,7 @@ public class PlayerQuest : MonoBehaviour {
             if (!attDiaryInfo)
             {
                 diaryInfoController.SetInfo(quest.title, quest.npcFoto, quest.diaryDescription, "Tarefas", "Primaria");
+                playerAudioSource.PlayOneShot(writingDiaryClip);
                 attDiaryInfo = true;
             }
             if (quest.goal.IsReached())
