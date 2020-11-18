@@ -36,7 +36,7 @@ public class Transitions : MonoBehaviour
     private void OnEnable()
     {
         StartCoroutine(LightsOut());
-        fakeLoading.Fade(2f);
+        fakeLoading.Fade();
         switch (mapaAnterior)
         {
             case "SaidaEsquerda":
@@ -144,7 +144,7 @@ public class Transitions : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
         StartCoroutine(LightsOut());
-        fakeLoading.Fade(3f);
+        fakeLoading.Fade();
         mapaAtivo.SetActive(false);
         casaMera.SetActive(true);
         player.transform.position = casaMeraInstantPoint.position;

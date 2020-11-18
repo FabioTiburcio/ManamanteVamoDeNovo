@@ -8,7 +8,7 @@ public class FakeLoading : MonoBehaviour
 
     public bool faded = false;
 
-    public float duration = 0.4f;
+    public float duration;
 
     CanvasGroup fakeLoadingGroup;
 
@@ -16,9 +16,12 @@ public class FakeLoading : MonoBehaviour
 
     public PlayerMovement playerMovScript;
 
-    public void Fade(float faddingTime)
+    public DicasLoading dicasLoading;
+
+    public void Fade()
     {
         fakeLoadingGroup = GetComponent<CanvasGroup>();
+        dicasLoading.DicasRandomizer();
         StartCoroutine(DoFade(fakeLoadingGroup, fakeLoadingGroup.alpha, faded ? 0 : 1));
         StartCoroutine(TimeToFadeOut(faddingTime));
         playerMovScript.freezePlayer = true;

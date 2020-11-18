@@ -8,6 +8,8 @@ public class ItemScanner : MonoBehaviour
 
     public GroundItem item;
 
+    public GroundItem collidedItem;
+
     public DiaryInfoController diaryInfoController;
     
     public bool canScan = false;
@@ -76,7 +78,7 @@ public class ItemScanner : MonoBehaviour
         yield return new WaitForSeconds(3.2f);
         roboAudioSource.loop = false;
         roboAudioSource.Stop();
-        item.scanEffect.SetActive(false);
+        collidedItem.scanEffect.SetActive(false);
         isScanning = false;
         scanFeedbackText.gameObject.SetActive(true);
         scanFeedbackText.text = item.itemObject.name;
@@ -98,7 +100,7 @@ public class ItemScanner : MonoBehaviour
         {
             canScan = true;
             item = collision.gameObject.GetComponent<GroundItem>();
-            
+            collidedItem = item;
         }
     }
 
