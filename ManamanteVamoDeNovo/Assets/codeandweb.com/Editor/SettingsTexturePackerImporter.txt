@@ -22,6 +22,8 @@ tpsheetFileNames:
 - Assets/Artes/Objetos do Cenário e Outros/Objetos do Cenário e Outros/Coletaveis.png.tpsheet
 - Assets/Artes/Objetos do Cenário e Outros/Objetos do Cenário e Outros/Coletaveis.tpsheet
 - Assets/Artes/Robô/Robo.tpsheet
+- Assets/Artes/Slime/Idle/Idle.tpsheet
+- Assets/Artes/Slime/Jump/Jump.tpsheet
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 textureFileNames:
 - Assets/Artes/cobra/Attack/Attack.png
@@ -45,8 +47,12 @@ textureFileNames:
 - Assets/Artes/Objetos do Cenário e Outros/Objetos do Cenário e Outros/Coletaveis.png.png
 - Assets/Artes/Objetos do Cenário e Outros/Objetos do Cenário e Outros/Coletaveis.png
 - Assets/Artes/Robô/RoboUpFrente.png
+- Assets/Artes/Slime/Idle/Idle.png
+- Assets/Artes/Slime/Jump/Jump.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
+- 
+- 
 - 
 - 
 - 

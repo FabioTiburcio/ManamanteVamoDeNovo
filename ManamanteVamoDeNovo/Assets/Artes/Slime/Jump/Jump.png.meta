@@ -1,0 +1,836 @@
+fileFormatVersion: 2
+guid: 138809789557ead4abfa87092caae35c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6182897576929749937
+    second: Armature_Jump_00
+  - first:
+      213: 2231490401912295309
+    second: Armature_Jump_01
+  - first:
+      213: -5238273923069004719
+    second: Armature_Jump_02
+  - first:
+      213: 5391102886414141654
+    second: Armature_Jump_03
+  - first:
+      213: -3385128283897296337
+    second: Armature_Jump_04
+  - first:
+      213: -4099853496673182851
+    second: Armature_Jump_05
+  - first:
+      213: -3766257584472827052
+    second: Armature_Jump_06
+  - first:
+      213: 6836177891589285989
+    second: Armature_Jump_07
+  - first:
+      213: 8651150937796564
+    second: Armature_Jump_08
+  - first:
+      213: -4552629971351156684
+    second: Armature_Jump_09
+  - first:
+      213: -5461463141020391365
+    second: Armature_Jump_10
+  - first:
+      213: 8218424594149639599
+    second: Armature_Jump_11
+  - first:
+      213: 1163464481119272745
+    second: Armature_Jump_12
+  - first:
+      213: -252497354940169957
+    second: Armature_Jump_13
+  - first:
+      213: 97307060528558665
+    second: Armature_Jump_14
+  - first:
+      213: -3810102018601883667
+    second: Armature_Jump_15
+  - first:
+      213: 826164404942274607
+    second: Armature_Jump_16
+  - first:
+      213: -1974738205085194820
+    second: Armature_Jump_17
+  - first:
+      213: -6544372645431327586
+    second: Armature_Jump_18
+  - first:
+      213: 7831004798991976074
+    second: Armature_Jump_19
+  - first:
+      213: 6013053874178060421
+    second: Armature_Jump_20
+  - first:
+      213: 5611595160796190821
+    second: Armature_Jump_21
+  - first:
+      213: 4738864758744003216
+    second: Armature_Jump_22
+  - first:
+      213: -3667634751890040915
+    second: Armature_Jump_23
+  - first:
+      213: 7662562404638648639
+    second: Armature_Jump_24
+  - first:
+      213: -5698713120317283379
+    second: Armature_Jump_25
+  - first:
+      213: 2361144000372505853
+    second: Armature_Jump_26
+  - first:
+      213: -505825961721724148
+    second: Armature_Jump_27
+  - first:
+      213: -6355540950901070168
+    second: Armature_Jump_28
+  - first:
+      213: -5728681552928269858
+    second: Armature_Jump_29
+  - first:
+      213: 5587925370490684443
+    second: Armature_Jump_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Armature_Jump_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 521
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb658b76901ec550800000000000000
+      internalID: 6182897576929749937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_01
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 521
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f0da592b8d7fe10800000000000000
+      internalID: 2231490401912295309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_02
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 521
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154b74bde99ed47b0800000000000000
+      internalID: -5238273923069004719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_03
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 521
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d84c4c038b01da40800000000000000
+      internalID: 5391102886414141654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_04
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 521
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a8c2fc2cb9501d0800000000000000
+      internalID: -3385128283897296337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_05
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 521
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7bd6ab77f46a17c0800000000000000
+      internalID: -4099853496673182851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_06
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 521
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b50e07ea09bbbc0800000000000000
+      internalID: -3766257584472827052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_07
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 521
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568ee81a29bfede50800000000000000
+      internalID: 6836177891589285989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_08
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 521
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dfab8a0d2cbe1000800000000000000
+      internalID: 8651150937796564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_09
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 521
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43841d3792fc1d0c0800000000000000
+      internalID: -4552629971351156684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b382795953cf434b0800000000000000
+      internalID: -5461463141020391365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_11
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 18
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa58f9310a5bd0270800000000000000
+      internalID: 8218424594149639599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_12
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 18
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ff5e108c4752010800000000000000
+      internalID: 1163464481119272745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_13
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 18
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11c0145ef2fe7cf0800000000000000
+      internalID: -252497354940169957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_14
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 18
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94231f88144b95100800000000000000
+      internalID: 97307060528558665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_15
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 18
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de76c3f966ccf1bc0800000000000000
+      internalID: -3810102018601883667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_16
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 18
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2008aa2620277b00800000000000000
+      internalID: 826164404942274607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_17
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 18
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb52189a0125894e0800000000000000
+      internalID: -1974738205085194820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 521
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e944847a0c7bd25a0800000000000000
+      internalID: -6544372645431327586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_19
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 18
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86cb4ecf515dac60800000000000000
+      internalID: 7831004798991976074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_20
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 18
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5807ba9d3a8a27350800000000000000
+      internalID: 6013053874178060421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_21
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 18
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568de86311460ed40800000000000000
+      internalID: 5611595160796190821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_22
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 18
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092bd87f364d3c140800000000000000
+      internalID: 4738864758744003216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_23
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 18
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da757b700a1f91dc0800000000000000
+      internalID: -3667634751890040915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_24
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 18
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39efb5b8e3e65a60800000000000000
+      internalID: 7662562404638648639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_25
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 18
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc361a23c9a1ae0b0800000000000000
+      internalID: -5698713120317283379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 521
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc7fbd55f774c020800000000000000
+      internalID: 2361144000372505853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 521
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c030861c7f1faf8f0800000000000000
+      internalID: -505825961721724148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 521
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6e712ad259cc7a0800000000000000
+      internalID: -6355540950901070168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 521
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9906eba72af70b0800000000000000
+      internalID: -5728681552928269858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Jump_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 521
+        width: 383
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b148d73b48c4c8d40800000000000000
+      internalID: 5587925370490684443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
