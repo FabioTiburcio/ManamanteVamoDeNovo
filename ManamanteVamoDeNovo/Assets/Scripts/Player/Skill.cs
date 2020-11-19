@@ -17,10 +17,13 @@ public class Skill : MonoBehaviour
     public GameObject hitSoundObject;
     public GameObject spawnSoundObject;
     public SpriteRenderer skillSprite;
+    private AudioSource skillAudioSource;
+    public AudioClip shieldHit;
 
     float eletricDamageCooldown;
     private void Start()
     {
+        skillAudioSource = GetComponent<AudioSource>();
         if (areaAttack)
         {
             Instantiate(hitEffect, transform.position, transform.rotation);
@@ -48,6 +51,9 @@ public class Skill : MonoBehaviour
         
        
     }
+
+  
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (this.tag == "EnemyAttack" && collision.tag == "Player")
@@ -64,7 +70,12 @@ public class Skill : MonoBehaviour
 
         if (this.tag == "EnemyAttack" && collision.tag == "Shield")
         {
-            Destroy(gameObject);
+            if(this.gameObject.GetComponent<Skill>().isProjectile) Destroy(gameObject);
+        }
+
+        if (this.tag == "Shield" && collision.gameObject.tag == "EnemyAttack")
+        {
+            if(collision.gameObject.GetComponent<Skill>().isProjectile) skillAudioSource.PlayOneShot(shieldHit);
         }
 
         if (this.tag == "Attack" && collision.tag == "Enemy")
@@ -74,11 +85,11 @@ public class Skill : MonoBehaviour
             
             if (isProjectile)
             {
-                skillSprite.gameObject.SetActive(false);
-                hitSoundObject.SetActive(true);
-                spawnSoundObject.SetActive(false);
+                //skillSprite.gameObject.SetActive(false);
+                //hitSoundObject.SetActive(true);
+                //spawnSoundObject.SetActive(false);
                 Instantiate(hitEffect, transform.position, transform.rotation);
-                Destroy(gameObject, 2f);
+                Destroy(gameObject);
             }
            
             //Instantiate(hitEffect);

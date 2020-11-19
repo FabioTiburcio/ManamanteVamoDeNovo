@@ -28,6 +28,7 @@ public class Health : MonoBehaviour
     public AudioClip coracaoBatendo3;
     public AudioClip damageTaken;
     public AudioClip deadSound;
+    public GameObject shieldSkill;
     float soundCooldown;
     bool isPoisoned;
     float poisonTimer;
@@ -41,7 +42,7 @@ public class Health : MonoBehaviour
     float speed;
     bool isStuned;
     float stunTimer;
-    
+    bool isShieldOn = false;
 
     // Start is called before the first frame update
     void Start()
@@ -57,6 +58,14 @@ public class Health : MonoBehaviour
 
     private void Update()
     {
+
+        if (shieldSkill.activeSelf)
+        {
+            isShieldOn = true;
+        } else
+        {
+            isShieldOn = false;
+        }
 
         if (damageCooldown)
         {
@@ -275,16 +284,45 @@ public class Health : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (this.tag == "Player" && collision.tag == "EnemyAttack" && !damageCooldown)
+
+        if (isShieldOn)
         {
-            if(health > 0)
+            if (!collision.gameObject.GetComponent<Skill>().isProjectile)
             {
-                saidaDeSom.PlayOneShot(damageTaken);
+                if (this.name == "Player" && collision.tag == "EnemyAttack" && !damageCooldown)
+                {
+                    if (health > 0)
+                    {
+                        saidaDeSom.PlayOneShot(damageTaken);
+                    }
+
+                    damageCooldown = true;
+                }
             }
-            
-            damageCooldown = true;
+        } else
+        {
+            if (this.name == "Player" && collision.tag == "EnemyAttack" && !damageCooldown)
+            {
+                if (health > 0)
+                {
+                    saidaDeSom.PlayOneShot(damageTaken);
+                }
+
+                damageCooldown = true;
+            }
         }
-        else if(this.tag == "Enemy" && collision.tag == "Attack" && !damageCooldown)
+
+        //if (this.name == "Player" && collision.tag == "EnemyAttack" && !damageCooldown && !isShieldOn)
+        //{
+        //    if(health > 0)
+        //    {
+        //        saidaDeSom.PlayOneShot(damageTaken);
+        //    }
+            
+        //    damageCooldown = true;
+        //}
+        //else 
+        if(this.tag == "Enemy" && collision.tag == "Attack" && !damageCooldown)
         {
 
             //if (health <= 0)
