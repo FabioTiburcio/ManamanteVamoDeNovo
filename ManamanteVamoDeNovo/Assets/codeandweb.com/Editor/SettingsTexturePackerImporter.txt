@@ -3,6 +3,7 @@ importPivots: 1
 tpsheetFileNames:
 - Assets/Artes/cobra/Attack/Attack.tpsheet
 - Assets/Artes/cobra/Walk/Walk.tpsheet
+- Assets/Artes/Correção de Arte/Itens.tpsheet
 - Assets/Artes/IminigosSeparados/Balangando/Balango.tpsheet
 - Assets/Artes/IminigosSeparados/Ice/AttackSpriteSheet.tpsheet
 - Assets/Artes/IminigosSeparados/Ice/DamageSpriteSheet.tpsheet
@@ -28,6 +29,7 @@ tpsheetFileNames:
 textureFileNames:
 - Assets/Artes/cobra/Attack/Attack.png
 - Assets/Artes/cobra/Walk/Walk.png
+- Assets/Artes/Correção de Arte/Itens.png
 - Assets/Artes/IminigosSeparados/Balangando/Balango.png
 - Assets/Artes/IminigosSeparados/Ice/AttackSpriteSheet.png
 - Assets/Artes/IminigosSeparados/Ice/DamageSpriteSheet.png
@@ -51,6 +53,7 @@ textureFileNames:
 - Assets/Artes/Slime/Jump/Jump.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
+- 
 - 
 - 
 - 

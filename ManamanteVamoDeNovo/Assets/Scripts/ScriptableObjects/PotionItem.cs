@@ -11,7 +11,11 @@ public enum PotionType
     HealPoison,
     HealFire,
     HealEletric,
-    HealIce
+    HealIce,
+    IntensifyFire,
+    IntensifyIce,
+    IntensifyEletric,
+    IntensifyPoison
 }
 [CreateAssetMenu(fileName = "New Potion Item", menuName = "Inventory System/Item/Potion Item")]
 public class PotionItem : ItemObject
