@@ -1,0 +1,40 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:59abb829858ed8a99dfbb9c4186fae5f:e20769d86fe44b9cf2735a5f214bc921:0349b8d03a745a3d6e139ad59a9ee92c$
+#
+:format=40300
+:texture=Itens.png
+:size=1024x1024
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Alma;0;824;200;200; 0.5;0.5; 0;0;0;0
+Antídoto de Fogo ;200;824;200;200; 0.5;0.5; 0;0;0;0
+Antídoto de Gelo;400;824;200;200; 0.5;0.5; 0;0;0;0
+Antídoto de Veneno;600;824;200;200; 0.5;0.5; 0;0;0;0
+Antídoto Eletrico;800;824;200;200; 0.5;0.5; 0;0;0;0
+Asa de Inseto;0;624;200;200; 0.5;0.5; 0;0;0;0
+Asa de Morcego;200;624;200;200; 0.5;0.5; 0;0;0;0
+Banana;400;624;200;200; 0.5;0.5; 0;0;0;0
+Boost de Fogo;600;624;200;200; 0.5;0.5; 0;0;0;0
+Boost de Gelo;800;624;200;200; 0.5;0.5; 0;0;0;0
+Boost de Veneno;0;424;200;200; 0.5;0.5; 0;0;0;0
+Boost Elétrico;200;424;200;200; 0.5;0.5; 0;0;0;0
+Cogumelo - Veneno;400;424;200;200; 0.5;0.5; 0;0;0;0
+Cogumelo 2;600;424;200;200; 0.5;0.5; 0;0;0;0
+Cogumelo;800;424;200;200; 0.5;0.5; 0;0;0;0
+Flor;0;224;200;200; 0.5;0.5; 0;0;0;0
+Fruta - Gelo;200;224;200;200; 0.5;0.5; 0;0;0;0
+Garra;400;224;200;200; 0.5;0.5; 0;0;0;0
+Maça;600;224;200;200; 0.5;0.5; 0;0;0;0
+Olhos;800;224;200;200; 0.5;0.5; 0;0;0;0
+Ossos;0;24;200;200; 0.5;0.5; 0;0;0;0
+Pimenta;200;24;200;200; 0.5;0.5; 0;0;0;0
+Poção de Cura Grande;400;24;200;200; 0.5;0.5; 0;0;0;0
+Poção de Cura Média;600;24;200;200; 0.5;0.5; 0;0;0;0
+Poção de Cura Pequena;800;24;200;200; 0.5;0.5; 0;0;0;0
