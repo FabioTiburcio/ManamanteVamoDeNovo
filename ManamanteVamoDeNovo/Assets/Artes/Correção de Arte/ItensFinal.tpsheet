@@ -1,0 +1,45 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:7da58c2612570937da0357a48c3cba78:c7c139cc16ad913025158410cba8fa80:0a9badc5d06b06ea8233b8ddabb626a9$
+#
+:format=40300
+:texture=ItensFinal.png
+:size=2048x1024
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Alma Elétrico;0;824;200;200; 0.5;0.5; 0;0;0;0
+Alma Fogo;200;824;200;200; 0.5;0.5; 0;0;0;0
+Alma Gelo;400;824;200;200; 0.5;0.5; 0;0;0;0
+Alma Veneno;600;824;200;200; 0.5;0.5; 0;0;0;0
+Antídoto de Fogo ;800;824;200;200; 0.5;0.5; 0;0;0;0
+Antídoto de Gelo;1000;824;200;200; 0.5;0.5; 0;0;0;0
+Antídoto de Veneno;1200;824;200;200; 0.5;0.5; 0;0;0;0
+Antídoto Eletrico;1400;824;200;200; 0.5;0.5; 0;0;0;0
+Asa de Inseto;1600;824;200;200; 0.5;0.5; 0;0;0;0
+Asa de Morcego;1800;824;200;200; 0.5;0.5; 0;0;0;0
+Banana;0;624;200;200; 0.5;0.5; 0;0;0;0
+Boost de Fogo;200;624;200;200; 0.5;0.5; 0;0;0;0
+Boost de Gelo;400;624;200;200; 0.5;0.5; 0;0;0;0
+Boost de Veneno;600;624;200;200; 0.5;0.5; 0;0;0;0
+Boost Elétrico;800;624;200;200; 0.5;0.5; 0;0;0;0
+Cogumelo - Veneno;1000;624;200;200; 0.5;0.5; 0;0;0;0
+Cogumelo 2;1200;624;200;200; 0.5;0.5; 0;0;0;0
+Cogumelo;1400;624;200;200; 0.5;0.5; 0;0;0;0
+Flor Elétrica;1600;624;200;200; 0.5;0.5; 0;0;0;0
+Flor;1800;624;200;200; 0.5;0.5; 0;0;0;0
+Fruta - Gelo;0;424;200;200; 0.5;0.5; 0;0;0;0
+Garra;200;424;200;200; 0.5;0.5; 0;0;0;0
+Maça;400;424;200;200; 0.5;0.5; 0;0;0;0
+Olhos;600;424;200;200; 0.5;0.5; 0;0;0;0
+Ossos;800;424;200;200; 0.5;0.5; 0;0;0;0
+Pimenta;1000;424;200;200; 0.5;0.5; 0;0;0;0
+Poção de Cura Grande;1200;424;200;200; 0.5;0.5; 0;0;0;0
+Poção de Cura Média;1400;424;200;200; 0.5;0.5; 0;0;0;0
+Poção de Cura Pequena;1600;424;200;200; 0.5;0.5; 0;0;0;0
+Reagente;1800;424;200;200; 0.5;0.5; 0;0;0;0
