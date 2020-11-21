@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDisplay: {fileID: 8482054354421467003, guid: 53b6348de3f504e42b444001f7583009,
     type: 3}
-  name: AntidotoEletrico
+  nome: "Ant\xEDdoto el\xE9trico"
   stackable: 1
   type: 0
   potionType: 6
@@ -24,11 +24,11 @@ MonoBehaviour:
   description: Cura danos eletricos.
   marketValue: 0
   data:
-    name: 
-    Id: 21
+    nome: 
+    Id: 24
     buffs: []
-    type: 3
-    potionType: 0
+    type: 0
+    potionType: 6
     craftingItemType: 0
     craftingItemElement: 0
     equipmentType: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDisplay: {fileID: -1495332453624495033, guid: 53b6348de3f504e42b444001f7583009,
     type: 3}
-  name: AntidotoDeVeneno
+  nome: "Ant\xEDdoto de veneno"
   stackable: 1
   type: 0
   potionType: 4
@@ -24,11 +24,11 @@ MonoBehaviour:
   description: Cura danos de veneno.
   marketValue: 0
   data:
-    name: 
-    Id: 20
+    nome: 
+    Id: 23
     buffs: []
-    type: 3
-    potionType: 0
+    type: 0
+    potionType: 4
     craftingItemType: 0
     craftingItemElement: 0
     equipmentType: 0

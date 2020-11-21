@@ -42,7 +42,7 @@ public class PlayerInventory : MonoBehaviour
                 Item _item = new Item(item);
                 if (inventory.AddItem(_item, 1))
                 {
-                    activeQuest.QuestAtt(_item.name, true);
+                    activeQuest.QuestAtt(_item.nome, true);
                     itemCollided.SetActive(false);
                 }
             }
@@ -152,7 +152,7 @@ public class PlayerInventory : MonoBehaviour
     }
     private void OnApplicationQuit()
     {
-        inventory.Container.Clear();
-        playerTrash.Container.Clear();
+        //inventory.Container.Clear();
+        //playerTrash.Container.Clear();
     }
 }

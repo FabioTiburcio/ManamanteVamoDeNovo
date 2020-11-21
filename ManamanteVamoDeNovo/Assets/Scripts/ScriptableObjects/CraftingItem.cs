@@ -7,17 +7,9 @@ public enum CraftingItemType
     Fruta,
     Flor,
     Cogumelo,
-    Asas,
-    Coracao,
-    Presas,
-    Folha,
-    Olhos,
-    Penas,
-    Pele,
-    Osso,
+    Partes,
     Essencia,
-    Musgo,
-    Chifres
+    Reagente
 }
 
 public enum CraftingItemElement

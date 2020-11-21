@@ -14,22 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDisplay: {fileID: -8589021431211552818, guid: 53b6348de3f504e42b444001f7583009,
     type: 3}
-  name: "Ess\xEAncia de gelo"
+  nome: "Ess\xEAncia de gelo"
   stackable: 1
   type: 2
   potionType: 0
-  craftingItemType: 12
+  craftingItemType: 5
   craftingItemElement: 4
   equipmentType: 0
   description: Drop Comum de inimigos de gelo, usado em antidotos e intensificadores.
   marketValue: 0
   data:
-    name: 
+    nome: 
     Id: 14
     buffs: []
-    type: 3
+    type: 2
     potionType: 0
-    craftingItemType: 0
-    craftingItemElement: 0
+    craftingItemType: 5
+    craftingItemElement: 4
     equipmentType: 0
     marketValue: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDisplay: {fileID: -2101813627279503963, guid: 53b6348de3f504e42b444001f7583009,
     type: 3}
-  name: "Ma\xE7\xE3"
+  nome: "Ma\xE7\xE3"
   stackable: 1
   type: 2
   potionType: 0
@@ -25,12 +25,12 @@ MonoBehaviour:
     pequenas."
   marketValue: 2
   data:
-    name: 
+    nome: 
     Id: 7
     buffs: []
-    type: 3
+    type: 2
     potionType: 0
-    craftingItemType: 0
+    craftingItemType: 1
     craftingItemElement: 0
     equipmentType: 0
     marketValue: 0

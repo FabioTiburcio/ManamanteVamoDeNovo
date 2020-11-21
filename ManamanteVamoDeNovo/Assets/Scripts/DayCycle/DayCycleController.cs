@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class DayCycleController : MonoBehaviour
 {
     public Light2D dayCycle;
+    public Light2D dayCycleHouseWindow;
     public Color corAmanhecer;
     public Color corTarde;
     public Color corEntardecer;
@@ -116,16 +117,20 @@ public class DayCycleController : MonoBehaviour
         {
             case 6:
                 dayCycle.color = Color.Lerp(corNoite, corTarde, timeChangingColor);
+                dayCycleHouseWindow.color = Color.Lerp(corNoite, corTarde, timeChangingColor);
                 noiteAudio.Stop();
                 break;
             case 12:
                 dayCycle.color = Color.Lerp(corAmanhecer, corTarde, timeChangingColor);
+                dayCycleHouseWindow.color = Color.Lerp(corAmanhecer, corTarde, timeChangingColor);
                 break;
             case 17:
                 dayCycle.color = Color.Lerp(corTarde, corEntardecer, timeChangingColor);
+                dayCycleHouseWindow.color = Color.Lerp(corTarde, corEntardecer, timeChangingColor);
                 break;
             case 19:
                 dayCycle.color = Color.Lerp(corEntardecer, corNoite, timeChangingColor);
+                dayCycleHouseWindow.color = Color.Lerp(corEntardecer, corNoite, timeChangingColor);
                 noiteAudio.Play();
                 break;
         }

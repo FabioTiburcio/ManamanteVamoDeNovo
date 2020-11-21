@@ -271,7 +271,7 @@ public class DiaryController : MonoBehaviour
                 Mapa();
                 for (int i = 0; i < paginas.Length; i++)
                 {
-                    if (i == 16 || i == 17)
+                    if (i == 20 || i == 21)
                     {
                         paginas[i].SetActive(true);
                     }
@@ -285,7 +285,7 @@ public class DiaryController : MonoBehaviour
                 Dicas();
                 for (int i = 0; i < paginas.Length; i++)
                 {
-                    if (i == 22 || i == 23)
+                    if (i == 26 || i == 27)
                     {
                         paginas[i].SetActive(true);
                     }
@@ -299,7 +299,7 @@ public class DiaryController : MonoBehaviour
                 AllLeft();
                 for (int i = 0; i < paginas.Length; i++)
                 {
-                    if (i == 24 || i == 25)
+                    if (i == 28 || i == 29)
                     {
                         paginas[i].SetActive(true);
                     }
@@ -455,10 +455,30 @@ public class DiaryController : MonoBehaviour
                 }
                 break;
             case "Pagina16":
-                Inimigos();
+                for (int i = 0; i < paginas.Length; i++)
+                {
+                    if (i == 16 || i == 17)
+                    {
+                        paginas[i].SetActive(true);
+                    }
+                    else
+                    {
+                        paginas[i].SetActive(false);
+                    }
+                }
                 break;
             case "Pagina17":
-                Inimigos();
+                for (int i = 0; i < paginas.Length; i++)
+                {
+                    if (i == 15 || i == 14)
+                    {
+                        paginas[i].SetActive(true);
+                    }
+                    else
+                    {
+                        paginas[i].SetActive(false);
+                    }
+                }
                 break;
             case "Pagina18":
                 for (int i = 0; i < paginas.Length; i++)
@@ -487,6 +507,25 @@ public class DiaryController : MonoBehaviour
                 }
                 break;
             case "Pagina20":
+                Inimigos();
+                break;
+            case "Pagina21":
+                Inimigos();
+                break;
+            case "Pagina22":
+                for (int i = 0; i < paginas.Length; i++)
+                {
+                    if (i == 22 || i == 23)
+                    {
+                        paginas[i].SetActive(true);
+                    }
+                    else
+                    {
+                        paginas[i].SetActive(false);
+                    }
+                }
+                break;
+            case "Pagina23":
                 for (int i = 0; i < paginas.Length; i++)
                 {
                     if (i == 20 || i == 21)
@@ -499,45 +538,7 @@ public class DiaryController : MonoBehaviour
                     }
                 }
                 break;
-            case "Pagina21":
-                for (int i = 0; i < paginas.Length; i++)
-                {
-                    if (i == 18 || i == 19)
-                    {
-                        paginas[i].SetActive(true);
-                    }
-                    else
-                    {
-                        paginas[i].SetActive(false);
-                    }
-                }
-                break;
-            case "Pagina22":
-                Mapa();
-                break;
-            case "Pagina23":
-                Mapa();
-                break;
             case "Pagina24":
-                Dicas();
-                break;
-            case "Pagina25":
-                Dicas();
-                break;
-            case "Pagina26":
-                for (int i = 0; i < paginas.Length; i++)
-                {
-                    if (i == 26 || i == 27)
-                    {
-                        paginas[i].SetActive(true);
-                    }
-                    else
-                    {
-                        paginas[i].SetActive(false);
-                    }
-                }
-                break;
-            case "Pagina27":
                 for (int i = 0; i < paginas.Length; i++)
                 {
                     if (i == 24 || i == 25)
@@ -550,7 +551,58 @@ public class DiaryController : MonoBehaviour
                     }
                 }
                 break;
+            case "Pagina25":
+                for (int i = 0; i < paginas.Length; i++)
+                {
+                    if (i == 22 || i == 23)
+                    {
+                        paginas[i].SetActive(true);
+                    }
+                    else
+                    {
+                        paginas[i].SetActive(false);
+                    }
+                }
+                break;
+            case "Pagina26":
+                Mapa();
+                break;
+            case "Pagina27":
+                Mapa();
+                break;
             case "Pagina28":
+                Dicas();
+                break;
+            case "Pagina29":
+                Dicas();
+                break;
+            case "Pagina30":
+                for (int i = 0; i < paginas.Length; i++)
+                {
+                    if (i == 30 || i == 31)
+                    {
+                        paginas[i].SetActive(true);
+                    }
+                    else
+                    {
+                        paginas[i].SetActive(false);
+                    }
+                }
+                break;
+            case "Pagina31":
+                for (int i = 0; i < paginas.Length; i++)
+                {
+                    if (i == 28 || i == 29)
+                    {
+                        paginas[i].SetActive(true);
+                    }
+                    else
+                    {
+                        paginas[i].SetActive(false);
+                    }
+                }
+                break;
+            case "Pagina32":
                 AllLeft();
                 for (int i = 0; i < paginas.Length; i++)
                 {

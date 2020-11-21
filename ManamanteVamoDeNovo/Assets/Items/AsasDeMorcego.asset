@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDisplay: {fileID: 8872896410228479451, guid: 53b6348de3f504e42b444001f7583009,
     type: 3}
-  name: Asa de morcego
+  nome: Asa de morcego
   stackable: 1
   type: 2
   potionType: 0
@@ -24,12 +24,12 @@ MonoBehaviour:
   description: Asas de morcego, item de crafting futuro.
   marketValue: 0
   data:
-    name: 
+    nome: 
     Id: 1
     buffs: []
-    type: 3
+    type: 2
     potionType: 0
-    craftingItemType: 0
+    craftingItemType: 4
     craftingItemElement: 0
     equipmentType: 0
     marketValue: 0

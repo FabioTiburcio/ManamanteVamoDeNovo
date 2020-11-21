@@ -20,7 +20,7 @@ MonoBehaviour:
       parent: {fileID: 0}
       item:
         name: 
-        Id: -1
+        Id: 1
         buffs: []
         type: 3
         potionType: 0
@@ -28,12 +28,12 @@ MonoBehaviour:
         craftingItemElement: 0
         equipmentType: 0
         marketValue: 0
-      amount: 0
+      amount: 18
     - AllowedItems: 
       parent: {fileID: 0}
       item:
         name: 
-        Id: -1
+        Id: 25
         buffs: []
         type: 3
         potionType: 0
@@ -41,12 +41,12 @@ MonoBehaviour:
         craftingItemElement: 0
         equipmentType: 0
         marketValue: 0
-      amount: 0
+      amount: 4
     - AllowedItems: 
       parent: {fileID: 0}
       item:
         name: 
-        Id: -1
+        Id: 26
         buffs: []
         type: 3
         potionType: 0
@@ -54,12 +54,12 @@ MonoBehaviour:
         craftingItemElement: 0
         equipmentType: 0
         marketValue: 0
-      amount: 0
+      amount: 5
     - AllowedItems: 
       parent: {fileID: 0}
       item:
         name: 
-        Id: -1
+        Id: 27
         buffs: []
         type: 3
         potionType: 0
@@ -67,12 +67,12 @@ MonoBehaviour:
         craftingItemElement: 0
         equipmentType: 0
         marketValue: 0
-      amount: 0
+      amount: 5
     - AllowedItems: 
       parent: {fileID: 0}
       item:
         name: 
-        Id: -1
+        Id: 7
         buffs: []
         type: 3
         potionType: 0
@@ -80,59 +80,59 @@ MonoBehaviour:
         craftingItemElement: 0
         equipmentType: 0
         marketValue: 0
-      amount: 0
+      amount: 2
     - AllowedItems: 
       parent: {fileID: 0}
       item:
-        name: 
-        Id: -1
+        name: AntidotoDeFogo
+        Id: 21
         buffs: []
-        type: 3
-        potionType: 0
+        type: 0
+        potionType: 5
         craftingItemType: 0
         craftingItemElement: 0
         equipmentType: 0
         marketValue: 0
-      amount: 0
+      amount: 1
     - AllowedItems: 
       parent: {fileID: 0}
       item:
-        name: 
-        Id: -1
+        name: AntidotoDeGelo
+        Id: 22
         buffs: []
-        type: 3
-        potionType: 0
+        type: 0
+        potionType: 7
         craftingItemType: 0
         craftingItemElement: 0
         equipmentType: 0
         marketValue: 0
-      amount: 0
+      amount: 1
     - AllowedItems: 
       parent: {fileID: 0}
       item:
-        name: 
-        Id: -1
+        name: "Po\xE7\xE3o de cura pequena"
+        Id: 12
         buffs: []
-        type: 3
-        potionType: 0
+        type: 0
+        potionType: 1
         craftingItemType: 0
         craftingItemElement: 0
         equipmentType: 0
-        marketValue: 0
-      amount: 0
+        marketValue: 10
+      amount: 3
     - AllowedItems: 
       parent: {fileID: 0}
       item:
-        name: 
-        Id: -1
+        name: Reagente
+        Id: 28
         buffs: []
-        type: 3
+        type: 2
         potionType: 0
-        craftingItemType: 0
+        craftingItemType: 6
         craftingItemElement: 0
         equipmentType: 0
         marketValue: 0
-      amount: 0
+      amount: 3
     - AllowedItems: 
       parent: {fileID: 0}
       item:

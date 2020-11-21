@@ -14,22 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDisplay: {fileID: -9122324872123818650, guid: 53b6348de3f504e42b444001f7583009,
     type: 3}
-  name: Presas
+  nome: Garra
   stackable: 1
   type: 2
   potionType: 0
-  craftingItemType: 6
+  craftingItemType: 4
   craftingItemElement: 0
   equipmentType: 0
   description: "Presas, utiliz\xE1veis para crafting no futuro."
   marketValue: 0
   data:
-    name: 
+    nome: 
     Id: 6
     buffs: []
-    type: 3
+    type: 2
     potionType: 0
-    craftingItemType: 0
+    craftingItemType: 4
     craftingItemElement: 0
     equipmentType: 0
     marketValue: 0

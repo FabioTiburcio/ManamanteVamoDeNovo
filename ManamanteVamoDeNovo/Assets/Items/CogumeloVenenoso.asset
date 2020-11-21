@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDisplay: {fileID: -2482313306548891332, guid: 53b6348de3f504e42b444001f7583009,
     type: 3}
-  name: Cogumelo venenoso
+  nome: Cogumelo venenoso
   stackable: 1
   type: 2
   potionType: 0
-  craftingItemType: 3
+  craftingItemType: 1
   craftingItemElement: 2
   equipmentType: 0
   description: "Cogumelo venenoso, utilizada para fabrica\xE7\xE3o de antidotos e
     intensificadores."
   marketValue: 0
   data:
-    name: 
-    Id: 2
+    nome: 
+    Id: 27
     buffs: []
-    type: 3
+    type: 2
     potionType: 0
-    craftingItemType: 0
-    craftingItemElement: 0
+    craftingItemType: 1
+    craftingItemElement: 2
     equipmentType: 0
     marketValue: 0

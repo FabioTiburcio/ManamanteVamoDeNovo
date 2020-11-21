@@ -48,25 +48,25 @@ public class ItemScanner : MonoBehaviour
                 case ItemType.Crafting:
                     if(item.itemObject.craftingItemType == CraftingItemType.Fruta)
                     {
-                        diaryInfoController.SetInfo(item.itemObject.name, item.itemObject.uiDisplay, item.itemObject.description, "Coletaveis", "Fruta");
+                        diaryInfoController.SetInfo(item.itemObject.nome, item.itemObject.uiDisplay, item.itemObject.description, "Coletaveis", "Fruta");
                     }
-                    else if(item.itemObject.craftingItemType == CraftingItemType.Flor || item.itemObject.craftingItemType == CraftingItemType.Folha)
+                    else if(item.itemObject.craftingItemType == CraftingItemType.Flor)
                     {
-                        diaryInfoController.SetInfo(item.itemObject.name, item.itemObject.uiDisplay, item.itemObject.description, "Coletaveis", "Flor");
+                        diaryInfoController.SetInfo(item.itemObject.nome, item.itemObject.uiDisplay, item.itemObject.description, "Coletaveis", "Flor");
                     }
                     else if(item.itemObject.craftingItemType == CraftingItemType.Cogumelo)
                     {
-                        diaryInfoController.SetInfo(item.itemObject.name, item.itemObject.uiDisplay, item.itemObject.description, "Coletaveis", "Cogumelo");
+                        diaryInfoController.SetInfo(item.itemObject.nome, item.itemObject.uiDisplay, item.itemObject.description, "Coletaveis", "Cogumelo");
                     }
                     else
                     {
-                        diaryInfoController.SetInfo(item.itemObject.name, item.itemObject.uiDisplay, item.itemObject.description, "Coletaveis", "Partes");
+                        diaryInfoController.SetInfo(item.itemObject.nome, item.itemObject.uiDisplay, item.itemObject.description, "Coletaveis", "Partes");
                     }
                     break;
                 case ItemType.Equipment:
                     break;
                 case ItemType.Potion:
-                    diaryInfoController.SetInfo(item.itemObject.name, item.itemObject.uiDisplay, item.itemObject.description, "Coletaveis", "Pocao");
+                    diaryInfoController.SetInfo(item.itemObject.nome, item.itemObject.uiDisplay, item.itemObject.description, "Coletaveis", "Pocao");
                     break;
             }
                 
@@ -81,7 +81,7 @@ public class ItemScanner : MonoBehaviour
         collidedItem.scanEffect.SetActive(false);
         isScanning = false;
         scanFeedbackText.gameObject.SetActive(true);
-        scanFeedbackText.text = item.itemObject.name;
+        scanFeedbackText.text = item.itemObject.nome;
         
         StartCoroutine(scanFeedBackText());
     }

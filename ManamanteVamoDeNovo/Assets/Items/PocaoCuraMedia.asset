@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDisplay: {fileID: -1772641425286790683, guid: 53b6348de3f504e42b444001f7583009,
     type: 3}
-  name: "Po\xE7\xE3o de cura m\xE9dia"
+  nome: "Po\xE7\xE3o de cura m\xE9dia"
   stackable: 1
   type: 0
   potionType: 2
@@ -24,11 +24,11 @@ MonoBehaviour:
   description: "Po\xE7\xE3o que cura uma parte da vida."
   marketValue: 30
   data:
-    name: 
+    nome: 
     Id: 11
     buffs: []
-    type: 3
-    potionType: 0
+    type: 0
+    potionType: 2
     craftingItemType: 0
     craftingItemElement: 0
     equipmentType: 0

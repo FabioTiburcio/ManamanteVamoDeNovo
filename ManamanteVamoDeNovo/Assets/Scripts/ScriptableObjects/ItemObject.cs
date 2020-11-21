@@ -22,7 +22,7 @@ public enum Attributes
 public class ItemObject : ScriptableObject
 {
     public Sprite uiDisplay;
-    public string name;
+    public string nome;
     public bool stackable;
     public ItemType type;
     [Header ("Arrumar apenas o referente ao tipo do item acima.")]
@@ -45,7 +45,7 @@ public class ItemObject : ScriptableObject
 [System.Serializable]
 public class Item
 {
-    public string name;
+    public string nome;
     public int Id = -1;
     public ItemBuff[] buffs;
     public ItemType type;
@@ -56,13 +56,13 @@ public class Item
     public float marketValue;
     public Item()
     {
-        name = "";
+        nome = "";
         Id = -1;
         type = ItemType.Default;
     }
     public Item(ItemObject item)
     {
-        name = item.name;
+        nome = item.nome;
         Id = item.data.Id;
         type = item.type;
         potionType = item.potionType;

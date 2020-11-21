@@ -14,22 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDisplay: {fileID: -1265127058508387324, guid: 53b6348de3f504e42b444001f7583009,
     type: 3}
-  name: Olho de slime
+  nome: Olhos
   stackable: 1
   type: 2
   potionType: 0
-  craftingItemType: 8
+  craftingItemType: 4
   craftingItemElement: 0
   equipmentType: 0
   description: "Olhos de slime, utiliz\xE1vel no futuro."
   marketValue: 0
   data:
-    name: 
+    nome: 
     Id: 8
     buffs: []
-    type: 3
+    type: 2
     potionType: 0
-    craftingItemType: 0
+    craftingItemType: 4
     craftingItemElement: 0
     equipmentType: 0
     marketValue: 0

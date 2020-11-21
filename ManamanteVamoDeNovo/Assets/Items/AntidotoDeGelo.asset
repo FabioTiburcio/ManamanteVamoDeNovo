@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDisplay: {fileID: -3927817568313875582, guid: 53b6348de3f504e42b444001f7583009,
     type: 3}
-  name: AntidotoDeGelo
+  nome: "Ant\xEDdoto de gelo"
   stackable: 1
   type: 0
   potionType: 7
@@ -25,10 +25,10 @@ MonoBehaviour:
   marketValue: 0
   data:
     name: 
-    Id: 19
+    Id: 22
     buffs: []
-    type: 3
-    potionType: 0
+    type: 0
+    potionType: 7
     craftingItemType: 0
     craftingItemElement: 0
     equipmentType: 0

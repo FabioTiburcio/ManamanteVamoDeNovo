@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDisplay: {fileID: 7323634285035014080, guid: 53b6348de3f504e42b444001f7583009,
     type: 3}
-  name: AntidotoDeFogo
+  nome: "Ant\xEDdoto de fogo"
   stackable: 1
   type: 0
   potionType: 5
@@ -25,10 +25,10 @@ MonoBehaviour:
   marketValue: 0
   data:
     name: 
-    Id: 18
+    Id: 21
     buffs: []
-    type: 3
-    potionType: 0
+    type: 0
+    potionType: 5
     craftingItemType: 0
     craftingItemElement: 0
     equipmentType: 0

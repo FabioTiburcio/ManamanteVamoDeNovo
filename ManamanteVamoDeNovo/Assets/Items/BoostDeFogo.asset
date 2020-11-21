@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDisplay: {fileID: 1060079563053268721, guid: 53b6348de3f504e42b444001f7583009,
     type: 3}
-  name: BoostDeFogo
+  nome: Intensificador de fogo
   stackable: 1
   type: 0
   potionType: 8
@@ -24,11 +24,11 @@ MonoBehaviour:
   description: Aumenta o dano das habilidades de fogo.
   marketValue: 0
   data:
-    name: 
-    Id: 14
+    nome: 
+    Id: 17
     buffs: []
-    type: 3
-    potionType: 0
+    type: 0
+    potionType: 8
     craftingItemType: 0
     craftingItemElement: 0
     equipmentType: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDisplay: {fileID: -4232385933252239474, guid: 53b6348de3f504e42b444001f7583009,
     type: 3}
-  name: Asa de inseto
+  nome: Asa de inseto
   stackable: 1
   type: 2
   potionType: 0
@@ -24,12 +24,12 @@ MonoBehaviour:
   description: Asas de inseto, utilizavel no futuro, para crafting.
   marketValue: 0
   data:
-    name: 
+    nome: 
     Id: 0
     buffs: []
-    type: 3
+    type: 2
     potionType: 0
-    craftingItemType: 0
+    craftingItemType: 4
     craftingItemElement: 0
     equipmentType: 0
     marketValue: 0

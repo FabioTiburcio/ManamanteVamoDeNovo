@@ -14,22 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDisplay: {fileID: 221595835836940091, guid: 53b6348de3f504e42b444001f7583009,
     type: 3}
-  name: Flor
+  nome: Flor
   stackable: 1
   type: 2
   potionType: 0
   craftingItemType: 2
-  craftingItemElement: 3
+  craftingItemElement: 0
   equipmentType: 0
   description: "Flor comum, utilizada para fabrica\xE7\xE3o de po\xE7\xF5es grandes."
   marketValue: 1
   data:
-    name: 
+    nome: 
     Id: 5
     buffs: []
-    type: 3
+    type: 2
     potionType: 0
-    craftingItemType: 0
+    craftingItemType: 2
     craftingItemElement: 0
     equipmentType: 0
     marketValue: 0

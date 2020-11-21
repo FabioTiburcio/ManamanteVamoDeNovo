@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDisplay: {fileID: -8552574713316507937, guid: 53b6348de3f504e42b444001f7583009,
     type: 3}
-  name: Cogumelo Amarelo
+  nome: Cogumelo amarelo
   stackable: 1
   type: 2
   potionType: 0
@@ -25,12 +25,12 @@ MonoBehaviour:
     m\xE9dias."
   marketValue: 0
   data:
-    name: 
+    nome: 
     Id: 3
     buffs: []
-    type: 3
+    type: 2
     potionType: 0
-    craftingItemType: 0
+    craftingItemType: 3
     craftingItemElement: 0
     equipmentType: 0
     marketValue: 0

@@ -153,7 +153,7 @@ public class DiaryInfoController : MonoBehaviour
                         }
                         break;
                     case "Pocao":
-                        for (int i = 45; i < 48; i++)
+                        for (int i = 45; i < 59; i++)
                         {
                             if (infosInPagesPrefabs[i].imageSprite.sprite == null)
                             {
@@ -175,7 +175,7 @@ public class DiaryInfoController : MonoBehaviour
                 }
                 break;
             case "Inimigos":
-                for (int i = 48; i < 66; i++)
+                for (int i = 60; i < 77; i++)
                 {
                     if (infosInPagesPrefabs[i].imageSprite.sprite == null)
                     {
@@ -197,7 +197,7 @@ public class DiaryInfoController : MonoBehaviour
             case "Mapa":
                 break;
             case "Dicas":
-                for (int i = 72; i < 84; i++)
+                for (int i = 84; i < 95; i++)
                 {
                     if (infosInPagesPrefabs[i].imageSprite.sprite == null)
                     {

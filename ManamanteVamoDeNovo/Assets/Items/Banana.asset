@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDisplay: {fileID: -2723872406725829969, guid: 53b6348de3f504e42b444001f7583009,
     type: 3}
-  name: Banana
+  nome: Banana
   stackable: 1
   type: 2
   potionType: 0
@@ -24,12 +24,12 @@ MonoBehaviour:
   description: "Banana comum, utilizada para fabrica\xE7\xE3o de po\xE7\xF5es pequenas."
   marketValue: 0
   data:
-    name: 
+    nome: 
     Id: 2
     buffs: []
-    type: 3
+    type: 2
     potionType: 0
-    craftingItemType: 0
+    craftingItemType: 1
     craftingItemElement: 0
     equipmentType: 0
     marketValue: 0

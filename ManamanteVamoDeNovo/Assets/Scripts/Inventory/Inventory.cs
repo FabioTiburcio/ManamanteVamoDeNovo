@@ -10,12 +10,16 @@ using System.Runtime.Serialization;
 public class Inventory : ScriptableObject
 {
     public string savePath;
-    public ItemDatabaseObject database;
+    public ItemDatabaseObject database = Resources.Load<ItemDatabaseObject>("Database/Database");
     public InventoryCallback Container;
     public Item itemRemovedFromMailbox;
     public int itemRemovedAmount;
     public bool changedItem = false;
-    
+
+    private void OnEnable()
+    {
+        database = Resources.Load<ItemDatabaseObject>("Database/Database");
+    }
     public bool AddItem(Item _item, int _amount)
     {
         if(EmptySlotCount <= 0)
@@ -116,39 +120,6 @@ public class Inventory : ScriptableObject
         
         switch (_item.type)
         {
-            case ItemType.Crafting:
-                switch (_item.craftingItemType)
-                {
-                    case CraftingItemType.Asas:
-                        break;
-                    case CraftingItemType.Chifres:
-                        break;
-                    case CraftingItemType.Cogumelo:
-                        break;
-                    case CraftingItemType.Coracao:
-                        break;
-                    case CraftingItemType.Essencia:
-                        break;
-                    case CraftingItemType.Flor:
-                        break;
-                    case CraftingItemType.Folha:
-                        break;
-                    case CraftingItemType.Fruta:
-                        break;
-                    case CraftingItemType.Musgo:
-                        break;
-                    case CraftingItemType.Olhos:
-                        break;
-                    case CraftingItemType.Osso:
-                        break;
-                    case CraftingItemType.Pele:
-                        break;
-                    case CraftingItemType.Penas:
-                        break;
-                    case CraftingItemType.Presas:
-                        break;
-                }
-                break;
             case ItemType.Equipment:
                 switch (_item.equipmentType)
                 {
@@ -190,6 +161,19 @@ public class Inventory : ScriptableObject
                     case PotionType.HealIce:
                         Debug.Log("Curou Gelo");
                         break;
+                    case PotionType.IntensifyFire:
+                        Debug.Log("AumentaDanoFogo");
+                        break;
+                    case PotionType.IntensifyIce:
+                        Debug.Log("AumentaDanoGelo");
+                        break;
+                    case PotionType.IntensifyPoison:
+                        Debug.Log("AumentaDanoVeneno");
+                        break;
+                    case PotionType.IntensifyEletric:
+                        Debug.Log("AumentaDanoEletrico");
+                        break;
+                        
                 }
                 RemoveAmount(_item);
                 break;

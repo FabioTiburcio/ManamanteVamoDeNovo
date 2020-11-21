@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiDisplay: {fileID: 4620642764861089905, guid: 53b6348de3f504e42b444001f7583009,
     type: 3}
-  name: BoostDeGelo
+  nome: Intensificador de gelo
   stackable: 1
   type: 0
   potionType: 9
@@ -24,11 +24,11 @@ MonoBehaviour:
   description: Aumenta o dano das habilidades de gelo.
   marketValue: 0
   data:
-    name: 
-    Id: 15
+    nome: 
+    Id: 18
     buffs: []
-    type: 3
-    potionType: 0
+    type: 0
+    potionType: 9
     craftingItemType: 0
     craftingItemElement: 0
     equipmentType: 0
