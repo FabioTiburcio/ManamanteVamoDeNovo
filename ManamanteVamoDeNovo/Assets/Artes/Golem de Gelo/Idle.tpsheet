@@ -1,0 +1,56 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:81ec0c94e3da2824ddab98f0ebff5a4d:60c31573ad034f2912844395444b1c99:a0246744dc69b8f5a89a77cf524d6578$
+#
+:format=40300
+:texture=Idle.png
+:size=4096x2048
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Armature_Idle_00;0;1394;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_01;639;1394;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_02;1278;1394;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_03;1917;1394;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_04;2556;1394;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_05;3195;1394;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_06;0;740;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_07;639;740;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_08;1278;740;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_09;1917;740;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_10;2556;740;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_11;1917;740;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_12;1278;740;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_13;639;740;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_14;0;740;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_15;3195;1394;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_16;2556;1394;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_17;1917;1394;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_18;1278;1394;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_19;639;1394;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_20;0;1394;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_21;639;1394;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_22;1278;1394;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_23;1917;1394;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_24;2556;1394;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_25;3195;1394;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_26;0;740;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_27;639;740;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_28;1278;740;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_29;1917;740;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_30;2556;740;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_31;1917;740;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_32;1278;740;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_33;639;740;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_34;0;740;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_35;3195;1394;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_36;2556;1394;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_37;1917;1394;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_38;1278;1394;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_39;639;1394;639;654; 0.5;0.5; 0;0;0;0
+Armature_Idle_40;0;1394;639;654; 0.5;0.5; 0;0;0;0

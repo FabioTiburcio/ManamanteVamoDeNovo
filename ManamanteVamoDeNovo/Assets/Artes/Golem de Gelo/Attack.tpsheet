@@ -1,0 +1,40 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:409e79eaafaeb06c912946bca6b8a0d5:4e8126a2be44a7b13117b59363418b8a:5830947cb57fe6d7de1349ef1cf2ceb3$
+#
+:format=40300
+:texture=Attack.png
+:size=4096x4096
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Armature_Attack_00;0;3068;766;1028; 0.5;0.5; 0;0;0;0
+Armature_Attack_01;766;3068;766;1028; 0.5;0.5; 0;0;0;0
+Armature_Attack_02;1532;3068;766;1028; 0.5;0.5; 0;0;0;0
+Armature_Attack_03;2298;3068;766;1028; 0.5;0.5; 0;0;0;0
+Armature_Attack_04;3064;3068;766;1028; 0.5;0.5; 0;0;0;0
+Armature_Attack_05;0;2040;766;1028; 0.5;0.5; 0;0;0;0
+Armature_Attack_06;766;2040;766;1028; 0.5;0.5; 0;0;0;0
+Armature_Attack_07;766;2040;766;1028; 0.5;0.5; 0;0;0;0
+Armature_Attack_08;766;2040;766;1028; 0.5;0.5; 0;0;0;0
+Armature_Attack_09;766;2040;766;1028; 0.5;0.5; 0;0;0;0
+Armature_Attack_10;766;2040;766;1028; 0.5;0.5; 0;0;0;0
+Armature_Attack_11;1532;2040;766;1028; 0.5;0.5; 0;0;0;0
+Armature_Attack_12;2298;2040;766;1028; 0.5;0.5; 0;0;0;0
+Armature_Attack_13;3064;2040;766;1028; 0.5;0.5; 0;0;0;0
+Armature_Attack_14;0;1012;766;1028; 0.5;0.5; 0;0;0;0
+Armature_Attack_15;0;1012;766;1028; 0.5;0.5; 0;0;0;0
+Armature_Attack_16;0;1012;766;1028; 0.5;0.5; 0;0;0;0
+Armature_Attack_17;0;1012;766;1028; 0.5;0.5; 0;0;0;0
+Armature_Attack_18;0;1012;766;1028; 0.5;0.5; 0;0;0;0
+Armature_Attack_19;0;1012;766;1028; 0.5;0.5; 0;0;0;0
+Armature_Attack_20;0;1012;766;1028; 0.5;0.5; 0;0;0;0
+Armature_Attack_21;766;1012;766;1028; 0.5;0.5; 0;0;0;0
+Armature_Attack_22;1532;1012;766;1028; 0.5;0.5; 0;0;0;0
+Armature_Attack_23;2298;1012;766;1028; 0.5;0.5; 0;0;0;0
+Armature_Attack_24;0;3068;766;1028; 0.5;0.5; 0;0;0;0
