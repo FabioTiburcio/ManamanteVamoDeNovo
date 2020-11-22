@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: 37f0994a2a2318941874b4aaa0828e8a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3326536696537778335
+    second: Armature_Fly_00
+  - first:
+      213: -482289789329203012
+    second: Armature_Fly_01
+  - first:
+      213: 3063112719946669836
+    second: Armature_Fly_02
+  - first:
+      213: 2795069789210066421
+    second: Armature_Fly_03
+  - first:
+      213: -2537128774785776739
+    second: Armature_Fly_04
+  - first:
+      213: 2827215938538263608
+    second: Armature_Fly_05
+  - first:
+      213: 2111791514734293284
+    second: Armature_Fly_06
+  - first:
+      213: -7807817608919349442
+    second: Armature_Fly_07
+  - first:
+      213: 7591970656713736275
+    second: Armature_Fly_08
+  - first:
+      213: 899741642023654891
+    second: Armature_Fly_09
+  - first:
+      213: -7553104645903935833
+    second: Armature_Fly_10
+  - first:
+      213: -6491102695737045571
+    second: Armature_Fly_11
+  - first:
+      213: 3239369429353575316
+    second: Armature_Fly_12
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Armature_Fly_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1700
+        width: 630
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167709ecf74c5d1d0800000000000000
+      internalID: -3326536696537778335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Fly_01
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1700
+        width: 630
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb02c3cedff8e49f0800000000000000
+      internalID: -482289789329203012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Fly_02
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1700
+        width: 630
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0fd66b2acc528a20800000000000000
+      internalID: 3063112719946669836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Fly_03
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1352
+        width: 630
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fdba441a251ac620800000000000000
+      internalID: 2795069789210066421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Fly_04
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1352
+        width: 630
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93c87552de4accd0800000000000000
+      internalID: -2537128774785776739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Fly_05
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1352
+        width: 630
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83455e7bae94c3720800000000000000
+      internalID: 2827215938538263608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Fly_06
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1004
+        width: 630
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421fb63a1379e4d10800000000000000
+      internalID: 2111791514734293284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Fly_07
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1004
+        width: 630
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e378255904f05a390800000000000000
+      internalID: -7807817608919349442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Fly_08
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1004
+        width: 630
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3508c9a96191c5960800000000000000
+      internalID: 7591970656713736275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Fly_09
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 656
+        width: 630
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be55272a1468c7c00800000000000000
+      internalID: 899741642023654891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Fly_10
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 656
+        width: 630
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a61b85b75bfd2790800000000000000
+      internalID: -7553104645903935833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Fly_11
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 656
+        width: 630
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd43045d78fae5a0800000000000000
+      internalID: -6491102695737045571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Fly_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1700
+        width: 630
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49331e4455d84fc20800000000000000
+      internalID: 3239369429353575316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,10 +1,16 @@
 version: 2
 importPivots: 1
 tpsheetFileNames:
+- Assets/Artes/Abelhuda/SpriteSheet/Attack.tpsheet
+- Assets/Artes/Abelhuda/SpriteSheet/Hit.tpsheet
+- Assets/Artes/Abelhuda/SpriteSheet/Walk.tpsheet
 - Assets/Artes/cobra/Attack/Attack.tpsheet
 - Assets/Artes/cobra/Walk/Walk.tpsheet
 - Assets/Artes/Correção de Arte/Itens.tpsheet
 - Assets/Artes/Correção de Arte/ItensFinal.tpsheet
+- Assets/Artes/Golem de Gelo/Attack.tpsheet
+- Assets/Artes/Golem de Gelo/Damage.tpsheet
+- Assets/Artes/Golem de Gelo/Idle.tpsheet
 - Assets/Artes/IminigosSeparados/Balangando/Balango.tpsheet
 - Assets/Artes/IminigosSeparados/Ice/AttackSpriteSheet.tpsheet
 - Assets/Artes/IminigosSeparados/Ice/DamageSpriteSheet.tpsheet
@@ -21,6 +27,7 @@ tpsheetFileNames:
 - Assets/Artes/Mera/MeraMainTextureCerta.tpsheet
 - Assets/Artes/Mera/Ofegante/Ofegante.tpsheet
 - Assets/Artes/Mera/Walk/Walk.tpsheet
+- Assets/Artes/Morcego/Fly.tpsheet
 - Assets/Artes/Objetos do Cenário e Outros/Objetos do Cenário e Outros/Coletaveis.png.tpsheet
 - Assets/Artes/Objetos do Cenário e Outros/Objetos do Cenário e Outros/Coletaveis.tpsheet
 - Assets/Artes/Robô/Robo.tpsheet
@@ -28,10 +35,16 @@ tpsheetFileNames:
 - Assets/Artes/Slime/Jump/Jump.tpsheet
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 textureFileNames:
+- Assets/Artes/Abelhuda/SpriteSheet/Attack.png
+- Assets/Artes/Abelhuda/SpriteSheet/Hit.png
+- Assets/Artes/Abelhuda/SpriteSheet/Walk.png
 - Assets/Artes/cobra/Attack/Attack.png
 - Assets/Artes/cobra/Walk/Walk.png
 - Assets/Artes/Correção de Arte/Itens.png
 - Assets/Artes/Correção de Arte/ItensFinal.png
+- Assets/Artes/Golem de Gelo/Attack.png
+- Assets/Artes/Golem de Gelo/Damage.png
+- Assets/Artes/Golem de Gelo/Idle.png
 - Assets/Artes/IminigosSeparados/Balangando/Balango.png
 - Assets/Artes/IminigosSeparados/Ice/AttackSpriteSheet.png
 - Assets/Artes/IminigosSeparados/Ice/DamageSpriteSheet.png
@@ -48,6 +61,7 @@ textureFileNames:
 - Assets/Artes/Mera/MeraMainTextureCerta.png
 - Assets/Artes/Mera/Ofegante/Ofegante.png
 - Assets/Artes/Mera/Walk/Walk.png
+- Assets/Artes/Morcego/Fly.png
 - Assets/Artes/Objetos do Cenário e Outros/Objetos do Cenário e Outros/Coletaveis.png.png
 - Assets/Artes/Objetos do Cenário e Outros/Objetos do Cenário e Outros/Coletaveis.png
 - Assets/Artes/Robô/RoboUpFrente.png
@@ -55,6 +69,13 @@ textureFileNames:
 - Assets/Artes/Slime/Jump/Jump.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 - 
 - 
 - 

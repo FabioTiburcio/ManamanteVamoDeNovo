@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: cfd9cf6fb1a222d45b2b90979f32876b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 596398280458060473
+    second: Armature_newAnimation_00
+  - first:
+      213: 672410595588938052
+    second: Armature_newAnimation_01
+  - first:
+      213: -5990509333282563075
+    second: Armature_newAnimation_02
+  - first:
+      213: 5264098649543434562
+    second: Armature_newAnimation_03
+  - first:
+      213: -3595523939408315884
+    second: Armature_newAnimation_04
+  - first:
+      213: -580739391338183
+    second: Armature_newAnimation_05
+  - first:
+      213: -8404442219073975057
+    second: Armature_newAnimation_06
+  - first:
+      213: -5641398276899067617
+    second: Armature_newAnimation_07
+  - first:
+      213: -3413762067445115326
+    second: Armature_newAnimation_08
+  - first:
+      213: 4685294634895127666
+    second: Armature_newAnimation_09
+  - first:
+      213: -3948318796449614646
+    second: Armature_newAnimation_10
+  - first:
+      213: 7758438380079154785
+    second: Armature_newAnimation_11
+  - first:
+      213: -4340719899213489738
+    second: Armature_newAnimation_12
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Armature_newAnimation_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3401
+        width: 410
+        height: 695
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b24b538315d64800800000000000000
+      internalID: 596398280458060473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_newAnimation_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2706
+        width: 410
+        height: 695
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4499945cfd1e45900800000000000000
+      internalID: 672410595588938052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_newAnimation_02
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3401
+        width: 410
+        height: 695
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfbd70e108f6ddca0800000000000000
+      internalID: -5990509333282563075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_newAnimation_03
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2011
+        width: 410
+        height: 695
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24166a4d4d5dd0940800000000000000
+      internalID: 5264098649543434562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_newAnimation_04
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1316
+        width: 410
+        height: 695
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a772ae6022a1ec0800000000000000
+      internalID: -3595523939408315884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_newAnimation_05
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 621
+        width: 410
+        height: 695
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9394fd212dfedfff0800000000000000
+      internalID: -580739391338183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_newAnimation_06
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1316
+        width: 410
+        height: 695
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fecccc4945c6d5b80800000000000000
+      internalID: -8404442219073975057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_newAnimation_07
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 621
+        width: 410
+        height: 695
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f192ee4182ab5b1b0800000000000000
+      internalID: -5641398276899067617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_newAnimation_08
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1316
+        width: 410
+        height: 695
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2461b3e8c71ef90d0800000000000000
+      internalID: -3413762067445115326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_newAnimation_09
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2011
+        width: 410
+        height: 695
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274b7fc85a2850140800000000000000
+      internalID: 4685294634895127666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_newAnimation_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3401
+        width: 410
+        height: 695
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac47f9549f0c439c0800000000000000
+      internalID: -3948318796449614646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_newAnimation_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2706
+        width: 410
+        height: 695
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1660068c9928bab60800000000000000
+      internalID: 7758438380079154785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_newAnimation_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3401
+        width: 410
+        height: 695
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b919e1ff3aa2c3c0800000000000000
+      internalID: -4340719899213489738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,980 @@
+fileFormatVersion: 2
+guid: b401138e04498c741a7f6d4406e33d98
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5057856246071753408
+    second: Armature_IdleWalk_00
+  - first:
+      213: -311404875607372826
+    second: Armature_IdleWalk_01
+  - first:
+      213: -555480419477442501
+    second: Armature_IdleWalk_02
+  - first:
+      213: -4730135241494991735
+    second: Armature_IdleWalk_03
+  - first:
+      213: -4773366384637207050
+    second: Armature_IdleWalk_04
+  - first:
+      213: -8060644203771683736
+    second: Armature_IdleWalk_05
+  - first:
+      213: 3944516899497733848
+    second: Armature_IdleWalk_06
+  - first:
+      213: 3073445237611915990
+    second: Armature_IdleWalk_07
+  - first:
+      213: -6294024218852821892
+    second: Armature_IdleWalk_08
+  - first:
+      213: -122208941138797844
+    second: Armature_IdleWalk_09
+  - first:
+      213: 702309715371682842
+    second: Armature_IdleWalk_10
+  - first:
+      213: -5718166335249241572
+    second: Armature_IdleWalk_11
+  - first:
+      213: -5061895808284483687
+    second: Armature_IdleWalk_12
+  - first:
+      213: -1758615850708650753
+    second: Armature_IdleWalk_13
+  - first:
+      213: 1713694264842310130
+    second: Armature_IdleWalk_14
+  - first:
+      213: 3412654913771857983
+    second: Armature_IdleWalk_15
+  - first:
+      213: 6019059135281895945
+    second: Armature_IdleWalk_16
+  - first:
+      213: -4184630997816452650
+    second: Armature_IdleWalk_17
+  - first:
+      213: 8045775457124537479
+    second: Armature_IdleWalk_18
+  - first:
+      213: -6044600809755866625
+    second: Armature_IdleWalk_19
+  - first:
+      213: 8177360685466872378
+    second: Armature_IdleWalk_20
+  - first:
+      213: 2665006203175300471
+    second: Armature_IdleWalk_21
+  - first:
+      213: -1096704874310748033
+    second: Armature_IdleWalk_22
+  - first:
+      213: 5532985397752637089
+    second: Armature_IdleWalk_23
+  - first:
+      213: 7087485226643613748
+    second: Armature_IdleWalk_24
+  - first:
+      213: -5993387557910040769
+    second: Armature_IdleWalk_25
+  - first:
+      213: 2481702422236584608
+    second: Armature_IdleWalk_26
+  - first:
+      213: -3628663794569102551
+    second: Armature_IdleWalk_27
+  - first:
+      213: 8595501431439348170
+    second: Armature_IdleWalk_28
+  - first:
+      213: 8922814230971605078
+    second: Armature_IdleWalk_29
+  - first:
+      213: 2019454917379893211
+    second: Armature_IdleWalk_30
+  - first:
+      213: 8874416511908899971
+    second: Armature_IdleWalk_31
+  - first:
+      213: -6711938229168826850
+    second: Armature_IdleWalk_32
+  - first:
+      213: 1926098234199607965
+    second: Armature_IdleWalk_33
+  - first:
+      213: 982228684650288413
+    second: Armature_IdleWalk_34
+  - first:
+      213: 7763773616821497125
+    second: Armature_IdleWalk_35
+  - first:
+      213: 6775651923163827114
+    second: Armature_IdleWalk_36
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Armature_IdleWalk_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3387
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04507e7ba82eec9b0800000000000000
+      internalID: -5057856246071753408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_01
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 3387
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb09106aeaadabf0800000000000000
+      internalID: -311404875607372826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_02
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 3387
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b30bc5560898a48f0800000000000000
+      internalID: -555480419477442501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_03
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 3387
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c62272f0f2b5eb0800000000000000
+      internalID: -4730135241494991735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_04
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 3387
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd98e4409891cdb0800000000000000
+      internalID: -4773366384637207050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_05
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 3387
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c9065cdc6d22090800000000000000
+      internalID: -8060644203771683736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_06
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 3387
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de661d983dbdb630800000000000000
+      internalID: 3944516899497733848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_07
+      rect:
+        serializedVersion: 2
+        x: 2744
+        y: 3387
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da6978e82217aa20800000000000000
+      internalID: 3073445237611915990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_08
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 3387
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c747293f15227a8a0800000000000000
+      internalID: -6294024218852821892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_09
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 3387
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea9b039d93dd4ef0800000000000000
+      internalID: -122208941138797844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2678
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ce80317fa1fb900800000000000000
+      internalID: 702309715371682842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_11
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 2678
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a2fd4a30ef4a0b0800000000000000
+      internalID: -5718166335249241572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_12
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 2678
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f1a29d49880c9b0800000000000000
+      internalID: -5061895808284483687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_13
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 2678
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4b32a83342897e0800000000000000
+      internalID: -1758615850708650753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_14
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 2678
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1dc85bad348c710800000000000000
+      internalID: 1713694264842310130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_15
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 2678
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38ec54209f2c5f20800000000000000
+      internalID: 3412654913771857983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_16
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 2678
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a1c88a46ef78350800000000000000
+      internalID: 6019059135281895945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_17
+      rect:
+        serializedVersion: 2
+        x: 2744
+        y: 2678
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d9df0357443de5c0800000000000000
+      internalID: -4184630997816452650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_18
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 2678
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784d670662658af60800000000000000
+      internalID: 8045775457124537479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_19
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 2678
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff98675d6934d1ca0800000000000000
+      internalID: -6044600809755866625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1969
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a6f79c732db7170800000000000000
+      internalID: 8177360685466872378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_21
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1969
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77de970a5010cf420800000000000000
+      internalID: 2665006203175300471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_22
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1969
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78b4473ab8b7c0f0800000000000000
+      internalID: -1096704874310748033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_23
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1969
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6287c77ec19cc40800000000000000
+      internalID: 5532985397752637089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_24
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 1969
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438ebe4334ecb5260800000000000000
+      internalID: 7087485226643613748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_25
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 1969
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3fa68935c533dca0800000000000000
+      internalID: -5993387557910040769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_26
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 1969
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa53a35437c07220800000000000000
+      internalID: 2481702422236584608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_27
+      rect:
+        serializedVersion: 2
+        x: 2744
+        y: 1969
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b336b118564adc0800000000000000
+      internalID: -3628663794569102551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_28
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 1969
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1dd4fc20b594770800000000000000
+      internalID: 8595501431439348170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_29
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 1969
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650ecd9944434db70800000000000000
+      internalID: 8922814230971605078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1260
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7285e3c8b860c10800000000000000
+      internalID: 2019454917379893211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_31
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1260
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ce0358cc2482b70800000000000000
+      internalID: 8874416511908899971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_32
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1260
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e161700fdb76ad2a0800000000000000
+      internalID: -6711938229168826850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_33
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1260
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a89fb9320eaba10800000000000000
+      internalID: 1926098234199607965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_34
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 1260
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1597ccd8c391ad00800000000000000
+      internalID: 982228684650288413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_35
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 1260
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52de13368f67ebb60800000000000000
+      internalID: 7763773616821497125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_IdleWalk_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3387
+        width: 392
+        height: 709
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab4fd17683f70e50800000000000000
+      internalID: 6775651923163827114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
