@@ -1,0 +1,28 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:2fb4738bf211c8cbcdead0bad18bc5f1:8dd412a19eada9cca3b1eda1dea62b2a:d0fd8c70da04ccdb102fb061e6e9168c$
+#
+:format=40300
+:texture=Fly.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Armature_Fly_00;0;1700;630;348; 0.5;0.5; 0;0;0;0
+Armature_Fly_01;630;1700;630;348; 0.5;0.5; 0;0;0;0
+Armature_Fly_02;1260;1700;630;348; 0.5;0.5; 0;0;0;0
+Armature_Fly_03;0;1352;630;348; 0.5;0.5; 0;0;0;0
+Armature_Fly_04;630;1352;630;348; 0.5;0.5; 0;0;0;0
+Armature_Fly_05;1260;1352;630;348; 0.5;0.5; 0;0;0;0
+Armature_Fly_06;0;1004;630;348; 0.5;0.5; 0;0;0;0
+Armature_Fly_07;630;1004;630;348; 0.5;0.5; 0;0;0;0
+Armature_Fly_08;1260;1004;630;348; 0.5;0.5; 0;0;0;0
+Armature_Fly_09;0;656;630;348; 0.5;0.5; 0;0;0;0
+Armature_Fly_10;630;656;630;348; 0.5;0.5; 0;0;0;0
+Armature_Fly_11;1260;656;630;348; 0.5;0.5; 0;0;0;0
+Armature_Fly_12;0;1700;630;348; 0.5;0.5; 0;0;0;0
