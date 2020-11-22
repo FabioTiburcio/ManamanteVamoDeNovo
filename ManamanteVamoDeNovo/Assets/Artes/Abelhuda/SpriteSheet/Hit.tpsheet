@@ -1,0 +1,28 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:ada354ba1a52e06d922ec99cf1f04c43:3f256c55d8207f489c5a185d8bbcf0f9:e62f882f4f2740d08c2cfa44c3b9bb7f$
+#
+:format=40300
+:texture=Hit.png
+:size=512x4096
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Armature_newAnimation_00;0;3401;410;695; 0.5;0.5; 0;0;0;0
+Armature_newAnimation_01;0;2706;410;695; 0.5;0.5; 0;0;0;0
+Armature_newAnimation_02;0;3401;410;695; 0.5;0.5; 0;0;0;0
+Armature_newAnimation_03;0;2011;410;695; 0.5;0.5; 0;0;0;0
+Armature_newAnimation_04;0;1316;410;695; 0.5;0.5; 0;0;0;0
+Armature_newAnimation_05;0;621;410;695; 0.5;0.5; 0;0;0;0
+Armature_newAnimation_06;0;1316;410;695; 0.5;0.5; 0;0;0;0
+Armature_newAnimation_07;0;621;410;695; 0.5;0.5; 0;0;0;0
+Armature_newAnimation_08;0;1316;410;695; 0.5;0.5; 0;0;0;0
+Armature_newAnimation_09;0;2011;410;695; 0.5;0.5; 0;0;0;0
+Armature_newAnimation_10;0;3401;410;695; 0.5;0.5; 0;0;0;0
+Armature_newAnimation_11;0;2706;410;695; 0.5;0.5; 0;0;0;0
+Armature_newAnimation_12;0;3401;410;695; 0.5;0.5; 0;0;0;0
