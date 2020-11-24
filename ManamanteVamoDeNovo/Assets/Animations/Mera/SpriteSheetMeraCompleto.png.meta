@@ -1,0 +1,7244 @@
+fileFormatVersion: 2
+guid: 45a41fe4824ec494d943c8e0dc55daf1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4789960736208902725
+    second: Atack-Costas_Aatack_00
+  - first:
+      213: 6187125315096227068
+    second: Atack-Costas_Aatack_01
+  - first:
+      213: -7807404296702256436
+    second: Atack-Costas_Aatack_02
+  - first:
+      213: -4009524765250389809
+    second: Atack-Costas_Aatack_03
+  - first:
+      213: -1164371462975362607
+    second: Atack-Costas_Aatack_04
+  - first:
+      213: 3923545521261304124
+    second: Atack-Costas_Aatack_05
+  - first:
+      213: -8186195976421377190
+    second: Atack-Costas_Aatack_06
+  - first:
+      213: -7961555368089333349
+    second: Atack-Costas_Aatack_07
+  - first:
+      213: 9013083214744566794
+    second: Atack-Costas_Aatack_08
+  - first:
+      213: -3927593893212435247
+    second: Atack-Costas_Aatack_09
+  - first:
+      213: -112430202939860826
+    second: Atack-Costas_Aatack_10
+  - first:
+      213: 2537115046094443774
+    second: Atack-Costas_Aatack_11
+  - first:
+      213: -249294454383741481
+    second: Atack-Costas_Aatack_12
+  - first:
+      213: -5419109583514841982
+    second: Atack-Costas_Aatack_13
+  - first:
+      213: -762005349892216835
+    second: Atack-Costas_Aatack_14
+  - first:
+      213: 3012950450956141896
+    second: Atack-Costas_Aatack_15
+  - first:
+      213: -7950338745422338297
+    second: Atack-Costas_Aatack_16
+  - first:
+      213: 8871962477802193196
+    second: Atack-Costas_Aatack_17
+  - first:
+      213: -1626720006161508549
+    second: Atack-Costas_Aatack_18
+  - first:
+      213: 5715264552923859414
+    second: Atack-Costas_Aatack_19
+  - first:
+      213: 1235235241448698822
+    second: Atack-Costas_Aatack_20
+  - first:
+      213: 8661134678900513913
+    second: Atack-Costas_Aatack_21
+  - first:
+      213: 4938220916330785516
+    second: Atack-Costas_Aatack_22
+  - first:
+      213: 2482543459932351063
+    second: Atack-Costas_Aatack_23
+  - first:
+      213: -3973960461787572854
+    second: Atack-Costas_Aatack_24
+  - first:
+      213: 6929578323309842862
+    second: Attack-Frente_Attack_00
+  - first:
+      213: 5616776039701412837
+    second: Attack-Frente_Attack_01
+  - first:
+      213: 5998800601744129130
+    second: Attack-Frente_Attack_02
+  - first:
+      213: 3546200964165036968
+    second: Attack-Frente_Attack_03
+  - first:
+      213: -7982094090671472346
+    second: Attack-Frente_Attack_04
+  - first:
+      213: -4626933805925032591
+    second: Attack-Frente_Attack_05
+  - first:
+      213: 5660806412354927779
+    second: Attack-Frente_Attack_06
+  - first:
+      213: -1182141961194685939
+    second: Attack-Frente_Attack_07
+  - first:
+      213: -2298579928917936943
+    second: Attack-Frente_Attack_08
+  - first:
+      213: 346102283392053224
+    second: Attack-Frente_Attack_09
+  - first:
+      213: 7449009796192763128
+    second: Attack-Frente_Attack_10
+  - first:
+      213: -817185870801197757
+    second: Attack-Frente_Attack_11
+  - first:
+      213: 919997758975585964
+    second: Attack-Frente_Attack_12
+  - first:
+      213: 1914949463115081581
+    second: Attack-Frente_Attack_13
+  - first:
+      213: -5058849308633627595
+    second: Attack-Frente_Attack_14
+  - first:
+      213: -6332281215781383766
+    second: Attack-Frente_Attack_15
+  - first:
+      213: 5781767244129904224
+    second: Attack-Frente_Attack_16
+  - first:
+      213: 1471087500802901908
+    second: Attack-Frente_Attack_17
+  - first:
+      213: 7575674909037810050
+    second: Attack-Frente_Attack_18
+  - first:
+      213: -1580314298688119596
+    second: Attack-Frente_Attack_19
+  - first:
+      213: 2362259884280253341
+    second: Attack-Frente_Attack_20
+  - first:
+      213: -4244914862294484792
+    second: Attack-Frente_Attack_21
+  - first:
+      213: -2109938941649008740
+    second: Attack-Frente_Attack_22
+  - first:
+      213: 8757321873088336441
+    second: Attack-Frente_Attack_23
+  - first:
+      213: 1124036704564982453
+    second: Attack-Frente_Attack_24
+  - first:
+      213: -5997951575181529551
+    second: Attack-Lado_Attack_00
+  - first:
+      213: 1145353872307472072
+    second: Attack-Lado_Attack_01
+  - first:
+      213: -3513838580120877723
+    second: Attack-Lado_Attack_02
+  - first:
+      213: -3790625961074691188
+    second: Attack-Lado_Attack_03
+  - first:
+      213: -1369662192677364983
+    second: Attack-Lado_Attack_04
+  - first:
+      213: -4580896810370337912
+    second: Attack-Lado_Attack_05
+  - first:
+      213: -4445023264036725116
+    second: Attack-Lado_Attack_06
+  - first:
+      213: -1719253297731336171
+    second: Attack-Lado_Attack_07
+  - first:
+      213: 8185936645639338887
+    second: Attack-Lado_Attack_08
+  - first:
+      213: -5871206096863923853
+    second: Attack-Lado_Attack_09
+  - first:
+      213: 4836479414170245048
+    second: Attack-Lado_Attack_10
+  - first:
+      213: -537170437798285024
+    second: Attack-Lado_Attack_11
+  - first:
+      213: -2912806960067234464
+    second: Attack-Lado_Attack_12
+  - first:
+      213: 116332339958148742
+    second: Attack-Lado_Attack_13
+  - first:
+      213: -2312878418545875597
+    second: Attack-Lado_Attack_14
+  - first:
+      213: -463951974534771187
+    second: Attack-Lado_Attack_15
+  - first:
+      213: 3340915911930746888
+    second: Attack-Lado_Attack_16
+  - first:
+      213: 3304261959797395757
+    second: Attack-Lado_Attack_17
+  - first:
+      213: -1929048509846626930
+    second: Attack-Lado_Attack_18
+  - first:
+      213: -6092492750139288119
+    second: Attack-Lado_Attack_19
+  - first:
+      213: -1406895877304055588
+    second: Attack-Lado_Attack_20
+  - first:
+      213: 3217726549935313685
+    second: Attack-Lado_Attack_21
+  - first:
+      213: -7311683442916366899
+    second: Attack-Lado_Attack_22
+  - first:
+      213: -3935161220574680652
+    second: Attack-Lado_Attack_23
+  - first:
+      213: 4488856928181867814
+    second: Attack-Lado_Attack_24
+  - first:
+      213: -5775642537351470625
+    second: Idle-Costas_Idle_00
+  - first:
+      213: 2767947747758506729
+    second: Idle-Costas_Idle_01
+  - first:
+      213: -517881574683603007
+    second: Idle-Costas_Idle_02
+  - first:
+      213: 4826211624271434855
+    second: Idle-Costas_Idle_03
+  - first:
+      213: -995553809530371578
+    second: Idle-Costas_Idle_04
+  - first:
+      213: 2042269213049409573
+    second: Idle-Costas_Idle_05
+  - first:
+      213: -4801453799036820103
+    second: Idle-Costas_Idle_06
+  - first:
+      213: 6026139695160396665
+    second: Idle-Costas_Idle_07
+  - first:
+      213: 7456080673489791945
+    second: Idle-Costas_Idle_08
+  - first:
+      213: 8633713884807967928
+    second: Idle-Costas_Idle_09
+  - first:
+      213: 6398130046482373599
+    second: Idle-Costas_Idle_10
+  - first:
+      213: 1170823455375122134
+    second: Idle-Costas_Idle_11
+  - first:
+      213: 4992127546296906175
+    second: Idle-Costas_Idle_12
+  - first:
+      213: 574014248949272662
+    second: Idle-Frente_Idle_00
+  - first:
+      213: 3186947347603248215
+    second: Idle-Frente_Idle_01
+  - first:
+      213: -2899460026770688798
+    second: Idle-Frente_Idle_02
+  - first:
+      213: 7491393051879864232
+    second: Idle-Frente_Idle_03
+  - first:
+      213: -7268594968493643072
+    second: Idle-Frente_Idle_04
+  - first:
+      213: -1001022134809431574
+    second: Idle-Frente_Idle_05
+  - first:
+      213: 1573502777354702961
+    second: Idle-Frente_Idle_06
+  - first:
+      213: 4759107890205589909
+    second: Idle-Frente_Idle_07
+  - first:
+      213: -2046496575742523508
+    second: Idle-Frente_Idle_08
+  - first:
+      213: 7036402081075180407
+    second: Idle-Frente_Idle_09
+  - first:
+      213: 3679990866452698943
+    second: Idle-Frente_Idle_10
+  - first:
+      213: 4258020669988806350
+    second: Idle-Frente_Idle_11
+  - first:
+      213: 587921205544684026
+    second: Idle-Frente_Idle_12
+  - first:
+      213: 6022183503775155828
+    second: Idle1-Armature_Idle_00
+  - first:
+      213: 6206112514668252625
+    second: Idle1-Armature_Idle_01
+  - first:
+      213: 5904445370947265689
+    second: Idle1-Armature_Idle_02
+  - first:
+      213: 4319164923283726070
+    second: Idle1-Armature_Idle_03
+  - first:
+      213: 5319245880782528881
+    second: Idle1-Armature_Idle_04
+  - first:
+      213: -4795402970742165320
+    second: Idle1-Armature_Idle_05
+  - first:
+      213: -1683606506627904533
+    second: Idle1-Armature_Idle_06
+  - first:
+      213: -3769695293457772093
+    second: Idle1-Armature_Idle_07
+  - first:
+      213: 3570744958951578718
+    second: Idle1-Armature_Idle_08
+  - first:
+      213: -8724487313638328805
+    second: Idle1-Armature_Idle_09
+  - first:
+      213: -2136853495457396027
+    second: Idle1-Armature_Idle_10
+  - first:
+      213: -1740343186593830573
+    second: Idle1-Armature_Idle_11
+  - first:
+      213: -6702891386914389936
+    second: Idle1-Armature_Idle_12
+  - first:
+      213: -2442316969962372524
+    second: Idle2-Armature_Idle2_00
+  - first:
+      213: -2304543717559348487
+    second: Idle2-Armature_Idle2_01
+  - first:
+      213: 7409177234410569093
+    second: Idle2-Armature_Idle2_02
+  - first:
+      213: -469645779373416682
+    second: Idle2-Armature_Idle2_03
+  - first:
+      213: -6181955072152850246
+    second: Idle2-Armature_Idle2_04
+  - first:
+      213: 1404776177795747601
+    second: Idle2-Armature_Idle2_05
+  - first:
+      213: 458749323394692606
+    second: Idle2-Armature_Idle2_06
+  - first:
+      213: -2037364073484195540
+    second: Idle2-Armature_Idle2_07
+  - first:
+      213: 4774448904468991808
+    second: Idle2-Armature_Idle2_08
+  - first:
+      213: -453526756378432855
+    second: Idle2-Armature_Idle2_09
+  - first:
+      213: 8916334946500695127
+    second: Idle2-Armature_Idle2_10
+  - first:
+      213: -5195971845742353197
+    second: Idle2-Armature_Idle2_11
+  - first:
+      213: 7019413619629808074
+    second: Idle2-Armature_Idle2_12
+  - first:
+      213: -2474146019590100382
+    second: Idle3-Armature_Idle3_00
+  - first:
+      213: 4692974929335682529
+    second: Idle3-Armature_Idle3_01
+  - first:
+      213: -134359747562806369
+    second: Idle3-Armature_Idle3_02
+  - first:
+      213: -2357406787946577516
+    second: Idle3-Armature_Idle3_03
+  - first:
+      213: -6034562728243187375
+    second: Idle3-Armature_Idle3_04
+  - first:
+      213: 8708300362878882894
+    second: Idle3-Armature_Idle3_05
+  - first:
+      213: -7825750467392784578
+    second: Idle3-Armature_Idle3_06
+  - first:
+      213: -4173924986327640799
+    second: Idle3-Armature_Idle3_07
+  - first:
+      213: 1415532753271870021
+    second: Idle3-Armature_Idle3_08
+  - first:
+      213: 2362602452803613294
+    second: Idle3-Armature_Idle3_09
+  - first:
+      213: 7010877725178599654
+    second: Idle3-Armature_Idle3_10
+  - first:
+      213: -8607658915246387051
+    second: Idle3-Armature_Idle3_11
+  - first:
+      213: -2712654782469050942
+    second: Idle3-Armature_Idle3_12
+  - first:
+      213: 7280098873377654863
+    second: Ofegante-Armature_Ofegante_00
+  - first:
+      213: -6961849751321949005
+    second: Ofegante-Armature_Ofegante_01
+  - first:
+      213: 4364407976116445425
+    second: Ofegante-Armature_Ofegante_02
+  - first:
+      213: 2734337537798188664
+    second: Ofegante-Armature_Ofegante_03
+  - first:
+      213: -4698336843155404778
+    second: Ofegante-Armature_Ofegante_04
+  - first:
+      213: 3119124955956989263
+    second: Ofegante-Armature_Ofegante_05
+  - first:
+      213: -4873681751153975113
+    second: Ofegante-Armature_Ofegante_06
+  - first:
+      213: -7556197603456629094
+    second: Ofegante-Armature_Ofegante_07
+  - first:
+      213: -4562888871956299752
+    second: Ofegante-Armature_Ofegante_08
+  - first:
+      213: 4365145789685557326
+    second: Ofegante-Armature_Ofegante_09
+  - first:
+      213: 4294264131759290150
+    second: Ofegante-Armature_Ofegante_10
+  - first:
+      213: 7758118250164506466
+    second: Ofegante-Armature_Ofegante_11
+  - first:
+      213: -8494939700807398753
+    second: Ofegante-Armature_Ofegante_12
+  - first:
+      213: 5296836273747096613
+    second: Walk-Armature_Walk_00
+  - first:
+      213: 5605293486244779354
+    second: Walk-Armature_Walk_01
+  - first:
+      213: -4798471804616872755
+    second: Walk-Armature_Walk_02
+  - first:
+      213: -3572205586143295347
+    second: Walk-Armature_Walk_03
+  - first:
+      213: 6989317052009306231
+    second: Walk-Armature_Walk_04
+  - first:
+      213: 8344006126678963848
+    second: Walk-Armature_Walk_05
+  - first:
+      213: 5508131865636152020
+    second: Walk-Armature_Walk_06
+  - first:
+      213: -8321882612394011197
+    second: Walk-Armature_Walk_07
+  - first:
+      213: -8283326819328650087
+    second: Walk-Armature_Walk_08
+  - first:
+      213: 1939372449741628168
+    second: Walk-Armature_Walk_09
+  - first:
+      213: 859163657572326925
+    second: Walk-Armature_Walk_10
+  - first:
+      213: -4258722613173723065
+    second: Walk-Armature_Walk_11
+  - first:
+      213: 5214514175182890060
+    second: Walk-Armature_Walk_12
+  - first:
+      213: 9104796441527289260
+    second: Walk-Armature_Walk_13
+  - first:
+      213: 370697224473347223
+    second: Walk-Armature_Walk_14
+  - first:
+      213: -8515327794808496569
+    second: Walk-Armature_Walk_15
+  - first:
+      213: 6131533512784492010
+    second: Walk-Armature_Walk_16
+  - first:
+      213: 5379264466956180322
+    second: Walk-Armature_Walk_17
+  - first:
+      213: -4263123784972957704
+    second: Walk-Armature_Walk_18
+  - first:
+      213: -3086222011962775201
+    second: Walk-Armature_Walk_19
+  - first:
+      213: -50621383894828201
+    second: Walk-Armature_Walk_20
+  - first:
+      213: -9179305785045896749
+    second: Walk-Armature_Walk_21
+  - first:
+      213: -4487272545183988062
+    second: Walk-Armature_Walk_22
+  - first:
+      213: -4784635634462291054
+    second: Walk-Armature_Walk_23
+  - first:
+      213: 4511715335403882208
+    second: Walk-Armature_Walk_24
+  - first:
+      213: 3221589633059757280
+    second: Walk-Armature_Walk_25
+  - first:
+      213: 244546795201756201
+    second: Walk-Armature_Walk_26
+  - first:
+      213: -4015224798816635344
+    second: Walk-Armature_Walk_27
+  - first:
+      213: -1330082968504017946
+    second: Walk-Armature_Walk_28
+  - first:
+      213: 1913894344547239075
+    second: Walk-Armature_Walk_29
+  - first:
+      213: 9068745503529161244
+    second: Walk-Armature_Walk_30
+  - first:
+      213: 5027074479226080048
+    second: Walk-Armature_Walk_31
+  - first:
+      213: 4711658248589679003
+    second: Walk-Armature_Walk_32
+  - first:
+      213: -2398773046319952150
+    second: Walk-Armature_Walk_33
+  - first:
+      213: 6262067521656793485
+    second: Walk-Armature_Walk_34
+  - first:
+      213: 4456892176775389522
+    second: Walk-Armature_Walk_35
+  - first:
+      213: -4037892323786723000
+    second: Walk-Armature_Walk_36
+  - first:
+      213: 2553261757815285713
+    second: Walk-Armature_Walk_37
+  - first:
+      213: 696459185891599550
+    second: Walk-Armature_Walk_38
+  - first:
+      213: -5344180901857278208
+    second: Walk-Armature_Walk_39
+  - first:
+      213: 4019996469237570533
+    second: Walk-Armature_Walk_40
+  - first:
+      213: 5017951202745537127
+    second: Walk-Armature_Walk_41
+  - first:
+      213: -6303493444975158342
+    second: Walk-Armature_Walk_42
+  - first:
+      213: -7973740145025095242
+    second: Walk-Armature_Walk_43
+  - first:
+      213: -7897116131748455694
+    second: Walk-Armature_Walk_44
+  - first:
+      213: -3511993424948017256
+    second: Walk-Armature_Walk_45
+  - first:
+      213: 4109937745697788244
+    second: Walk-Armature_Walk_46
+  - first:
+      213: -3656160686073526110
+    second: Walk-Armature_Walk_47
+  - first:
+      213: -1766737539143740039
+    second: Walk-Armature_Walk_48
+  - first:
+      213: 7139700765038276310
+    second: Walk-Costas_Walk_00
+  - first:
+      213: -8371518809602192435
+    second: Walk-Costas_Walk_01
+  - first:
+      213: 4628598489536015710
+    second: Walk-Costas_Walk_02
+  - first:
+      213: -2559145483985555509
+    second: Walk-Costas_Walk_03
+  - first:
+      213: 1158159662771335815
+    second: Walk-Costas_Walk_04
+  - first:
+      213: 7199908032555826985
+    second: Walk-Costas_Walk_05
+  - first:
+      213: -1382549256595344577
+    second: Walk-Costas_Walk_06
+  - first:
+      213: -4689719166031235271
+    second: Walk-Costas_Walk_07
+  - first:
+      213: -9130056364450870997
+    second: Walk-Costas_Walk_08
+  - first:
+      213: -1534692402278758992
+    second: Walk-Costas_Walk_09
+  - first:
+      213: -4913228033196668458
+    second: Walk-Costas_Walk_10
+  - first:
+      213: -6996420387208432483
+    second: Walk-Costas_Walk_11
+  - first:
+      213: -5331671992911711609
+    second: Walk-Costas_Walk_12
+  - first:
+      213: 5057259376941876392
+    second: Walk-Costas_Walk_13
+  - first:
+      213: 3784485732608437067
+    second: Walk-Costas_Walk_14
+  - first:
+      213: -976015990023712637
+    second: Walk-Costas_Walk_15
+  - first:
+      213: -721906336687749786
+    second: Walk-Costas_Walk_16
+  - first:
+      213: 2224005555129991775
+    second: Walk-Costas_Walk_17
+  - first:
+      213: 8657447529712016220
+    second: Walk-Costas_Walk_18
+  - first:
+      213: -2817902412943886442
+    second: Walk-Costas_Walk_19
+  - first:
+      213: -5683560046512147770
+    second: Walk-Costas_Walk_20
+  - first:
+      213: 1736925338883964860
+    second: Walk-Costas_Walk_21
+  - first:
+      213: -6682957846161565019
+    second: Walk-Costas_Walk_22
+  - first:
+      213: 8124178058172187729
+    second: Walk-Costas_Walk_23
+  - first:
+      213: 8934437753610663769
+    second: Walk-Costas_Walk_24
+  - first:
+      213: -6663468879611602392
+    second: Walk-Costas_Walk_25
+  - first:
+      213: -4499126051502082135
+    second: Walk-Costas_Walk_26
+  - first:
+      213: -7229282375052026840
+    second: Walk-Costas_Walk_27
+  - first:
+      213: -4942190547178886527
+    second: Walk-Costas_Walk_28
+  - first:
+      213: 5359089359520424542
+    second: Walk-Costas_Walk_29
+  - first:
+      213: 3514122712997617321
+    second: Walk-Costas_Walk_30
+  - first:
+      213: -736362692758939281
+    second: Walk-Costas_Walk_31
+  - first:
+      213: -7087301635963743880
+    second: Walk-Costas_Walk_32
+  - first:
+      213: -3168190842438147872
+    second: Walk-Costas_Walk_33
+  - first:
+      213: -4424513057778231719
+    second: Walk-Costas_Walk_34
+  - first:
+      213: -5079404271289110717
+    second: Walk-Costas_Walk_35
+  - first:
+      213: -8370392091420227301
+    second: Walk-Costas_Walk_36
+  - first:
+      213: 7965821452195852442
+    second: Walk-Costas_Walk_37
+  - first:
+      213: 5605386767573875476
+    second: Walk-Costas_Walk_38
+  - first:
+      213: -3967843424065556215
+    second: Walk-Costas_Walk_39
+  - first:
+      213: 5185796953624367294
+    second: Walk-Costas_Walk_40
+  - first:
+      213: -7811059782608189126
+    second: Walk-Costas_Walk_41
+  - first:
+      213: -7921540712480303067
+    second: Walk-Costas_Walk_42
+  - first:
+      213: 9139697587123453925
+    second: Walk-Costas_Walk_43
+  - first:
+      213: -1744716913865966607
+    second: Walk-Costas_Walk_44
+  - first:
+      213: -6559100827911281055
+    second: Walk-Costas_Walk_45
+  - first:
+      213: -8650232198305597885
+    second: Walk-Costas_Walk_46
+  - first:
+      213: 9065363437786279997
+    second: Walk-Frente_Walk_00
+  - first:
+      213: -80990212410090008
+    second: Walk-Frente_Walk_01
+  - first:
+      213: 5893567741770921987
+    second: Walk-Frente_Walk_02
+  - first:
+      213: 4063249116278799255
+    second: Walk-Frente_Walk_03
+  - first:
+      213: 4099620595411293722
+    second: Walk-Frente_Walk_04
+  - first:
+      213: 475073564602175977
+    second: Walk-Frente_Walk_05
+  - first:
+      213: -3719989334426788920
+    second: Walk-Frente_Walk_06
+  - first:
+      213: 1990141564961414864
+    second: Walk-Frente_Walk_07
+  - first:
+      213: -9042113202076400608
+    second: Walk-Frente_Walk_08
+  - first:
+      213: 2956597196309609430
+    second: Walk-Frente_Walk_09
+  - first:
+      213: -8829794465982324812
+    second: Walk-Frente_Walk_10
+  - first:
+      213: -5134834669419533215
+    second: Walk-Frente_Walk_11
+  - first:
+      213: -7696565877217531826
+    second: Walk-Frente_Walk_12
+  - first:
+      213: 2378237422994920076
+    second: Walk-Frente_Walk_13
+  - first:
+      213: 693591194125406078
+    second: Walk-Frente_Walk_14
+  - first:
+      213: 54591658258202462
+    second: Walk-Frente_Walk_15
+  - first:
+      213: -232789607533578104
+    second: Walk-Frente_Walk_16
+  - first:
+      213: -1081655770255013598
+    second: Walk-Frente_Walk_17
+  - first:
+      213: -4631959347689979421
+    second: Walk-Frente_Walk_18
+  - first:
+      213: -3395226842077987628
+    second: Walk-Frente_Walk_19
+  - first:
+      213: 824374324593674648
+    second: Walk-Frente_Walk_20
+  - first:
+      213: 7559596376992583533
+    second: Walk-Frente_Walk_21
+  - first:
+      213: 1136869651046898646
+    second: Walk-Frente_Walk_22
+  - first:
+      213: -8313882990902529373
+    second: Walk-Frente_Walk_23
+  - first:
+      213: -5990000709764583076
+    second: Walk-Frente_Walk_24
+  - first:
+      213: 7032534358436261777
+    second: Walk-Frente_Walk_25
+  - first:
+      213: 1245323566842486361
+    second: Walk-Frente_Walk_26
+  - first:
+      213: -2992587940608988805
+    second: Walk-Frente_Walk_27
+  - first:
+      213: 5229192171809044201
+    second: Walk-Frente_Walk_28
+  - first:
+      213: -4829012910111431090
+    second: Walk-Frente_Walk_29
+  - first:
+      213: 5684752320955462404
+    second: Walk-Frente_Walk_30
+  - first:
+      213: 4939237641575462755
+    second: Walk-Frente_Walk_31
+  - first:
+      213: 7366072992777929497
+    second: Walk-Frente_Walk_32
+  - first:
+      213: -7945529143898236568
+    second: Walk-Frente_Walk_33
+  - first:
+      213: -6985516824912727657
+    second: Walk-Frente_Walk_34
+  - first:
+      213: -1506449424058718952
+    second: Walk-Frente_Walk_35
+  - first:
+      213: 2802487588876172289
+    second: Walk-Frente_Walk_36
+  - first:
+      213: -9056110747033018970
+    second: Walk-Frente_Walk_37
+  - first:
+      213: 7462917888792876131
+    second: Walk-Frente_Walk_38
+  - first:
+      213: -2105648671785102653
+    second: Walk-Frente_Walk_39
+  - first:
+      213: 1579926409037322031
+    second: Walk-Frente_Walk_40
+  - first:
+      213: -1777541093764151017
+    second: Walk-Frente_Walk_41
+  - first:
+      213: 8151269743681070124
+    second: Walk-Frente_Walk_42
+  - first:
+      213: 6695521350102304230
+    second: Walk-Frente_Walk_43
+  - first:
+      213: 3703904289609561282
+    second: Walk-Frente_Walk_44
+  - first:
+      213: 1561668084085726984
+    second: Walk-Frente_Walk_45
+  - first:
+      213: 8696174174326296267
+    second: Walk-Frente_Walk_46
+  - first:
+      213: -1016923780019986964
+    second: Walk-Frente_Walk_47
+  - first:
+      213: -1980479640257406789
+    second: Walk-Frente_Walk_48
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Atack-Costas_Aatack_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1881
+        width: 71
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb52336b614a68db0800000000000000
+      internalID: -4789960736208902725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atack-Costas_Aatack_01
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1881
+        width: 71
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc232b71b51dd550800000000000000
+      internalID: 6187125315096227068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atack-Costas_Aatack_02
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1881
+        width: 71
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca1435582786a390800000000000000
+      internalID: -7807404296702256436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atack-Costas_Aatack_03
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1881
+        width: 71
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc87e19287e4b58c0800000000000000
+      internalID: -4009524765250389809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atack-Costas_Aatack_04
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1881
+        width: 71
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d960c2d25257dfe0800000000000000
+      internalID: -1164371462975362607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atack-Costas_Aatack_05
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1881
+        width: 71
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39dade1ddb337630800000000000000
+      internalID: 3923545521261304124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atack-Costas_Aatack_06
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1881
+        width: 71
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5bfbabb12ac46e80800000000000000
+      internalID: -8186195976421377190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atack-Costas_Aatack_07
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1881
+        width: 71
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b915e69239fd28190800000000000000
+      internalID: -7961555368089333349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atack-Costas_Aatack_08
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1881
+        width: 71
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0cb2e13e67e41d70800000000000000
+      internalID: 9013083214744566794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atack-Costas_Aatack_09
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1881
+        width: 71
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc4415d9226e79c0800000000000000
+      internalID: -3927593893212435247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atack-Costas_Aatack_10
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1881
+        width: 71
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a89ebb7351907ef0800000000000000
+      internalID: -112430202939860826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atack-Costas_Aatack_11
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1881
+        width: 71
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef412c431b4a53320800000000000000
+      internalID: 2537115046094443774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atack-Costas_Aatack_12
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1881
+        width: 71
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d57bf9b3045a8cf0800000000000000
+      internalID: -249294454383741481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atack-Costas_Aatack_13
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1881
+        width: 71
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ccea3ab847bc4b0800000000000000
+      internalID: -5419109583514841982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atack-Costas_Aatack_14
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1881
+        width: 71
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df72abaeb20dc65f0800000000000000
+      internalID: -762005349892216835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atack-Costas_Aatack_15
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1881
+        width: 71
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845081bc87620d920800000000000000
+      internalID: 3012950450956141896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atack-Costas_Aatack_16
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1881
+        width: 71
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707a313a809baa190800000000000000
+      internalID: -7950338745422338297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atack-Costas_Aatack_17
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1881
+        width: 71
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c218efd2eda8f1b70800000000000000
+      internalID: 8871962477802193196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atack-Costas_Aatack_18
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 1881
+        width: 71
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37d8bbe5cabc69e0800000000000000
+      internalID: -1626720006161508549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atack-Costas_Aatack_19
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 1881
+        width: 71
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d9886284d2b05f40800000000000000
+      internalID: 5715264552923859414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atack-Costas_Aatack_20
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1881
+        width: 71
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3f79458ef642110800000000000000
+      internalID: 1235235241448698822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atack-Costas_Aatack_21
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 1881
+        width: 71
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c9eaf0a18823870800000000000000
+      internalID: 8661134678900513913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atack-Costas_Aatack_22
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 1881
+        width: 71
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceaec4472c5188440800000000000000
+      internalID: 4938220916330785516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atack-Costas_Aatack_23
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 1881
+        width: 71
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75aacbcaf14c37220800000000000000
+      internalID: 2482543459932351063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atack-Costas_Aatack_24
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 1881
+        width: 71
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8554b3d308a9d8c0800000000000000
+      internalID: -3973960461787572854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Frente_Attack_00
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1884
+        width: 95
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1512445ceca2060800000000000000
+      internalID: 6929578323309842862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Frente_Attack_01
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1884
+        width: 95
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ebf3559c0cc2fd40800000000000000
+      internalID: 5616776039701412837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Frente_Attack_02
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 1884
+        width: 95
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6cbb514d55004350800000000000000
+      internalID: 5998800601744129130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Frente_Attack_03
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 1884
+        width: 95
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab64330df2a63130800000000000000
+      internalID: 3546200964165036968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Frente_Attack_04
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 1884
+        width: 95
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62148c927b7e93190800000000000000
+      internalID: -7982094090671472346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Frente_Attack_05
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1884
+        width: 95
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d9792d734d9cfb0800000000000000
+      internalID: -4626933805925032591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Frente_Attack_06
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 1884
+        width: 95
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac3ba690793f8e40800000000000000
+      internalID: 5660806412354927779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Frente_Attack_07
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1884
+        width: 95
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a38e84620389fe0800000000000000
+      internalID: -1182141961194685939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Frente_Attack_08
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 1884
+        width: 95
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d4f009abbdc910e0800000000000000
+      internalID: -2298579928917936943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Frente_Attack_09
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 1884
+        width: 95
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8efe889613a9dc400800000000000000
+      internalID: 346102283392053224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Frente_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 1884
+        width: 95
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc797e61f2306760800000000000000
+      internalID: 7449009796192763128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Frente_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 1884
+        width: 95
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3452d67b7c5c8a4f0800000000000000
+      internalID: -817185870801197757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Frente_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1701
+        width: 95
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae25e1661d74cc00800000000000000
+      internalID: 919997758975585964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Frente_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1701
+        width: 95
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67accf0464439a10800000000000000
+      internalID: 1914949463115081581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Frente_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1701
+        width: 95
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53489a25b5b5bc9b0800000000000000
+      internalID: -5058849308633627595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Frente_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1701
+        width: 95
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1d87bb8c73f18a0800000000000000
+      internalID: -6332281215781383766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Frente_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1701
+        width: 95
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0662a58eca6fc3050800000000000000
+      internalID: 5781767244129904224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Frente_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1701
+        width: 95
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497cfdea94a5a6410800000000000000
+      internalID: 1471087500802901908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Frente_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1701
+        width: 95
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281d90f2134322960800000000000000
+      internalID: 7575674909037810050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Frente_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1701
+        width: 95
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc5939a488911ae0800000000000000
+      internalID: -1580314298688119596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Frente_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1701
+        width: 95
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b0ea559de68c020800000000000000
+      internalID: 2362259884280253341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Frente_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1701
+        width: 95
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8392b5c680715c0800000000000000
+      internalID: -4244914862294484792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Frente_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1701
+        width: 95
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c974f3526bdf7b2e0800000000000000
+      internalID: -2109938941649008740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Frente_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1701
+        width: 95
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932503568d1488970800000000000000
+      internalID: 8757321873088336441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Frente_Attack_24
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1701
+        width: 95
+        height: 164
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2b81a6d61699f00800000000000000
+      internalID: 1124036704564982453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Lado_Attack_00
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1688
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e6f4522def2cca0800000000000000
+      internalID: -5997951575181529551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Lado_Attack_01
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1688
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6410d474d15ef00800000000000000
+      internalID: 1145353872307472072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Lado_Attack_02
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1688
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56505d1bd665c3fc0800000000000000
+      internalID: -3513838580120877723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Lado_Attack_03
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1688
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83f4c1a5cdf46bc0800000000000000
+      internalID: -3790625961074691188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Lado_Attack_04
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1688
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90bde271e7bfdfce0800000000000000
+      internalID: -1369662192677364983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Lado_Attack_05
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 1688
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 883f7212f926d60c0800000000000000
+      internalID: -4580896810370337912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Lado_Attack_06
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 1688
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e5eb064ea1052c0800000000000000
+      internalID: -4445023264036725116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Lado_Attack_07
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1688
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5180ec51c3cf328e0800000000000000
+      internalID: -1719253297731336171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Lado_Attack_08
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 1688
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b7f2d120a4a9170800000000000000
+      internalID: 8185936645639338887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Lado_Attack_09
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 1688
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37171517929458ea0800000000000000
+      internalID: -5871206096863923853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Lado_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 1688
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b75b150760ae1340800000000000000
+      internalID: 4836479414170245048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Lado_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 1688
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 021313735569b88f0800000000000000
+      internalID: -537170437798285024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Lado_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1688
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06538e5a081a397d0800000000000000
+      internalID: -2912806960067234464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Lado_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1688
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e681795ab4d9100800000000000000
+      internalID: 116332339958148742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Lado_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 1688
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375e7ed155107efd0800000000000000
+      internalID: -2312878418545875597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Lado_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 1688
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e83052326bf89f0800000000000000
+      internalID: -463951974534771187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Lado_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 1688
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808151b22515d5e20800000000000000
+      internalID: 3340915911930746888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Lado_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1688
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d215f86eeb81bdd20800000000000000
+      internalID: 3304261959797395757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Lado_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 1688
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d5810d994aa35e0800000000000000
+      internalID: -1929048509846626930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Lado_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1688
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c51e478f1e137ba0800000000000000
+      internalID: -6092492750139288119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Lado_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 1688
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8845557a3b97ce0800000000000000
+      internalID: -1406895877304055588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Lado_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 1688
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513dc39bf39a7ac20800000000000000
+      internalID: 3217726549935313685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Lado_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 1688
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc56ddac5aea78a90800000000000000
+      internalID: -7311683442916366899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Lado_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 1688
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9e0c128bf7369c0800000000000000
+      internalID: -3935161220574680652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack-Lado_Attack_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1505
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625d4dbd79f9b4e30800000000000000
+      internalID: 4488856928181867814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle-Costas_Idle_00
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1515
+        width: 77
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd1a78386bbc8dfa0800000000000000
+      internalID: -5775642537351470625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle-Costas_Idle_01
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1515
+        width: 77
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e20df5bfc9b96620800000000000000
+      internalID: 2767947747758506729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle-Costas_Idle_02
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1515
+        width: 77
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf8341a37d10d8f0800000000000000
+      internalID: -517881574683603007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle-Costas_Idle_03
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1515
+        width: 77
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7645f83e6e52af240800000000000000
+      internalID: 4826211624271434855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle-Costas_Idle_04
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1515
+        width: 77
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 602c72cb5151f22f0800000000000000
+      internalID: -995553809530371578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle-Costas_Idle_05
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1515
+        width: 77
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520d6836709975c10800000000000000
+      internalID: 2042269213049409573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle-Costas_Idle_06
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1515
+        width: 77
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975e5fe753fcd5db0800000000000000
+      internalID: -4801453799036820103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle-Costas_Idle_07
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1515
+        width: 77
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b8ae8ff1621a350800000000000000
+      internalID: 6026139695160396665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle-Costas_Idle_08
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1515
+        width: 77
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cba3085ed1597760800000000000000
+      internalID: 7456080673489791945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle-Costas_Idle_09
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1515
+        width: 77
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4365ce80d11d770800000000000000
+      internalID: 8633713884807967928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle-Costas_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1515
+        width: 77
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdbd557e069bac850800000000000000
+      internalID: 6398130046482373599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle-Costas_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1515
+        width: 77
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de5458bab99f3010800000000000000
+      internalID: 1170823455375122134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle-Costas_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1515
+        width: 77
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1387ecd89974540800000000000000
+      internalID: 4992127546296906175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle-Frente_Idle_00
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1519
+        width: 89
+        height: 163
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65052ac0bee47f700800000000000000
+      internalID: 574014248949272662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle-Frente_Idle_01
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1519
+        width: 89
+        height: 163
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754d3cb3abf4a3c20800000000000000
+      internalID: 3186947347603248215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle-Frente_Idle_02
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1519
+        width: 89
+        height: 163
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e473e7b77c03c7d0800000000000000
+      internalID: -2899460026770688798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle-Frente_Idle_03
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1519
+        width: 89
+        height: 163
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a7f0222a46c6f760800000000000000
+      internalID: 7491393051879864232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle-Frente_Idle_04
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 1519
+        width: 89
+        height: 163
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0caaeb60363c02b90800000000000000
+      internalID: -7268594968493643072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle-Frente_Idle_05
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 1519
+        width: 89
+        height: 163
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1716a0ca7ab12f0800000000000000
+      internalID: -1001022134809431574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle-Frente_Idle_06
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1519
+        width: 89
+        height: 163
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1705151707436d510800000000000000
+      internalID: 1573502777354702961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle-Frente_Idle_07
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 1519
+        width: 89
+        height: 163
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591867b496fbb0240800000000000000
+      internalID: 4759107890205589909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle-Frente_Idle_08
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 1519
+        width: 89
+        height: 163
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8740d805326993e0800000000000000
+      internalID: -2046496575742523508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle-Frente_Idle_09
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 1519
+        width: 89
+        height: 163
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7733e4b896256a160800000000000000
+      internalID: 7036402081075180407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle-Frente_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 1519
+        width: 89
+        height: 163
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3758931234f11330800000000000000
+      internalID: 3679990866452698943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle-Frente_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1519
+        width: 89
+        height: 163
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece14f84d37871b30800000000000000
+      internalID: 4258020669988806350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle-Frente_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1519
+        width: 89
+        height: 163
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af90964b837b82800800000000000000
+      internalID: 587921205544684026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle1-Armature_Idle_00
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 1505
+        width: 79
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4764cb26df7139350800000000000000
+      internalID: 6022183503775155828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle1-Armature_Idle_01
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 1505
+        width: 79
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd48e0637a802650800000000000000
+      internalID: 6206112514668252625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle1-Armature_Idle_02
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 1505
+        width: 79
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994e20328cdc0f150800000000000000
+      internalID: 5904445370947265689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle1-Armature_Idle_03
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1505
+        width: 79
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe57a22d91c0fb30800000000000000
+      internalID: 4319164923283726070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle1-Armature_Idle_04
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 1505
+        width: 79
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171a00d22f1c1d940800000000000000
+      internalID: 5319245880782528881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle1-Armature_Idle_05
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1505
+        width: 79
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b07f0eb76e437db0800000000000000
+      internalID: -4795402970742165320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle1-Armature_Idle_06
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 1505
+        width: 79
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb48e66dc0a2a8e0800000000000000
+      internalID: -1683606506627904533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle1-Armature_Idle_07
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 1505
+        width: 79
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1dcf17a1a5fabc0800000000000000
+      internalID: -3769695293457772093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle1-Armature_Idle_08
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 1505
+        width: 79
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c53dd1f95dd8130800000000000000
+      internalID: 3570744958951578718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle1-Armature_Idle_09
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 1505
+        width: 79
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b167f2733056ce680800000000000000
+      internalID: -8724487313638328805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle1-Armature_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1322
+        width: 79
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cac532411f5852e0800000000000000
+      internalID: -2136853495457396027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle1-Armature_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1322
+        width: 79
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359adcfa71f09d7e0800000000000000
+      internalID: -1740343186593830573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle1-Armature_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1322
+        width: 79
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05041fa0ccb8af2a0800000000000000
+      internalID: -6702891386914389936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle2-Armature_Idle2_00
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1319
+        width: 85
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4520c70e7a52b1ed0800000000000000
+      internalID: -2442316969962372524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle2-Armature_Idle2_01
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1319
+        width: 85
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f25489e2bd9400e0800000000000000
+      internalID: -2304543717559348487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle2-Armature_Idle2_02
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1319
+        width: 85
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58df3fe607fa2d660800000000000000
+      internalID: 7409177234410569093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle2-Armature_Idle2_03
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1319
+        width: 85
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f9f26e6ab7b79f0800000000000000
+      internalID: -469645779373416682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle2-Armature_Idle2_04
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1319
+        width: 85
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0b7e28d98453aa0800000000000000
+      internalID: -6181955072152850246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle2-Armature_Idle2_05
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1319
+        width: 85
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f427aad74ce7310800000000000000
+      internalID: 1404776177795747601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle2-Armature_Idle2_06
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1319
+        width: 85
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef534ed341ecd5600800000000000000
+      internalID: 458749323394692606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle2-Armature_Idle2_07
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1319
+        width: 85
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29e4d96b24d9b3e0800000000000000
+      internalID: -2037364073484195540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle2-Armature_Idle2_08
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1319
+        width: 85
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f80258bff324240800000000000000
+      internalID: 4774448904468991808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle2-Armature_Idle2_09
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1319
+        width: 85
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aaade561dfb4b9f0800000000000000
+      internalID: -453526756378432855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle2-Armature_Idle2_10
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1319
+        width: 85
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7545390a46f2dbb70800000000000000
+      internalID: 8916334946500695127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle2-Armature_Idle2_11
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1319
+        width: 85
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4a89fb22334e7b0800000000000000
+      internalID: -5195971845742353197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle2-Armature_Idle2_12
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1319
+        width: 85
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9d2912f77f96160800000000000000
+      internalID: 7019413619629808074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle3-Armature_Idle3_00
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1324
+        width: 85
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26aa2e3cd411aadd0800000000000000
+      internalID: -2474146019590100382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle3-Armature_Idle3_01
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1324
+        width: 85
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e50ed275dbc02140800000000000000
+      internalID: 4692974929335682529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle3-Armature_Idle3_02
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 1324
+        width: 85
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93686e7588a22ef0800000000000000
+      internalID: -134359747562806369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle3-Armature_Idle3_03
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 1324
+        width: 85
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4918955340fc84fd0800000000000000
+      internalID: -2357406787946577516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle3-Armature_Idle3_04
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1324
+        width: 85
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 151b040db2de04ca0800000000000000
+      internalID: -6034562728243187375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle3-Armature_Idle3_05
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 1324
+        width: 85
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e441dce9a091ad870800000000000000
+      internalID: 8708300362878882894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle3-Armature_Idle3_06
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 1324
+        width: 85
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37b43a9969556390800000000000000
+      internalID: -7825750467392784578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle3-Armature_Idle3_07
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 1324
+        width: 85
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12550ded65d3316c0800000000000000
+      internalID: -4173924986327640799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle3-Armature_Idle3_08
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 1324
+        width: 85
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54253be0a8bf4a310800000000000000
+      internalID: 1415532753271870021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle3-Armature_Idle3_09
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1324
+        width: 85
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6273d8c966a9c020800000000000000
+      internalID: 2362602452803613294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle3-Armature_Idle3_10
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1324
+        width: 85
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e818f45524ab4160800000000000000
+      internalID: 7010877725178599654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle3-Armature_Idle3_11
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 1324
+        width: 85
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590d30962d37b8880800000000000000
+      internalID: -8607658915246387051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle3-Armature_Idle3_12
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 1324
+        width: 85
+        height: 175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cdeaacf8d6ba5ad0800000000000000
+      internalID: -2712654782469050942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ofegante-Armature_Ofegante_00
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 1322
+        width: 82
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48856d8a5b180560800000000000000
+      internalID: 7280098873377654863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ofegante-Armature_Ofegante_01
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1322
+        width: 82
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc40d0698a826f90800000000000000
+      internalID: -6961849751321949005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ofegante-Armature_Ofegante_02
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 1322
+        width: 82
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f06d4f3eed719c30800000000000000
+      internalID: 4364407976116445425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ofegante-Armature_Ofegante_03
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1322
+        width: 82
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e2a74e08152f520800000000000000
+      internalID: 2734337537798188664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ofegante-Armature_Ofegante_04
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 1322
+        width: 82
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6188794b8872cceb0800000000000000
+      internalID: -4698336843155404778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ofegante-Armature_Ofegante_05
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 1322
+        width: 82
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d4fd12f9b594b20800000000000000
+      internalID: 3119124955956989263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ofegante-Armature_Ofegante_06
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 1322
+        width: 82
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0e92ae4443d5cb0800000000000000
+      internalID: -4873681751153975113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ofegante-Armature_Ofegante_07
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 1322
+        width: 82
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a964f49605ef22790800000000000000
+      internalID: -7556197603456629094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ofegante-Armature_Ofegante_08
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1139
+        width: 82
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81046750fbc5da0c0800000000000000
+      internalID: -4562888871956299752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ofegante-Armature_Ofegante_09
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1139
+        width: 82
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48effad7fc149c30800000000000000
+      internalID: 4365145789685557326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ofegante-Armature_Ofegante_10
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1139
+        width: 82
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627b631d97a489b30800000000000000
+      internalID: 4294264131759290150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ofegante-Armature_Ofegante_11
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1139
+        width: 82
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fc78ab17f5aab60800000000000000
+      internalID: 7758118250164506466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ofegante-Armature_Ofegante_12
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1139
+        width: 82
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a0309a959eb1a80800000000000000
+      internalID: -8494939700807398753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_00
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5247912f684228940800000000000000
+      internalID: 5296836273747096613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_01
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a555e654ab00acd40800000000000000
+      internalID: 5605293486244779354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_02
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc651d2157686db0800000000000000
+      internalID: -4798471804616872755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_03
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88434d12f9fc6ec0800000000000000
+      internalID: -3572205586143295347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_04
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778589be3da0ff060800000000000000
+      internalID: 6989317052009306231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_05
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 886f1602d5ddbc370800000000000000
+      internalID: 8344006126678963848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_06
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2a04b9fb0d07c40800000000000000
+      internalID: 5508131865636152020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_07
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c551c1fadbb28c80800000000000000
+      internalID: -8321882612394011197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_08
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994137f0526bb0d80800000000000000
+      internalID: -8283326819328650087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_09
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8036702c7f80aea10800000000000000
+      internalID: 1939372449741628168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_10
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e16856bcc5ceb00800000000000000
+      internalID: 859163657572326925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_11
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7406bd4d85af5e4c0800000000000000
+      internalID: -4258722613173723065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_12
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44e300c30dad5840800000000000000
+      internalID: 5214514175182890060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_13
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca58971df1cba5e70800000000000000
+      internalID: 9104796441527289260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_14
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79405ff592bf42500800000000000000
+      internalID: 370697224473347223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_15
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74edd6c9c7a73d980800000000000000
+      internalID: -8515327794808496569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_16
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae53ced5e35971550800000000000000
+      internalID: 6131533512784492010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_17
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26bddc9388cf6aa40800000000000000
+      internalID: 5379264466956180322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_18
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f70b2b218756d4c0800000000000000
+      internalID: -4263123784972957704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_19
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f59a7fe7e698b25d0800000000000000
+      internalID: -3086222011962775201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_20
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75bf8ea9e182c4ff0800000000000000
+      internalID: -50621383894828201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_21
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1b6a5c50e8c9080800000000000000
+      internalID: -9179305785045896749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_22
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a602fd05610ab1c0800000000000000
+      internalID: -4487272545183988062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_23
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b03349d3f899db0800000000000000
+      internalID: -4784635634462291054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_24
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e64e668135dc9e30800000000000000
+      internalID: 4511715335403882208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_25
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec9b9ad3b265bc20800000000000000
+      internalID: 3221589633059757280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_26
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92cf5fab30ec46300800000000000000
+      internalID: 244546795201756201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_27
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036f13da15e0748c0800000000000000
+      internalID: -4015224798816635344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_28
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb558456989a8de0800000000000000
+      internalID: -1330082968504017946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_29
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a40e5024c48f8a10800000000000000
+      internalID: 1913894344547239075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_30
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12d648bcf7aadd70800000000000000
+      internalID: 9068745503529161244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_31
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 1133
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03bc3b1ba91c3c540800000000000000
+      internalID: 5027074479226080048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 950
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b991a32b63c236140800000000000000
+      internalID: 4711658248589679003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_33
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 950
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee4155af98d5bed0800000000000000
+      internalID: -2398773046319952150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_34
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 950
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d892ddbab3557e650800000000000000
+      internalID: 6262067521656793485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_35
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 950
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2512ae632df0add30800000000000000
+      internalID: 4456892176775389522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_36
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 950
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8417a6f335686f7c0800000000000000
+      internalID: -4037892323786723000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_37
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 950
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d76b2d7a020f6320800000000000000
+      internalID: 2553261757815285713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_38
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 950
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb460a780f15aa900800000000000000
+      internalID: 696459185891599550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_39
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 950
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007ce51d8c7a5d5b0800000000000000
+      internalID: -5344180901857278208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_40
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 950
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ebda3b6d75e9c730800000000000000
+      internalID: 4019996469237570533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_41
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 950
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76254eb580853a540800000000000000
+      internalID: 5017951202745537127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_42
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 950
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb9040fb1e7588a0800000000000000
+      internalID: -6303493444975158342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_43
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 950
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9e184b595975190800000000000000
+      internalID: -7973740145025095242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_44
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 950
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa502908bec76290800000000000000
+      internalID: -7897116131748455694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_45
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 950
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897477c5694e24fc0800000000000000
+      internalID: -3511993424948017256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_46
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 950
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4515945ba9e690930800000000000000
+      internalID: 4109937745697788244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_47
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 950
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8c6d82a35b24dc0800000000000000
+      internalID: -3656160686073526110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Armature_Walk_48
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 950
+        width: 108
+        height: 183
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9755df791994b77e0800000000000000
+      internalID: -1766737539143740039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_00
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 954
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dee0be9400551360800000000000000
+      internalID: 7139700765038276310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_01
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 954
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb09233ff362db80800000000000000
+      internalID: -8371518809602192435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_02
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 954
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d24b88dc51c3040800000000000000
+      internalID: 4628598489536015710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_03
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 954
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfee72cdb61c7cd0800000000000000
+      internalID: -2559145483985555509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_04
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 954
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782fbacb31c921010800000000000000
+      internalID: 1158159662771335815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_05
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 954
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92fb8f775363be360800000000000000
+      internalID: 7199908032555826985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_06
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 954
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f337724b6c230dce0800000000000000
+      internalID: -1382549256595344577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_07
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 954
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 937fd540445caeeb0800000000000000
+      internalID: -4689719166031235271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_08
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 954
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b298c911c168b4180800000000000000
+      internalID: -9130056364450870997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_09
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 954
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b50faa246da3bae0800000000000000
+      internalID: -1534692402278758992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_10
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 954
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d942dc9225b0dbb0800000000000000
+      internalID: -4913228033196668458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_11
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 954
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94f329f9b8b7ee90800000000000000
+      internalID: -6996420387208432483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_12
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 954
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782399322981206b0800000000000000
+      internalID: -5331671992911711609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_13
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 954
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a442abdb9efe2640800000000000000
+      internalID: 5057259376941876392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_14
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 954
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4be8a509b1358430800000000000000
+      internalID: 3784485732608437067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_15
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 954
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3801983d0ae7472f0800000000000000
+      internalID: -976015990023712637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_16
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 954
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6658f98f2064bf5f0800000000000000
+      internalID: -721906336687749786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_17
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 954
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52c404e4414dde10800000000000000
+      internalID: 2224005555129991775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_18
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 954
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b511eb8ae652870800000000000000
+      internalID: 8657447529712016220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_19
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 954
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69773c07facc4e8d0800000000000000
+      internalID: -2817902412943886442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c27a002040ff11b0800000000000000
+      internalID: -5683560046512147770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_21
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbfbd81a46cca1810800000000000000
+      internalID: 1736925338883964860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_22
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa51aa2f3d5143a0800000000000000
+      internalID: -6682957846161565019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_23
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154406176e0eeb070800000000000000
+      internalID: 8124178058172187729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_24
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9577dcbdccf7dfb70800000000000000
+      internalID: 8934437753610663769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_25
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a51eacb5a9683a0800000000000000
+      internalID: -6663468879611602392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_26
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7338c81b4ef81c0800000000000000
+      internalID: -4499126051502082135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_27
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c18067bfd6cab90800000000000000
+      internalID: -7229282375052026840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_28
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18aeb17d1efc96bb0800000000000000
+      internalID: -4942190547178886527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_29
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e526ac9f06f4f5a40800000000000000
+      internalID: 5359089359520424542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_30
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aeda552dfba4c030800000000000000
+      internalID: 3514122712997617321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_31
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f69d048480ae7c5f0800000000000000
+      internalID: -736362692758939281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_32
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871165456b8d4ad90800000000000000
+      internalID: -7087301635963743880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_33
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e024dfe6335804d0800000000000000
+      internalID: -3168190842438147872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_34
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9561d07e0d8f892c0800000000000000
+      internalID: -4424513057778231719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_35
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34fe5332ab45289b0800000000000000
+      internalID: -5079404271289110717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_36
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b198828bdb466db80800000000000000
+      internalID: -8370392091420227301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_37
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90f152f7684c8e60800000000000000
+      internalID: 7965821452195852442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_38
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b7ae501955acd40800000000000000
+      internalID: 5605386767573875476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_39
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901f338ad636fe8c0800000000000000
+      internalID: -3967843424065556215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_40
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb055129ad6a7f740800000000000000
+      internalID: 5185796953624367294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_41
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a398c42338a899390800000000000000
+      internalID: -7811059782608189126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_42
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52811de21b8011290800000000000000
+      internalID: -7921540712480303067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_43
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5effcf2088ab6de70800000000000000
+      internalID: 9139697587123453925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_44
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb3763f53589c7e0800000000000000
+      internalID: -1744716913865966607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_45
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166a0627c8469f4a0800000000000000
+      internalID: -6559100827911281055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Costas_Walk_46
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 771
+        width: 73
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346395385a334f780800000000000000
+      internalID: -8650232198305597885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_00
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 783
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30b01d2404aecd70800000000000000
+      internalID: 9065363437786279997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_01
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 783
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed5307b4d340eef0800000000000000
+      internalID: -80990212410090008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_02
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 783
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308f4fbb2a82ac150800000000000000
+      internalID: 5893567741770921987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_03
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 783
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79bb7b11b8f836830800000000000000
+      internalID: 4063249116278799255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_04
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 783
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a169d57f537c4e830800000000000000
+      internalID: 4099620595411293722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_05
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 783
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e19a44d3ecc79600800000000000000
+      internalID: 475073564602175977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_06
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 783
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cbdf31e861ff5cc0800000000000000
+      internalID: -3719989334426788920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_07
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 783
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ded34885376e9b10800000000000000
+      internalID: 1990141564961414864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_08
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 783
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024cd5b23f5f38280800000000000000
+      internalID: -9042113202076400608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_09
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 783
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db33fd3c71f70920800000000000000
+      internalID: 2956597196309609430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bfd96727b4467580800000000000000
+      internalID: -8829794465982324812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_11
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c63ecd2176db8b0800000000000000
+      internalID: -5134834669419533215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_12
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e486e02ec1e403590800000000000000
+      internalID: -7696565877217531826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_13
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c821725f552310120800000000000000
+      internalID: 2378237422994920076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_14
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f0f29248120a900800000000000000
+      internalID: 693591194125406078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_15
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ffd2ee2d2f1c000800000000000000
+      internalID: 54591658258202462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_16
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888fe87d517f4ccf0800000000000000
+      internalID: -232789607533578104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_17
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 229c2bccecf2df0f0800000000000000
+      internalID: -1081655770255013598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_18
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e183e2b389f7bfb0800000000000000
+      internalID: -4631959347689979421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_19
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dcf1120d2bb1e0d0800000000000000
+      internalID: -3395226842077987628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_20
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899cb5b9414c07b00800000000000000
+      internalID: 824374324593674648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_21
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f09f73ad419e860800000000000000
+      internalID: 7559596376992583533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_22
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db929a9ce8f6cf00800000000000000
+      internalID: 1136869651046898646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_23
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2b717f7772f9c80800000000000000
+      internalID: -8313882990902529373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_24
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51f422471e3fdca0800000000000000
+      internalID: -5990000709764583076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_25
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19fa2513db4989160800000000000000
+      internalID: 7032534358436261777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_26
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e9110af27484110800000000000000
+      internalID: 1245323566842486361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_27
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7922e89f113876d0800000000000000
+      internalID: -2992587940608988805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_28
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e67ee62392d19840800000000000000
+      internalID: 5229192171809044201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_29
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46680de756ebfcb0800000000000000
+      internalID: -4829012910111431090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_30
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403b0a6ed1c44ee40800000000000000
+      internalID: 5684752320955462404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_31
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367f75f3772bb8440800000000000000
+      internalID: 4939237641575462755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_32
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913802c1c5c893660800000000000000
+      internalID: 7366072992777929497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_33
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8699e61475fcbb190800000000000000
+      internalID: -7945529143898236568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_34
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791ff8665757e0f90800000000000000
+      internalID: -6985516824912727657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_35
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81563e6fa34081be0800000000000000
+      internalID: -1506449424058718952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_36
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10cb7662d9f64e620800000000000000
+      internalID: 2802487588876172289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_37
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6addf74c14b325280800000000000000
+      internalID: -9056110747033018970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_38
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3645865974c919760800000000000000
+      internalID: 7462917888792876131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_39
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2d97070bb37c2e0800000000000000
+      internalID: -2105648671785102653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_40
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f279dedb2b60de510800000000000000
+      internalID: 1579926409037322031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_41
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71947840bc7e457e0800000000000000
+      internalID: -1777541093764151017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_42
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24ef7405a02f1170800000000000000
+      internalID: 8151269743681070124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_43
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e544ea81354bec50800000000000000
+      internalID: 6695521350102304230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_44
+      rect:
+        serializedVersion: 2
+        x: 3672
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c43938c359e66330800000000000000
+      internalID: 3703904289609561282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_45
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f9ef039d82ca510800000000000000
+      internalID: 1561668084085726984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_46
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 600
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce05a556540fa870800000000000000
+      internalID: 8696174174326296267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 417
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cedd240c53923e1f0800000000000000
+      internalID: -1016923780019986964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk-Frente_Walk_48
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 417
+        width: 98
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8509d924ce384e0800000000000000
+      internalID: -1980479640257406789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

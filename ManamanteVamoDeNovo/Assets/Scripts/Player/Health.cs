@@ -58,14 +58,18 @@ public class Health : MonoBehaviour
 
     private void Update()
     {
-
-        if (shieldSkill.activeSelf)
+        if(isPlayer)
         {
-            isShieldOn = true;
-        } else
-        {
-            isShieldOn = false;
+            if (shieldSkill.activeSelf)
+            {
+                isShieldOn = true;
+            }
+            else
+            {
+                isShieldOn = false;
+            }
         }
+
 
         if (damageCooldown)
         {
@@ -106,22 +110,13 @@ public class Health : MonoBehaviour
                 spr.material = dissolveMaterial;
                 StartCoroutine(DissolveEffect());
             }
-                //} else if (this.name == "Torfarios")
-                //{
-                //    activeQuest.QuestAtt("Torfarios", true);
-                //    spr.material = dissolveMaterial;
-                //    StartCoroutine(DissolveEffect());
-                //}
-                //else
-                //{
-                if (this.name == "Player")
+
+            if (this.name == "Player")
             {
                 saidaDeSom.PlayOneShot(deadSound);
                 respawnPlayer = true;
                 health = maxHealth;
             }
-                
-           //}
             
         }
         else if(health > maxHealth)
