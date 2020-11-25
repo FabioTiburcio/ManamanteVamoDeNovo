@@ -9838,6 +9838,7 @@ MonoBehaviour:
   isProjectile: 1
   areaAttack: 0
   skillDamage: 20
+  fireSkill: 1
   poisonSkill: 0
   iceSkill: 0
   iceSkillArea: 0
@@ -9849,6 +9850,7 @@ MonoBehaviour:
   hitSoundObject: {fileID: 4157644661709299745}
   spawnSoundObject: {fileID: 7585761613835885978}
   skillSprite: {fileID: 5869237738331233698}
+  shieldHit: {fileID: 0}
 --- !u!1 &7585761613835885978
 GameObject:
   m_ObjectHideFlags: 0

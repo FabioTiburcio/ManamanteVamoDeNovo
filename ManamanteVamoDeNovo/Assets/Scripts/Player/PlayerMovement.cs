@@ -68,17 +68,21 @@ public class PlayerMovement : MonoBehaviour
                 }
                 else
                 {
-                    playerAnim.Play("Attack");
+                    playerAnim.SetBool("Attacking", true);
                 }
                 
             }
             return;
         }
+
         else
         {
-            movement.x = Input.GetAxis("Horizontal");
+            movement.x = Input.GetAxis("Horizontal");           
             movement.y = Input.GetAxis("Vertical");
+            playerAnim.SetFloat("X", movement.x);
+            playerAnim.SetFloat("Y", movement.y);
         }
+        playerAnim.SetBool("Attacking", false);
         playerAnim.SetBool("RaioAttack", false);
         if (movement.x != 0 || movement.y != 0)
         {

@@ -16,6 +16,7 @@ TagManager:
   - Shield
   - Scan
   - MapaGelo
+  - PowerUp
   layers:
   - Default
   - TransparentFX

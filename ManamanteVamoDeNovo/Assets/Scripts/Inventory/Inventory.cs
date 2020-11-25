@@ -10,7 +10,7 @@ using System.Runtime.Serialization;
 public class Inventory : ScriptableObject
 {
     public string savePath;
-    public ItemDatabaseObject database = Resources.Load<ItemDatabaseObject>("Database/Database");
+    public ItemDatabaseObject database;
     public InventoryCallback Container;
     public Item itemRemovedFromMailbox;
     public int itemRemovedAmount;
@@ -117,26 +117,9 @@ public class Inventory : ScriptableObject
     }
     public void UseItem(Item _item)
     {
-        
+        Debug.Log("entrei");
         switch (_item.type)
         {
-            case ItemType.Equipment:
-                switch (_item.equipmentType)
-                {
-                    case EquipmentType.PedraDeFogo:
-                        Debug.Log("Habilidade de fogo");
-                        break;
-                    case EquipmentType.PedraDeGelo:
-                        Debug.Log("Habilidade de gelo");
-                        break;
-                    case EquipmentType.PedraDeRaio:
-                        Debug.Log("Habilidade de raio");
-                        break;
-                    case EquipmentType.PedraDeVeneno:
-                        Debug.Log("Habilidade de Veneno");
-                        break;
-                }
-                break;
             case ItemType.Potion:
                 switch (_item.potionType)
                 {
@@ -162,16 +145,16 @@ public class Inventory : ScriptableObject
                         Debug.Log("Curou Gelo");
                         break;
                     case PotionType.IntensifyFire:
-                        Debug.Log("AumentaDanoFogo");
+                        PowerUpColor.IntensifyPower(1);
                         break;
                     case PotionType.IntensifyIce:
-                        Debug.Log("AumentaDanoGelo");
+                        PowerUpColor.IntensifyPower(2);
                         break;
                     case PotionType.IntensifyPoison:
-                        Debug.Log("AumentaDanoVeneno");
+                        PowerUpColor.IntensifyPower(3);
                         break;
                     case PotionType.IntensifyEletric:
-                        Debug.Log("AumentaDanoEletrico");
+                        PowerUpColor.IntensifyPower(4);
                         break;
                         
                 }

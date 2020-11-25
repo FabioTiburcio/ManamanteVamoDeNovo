@@ -120,7 +120,7 @@ public class SkillController : MonoBehaviour
                     glowMaterial.SetFloat("_ColorIntensity", colorIntensity);
                     StartCoroutine(timeAttacking());
                 }
-                Shoot();
+                StartCoroutine(AnimDelay(1));
                 attackCooldown = 0;
             }
 
@@ -139,7 +139,7 @@ public class SkillController : MonoBehaviour
             }
             thunderSkill.transform.up = player.lookDir;
         }
-        if (Input.GetButtonUp("Fire1") || colorIntensity <= 0)
+        if (Input.GetButtonUp("Fire1") && activeSkill == 3 || colorIntensity <= 0)
         {
             player.freezePlayer = false;
             isShotting = false;
@@ -160,7 +160,7 @@ public class SkillController : MonoBehaviour
                 glowMaterial.SetFloat("_ColorIntensity", colorIntensity);
                 isShotting = true;
                 StartCoroutine(timeAttacking());
-                Cast();
+                StartCoroutine(AnimDelay(2));
                 attackCooldown = 0;
             }
         }
@@ -168,6 +168,18 @@ public class SkillController : MonoBehaviour
 
     }
 
+    IEnumerator AnimDelay(int hability)
+    {
+        yield return new WaitForSeconds(0.32f);
+        if(hability == 1)
+        {
+            Shoot();
+        }
+        else
+        {
+            Cast();
+        }
+    }
     void Cast()
     {
         if (activeSkill == 1)
@@ -233,7 +245,7 @@ public class SkillController : MonoBehaviour
 
     IEnumerator timeAttacking()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1f);
         player.freezePlayer = false;
         isShotting = false;
     }

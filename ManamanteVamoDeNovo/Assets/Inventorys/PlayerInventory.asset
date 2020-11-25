@@ -19,124 +19,33 @@ MonoBehaviour:
     - AllowedItems: 
       parent: {fileID: 0}
       item:
-        name: 
-        Id: 1
-        buffs: []
-        type: 3
-        potionType: 0
-        craftingItemType: 0
-        craftingItemElement: 0
-        equipmentType: 0
-        marketValue: 0
-      amount: 18
-    - AllowedItems: 
-      parent: {fileID: 0}
-      item:
-        name: 
-        Id: 25
-        buffs: []
-        type: 3
-        potionType: 0
-        craftingItemType: 0
-        craftingItemElement: 0
-        equipmentType: 0
-        marketValue: 0
-      amount: 4
-    - AllowedItems: 
-      parent: {fileID: 0}
-      item:
-        name: 
-        Id: 26
-        buffs: []
-        type: 3
-        potionType: 0
-        craftingItemType: 0
-        craftingItemElement: 0
-        equipmentType: 0
-        marketValue: 0
-      amount: 5
-    - AllowedItems: 
-      parent: {fileID: 0}
-      item:
-        name: 
-        Id: 27
-        buffs: []
-        type: 3
-        potionType: 0
-        craftingItemType: 0
-        craftingItemElement: 0
-        equipmentType: 0
-        marketValue: 0
-      amount: 5
-    - AllowedItems: 
-      parent: {fileID: 0}
-      item:
-        name: 
-        Id: 7
-        buffs: []
-        type: 3
-        potionType: 0
-        craftingItemType: 0
-        craftingItemElement: 0
-        equipmentType: 0
-        marketValue: 0
-      amount: 2
-    - AllowedItems: 
-      parent: {fileID: 0}
-      item:
-        name: AntidotoDeFogo
-        Id: 21
-        buffs: []
-        type: 0
-        potionType: 5
-        craftingItemType: 0
-        craftingItemElement: 0
-        equipmentType: 0
-        marketValue: 0
-      amount: 1
-    - AllowedItems: 
-      parent: {fileID: 0}
-      item:
-        name: AntidotoDeGelo
-        Id: 22
-        buffs: []
-        type: 0
-        potionType: 7
-        craftingItemType: 0
-        craftingItemElement: 0
-        equipmentType: 0
-        marketValue: 0
-      amount: 1
-    - AllowedItems: 
-      parent: {fileID: 0}
-      item:
-        name: "Po\xE7\xE3o de cura pequena"
-        Id: 12
-        buffs: []
-        type: 0
-        potionType: 1
-        craftingItemType: 0
-        craftingItemElement: 0
-        equipmentType: 0
-        marketValue: 10
-      amount: 3
-    - AllowedItems: 
-      parent: {fileID: 0}
-      item:
-        name: Reagente
-        Id: 28
+        nome: Cogumelo azul
+        Id: 4
         buffs: []
         type: 2
         potionType: 0
-        craftingItemType: 6
+        craftingItemType: 3
         craftingItemElement: 0
         equipmentType: 0
         marketValue: 0
-      amount: 3
+      amount: 1
     - AllowedItems: 
       parent: {fileID: 0}
       item:
-        name: 
+        nome: Asa de morcego
+        Id: 1
+        buffs: []
+        type: 2
+        potionType: 0
+        craftingItemType: 4
+        craftingItemElement: 0
+        equipmentType: 0
+        marketValue: 0
+      amount: 1
+    - AllowedItems: 
+      parent: {fileID: 0}
+      item:
+        nome: 
         Id: -1
         buffs: []
         type: 3
@@ -149,7 +58,7 @@ MonoBehaviour:
     - AllowedItems: 
       parent: {fileID: 0}
       item:
-        name: 
+        nome: 
         Id: -1
         buffs: []
         type: 3
@@ -162,7 +71,7 @@ MonoBehaviour:
     - AllowedItems: 
       parent: {fileID: 0}
       item:
-        name: 
+        nome: 
         Id: -1
         buffs: []
         type: 3
@@ -175,7 +84,7 @@ MonoBehaviour:
     - AllowedItems: 
       parent: {fileID: 0}
       item:
-        name: 
+        nome: 
         Id: -1
         buffs: []
         type: 3
@@ -188,7 +97,7 @@ MonoBehaviour:
     - AllowedItems: 
       parent: {fileID: 0}
       item:
-        name: 
+        nome: 
         Id: -1
         buffs: []
         type: 3
@@ -201,7 +110,7 @@ MonoBehaviour:
     - AllowedItems: 
       parent: {fileID: 0}
       item:
-        name: 
+        nome: 
         Id: -1
         buffs: []
         type: 3
@@ -214,7 +123,7 @@ MonoBehaviour:
     - AllowedItems: 
       parent: {fileID: 0}
       item:
-        name: 
+        nome: 
         Id: -1
         buffs: []
         type: 3
@@ -227,7 +136,7 @@ MonoBehaviour:
     - AllowedItems: 
       parent: {fileID: 0}
       item:
-        name: 
+        nome: 
         Id: -1
         buffs: []
         type: 3
@@ -240,7 +149,7 @@ MonoBehaviour:
     - AllowedItems: 
       parent: {fileID: 0}
       item:
-        name: 
+        nome: 
         Id: -1
         buffs: []
         type: 3
@@ -253,7 +162,7 @@ MonoBehaviour:
     - AllowedItems: 
       parent: {fileID: 0}
       item:
-        name: 
+        nome: 
         Id: -1
         buffs: []
         type: 3
@@ -266,7 +175,7 @@ MonoBehaviour:
     - AllowedItems: 
       parent: {fileID: 0}
       item:
-        name: 
+        nome: 
         Id: -1
         buffs: []
         type: 3
@@ -279,7 +188,7 @@ MonoBehaviour:
     - AllowedItems: 
       parent: {fileID: 0}
       item:
-        name: 
+        nome: 
         Id: -1
         buffs: []
         type: 3
@@ -292,7 +201,7 @@ MonoBehaviour:
     - AllowedItems: 
       parent: {fileID: 0}
       item:
-        name: 
+        nome: 
         Id: -1
         buffs: []
         type: 3
@@ -305,7 +214,7 @@ MonoBehaviour:
     - AllowedItems: 
       parent: {fileID: 0}
       item:
-        name: 
+        nome: 
         Id: -1
         buffs: []
         type: 3
@@ -318,7 +227,98 @@ MonoBehaviour:
     - AllowedItems: 
       parent: {fileID: 0}
       item:
-        name: 
+        nome: 
+        Id: -1
+        buffs: []
+        type: 3
+        potionType: 0
+        craftingItemType: 0
+        craftingItemElement: 0
+        equipmentType: 0
+        marketValue: 0
+      amount: 0
+    - AllowedItems: 
+      parent: {fileID: 0}
+      item:
+        nome: 
+        Id: -1
+        buffs: []
+        type: 3
+        potionType: 0
+        craftingItemType: 0
+        craftingItemElement: 0
+        equipmentType: 0
+        marketValue: 0
+      amount: 0
+    - AllowedItems: 
+      parent: {fileID: 0}
+      item:
+        nome: 
+        Id: -1
+        buffs: []
+        type: 3
+        potionType: 0
+        craftingItemType: 0
+        craftingItemElement: 0
+        equipmentType: 0
+        marketValue: 0
+      amount: 0
+    - AllowedItems: 
+      parent: {fileID: 0}
+      item:
+        nome: 
+        Id: -1
+        buffs: []
+        type: 3
+        potionType: 0
+        craftingItemType: 0
+        craftingItemElement: 0
+        equipmentType: 0
+        marketValue: 0
+      amount: 0
+    - AllowedItems: 
+      parent: {fileID: 0}
+      item:
+        nome: 
+        Id: -1
+        buffs: []
+        type: 3
+        potionType: 0
+        craftingItemType: 0
+        craftingItemElement: 0
+        equipmentType: 0
+        marketValue: 0
+      amount: 0
+    - AllowedItems: 
+      parent: {fileID: 0}
+      item:
+        nome: 
+        Id: -1
+        buffs: []
+        type: 3
+        potionType: 0
+        craftingItemType: 0
+        craftingItemElement: 0
+        equipmentType: 0
+        marketValue: 0
+      amount: 0
+    - AllowedItems: 
+      parent: {fileID: 0}
+      item:
+        nome: 
+        Id: -1
+        buffs: []
+        type: 3
+        potionType: 0
+        craftingItemType: 0
+        craftingItemElement: 0
+        equipmentType: 0
+        marketValue: 0
+      amount: 0
+    - AllowedItems: 
+      parent: {fileID: 0}
+      item:
+        nome: 
         Id: -1
         buffs: []
         type: 3
@@ -329,7 +329,7 @@ MonoBehaviour:
         marketValue: 0
       amount: 0
   itemRemovedFromMailbox:
-    name: 
+    nome: 
     Id: -1
     buffs: []
     type: 3

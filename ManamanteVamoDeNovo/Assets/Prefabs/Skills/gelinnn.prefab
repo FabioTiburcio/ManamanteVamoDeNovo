@@ -5469,9 +5469,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isProjectile: 0
   areaAttack: 0
-  skillDamage: 0
+  skillDamage: 20
+  fireSkill: 0
   poisonSkill: 0
-  iceSkill: 0
+  iceSkill: 1
   iceSkillArea: 1
   fireShield: 0
   thunderSkill: 0
@@ -5480,6 +5481,7 @@ MonoBehaviour:
   hitSoundObject: {fileID: 0}
   spawnSoundObject: {fileID: 0}
   skillSprite: {fileID: 0}
+  shieldHit: {fileID: 0}
 --- !u!70 &1168273238400207016
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

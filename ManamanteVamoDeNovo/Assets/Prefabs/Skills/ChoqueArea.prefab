@@ -4806,16 +4806,18 @@ MonoBehaviour:
   isProjectile: 0
   areaAttack: 0
   skillDamage: 10
+  fireSkill: 0
   poisonSkill: 0
   iceSkill: 0
   iceSkillArea: 0
   fireShield: 0
-  thunderSkill: 0
+  thunderSkill: 1
   thunderSkillArea: 1
   hitEffect: {fileID: 0}
   hitSoundObject: {fileID: 0}
   spawnSoundObject: {fileID: 8391657168687759850}
   skillSprite: {fileID: 0}
+  shieldHit: {fileID: 0}
 --- !u!50 &1873132841922591592
 Rigidbody2D:
   serializedVersion: 4

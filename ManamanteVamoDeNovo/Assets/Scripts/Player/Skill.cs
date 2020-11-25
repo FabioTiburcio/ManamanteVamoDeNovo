@@ -7,6 +7,7 @@ public class Skill : MonoBehaviour
     public bool isProjectile;
     public bool areaAttack;
     public int skillDamage;
+    public bool fireSkill;
     public bool poisonSkill;
     public bool iceSkill;
     public bool iceSkillArea;
@@ -20,9 +21,12 @@ public class Skill : MonoBehaviour
     private AudioSource skillAudioSource;
     public AudioClip shieldHit;
 
+    PowerUpColor powerUp;
+
     float eletricDamageCooldown;
     private void Start()
     {
+        powerUp = GameObject.FindGameObjectWithTag("PowerUp").GetComponent<PowerUpColor>();
         skillAudioSource = GetComponent<AudioSource>();
         if (areaAttack)
         {
@@ -81,7 +85,22 @@ public class Skill : MonoBehaviour
         if (this.tag == "Attack" && collision.tag == "Enemy")
         {
             collision.GetComponent<Health>().DamageEffect();
-            collision.GetComponent<Health>().health -= skillDamage;
+            if (fireSkill)
+            {
+                collision.GetComponent<Health>().health -= skillDamage * powerUp.fireMultiplier;
+            }
+            else if (iceSkill)
+            {
+                collision.GetComponent<Health>().health -= skillDamage * powerUp.iceMultiplier;
+            }
+            else if (thunderSkill)
+            {
+                collision.GetComponent<Health>().health -= skillDamage * powerUp.eletricMultiplier;
+            }
+            else if (poisonSkill)
+            {
+                collision.GetComponent<Health>().health -= skillDamage * powerUp.poisonMultiplier;
+            }
             
             if (isProjectile)
             {
