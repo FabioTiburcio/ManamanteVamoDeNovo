@@ -1,0 +1,40 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:c97e2e113e383bef483abf38b8cf39da:94af7c8f27b4eff3589878a8b2f80c0d:feec3b8166a519ed66e3187f87f8c3fe$
+#
+:format=40300
+:texture=AttackChoqueMeraSpriteSheet.png
+:size=4096x1024
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Armature_AttackcarregadoChoque_00;0;687;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackcarregadoChoque_01;424;687;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackcarregadoChoque_02;848;687;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackcarregadoChoque_03;1272;687;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackcarregadoChoque_04;1696;687;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackcarregadoChoque_05;2120;687;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackcarregadoChoque_06;2544;687;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackcarregadoChoque_07;2968;687;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackcarregadoChoque_08;3392;687;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackcarregadoChoque_09;0;350;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackcarregadoChoque_10;424;350;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackcarregadoChoque_11;848;350;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackcarregadoChoque_12;1272;350;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackcarregadoChoque_13;1696;350;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackcarregadoChoque_14;2120;350;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackcarregadoChoque_15;2544;350;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackcarregadoChoque_16;2968;350;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackcarregadoChoque_17;3392;350;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackcarregadoChoque_18;0;13;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackcarregadoChoque_19;424;13;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackcarregadoChoque_20;848;13;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackcarregadoChoque_21;1272;13;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackcarregadoChoque_22;1696;13;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackcarregadoChoque_23;2120;13;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackcarregadoChoque_24;2544;13;424;337; 0.5;0.5; 0;0;0;0

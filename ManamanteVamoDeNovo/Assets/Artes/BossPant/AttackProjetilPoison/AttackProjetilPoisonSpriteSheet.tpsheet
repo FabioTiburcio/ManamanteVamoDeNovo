@@ -1,0 +1,40 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:86195e7289193f11953f1e498202168f:94af7c8f27b4eff3589878a8b2f80c0d:b99cd0d5b9bfdfc4445402d78f146d48$
+#
+:format=40300
+:texture=AttackProjetilPoisonSpriteSheet.png
+:size=4096x1024
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Armature_AttackLancarProjetilPoison_00;0;687;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackLancarProjetilPoison_01;424;687;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackLancarProjetilPoison_02;848;687;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackLancarProjetilPoison_03;1272;687;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackLancarProjetilPoison_04;1696;687;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackLancarProjetilPoison_05;2120;687;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackLancarProjetilPoison_06;2544;687;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackLancarProjetilPoison_07;2968;687;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackLancarProjetilPoison_08;3392;687;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackLancarProjetilPoison_09;0;350;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackLancarProjetilPoison_10;424;350;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackLancarProjetilPoison_11;848;350;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackLancarProjetilPoison_12;1272;350;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackLancarProjetilPoison_13;1696;350;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackLancarProjetilPoison_14;2120;350;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackLancarProjetilPoison_15;2544;350;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackLancarProjetilPoison_16;2968;350;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackLancarProjetilPoison_17;3392;350;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackLancarProjetilPoison_18;0;13;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackLancarProjetilPoison_19;424;13;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackLancarProjetilPoison_20;848;13;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackLancarProjetilPoison_21;1272;13;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackLancarProjetilPoison_22;1696;13;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackLancarProjetilPoison_23;2120;13;424;337; 0.5;0.5; 0;0;0;0
+Armature_AttackLancarProjetilPoison_24;2544;13;424;337; 0.5;0.5; 0;0;0;0

@@ -1,0 +1,27 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:edbd83e192df69e68f4edbebdfdd79eb:8075fddf07b7785f03db721b67e90ab4:44cdafad0ac72ba401eb0c4847220382$
+#
+:format=40300
+:texture=AttackChoqueMeleeSpriteSheet.png
+:size=2048x1024
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Armature_AttackMeeleeChoque_00;0;696;498;328; 0.5;0.5; 0;0;0;0
+Armature_AttackMeeleeChoque_01;498;696;498;328; 0.5;0.5; 0;0;0;0
+Armature_AttackMeeleeChoque_02;996;696;498;328; 0.5;0.5; 0;0;0;0
+Armature_AttackMeeleeChoque_03;1494;696;498;328; 0.5;0.5; 0;0;0;0
+Armature_AttackMeeleeChoque_04;0;368;498;328; 0.5;0.5; 0;0;0;0
+Armature_AttackMeeleeChoque_05;498;368;498;328; 0.5;0.5; 0;0;0;0
+Armature_AttackMeeleeChoque_06;996;368;498;328; 0.5;0.5; 0;0;0;0
+Armature_AttackMeeleeChoque_07;1494;368;498;328; 0.5;0.5; 0;0;0;0
+Armature_AttackMeeleeChoque_08;0;40;498;328; 0.5;0.5; 0;0;0;0
+Armature_AttackMeeleeChoque_09;498;40;498;328; 0.5;0.5; 0;0;0;0
+Armature_AttackMeeleeChoque_10;996;40;498;328; 0.5;0.5; 0;0;0;0
+Armature_AttackMeeleeChoque_11;1494;40;498;328; 0.5;0.5; 0;0;0;0
