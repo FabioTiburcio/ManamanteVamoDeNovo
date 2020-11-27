@@ -5,6 +5,10 @@ tpsheetFileNames:
 - Assets/Artes/Abelhuda/SpriteSheet/Attack.tpsheet
 - Assets/Artes/Abelhuda/SpriteSheet/Hit.tpsheet
 - Assets/Artes/Abelhuda/SpriteSheet/Walk.tpsheet
+- Assets/Artes/BossPant/AttackChoqueMelee/AttackChoqueMeleeSpriteSheet.tpsheet
+- Assets/Artes/BossPant/AttackChoqueMera/AttackChoqueMeraSpriteSheet.tpsheet
+- Assets/Artes/BossPant/AttackProjetilPoison/AttackProjetilPoisonSpriteSheet.tpsheet
+- Assets/Artes/BossPant/Idle/BossPantIdleSpriteSheet.tpsheet
 - Assets/Artes/cobra/Attack/Attack.tpsheet
 - Assets/Artes/cobra/Walk/Walk.tpsheet
 - Assets/Artes/Correção de Arte/Itens.tpsheet
@@ -40,6 +44,10 @@ textureFileNames:
 - Assets/Artes/Abelhuda/SpriteSheet/Attack.png
 - Assets/Artes/Abelhuda/SpriteSheet/Hit.png
 - Assets/Artes/Abelhuda/SpriteSheet/Walk.png
+- Assets/Artes/BossPant/AttackChoqueMelee/AttackChoqueMeleeSpriteSheet.png
+- Assets/Artes/BossPant/AttackChoqueMera/AttackChoqueMeraSpriteSheet.png
+- Assets/Artes/BossPant/AttackProjetilPoison/AttackProjetilPoisonSpriteSheet.png
+- Assets/Artes/BossPant/Idle/BossPantIdleSpriteSheet.png
 - Assets/Artes/cobra/Attack/Attack.png
 - Assets/Artes/cobra/Walk/Walk.png
 - Assets/Artes/Correção de Arte/Itens.png
@@ -71,6 +79,10 @@ textureFileNames:
 - Assets/Artes/Slime/Jump/Jump.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
+- 
+- 
+- 
+- 
 - 
 - 
 - 

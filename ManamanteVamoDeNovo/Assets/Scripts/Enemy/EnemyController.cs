@@ -94,7 +94,14 @@ public class EnemyController : MonoBehaviour {
                 aIPath.canMove = false;
                 break;
             case enemyState.CHASING:
-                enemyAnim.Play("Idle");
+                if(enemyName == "Slime")
+                {
+                    enemyAnim.Play("Jump");
+                }
+                else
+                {
+                    enemyAnim.Play("Idle");
+                }
                 aIPath.canMove = true;
                 timeChasing += Time.deltaTime;
                 if(aIPath.remainingDistance < attackRange)

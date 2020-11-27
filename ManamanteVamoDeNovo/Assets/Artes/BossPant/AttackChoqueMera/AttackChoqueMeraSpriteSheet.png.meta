@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: ae797a066d73e244eb6c8a05fbff2236
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2020166712973044446
+    second: Armature_AttackcarregadoChoque_00
+  - first:
+      213: -2780134085496072013
+    second: Armature_AttackcarregadoChoque_01
+  - first:
+      213: 5514486860042000406
+    second: Armature_AttackcarregadoChoque_02
+  - first:
+      213: -90679980210598927
+    second: Armature_AttackcarregadoChoque_03
+  - first:
+      213: 6569865045183892784
+    second: Armature_AttackcarregadoChoque_04
+  - first:
+      213: 7409734886694134601
+    second: Armature_AttackcarregadoChoque_05
+  - first:
+      213: 8358313144392127926
+    second: Armature_AttackcarregadoChoque_06
+  - first:
+      213: -8320833611747457139
+    second: Armature_AttackcarregadoChoque_07
+  - first:
+      213: -4980647993390003093
+    second: Armature_AttackcarregadoChoque_08
+  - first:
+      213: -8708949621517961955
+    second: Armature_AttackcarregadoChoque_09
+  - first:
+      213: 2185825665094445174
+    second: Armature_AttackcarregadoChoque_10
+  - first:
+      213: -3543941977517247510
+    second: Armature_AttackcarregadoChoque_11
+  - first:
+      213: 5614312159006824852
+    second: Armature_AttackcarregadoChoque_12
+  - first:
+      213: -2422609792256478758
+    second: Armature_AttackcarregadoChoque_13
+  - first:
+      213: -3537704575809655598
+    second: Armature_AttackcarregadoChoque_14
+  - first:
+      213: 6056458913158305546
+    second: Armature_AttackcarregadoChoque_15
+  - first:
+      213: 6326695065439211818
+    second: Armature_AttackcarregadoChoque_16
+  - first:
+      213: 7074500721912758363
+    second: Armature_AttackcarregadoChoque_17
+  - first:
+      213: -6843724194036274156
+    second: Armature_AttackcarregadoChoque_18
+  - first:
+      213: 1216979426617130347
+    second: Armature_AttackcarregadoChoque_19
+  - first:
+      213: 5331822938411624211
+    second: Armature_AttackcarregadoChoque_20
+  - first:
+      213: -7173580775423123106
+    second: Armature_AttackcarregadoChoque_21
+  - first:
+      213: -1557253532756654595
+    second: Armature_AttackcarregadoChoque_22
+  - first:
+      213: -3072593261085050151
+    second: Armature_AttackcarregadoChoque_23
+  - first:
+      213: -8809984813123888514
+    second: Armature_AttackcarregadoChoque_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Armature_AttackcarregadoChoque_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 687
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edaa3d11ce2190c10800000000000000
+      internalID: 2020166712973044446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackcarregadoChoque_01
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 687
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b81d0e67cafa69d0800000000000000
+      internalID: -2780134085496072013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackcarregadoChoque_02
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 687
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618dc5b0594678c40800000000000000
+      internalID: 5514486860042000406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackcarregadoChoque_03
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 687
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fbce47d907ddbef0800000000000000
+      internalID: -90679980210598927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackcarregadoChoque_04
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 687
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d01703379dc2b50800000000000000
+      internalID: 6569865045183892784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackcarregadoChoque_05
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 687
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9432939fe9aa4d660800000000000000
+      internalID: 7409734886694134601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackcarregadoChoque_06
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 687
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b598f44581bef370800000000000000
+      internalID: 8358313144392127926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackcarregadoChoque_07
+      rect:
+        serializedVersion: 2
+        x: 2968
+        y: 687
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8789a07ae5768c80800000000000000
+      internalID: -8320833611747457139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackcarregadoChoque_08
+      rect:
+        serializedVersion: 2
+        x: 3392
+        y: 687
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c0ab2e90f21eab0800000000000000
+      internalID: -4980647993390003093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackcarregadoChoque_09
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1536a21678932780800000000000000
+      internalID: -8708949621517961955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackcarregadoChoque_10
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 350
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678e2e48cdc955e10800000000000000
+      internalID: 2185825665094445174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackcarregadoChoque_11
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 350
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae33d7d4c8361dec0800000000000000
+      internalID: -3543941977517247510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackcarregadoChoque_12
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 350
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49912c7a92b0aed40800000000000000
+      internalID: 5614312159006824852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackcarregadoChoque_13
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 350
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad17b2fba39216ed0800000000000000
+      internalID: -2422609792256478758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackcarregadoChoque_14
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 350
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc679e8e6c87eec0800000000000000
+      internalID: -3537704575809655598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackcarregadoChoque_15
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 350
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a079c830b4ddc0450800000000000000
+      internalID: 6056458913158305546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackcarregadoChoque_16
+      rect:
+        serializedVersion: 2
+        x: 2968
+        y: 350
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2198b944afecc750800000000000000
+      internalID: 6326695065439211818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackcarregadoChoque_17
+      rect:
+        serializedVersion: 2
+        x: 3392
+        y: 350
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50cadc9cecad2260800000000000000
+      internalID: 7074500721912758363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackcarregadoChoque_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ca8b9ea153601a0800000000000000
+      internalID: -6843724194036274156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackcarregadoChoque_19
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 13
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6df876375493e010800000000000000
+      internalID: 1216979426617130347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackcarregadoChoque_20
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 13
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317ed4996b07ef940800000000000000
+      internalID: 5331822938411624211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackcarregadoChoque_21
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 13
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e516551ca42527c90800000000000000
+      internalID: -7173580775423123106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackcarregadoChoque_22
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 13
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df541d2a926836ae0800000000000000
+      internalID: -1557253532756654595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackcarregadoChoque_23
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 13
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da34c555b4fb55d0800000000000000
+      internalID: -3072593261085050151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackcarregadoChoque_24
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 13
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a1a216d75acb580800000000000000
+      internalID: -8809984813123888514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -29,6 +29,7 @@ public class Health : MonoBehaviour
     public AudioClip damageTaken;
     public AudioClip deadSound;
     public GameObject shieldSkill;
+    public GameObject healEffect;
     float soundCooldown;
     bool isPoisoned;
     float poisonTimer;
@@ -126,6 +127,8 @@ public class Health : MonoBehaviour
         if (healAmount != 0)
         {
             health += healAmount;
+            healEffect.SetActive(true);
+            StartCoroutine(DisableHealEffect());
             healAmount = 0;
         }
         if (isPlayer)
@@ -165,6 +168,12 @@ public class Health : MonoBehaviour
     public static void HealAmount(int amount)
     {
         healAmount = amount;
+    }
+
+    IEnumerator DisableHealEffect()
+    {
+        yield return new WaitForSeconds(1.5f);
+        healEffect.SetActive(false);
     }
     IEnumerator DissolveEffect()
     {

@@ -4811,7 +4811,7 @@ MonoBehaviour:
   iceSkill: 0
   iceSkillArea: 0
   fireShield: 0
-  thunderSkill: 1
+  thunderSkill: 0
   thunderSkillArea: 1
   hitEffect: {fileID: 0}
   hitSoundObject: {fileID: 0}

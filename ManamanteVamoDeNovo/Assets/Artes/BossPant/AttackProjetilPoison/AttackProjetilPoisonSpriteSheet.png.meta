@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: eff97512192b7544aaea6692de83445a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1084985844323598823
+    second: Armature_AttackLancarProjetilPoison_00
+  - first:
+      213: -8301845135552161721
+    second: Armature_AttackLancarProjetilPoison_01
+  - first:
+      213: 2403915521718964404
+    second: Armature_AttackLancarProjetilPoison_02
+  - first:
+      213: -5036517953952363027
+    second: Armature_AttackLancarProjetilPoison_03
+  - first:
+      213: -2825415767354859537
+    second: Armature_AttackLancarProjetilPoison_04
+  - first:
+      213: -3859311186341923220
+    second: Armature_AttackLancarProjetilPoison_05
+  - first:
+      213: -42969194706776594
+    second: Armature_AttackLancarProjetilPoison_06
+  - first:
+      213: 4620965080901566970
+    second: Armature_AttackLancarProjetilPoison_07
+  - first:
+      213: 4224582847323322289
+    second: Armature_AttackLancarProjetilPoison_08
+  - first:
+      213: 1404517149318345646
+    second: Armature_AttackLancarProjetilPoison_09
+  - first:
+      213: 5714366599762185487
+    second: Armature_AttackLancarProjetilPoison_10
+  - first:
+      213: -4734160097916406487
+    second: Armature_AttackLancarProjetilPoison_11
+  - first:
+      213: -6658815912682283831
+    second: Armature_AttackLancarProjetilPoison_12
+  - first:
+      213: 7065210169971976554
+    second: Armature_AttackLancarProjetilPoison_13
+  - first:
+      213: 6363227641731110034
+    second: Armature_AttackLancarProjetilPoison_14
+  - first:
+      213: -5460448748962058734
+    second: Armature_AttackLancarProjetilPoison_15
+  - first:
+      213: -4256202977897899274
+    second: Armature_AttackLancarProjetilPoison_16
+  - first:
+      213: -3786557721995131083
+    second: Armature_AttackLancarProjetilPoison_17
+  - first:
+      213: 3554117990208867299
+    second: Armature_AttackLancarProjetilPoison_18
+  - first:
+      213: 1225614762200142077
+    second: Armature_AttackLancarProjetilPoison_19
+  - first:
+      213: -8565784579235066265
+    second: Armature_AttackLancarProjetilPoison_20
+  - first:
+      213: 898704779316922924
+    second: Armature_AttackLancarProjetilPoison_21
+  - first:
+      213: -1666278831629443893
+    second: Armature_AttackLancarProjetilPoison_22
+  - first:
+      213: 1991648074583785846
+    second: Armature_AttackLancarProjetilPoison_23
+  - first:
+      213: 3595557217482616639
+    second: Armature_AttackLancarProjetilPoison_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Armature_AttackLancarProjetilPoison_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 687
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91eb3c28f1b51f0f0800000000000000
+      internalID: -1084985844323598823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackLancarProjetilPoison_01
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 687
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748db1395dbe9cc80800000000000000
+      internalID: -8301845135552161721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackLancarProjetilPoison_02
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 687
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b05b163e6c6c5120800000000000000
+      internalID: 2403915521718964404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackLancarProjetilPoison_03
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 687
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedcac10b91ba1ab0800000000000000
+      internalID: -5036517953952363027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackLancarProjetilPoison_04
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 687
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef960c445b1ac8d0800000000000000
+      internalID: -2825415767354859537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackLancarProjetilPoison_05
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 687
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66f56c6ce8f07ac0800000000000000
+      internalID: -3859311186341923220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackLancarProjetilPoison_06
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 687
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eedc73dbeb7576ff0800000000000000
+      internalID: -42969194706776594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackLancarProjetilPoison_07
+      rect:
+        serializedVersion: 2
+        x: 2968
+        y: 687
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af14f961247f02040800000000000000
+      internalID: 4620965080901566970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackLancarProjetilPoison_08
+      rect:
+        serializedVersion: 2
+        x: 3392
+        y: 687
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b73ae287bbb0aa30800000000000000
+      internalID: 4224582847323322289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackLancarProjetilPoison_09
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea37016e7e8dd7310800000000000000
+      internalID: 1404517149318345646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackLancarProjetilPoison_10
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 350
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d8e2f75228d4f40800000000000000
+      internalID: 5714366599762185487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackLancarProjetilPoison_11
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 350
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9253ddd3972ec4eb0800000000000000
+      internalID: -4734160097916406487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackLancarProjetilPoison_12
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 350
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc9ad315322793a0800000000000000
+      internalID: -6658815912682283831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackLancarProjetilPoison_13
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 350
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6928ac673bac0260800000000000000
+      internalID: 7065210169971976554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackLancarProjetilPoison_14
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 350
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294545a83d9be4850800000000000000
+      internalID: 6363227641731110034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackLancarProjetilPoison_15
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 350
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ee3e32bc69834b0800000000000000
+      internalID: -5460448748962058734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackLancarProjetilPoison_16
+      rect:
+        serializedVersion: 2
+        x: 2968
+        y: 350
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa9f6221fdeee4c0800000000000000
+      internalID: -4256202977897899274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackLancarProjetilPoison_17
+      rect:
+        serializedVersion: 2
+        x: 3392
+        y: 350
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 537c7fa50d1737bc0800000000000000
+      internalID: -3786557721995131083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackLancarProjetilPoison_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb89384b73c25130800000000000000
+      internalID: 3554117990208867299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackLancarProjetilPoison_19
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 13
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df01a64f122420110800000000000000
+      internalID: 1225614762200142077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackLancarProjetilPoison_20
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 13
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ecc240f48302980800000000000000
+      internalID: -8565784579235066265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackLancarProjetilPoison_21
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 13
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a81293c37d87c00800000000000000
+      internalID: 898704779316922924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackLancarProjetilPoison_22
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 13
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc59ff1b3030e8e0800000000000000
+      internalID: -1666278831629443893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackLancarProjetilPoison_23
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 13
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67148232f51c3ab10800000000000000
+      internalID: 1991648074583785846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_AttackLancarProjetilPoison_24
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 13
+        width: 424
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3fa4ad3d3cf5e130800000000000000
+      internalID: 3595557217482616639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

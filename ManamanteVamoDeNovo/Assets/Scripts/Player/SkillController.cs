@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -19,6 +20,14 @@ public class SkillController : MonoBehaviour
     public int activeSkill;
     public float attackCooldown;
     public bool isShotting;
+    public GameObject fireHairEffect;
+    public GameObject iceHairEffect;
+    public GameObject poisonHairEffect;
+    public GameObject eletricHairEffect;
+    private ParticleSystem fireHairParticles;
+    private ParticleSystem iceHairParticles;
+    private ParticleSystem eletricHairParticles;
+    private ParticleSystem poisonHairParticles;
 
     public float colorIntensity = 1f;
     float timeToAddMana;
@@ -52,11 +61,20 @@ public class SkillController : MonoBehaviour
 
     public float bulletForce = 20f;
     public int habilityToUnlock;
+
+    private void Awake()
+    {
+        fireHairParticles = fireHairEffect.GetComponent<ParticleSystem>();
+        iceHairParticles = iceHairEffect.GetComponent<ParticleSystem>();
+        eletricHairParticles = eletricHairEffect.GetComponent<ParticleSystem>();
+        poisonHairParticles = poisonHairEffect.GetComponent<ParticleSystem>();
+    }
     private void Start()
     {
         activeSkill = 1;
         skillSpawnSource = gameObject.GetComponent<AudioSource>();
         glowMaterial.SetColor("_Color", fireHairColor);
+        ActiveHairEffect("Fire");
     }
 
     // Update is called once per frame
@@ -65,7 +83,8 @@ public class SkillController : MonoBehaviour
         attackCooldown += Time.deltaTime;
         firePoint.transform.up = player.lookDir;
         timeToAddMana += Time.deltaTime;
-        if(timeToAddMana >= 9)
+        NumberOfHeadParticlesController(colorIntensity);
+        if (timeToAddMana >= 9)
         {
             if (colorIntensity < 1)
             {
@@ -76,24 +95,28 @@ public class SkillController : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
+            ActiveHairEffect("Fire");
             glowMaterial.SetColor("_Color", fireHairColor);
             skillSpawnSource.PlayOneShot(trocaDeSkills[0]);
             activeSkill = 1;
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2) && canIce)
         {
+            ActiveHairEffect("Ice");
             glowMaterial.SetColor("_Color", iceHairColor);
             skillSpawnSource.PlayOneShot(trocaDeSkills[1]);
             activeSkill = 2;
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3) && canElectric)
         {
+            ActiveHairEffect("Eletric");
             glowMaterial.SetColor("_Color", thunderHairColor);
             skillSpawnSource.PlayOneShot(trocaDeSkills[2]);
             activeSkill = 3;
         }
         else if (Input.GetKeyDown(KeyCode.Alpha4) && canPoison)
         {
+            ActiveHairEffect("Poison");
             glowMaterial.SetColor("_Color", poisonHairColor);
             skillSpawnSource.PlayOneShot(trocaDeSkills[3]);
             activeSkill = 4;
@@ -104,6 +127,27 @@ public class SkillController : MonoBehaviour
             glowMaterial.SetFloat("_ColorIntensity", colorIntensity);
             return;
         }
+
+        //EletricSkillController
+        if (Input.GetButton("Fire1") && activeSkill == 3)
+        {
+            player.freezePlayer = true;
+            timeToConsumeMana += Time.deltaTime;
+            if (timeToConsumeMana > 1)
+            {
+                colorIntensity -= 0.2f;
+                glowMaterial.SetFloat("_ColorIntensity", colorIntensity);
+                timeToConsumeMana = 0;
+            }
+            thunderSkill.transform.up = player.lookDir;
+        }
+        if (!Input.GetButton("Fire1") && activeSkill == 3 || Input.GetButtonUp("Fire1") && activeSkill == 3 || colorIntensity <= 0)
+        {
+            player.freezePlayer = false;
+            isShotting = false;
+            thunderSkill.SetActive(false);
+        }
+        //EndOfEletricSkillController
 
         if (Input.GetButtonDown("Fire1") && attackCooldown > 1.5f)
         {
@@ -126,26 +170,6 @@ public class SkillController : MonoBehaviour
 
         }
 
-        //EletricSkillController
-        if (Input.GetButton("Fire1") && activeSkill == 3)
-        {
-            player.freezePlayer = true;
-            timeToConsumeMana += Time.deltaTime;
-            if (timeToConsumeMana > 1)
-            {
-                colorIntensity -= 0.2f;
-                glowMaterial.SetFloat("_ColorIntensity", colorIntensity);
-                timeToConsumeMana = 0;
-            }
-            thunderSkill.transform.up = player.lookDir;
-        }
-        if (Input.GetButtonUp("Fire1") && activeSkill == 3 || colorIntensity <= 0)
-        {
-            player.freezePlayer = false;
-            isShotting = false;
-            thunderSkill.SetActive(false);
-        }
-        //EndOfEletricSkillController
 
 
         if (Input.GetButtonDown("Fire2") && attackCooldown > 1.5f)
@@ -166,6 +190,48 @@ public class SkillController : MonoBehaviour
         }
 
 
+    }
+    private void NumberOfHeadParticlesController(float value)
+    {
+        var fireEmission = fireHairParticles.emission;
+        fireEmission.rateOverTime = value * 10;
+        var iceEmission = iceHairParticles.emission;
+        iceEmission.rateOverTime = value * 10;
+        var eletricEmission = eletricHairParticles.emission;
+        eletricEmission.rateOverTime = value * 20;
+        var poisonEmission = poisonHairParticles.emission;
+        poisonEmission.rateOverTime = value * 5;
+    }
+    private void ActiveHairEffect(string element)
+    {
+        switch (element)
+        {
+            case "Fire":
+                fireHairEffect.SetActive(true);
+                iceHairEffect.SetActive(false);
+                eletricHairEffect.SetActive(false);
+                poisonHairEffect.SetActive(false);
+                break;
+            case "Ice":
+                fireHairEffect.SetActive(false);
+                iceHairEffect.SetActive(true);
+                eletricHairEffect.SetActive(false);
+                poisonHairEffect.SetActive(false);
+                break;
+            case "Eletric":
+                fireHairEffect.SetActive(false);
+                iceHairEffect.SetActive(false);
+                eletricHairEffect.SetActive(true);
+                poisonHairEffect.SetActive(false);
+                break;
+            case "Poison":
+                fireHairEffect.SetActive(false);
+                iceHairEffect.SetActive(false);
+                eletricHairEffect.SetActive(false);
+                poisonHairEffect.SetActive(true);
+                break;
+
+        }
     }
 
     IEnumerator AnimDelay(int hability)
