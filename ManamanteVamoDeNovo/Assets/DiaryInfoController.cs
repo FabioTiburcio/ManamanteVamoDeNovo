@@ -17,28 +17,34 @@ public class DiaryInfoController : MonoBehaviour
     {
         
     }
+
     public void SetInfo(string title , Sprite image, string description, string Pagina, string Tipo)
     {
         switch (Pagina)
         {
             case "Anotacoes":
-                for (int i = 0; i < 12; i++)
+                switch (Tipo)
                 {
-                    if (infosInPagesPrefabs[i].imageSprite.sprite == null)
-                    {
-                        infosInPagesPrefabs[i].Title.text = title;
-                        infosInPagesPrefabs[i].imageSprite.sprite = image;
-                        infosInPagesPrefabs[i].Description.text = description;
-                        infosInPagesPrefabs[i].gameObject.SetActive(true);
-                        break;
-                    }
-                    else
-                    {
-                        if (infosInPagesPrefabs[i].Title.text == title)
+                    case "Primaria":
+                        for (int i = 0; i < 12; i++)
                         {
-                            break;
+                            if (infosInPagesPrefabs[i].imageSprite.sprite == null)
+                            {
+                                infosInPagesPrefabs[i].Title.text = title;
+                                infosInPagesPrefabs[i].imageSprite.sprite = image;
+                                infosInPagesPrefabs[i].Description.text = description;
+                                infosInPagesPrefabs[i].gameObject.SetActive(true);
+                                break;
+                            }
+                            else
+                            {
+                                if (infosInPagesPrefabs[i].Title.text == title)
+                                {
+                                    break;
+                                }
+                            }
                         }
-                    }
+                        break;
                 }
                 break;
             case "Tarefas":

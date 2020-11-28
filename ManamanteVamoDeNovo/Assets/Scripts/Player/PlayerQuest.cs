@@ -75,10 +75,16 @@ public class PlayerQuest : MonoBehaviour {
             }
             if (quest.goal.IsReached())
             {
+                if(quest.diaryComplete != null)
+                {
+                    diaryInfoController.SetInfo(quest.title, quest.npcFoto, quest.diaryComplete, "Anotacoes", "Primaria");
+                    playerAudioSource.PlayOneShot(writingDiaryClip);
+                }              
                 Debug.Log("DALE");
                 quest.Complete();
                 UpdateQuests();
-                questCompleted = true;               
+                questCompleted = true;
+                
             }
 
         } else
@@ -117,6 +123,10 @@ public class PlayerQuest : MonoBehaviour {
                     Debug.Log("PESQUISEI");
                     quest.goal.Searched();
                     searchText.SetActive(true);
+                } else if (quest.goal.goalType == GoalType.Walking)
+                {
+                    Debug.Log("VIAJEI");
+                    quest.goal.Walked();
                 }
 
             }

@@ -28,6 +28,8 @@ public class PlayerMovement : MonoBehaviour
 
     public AudioClip[] pcSounds;
 
+    private int questsCompleted;
+
     //Footsteps
     public float footStepRatePlay;
     AudioSource playerAudioSource;
@@ -55,6 +57,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        questsCompleted = PlayerPrefs.GetInt("QuestsCompleted");
+        if (questsCompleted == 7) upgradedRobo = true;
+
         mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         if (freezePlayer)
         {
@@ -74,6 +79,8 @@ public class PlayerMovement : MonoBehaviour
             }
             return;
         }
+
+        
 
         else
         {
@@ -112,6 +119,8 @@ public class PlayerMovement : MonoBehaviour
                 Time.timeScale = 0;
             }
         }
+
+        
     }
 
     private void FixedUpdate()

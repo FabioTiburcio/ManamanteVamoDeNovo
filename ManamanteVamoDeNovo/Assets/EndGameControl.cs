@@ -12,7 +12,7 @@ public class EndGameControl : MonoBehaviour
     void Update()
     {
         questsCompleted = PlayerPrefs.GetInt("QuestsCompleted");
-        if (questsCompleted == 7)
+        if (questsCompleted == 30)
         {
             endGameScreen.SetActive(true);
             Time.timeScale = 0;

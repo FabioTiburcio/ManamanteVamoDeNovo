@@ -56,6 +56,7 @@ public class CraftingController : MonoBehaviour
                                     case CraftingItemElement.Fogo:
                                         item3 = craftingInvetory.database.GetItem[21].CreateItem();
                                         activeQuest.QuestAtt(item3.Id.ToString(), true);
+                                        
                                         craftingInvetory.AddItem(item3, 1);
                                         clearCraftedItems();
                                         break;

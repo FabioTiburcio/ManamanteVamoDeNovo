@@ -38,6 +38,11 @@ public class QuestGoal
         currentAmount++;
     }
 
+    public void Walked()
+    {
+        currentAmount++;
+    }
+
 }
 
 public enum GoalType
@@ -45,5 +50,7 @@ public enum GoalType
     Kill,
     Gathering,
     Crafting,
-    Searching
+    Searching,
+    Walking
+    
 }

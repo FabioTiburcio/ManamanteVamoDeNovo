@@ -14,9 +14,12 @@ public class Quest
     public string title;
     [TextArea]
     public string description;
+    [TextArea]
     public string diaryDescription;
     public int rewardId;
     public int rewardAmount;
+    [TextArea]
+    public string diaryComplete;
 
     public QuestGoal goal;
 

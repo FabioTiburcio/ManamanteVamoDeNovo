@@ -7,6 +7,7 @@ public class Transitions : MonoBehaviour
 
     public PlayerMovement player;
     public Health playerHealth;
+    public PlayerQuest activeQuest;
     public Transform robo;
     public FakeLoading fakeLoading;
     public GameObject globalLight;
@@ -35,6 +36,9 @@ public class Transitions : MonoBehaviour
 
     private void OnEnable()
     {
+
+        activeQuest = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerQuest>();
+
         StartCoroutine(LightsOut());
         fakeLoading.Fade();
         switch (mapaAnterior)
@@ -60,6 +64,7 @@ public class Transitions : MonoBehaviour
         if (mapaAtivo.tag == "MapaGelo")
         {
             criogenicasAudio.Play();
+            activeQuest.QuestAtt("Criogenicas", true);
         }
         else
         {
