@@ -9,6 +9,8 @@ public class EnemyController : MonoBehaviour {
 
     public enum enemyState { IDLE, CHASING, FURIOUS, ATTACKING, STUN, DYING }
     public enum enemyType { RANGED, MEELE}
+
+    public enum enemyElement {NORMAL, FIRE, ICE, ELETRIC, POISON}
     private Rigidbody2D enemyRb;
 
     public GameObject dropItemPrefab;
@@ -27,14 +29,14 @@ public class EnemyController : MonoBehaviour {
     public Transform spawnDirection;
 
     public string enemyName;
-    public int enemyDamage;
-    public int enemyAttackSpeed;
+    public float enemyAttackSpeed;
     private Health enemyHP;
     private float attackRange;
     private AIPath aIPath;
     public enemyState currentState = enemyState.IDLE;
     public enemyState lastState;
     public enemyType tipoInimigo;
+    public enemyElement elementoInimigo;
     private float timeChasing = 0f;
     private Animator enemyAnim;
     public GameObject meleeAttackCol;
@@ -176,11 +178,27 @@ public class EnemyController : MonoBehaviour {
                     attackTimer = 0;
                     enemySkill = Instantiate(meleeAttackCol, firePoint.position, firePoint.rotation);
                 }
+                else if (enemyName == "GolemEletrico")
+                {
+                    enemyAnim.Play("Attack");
+                    if (attackTimer <= attackCooldown / enemyAttackSpeed)
+                    {
+                        attackTimer += Time.deltaTime;
+                        return;
+                    }
+                    else if(currentState == enemyState.ATTACKING && attackTimer >= attackCooldown / enemyAttackSpeed)
+                    {
+                        attackTimer = 0;
+                        enemySkill = Instantiate(meleeAttackCol, firePoint);
+                    }
+
+                }
                 StartCoroutine(AttackCooldownCounter(attackCooldown));
                 if (aIPath.remainingDistance > attackRange)
                 {
                     currentState = enemyState.CHASING;
                 }
+
                 break;
             case enemyState.STUN:
                 aIPath.canMove = false;
@@ -219,6 +237,7 @@ public class EnemyController : MonoBehaviour {
     private IEnumerator AttackCooldownCounter(float cooldown)
     {
         yield return new WaitForSeconds(cooldown);
+        currentState = enemyState.CHASING;
         enemyRb.velocity = Vector3.zero;
         enemyRb.rotation = 0;
     }

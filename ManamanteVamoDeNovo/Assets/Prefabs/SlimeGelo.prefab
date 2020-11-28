@@ -120,11 +120,11 @@ MonoBehaviour:
   enemyPoisonPrefab: {fileID: 0}
   spawnDirection: {fileID: 5034721767147166273}
   enemyName: Slime
-  enemyDamage: 0
   enemyAttackSpeed: 0
   currentState: 0
   lastState: 0
   tipoInimigo: 1
+  elementoInimigo: 2
   meleeAttackCol: {fileID: 7704232344187558338, guid: ebdcc09349d7e074dbe6367417bd86b8,
     type: 3}
   hitPlayer: 0
@@ -220,6 +220,7 @@ MonoBehaviour:
   damageTaken: {fileID: 0}
   deadSound: {fileID: 0}
   shieldSkill: {fileID: 0}
+  healEffect: {fileID: 0}
 --- !u!114 &430188
 MonoBehaviour:
   m_ObjectHideFlags: 0

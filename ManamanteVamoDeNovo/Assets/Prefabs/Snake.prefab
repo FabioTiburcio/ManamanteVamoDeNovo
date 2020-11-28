@@ -141,11 +141,11 @@ MonoBehaviour:
   spawnDirection: {fileID: 4009945463483169016, guid: e09c7bf93f328e04aaf1d64ef14423ac,
     type: 3}
   enemyName: Cobra
-  enemyDamage: 10
   enemyAttackSpeed: 1
   currentState: 0
   lastState: 0
   tipoInimigo: 1
+  elementoInimigo: 4
   meleeAttackCol: {fileID: 7704232344187558338, guid: ebdcc09349d7e074dbe6367417bd86b8,
     type: 3}
   hitPlayer: 0
@@ -299,3 +299,5 @@ MonoBehaviour:
   coracaoBatendo3: {fileID: 0}
   damageTaken: {fileID: 0}
   deadSound: {fileID: 0}
+  shieldSkill: {fileID: 0}
+  healEffect: {fileID: 0}

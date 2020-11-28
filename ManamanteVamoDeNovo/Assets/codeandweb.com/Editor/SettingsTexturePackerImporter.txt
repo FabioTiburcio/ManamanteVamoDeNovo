@@ -5,6 +5,9 @@ tpsheetFileNames:
 - Assets/Artes/Abelhuda/SpriteSheet/Attack.tpsheet
 - Assets/Artes/Abelhuda/SpriteSheet/Hit.tpsheet
 - Assets/Artes/Abelhuda/SpriteSheet/Walk.tpsheet
+- Assets/Artes/BossMag/AttackEspecial/BossMagmaSpecialSpriteSheet.tpsheet
+- Assets/Artes/BossMag/AttackSimples/BossMagmaSimplesSpriteSheet.tpsheet
+- Assets/Artes/BossMag/Walk/BossMagmaWalkSpriteSheet.tpsheet
 - Assets/Artes/BossPant/AttackChoqueMelee/AttackChoqueMeleeSpriteSheet.tpsheet
 - Assets/Artes/BossPant/AttackChoqueMera/AttackChoqueMeraSpriteSheet.tpsheet
 - Assets/Artes/BossPant/AttackProjetilPoison/AttackProjetilPoisonSpriteSheet.tpsheet
@@ -13,9 +16,12 @@ tpsheetFileNames:
 - Assets/Artes/cobra/Walk/Walk.tpsheet
 - Assets/Artes/Correção de Arte/Itens.tpsheet
 - Assets/Artes/Correção de Arte/ItensFinal.tpsheet
+- Assets/Artes/Cyborg/Attack/CyborgAtaqueSpriteSheet.tpsheet
+- Assets/Artes/Cyborg/Walk/CyborgWalkSpriteSheet.tpsheet
 - Assets/Artes/Golem de Gelo/Attack.tpsheet
 - Assets/Artes/Golem de Gelo/Damage.tpsheet
 - Assets/Artes/Golem de Gelo/Idle.tpsheet
+- Assets/Artes/Golem de Gelo/Outro ataque/GolemGeloAtaque2SpriteSheet.tpsheet
 - Assets/Artes/IminigosSeparados/Balangando/Balango.tpsheet
 - Assets/Artes/IminigosSeparados/Ice/AttackSpriteSheet.tpsheet
 - Assets/Artes/IminigosSeparados/Ice/DamageSpriteSheet.tpsheet
@@ -44,6 +50,9 @@ textureFileNames:
 - Assets/Artes/Abelhuda/SpriteSheet/Attack.png
 - Assets/Artes/Abelhuda/SpriteSheet/Hit.png
 - Assets/Artes/Abelhuda/SpriteSheet/Walk.png
+- Assets/Artes/BossMag/AttackEspecial/BossMagmaSpecialSpriteSheet.png
+- Assets/Artes/BossMag/AttackSimples/BossMagmaSimplesSpriteSheet.png
+- Assets/Artes/BossMag/Walk/BossMagmaWalkSpriteSheet.png
 - Assets/Artes/BossPant/AttackChoqueMelee/AttackChoqueMeleeSpriteSheet.png
 - Assets/Artes/BossPant/AttackChoqueMera/AttackChoqueMeraSpriteSheet.png
 - Assets/Artes/BossPant/AttackProjetilPoison/AttackProjetilPoisonSpriteSheet.png
@@ -52,9 +61,12 @@ textureFileNames:
 - Assets/Artes/cobra/Walk/Walk.png
 - Assets/Artes/Correção de Arte/Itens.png
 - Assets/Artes/Correção de Arte/ItensFinal.png
+- Assets/Artes/Cyborg/Attack/CyborgAtaqueSpriteSheet.png
+- Assets/Artes/Cyborg/Walk/CyborgWalkSpriteSheet.png
 - Assets/Artes/Golem de Gelo/Attack.png
 - Assets/Artes/Golem de Gelo/Damage.png
 - Assets/Artes/Golem de Gelo/Idle.png
+- Assets/Artes/Golem de Gelo/Outro ataque/GolemGeloAtaque2SpriteSheet.png
 - Assets/Artes/IminigosSeparados/Balangando/Balango.png
 - Assets/Artes/IminigosSeparados/Ice/AttackSpriteSheet.png
 - Assets/Artes/IminigosSeparados/Ice/DamageSpriteSheet.png
@@ -79,6 +91,12 @@ textureFileNames:
 - Assets/Artes/Slime/Jump/Jump.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
+- 
+- 
+- 
+- 
+- 
+- 
 - 
 - 
 - 

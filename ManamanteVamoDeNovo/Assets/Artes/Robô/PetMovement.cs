@@ -42,7 +42,7 @@ public class PetMovement : MonoBehaviour
     {
         float distance = Vector2.Distance(playerTransform.position, petTransform.position);
 
-        if (distance < 10 && distance > 0.5f)
+        if (distance < 10 && distance > 0.3f)
         {
             destinationSetter.enabled = true;
             aiPath.canMove = true;
@@ -61,7 +61,7 @@ public class PetMovement : MonoBehaviour
             
         }
         //Se o inimigo chegou na distancia de só ficar parado
-        else if (distance <= 0.5f)
+        else if (distance <= 0.3f)
         {
             petAnim.SetFloat("velocity", 0);
             aiPath.canMove = false;

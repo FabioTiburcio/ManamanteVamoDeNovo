@@ -121,12 +121,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 084ec5be919fd4b4385bdb817724060d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dropItemPrefab: {fileID: 0}
+  dropMorcego: {fileID: 0}
+  dropAlma: {fileID: 0}
+  dropGelo: {fileID: 0}
   player: {fileID: 0}
-  enemyDamage: 10
+  PlayerSkillController: {fileID: 0}
+  firePoint: {fileID: 0}
+  enemyFirePrefab: {fileID: 0}
+  enemyIcePrefab: {fileID: 0}
+  enemyEletricPrefab: {fileID: 0}
+  enemyPoisonPrefab: {fileID: 0}
+  spawnDirection: {fileID: 0}
+  enemyName: 
   enemyAttackSpeed: 1
   currentState: 0
   lastState: 0
   tipoInimigo: 1
+  elementoInimigo: 4
+  meleeAttackCol: {fileID: 0}
+  hitPlayer: 0
 --- !u!50 &2867090325316567248
 Rigidbody2D:
   serializedVersion: 4

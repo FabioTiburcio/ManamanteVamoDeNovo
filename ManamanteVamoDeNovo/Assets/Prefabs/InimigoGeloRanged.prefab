@@ -46,6 +46,7 @@ MonoBehaviour:
   health: 0
   damageCooldown: 0
   activeQuest: {fileID: 0}
+  playerSkillController: {fileID: 0}
   spriteMerinha: {fileID: 0}
   corLaranja: {r: 0, g: 0, b: 0, a: 0}
   respawnPlayer: 0
@@ -53,6 +54,7 @@ MonoBehaviour:
   dissolveMaterial: {fileID: 0}
   poisonMaterial: {fileID: 0}
   poisonParticle: {fileID: 4171677001033429880}
+  poisonExplosionParticle: {fileID: 0}
   poisonStack: 0
   isPlayer: 0
   saidaDeSom: {fileID: 0}
@@ -61,6 +63,8 @@ MonoBehaviour:
   coracaoBatendo3: {fileID: 0}
   damageTaken: {fileID: 0}
   deadSound: {fileID: 0}
+  shieldSkill: {fileID: 0}
+  healEffect: {fileID: 0}
 --- !u!1001 &1997729304420879303
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -294,6 +298,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4034193321657810229, guid: 450aee43d18374243b5991d5d0c515e7,
         type: 3}
+    - target: {fileID: 2867090325316567251, guid: c14ec52f13d346e4b9bd9dff7db90a86,
+        type: 3}
+      propertyPath: elementoInimigo
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2867090325316567254, guid: c14ec52f13d346e4b9bd9dff7db90a86,
         type: 3}
       propertyPath: m_Name

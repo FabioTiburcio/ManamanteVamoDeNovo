@@ -1,0 +1,500 @@
+fileFormatVersion: 2
+guid: 4bea360ce1572cb4991f8faf2f60d188
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2314469596221717968
+    second: Armature_Attack1_00
+  - first:
+      213: 3447616144845833604
+    second: Armature_Attack1_01
+  - first:
+      213: 3263015878367951867
+    second: Armature_Attack1_02
+  - first:
+      213: -8097195666782149654
+    second: Armature_Attack1_03
+  - first:
+      213: -5664513054475057411
+    second: Armature_Attack1_04
+  - first:
+      213: -4699358950435150904
+    second: Armature_Attack1_05
+  - first:
+      213: -7131050494785385474
+    second: Armature_Attack1_06
+  - first:
+      213: -4092117107279586063
+    second: Armature_Attack1_07
+  - first:
+      213: 5978182376217176316
+    second: Armature_Attack1_08
+  - first:
+      213: -5607964343922064698
+    second: Armature_Attack1_09
+  - first:
+      213: 4140957984501650545
+    second: Armature_Attack1_10
+  - first:
+      213: -6918887972083183496
+    second: Armature_Attack1_11
+  - first:
+      213: -8455275743650532579
+    second: Armature_Attack1_12
+  - first:
+      213: -3649066413885206905
+    second: Armature_Attack1_13
+  - first:
+      213: 7181494971301951350
+    second: Armature_Attack1_14
+  - first:
+      213: -6719415687662302326
+    second: Armature_Attack1_15
+  - first:
+      213: 3464228835559076704
+    second: Armature_Attack1_16
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Armature_Attack1_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 803
+        width: 377
+        height: 401
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ddbc3ec5d5ae1020800000000000000
+      internalID: 2314469596221717968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Attack1_01
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 803
+        width: 377
+        height: 401
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48500731e9468df20800000000000000
+      internalID: 3447616144845833604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Attack1_02
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 803
+        width: 377
+        height: 401
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfbb49637af884d20800000000000000
+      internalID: 3263015878367951867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Attack1_03
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 803
+        width: 377
+        height: 401
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae32e9c117bf0af80800000000000000
+      internalID: -8097195666782149654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Attack1_04
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 803
+        width: 377
+        height: 401
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6837a836b9361b0800000000000000
+      internalID: -5664513054475057411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Attack1_05
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 803
+        width: 377
+        height: 401
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c3a24fcee588ceb0800000000000000
+      internalID: -4699358950435150904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Attack1_06
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 402
+        width: 377
+        height: 401
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb81fe5b5b690d90800000000000000
+      internalID: -7131050494785385474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Attack1_07
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 402
+        width: 377
+        height: 401
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc1d410c21e537c0800000000000000
+      internalID: -4092117107279586063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Attack1_08
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 402
+        width: 377
+        height: 401
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf8ece88235c6f250800000000000000
+      internalID: 5978182376217176316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Attack1_09
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 402
+        width: 377
+        height: 401
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2087734228c22b0800000000000000
+      internalID: -5607964343922064698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Attack1_10
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 402
+        width: 377
+        height: 401
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174d900e853a77930800000000000000
+      internalID: 4140957984501650545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Attack1_11
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 402
+        width: 377
+        height: 401
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87052471c0c2bff90800000000000000
+      internalID: -6918887972083183496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Attack1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 377
+        height: 401
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13bbb55283d8aa80800000000000000
+      internalID: -8455275743650532579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Attack1_13
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1
+        width: 377
+        height: 401
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e409e1e69eb5dc0800000000000000
+      internalID: -3649066413885206905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Attack1_14
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1
+        width: 377
+        height: 401
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677f4b090abc9a360800000000000000
+      internalID: 7181494971301951350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Attack1_15
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1
+        width: 377
+        height: 401
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b83b67807dfb2a0800000000000000
+      internalID: -6719415687662302326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armature_Attack1_16
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1
+        width: 377
+        height: 401
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063f92c85c9631030800000000000000
+      internalID: 3464228835559076704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

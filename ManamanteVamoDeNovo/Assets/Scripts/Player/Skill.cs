@@ -49,7 +49,7 @@ public class Skill : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject, 3.5f);
+            Destroy(gameObject, 3f);
         }
         
         
