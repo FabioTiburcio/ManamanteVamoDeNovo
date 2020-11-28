@@ -1,0 +1,42 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:12942ae9f5d1ffa4640982c96457199e:27375bb1a4eb33d50ce0a4eed29555ca:daa64338d38e680871919512a563d40e$
+#
+:format=40300
+:texture=BossMagmaSpecialSpriteSheet.png
+:size=2160x3492
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Armature_Attack2_00;0;3104;720;388; 0.5;0; 0;0;0;0
+Armature_Attack2_01;720;3104;720;388; 0.5;0; 0;0;0;0
+Armature_Attack2_02;1440;3104;720;388; 0.5;0; 0;0;0;0
+Armature_Attack2_03;0;2716;720;388; 0.5;0; 0;0;0;0
+Armature_Attack2_04;720;2716;720;388; 0.5;0; 0;0;0;0
+Armature_Attack2_05;1440;2716;720;388; 0.5;0; 0;0;0;0
+Armature_Attack2_06;0;2328;720;388; 0.5;0; 0;0;0;0
+Armature_Attack2_07;720;2328;720;388; 0.5;0; 0;0;0;0
+Armature_Attack2_08;1440;2328;720;388; 0.5;0; 0;0;0;0
+Armature_Attack2_09;0;1940;720;388; 0.5;0; 0;0;0;0
+Armature_Attack2_10;720;1940;720;388; 0.5;0; 0;0;0;0
+Armature_Attack2_11;1440;1940;720;388; 0.5;0; 0;0;0;0
+Armature_Attack2_12;0;1552;720;388; 0.5;0; 0;0;0;0
+Armature_Attack2_13;720;1552;720;388; 0.5;0; 0;0;0;0
+Armature_Attack2_14;1440;1552;720;388; 0.5;0; 0;0;0;0
+Armature_Attack2_15;0;1164;720;388; 0.5;0; 0;0;0;0
+Armature_Attack2_16;720;1164;720;388; 0.5;0; 0;0;0;0
+Armature_Attack2_17;1440;1164;720;388; 0.5;0; 0;0;0;0
+Armature_Attack2_18;0;776;720;388; 0.5;0; 0;0;0;0
+Armature_Attack2_19;720;776;720;388; 0.5;0; 0;0;0;0
+Armature_Attack2_20;1440;776;720;388; 0.5;0; 0;0;0;0
+Armature_Attack2_21;0;388;720;388; 0.5;0; 0;0;0;0
+Armature_Attack2_22;720;388;720;388; 0.5;0; 0;0;0;0
+Armature_Attack2_23;1440;388;720;388; 0.5;0; 0;0;0;0
+Armature_Attack2_24;0;0;720;388; 0.5;0; 0;0;0;0
+Armature_Attack2_25;720;0;720;388; 0.5;0; 0;0;0;0
+Armature_Attack2_26;1440;0;720;388; 0.5;0; 0;0;0;0

@@ -1,0 +1,24 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:7a802a09e2aa9ddf08bf37ca0de080b9:70d075763e9d663983e22051cd4f615e:a3f065e3532ae8e41712646b1cb053dd$
+#
+:format=40300
+:texture=CyborgAtaqueSpriteSheet.png
+:size=4096x1024
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Armature_attack1_0;0;554;612;470; 0.5;0; 0;0;0;0
+Armature_attack1_1;612;554;612;470; 0.5;0; 0;0;0;0
+Armature_attack1_2;1224;554;612;470; 0.5;0; 0;0;0;0
+Armature_attack1_3;1836;554;612;470; 0.5;0; 0;0;0;0
+Armature_attack1_4;2448;554;612;470; 0.5;0; 0;0;0;0
+Armature_attack1_5;3060;554;612;470; 0.5;0; 0;0;0;0
+Armature_attack1_6;0;84;612;470; 0.5;0; 0;0;0;0
+Armature_attack1_7;612;84;612;470; 0.5;0; 0;0;0;0
+Armature_attack1_8;1224;84;612;470; 0.5;0; 0;0;0;0

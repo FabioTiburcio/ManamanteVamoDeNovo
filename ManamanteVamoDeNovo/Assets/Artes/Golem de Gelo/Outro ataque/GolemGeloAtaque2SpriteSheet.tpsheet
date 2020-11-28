@@ -1,0 +1,36 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:8e5f9f6b1bc252dd051a724cf6d894e2:1e0c31400918db22291618fd38ce3b48:4e6775ec1a55e38c63d1b0fa3cd9381e$
+#
+:format=40300
+:texture=GolemGeloAtaque2SpriteSheet.png
+:size=3728x3540
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Armature_Attack2_00;0;2950;932;590; 0.5;0; 0;0;0;0
+Armature_Attack2_01;932;2950;932;590; 0.5;0; 0;0;0;0
+Armature_Attack2_02;1864;2950;932;590; 0.5;0; 0;0;0;0
+Armature_Attack2_03;2796;2950;932;590; 0.5;0; 0;0;0;0
+Armature_Attack2_04;0;2360;932;590; 0.5;0; 0;0;0;0
+Armature_Attack2_05;932;2360;932;590; 0.5;0; 0;0;0;0
+Armature_Attack2_06;1864;2360;932;590; 0.5;0; 0;0;0;0
+Armature_Attack2_07;2796;2360;932;590; 0.5;0; 0;0;0;0
+Armature_Attack2_08;0;1770;932;590; 0.5;0; 0;0;0;0
+Armature_Attack2_09;932;1770;932;590; 0.5;0; 0;0;0;0
+Armature_Attack2_10;1864;1770;932;590; 0.5;0; 0;0;0;0
+Armature_Attack2_11;2796;1770;932;590; 0.5;0; 0;0;0;0
+Armature_Attack2_12;0;1180;932;590; 0.5;0; 0;0;0;0
+Armature_Attack2_13;932;1180;932;590; 0.5;0; 0;0;0;0
+Armature_Attack2_14;1864;1180;932;590; 0.5;0; 0;0;0;0
+Armature_Attack2_15;2796;1180;932;590; 0.5;0; 0;0;0;0
+Armature_Attack2_16;0;590;932;590; 0.5;0; 0;0;0;0
+Armature_Attack2_17;932;590;932;590; 0.5;0; 0;0;0;0
+Armature_Attack2_18;1864;590;932;590; 0.5;0; 0;0;0;0
+Armature_Attack2_19;2796;590;932;590; 0.5;0; 0;0;0;0
+Armature_Attack2_20;0;0;932;590; 0.5;0; 0;0;0;0

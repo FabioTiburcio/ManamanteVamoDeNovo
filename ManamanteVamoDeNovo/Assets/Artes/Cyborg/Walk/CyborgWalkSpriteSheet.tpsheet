@@ -1,0 +1,40 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:fd557edd3cb2c8fb64aa1548881d8e28:8ae21f8c6095cf9e586520a741b365d0:d0550abd759c162dc295350802ba2d61$
+#
+:format=40300
+:texture=CyborgWalkSpriteSheet.png
+:size=3040x2372
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Armature_walk_00;0;1898;608;474; 0.5;0; 0;0;0;0
+Armature_walk_01;608;1898;608;474; 0.5;0; 0;0;0;0
+Armature_walk_02;1216;1898;608;474; 0.5;0; 0;0;0;0
+Armature_walk_03;1824;1898;608;474; 0.5;0; 0;0;0;0
+Armature_walk_04;2432;1898;608;474; 0.5;0; 0;0;0;0
+Armature_walk_05;0;1424;608;474; 0.5;0; 0;0;0;0
+Armature_walk_06;608;1424;608;474; 0.5;0; 0;0;0;0
+Armature_walk_07;1216;1424;608;474; 0.5;0; 0;0;0;0
+Armature_walk_08;1824;1424;608;474; 0.5;0; 0;0;0;0
+Armature_walk_09;2432;1424;608;474; 0.5;0; 0;0;0;0
+Armature_walk_10;0;950;608;474; 0.5;0; 0;0;0;0
+Armature_walk_11;608;950;608;474; 0.5;0; 0;0;0;0
+Armature_walk_12;1216;950;608;474; 0.5;0; 0;0;0;0
+Armature_walk_13;1824;950;608;474; 0.5;0; 0;0;0;0
+Armature_walk_14;2432;950;608;474; 0.5;0; 0;0;0;0
+Armature_walk_15;0;476;608;474; 0.5;0; 0;0;0;0
+Armature_walk_16;608;476;608;474; 0.5;0; 0;0;0;0
+Armature_walk_17;1216;476;608;474; 0.5;0; 0;0;0;0
+Armature_walk_18;1824;476;608;474; 0.5;0; 0;0;0;0
+Armature_walk_19;2432;476;608;474; 0.5;0; 0;0;0;0
+Armature_walk_20;0;2;608;474; 0.5;0; 0;0;0;0
+Armature_walk_21;608;2;608;474; 0.5;0; 0;0;0;0
+Armature_walk_22;1216;2;608;474; 0.5;0; 0;0;0;0
+Armature_walk_23;1824;2;608;474; 0.5;0; 0;0;0;0
+Armature_walk_24;2432;2;608;474; 0.5;0; 0;0;0;0

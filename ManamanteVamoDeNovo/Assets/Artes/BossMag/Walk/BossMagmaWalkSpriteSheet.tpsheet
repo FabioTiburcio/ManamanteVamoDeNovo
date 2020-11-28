@@ -1,0 +1,36 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:f329df51125f3547f695e43dfcb0ac24:d3b0baf129df141c8207d61165548ebb:6945f888c7eb57b95ff55ff2456c194f$
+#
+:format=40300
+:texture=BossMagmaWalkSpriteSheet.png
+:size=2500x1128
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Armature_Walk_00;0;752;357;376; 0.5;0; 0;0;0;0
+Armature_Walk_01;357;752;357;376; 0.5;0; 0;0;0;0
+Armature_Walk_02;714;752;357;376; 0.5;0; 0;0;0;0
+Armature_Walk_03;1071;752;357;376; 0.5;0; 0;0;0;0
+Armature_Walk_04;1428;752;357;376; 0.5;0; 0;0;0;0
+Armature_Walk_05;1785;752;357;376; 0.5;0; 0;0;0;0
+Armature_Walk_06;2142;752;357;376; 0.5;0; 0;0;0;0
+Armature_Walk_07;0;376;357;376; 0.5;0; 0;0;0;0
+Armature_Walk_08;357;376;357;376; 0.5;0; 0;0;0;0
+Armature_Walk_09;714;376;357;376; 0.5;0; 0;0;0;0
+Armature_Walk_10;1071;376;357;376; 0.5;0; 0;0;0;0
+Armature_Walk_11;1428;376;357;376; 0.5;0; 0;0;0;0
+Armature_Walk_12;1785;376;357;376; 0.5;0; 0;0;0;0
+Armature_Walk_13;2142;376;357;376; 0.5;0; 0;0;0;0
+Armature_Walk_14;0;0;357;376; 0.5;0; 0;0;0;0
+Armature_Walk_15;357;0;357;376; 0.5;0; 0;0;0;0
+Armature_Walk_16;714;0;357;376; 0.5;0; 0;0;0;0
+Armature_Walk_17;1071;0;357;376; 0.5;0; 0;0;0;0
+Armature_Walk_18;1428;0;357;376; 0.5;0; 0;0;0;0
+Armature_Walk_19;1785;0;357;376; 0.5;0; 0;0;0;0
+Armature_Walk_20;2142;0;357;376; 0.5;0; 0;0;0;0
