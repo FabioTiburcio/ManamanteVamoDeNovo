@@ -22,6 +22,7 @@ MonoBehaviour:
   craftingItemElement: 0
   equipmentType: 0
   description: "Usado para criar ant\xEDdotos e intensificadores."
+  craftingDescription: Item fabricado com duas partes de inimigos.
   marketValue: 0
   data:
     nome: 

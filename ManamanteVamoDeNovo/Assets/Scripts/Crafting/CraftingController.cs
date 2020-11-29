@@ -56,24 +56,11 @@ public class CraftingController : MonoBehaviour
                                     case CraftingItemElement.Fogo:
                                         item3 = craftingInvetory.database.GetItem[21].CreateItem();
                                         activeQuest.QuestAtt(item3.Id.ToString(), true);
-                                        
                                         craftingInvetory.AddItem(item3, 1);
                                         clearCraftedItems();
                                         break;
                                     case CraftingItemElement.Gelo:
                                         item3 = craftingInvetory.database.GetItem[22].CreateItem();
-                                        activeQuest.QuestAtt(item3.Id.ToString(), true);
-                                        craftingInvetory.AddItem(item3, 1);
-                                        clearCraftedItems();
-                                        break;
-                                    case CraftingItemElement.Veneno:
-                                        item3 = craftingInvetory.database.GetItem[23].CreateItem();
-                                        activeQuest.QuestAtt(item3.Id.ToString(), true);
-                                        craftingInvetory.AddItem(item3, 1);
-                                        clearCraftedItems();
-                                        break;
-                                    case CraftingItemElement.Eletrico:
-                                        item3 = craftingInvetory.database.GetItem[24].CreateItem();
                                         activeQuest.QuestAtt(item3.Id.ToString(), true);
                                         craftingInvetory.AddItem(item3, 1);
                                         clearCraftedItems();
@@ -91,6 +78,17 @@ public class CraftingController : MonoBehaviour
                                 craftingInvetory.AddItem(item3, 1);
                                 clearCraftedItems();
                                 break;
+                            case CraftingItemType.Reagente:
+                                switch (item1.craftingItemElement)
+                                {
+                                    case CraftingItemElement.Veneno:
+                                        item3 = craftingInvetory.database.GetItem[23].CreateItem();
+                                        activeQuest.QuestAtt(item3.Id.ToString(), true);
+                                        craftingInvetory.AddItem(item3, 1);
+                                        clearCraftedItems();
+                                        break;
+                                }
+                                break;
                         }
                         break;
                     case CraftingItemType.Flor:
@@ -101,6 +99,18 @@ public class CraftingController : MonoBehaviour
                                 activeQuest.QuestAtt(item3.Id.ToString(), true);
                                 craftingInvetory.AddItem(item3, 1);
                                 clearCraftedItems();
+                                break;
+                            case CraftingItemType.Reagente:
+                                switch (item1.craftingItemElement)
+                                {
+                                    case CraftingItemElement.Eletrico:
+                                        item3 = craftingInvetory.database.GetItem[24].CreateItem();
+                                        activeQuest.QuestAtt(item3.Id.ToString(), true);
+                                        craftingInvetory.AddItem(item3, 1);
+                                        clearCraftedItems();
+                                        break;
+                                }
+
                                 break;
                         }
                         break;
@@ -196,12 +206,22 @@ public class CraftingController : MonoBehaviour
                                         craftingInvetory.AddItem(item3, 1);
                                         clearCraftedItems();
                                         break;
+                                }
+                                break;
+                            case CraftingItemType.Cogumelo:
+                                switch (item2.craftingItemElement)
+                                {
                                     case CraftingItemElement.Veneno:
                                         item3 = craftingInvetory.database.GetItem[23].CreateItem();
                                         activeQuest.QuestAtt(item3.Id.ToString(), true);
                                         craftingInvetory.AddItem(item3, 1);
                                         clearCraftedItems();
                                         break;
+                                }
+                                break;
+                            case CraftingItemType.Flor:
+                                switch (item2.craftingItemElement)
+                                {
                                     case CraftingItemElement.Eletrico:
                                         item3 = craftingInvetory.database.GetItem[24].CreateItem();
                                         activeQuest.QuestAtt(item3.Id.ToString(), true);

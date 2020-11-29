@@ -34,6 +34,8 @@ public class Transitions : MonoBehaviour
 
     public float transitionCooldown = 5;
 
+    public LoadingImageChanger loadingImageChanger;
+
     private void OnEnable()
     {
 
@@ -74,6 +76,7 @@ public class Transitions : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        ChangeLoadingFundo();
         if(mapaAtivo.name == "CasaMera")
         {
             if (chuva.activeSelf)
@@ -117,6 +120,45 @@ public class Transitions : MonoBehaviour
         {
             return;
         }
+    }
+
+    public void ChangeLoadingFundo()
+    {
+        string fundo = mapaAtivo.name;
+        switch (fundo)
+        {
+            case "CasaMera":
+                loadingImageChanger.changeImage("Vila");
+                break;
+            case "VilaMera":
+                loadingImageChanger.changeImage("Vila");
+                break;
+            case "Fazenda":
+                loadingImageChanger.changeImage("Floresta");
+                break;
+            case "FlorestaSombralida1":
+                loadingImageChanger.changeImage("Sombralida");
+                break;
+            case "TorfariosBattle":
+                loadingImageChanger.changeImage("Sombralida");
+                break;
+            case "FlorestaSombralida2":
+                loadingImageChanger.changeImage("Sombralida");
+                break;
+            case "Floresta Gelo":
+                loadingImageChanger.changeImage("Criogenicas");
+                break;
+            case "Cidade Gelo":
+                loadingImageChanger.changeImage("Criogenicas");
+                break;
+            case "Floresta1":
+                loadingImageChanger.changeImage("Floresta");
+                break;
+            case "Floresta2":
+                loadingImageChanger.changeImage("Floresta");
+                break;
+        }
+        
     }
 
     public void SaidaUsada(string direcao)

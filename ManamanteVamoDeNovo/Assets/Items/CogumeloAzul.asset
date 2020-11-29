@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97c12a23c491507409d4f9c6a45503f2, type: 3}
   m_Name: CogumeloAzul
   m_EditorClassIdentifier: 
-  uiDisplay: {fileID: 7836442542085354108, guid: 53b6348de3f504e42b444001f7583009,
+  uiDisplay: {fileID: 7836442542085354108, guid: f2c5f0d7dab4ea84d97c47031b1fd363,
     type: 3}
   nome: Cogumelo azul
   stackable: 1

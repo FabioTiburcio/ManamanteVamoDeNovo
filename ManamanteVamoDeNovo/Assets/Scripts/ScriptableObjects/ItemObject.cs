@@ -33,6 +33,8 @@ public class ItemObject : ScriptableObject
     [Header("")]
     [TextArea(10,10)]
     public string description;
+    [TextArea(10, 10)]
+    public string craftingDescription;
     public float marketValue;
     public Item data = new Item();
     public Item CreateItem()

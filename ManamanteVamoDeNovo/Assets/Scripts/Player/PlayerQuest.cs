@@ -13,12 +13,21 @@ public class PlayerQuest : MonoBehaviour {
     public GameObject newEmailIcon;
     public ItemDatabaseObject itens;
     public DiaryInfoController diaryInfoController;
+    public NotesAndMissionDiary notesAndMissionDiary;
     public bool attDiaryInfo;
     public GameObject searchText;
     public AudioSource roboAudioSource;
     public AudioClip newMailArrives;
     private AudioSource playerAudioSource;
     public AudioClip writingDiaryClip;
+
+
+
+    /*para atualizar receitas usar a funcao dessa forma
+     diaryInfoController.SetInfo(item.itemObject.nome, item.itemObject.uiDisplay, item.itemObject.craftingDescription, "Dicas", "");
+     É parecido com oque ta no script ItemScanner, só a descricao que muda pra craftingDescription e o fim ali que muda pra Dicas e pra vazio ""
+     */
+
 
 
     // Start is called before the first frame update

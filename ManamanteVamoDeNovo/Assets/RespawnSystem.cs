@@ -17,6 +17,10 @@ public class RespawnSystem : MonoBehaviour
 
     public int completeTimeNow;
 
+    //bool isAMorcegoDeDia;
+    //bool isAMorcegoDeNotche;
+    //bool morcegoVivo = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +44,37 @@ public class RespawnSystem : MonoBehaviour
         completeTimeNow = Convert.ToInt32(dayCycleController.day.ToString() + (dayCycleController.dayHour<10 ? 0 + dayCycleController.dayHour.ToString() : dayCycleController.dayHour.ToString()) + (dayCycleController.dayMinute < 10 ? 0 + dayCycleController.dayMinute.ToString() : dayCycleController.dayMinute.ToString()));
         for (int i = 0; i < thingsToRespawn.Length; i++)
         {
+            //if (thingsToRespawn[i].GetComponent<EnemyController>() != null)
+            //{
+            //    if (thingsToRespawn[i].GetComponent<EnemyController>().enemyName == "Morcego")
+            //    {
+            //        if (dayCycleController.dayHour < 19 && dayCycleController.dayHour >= 6)
+            //        {
+            //            thingsToRespawn[i].SetActive(false);
+            //            isAMorcegoDeDia = true;
+            //            isAMorcegoDeNotche = false;
+            //        }
+            //        else
+            //        {
+            //            isAMorcegoDeNotche = true;
+            //            isAMorcegoDeDia = false;
+            //            if (thingsToRespawn[i].activeSelf)
+            //            {
+            //                individualCounter(i);
+            //                morcegoVivo = true;
+            //            }
+            //        }
+            //    }
+            //    else
+            //    {
+            //        isAMorcegoDeDia = false;
+            //    }
+            //}
+            //else
+            //{
+            //    isAMorcegoDeDia = false;
+            //}
+            
             if (!thingsToRespawn[i].activeSelf && separateTimes[i] == 0)
             {
                 individualCounter(i);
@@ -52,6 +87,7 @@ public class RespawnSystem : MonoBehaviour
                 }
             }
         }
+
     }
 
     private void RespawnObject(int i)

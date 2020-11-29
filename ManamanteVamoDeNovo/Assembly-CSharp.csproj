@@ -65,14 +65,19 @@
   <ItemGroup>
     <Compile Include="Assets\Artes\Robô\PetMovement.cs" />
     <Compile Include="Assets\BossController.cs" />
+    <Compile Include="Assets\Clock.cs" />
     <Compile Include="Assets\DestroyOverTime.cs" />
     <Compile Include="Assets\DiaryInfoController.cs" />
     <Compile Include="Assets\DicasLoading.cs" />
     <Compile Include="Assets\EndGameControl.cs" />
     <Compile Include="Assets\FieldOfView\Scripts\FieldOfView.cs" />
+    <Compile Include="Assets\GoToSleep.cs" />
     <Compile Include="Assets\InfoSlotCreator.cs" />
     <Compile Include="Assets\LightningBolt\LightningBoltScript.cs" />
+    <Compile Include="Assets\LoadingImageChanger.cs" />
     <Compile Include="Assets\MenuController.cs" />
+    <Compile Include="Assets\NightShift.cs" />
+    <Compile Include="Assets\NotesAndMissionDiary.cs" />
     <Compile Include="Assets\PauseController.cs" />
     <Compile Include="Assets\PesquisaEllgog.cs" />
     <Compile Include="Assets\PostLightsController.cs" />

@@ -51,6 +51,7 @@ public class EnemyController : MonoBehaviour {
     private bool SeeingPlayer;
 
     float t;
+    private bool dropedItem;
 
     private void Start()
     {
@@ -73,11 +74,12 @@ public class EnemyController : MonoBehaviour {
     private void OnEnable()
     {
         currentState = enemyState.IDLE;
+        dropedItem = false;
         t = 0;
     }
     private void OnDisable()
     {
-        DropItem();
+        enemyHP.health = enemyHP.maxHealth;
     }
     private void Update()
     {
@@ -209,6 +211,12 @@ public class EnemyController : MonoBehaviour {
                 aIPath.canMove = false;
                 t += 0.5f * Time.deltaTime;
                 enemyHP.dissolveMaterial.SetFloat("Vector1_7A56B514", Mathf.Lerp(-1, 1, t));
+                if (!dropedItem)
+                {
+                    DropItem();
+                    dropedItem = true;
+                }
+                
                 break;
         }
     }
@@ -279,7 +287,7 @@ public class EnemyController : MonoBehaviour {
             {
                 dropItemPrefab.GetComponent<GroundItem>().itemObject = dropGelo;
             }
-            Instantiate(dropItemPrefab, transform.position, dropItemPrefab.transform.rotation);
+            Instantiate(dropItemPrefab, transform.position, transform.rotation, transform.parent);
         }
     }
 

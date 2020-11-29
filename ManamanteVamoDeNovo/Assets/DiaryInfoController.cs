@@ -22,64 +22,11 @@ public class DiaryInfoController : MonoBehaviour
     {
         switch (Pagina)
         {
-            case "Anotacoes":
-                switch (Tipo)
-                {
-                    case "Primaria":
-                        for (int i = 0; i < 12; i++)
-                        {
-                            if (infosInPagesPrefabs[i].imageSprite.sprite == null)
-                            {
-                                infosInPagesPrefabs[i].Title.text = title;
-                                infosInPagesPrefabs[i].imageSprite.sprite = image;
-                                infosInPagesPrefabs[i].Description.text = description;
-                                infosInPagesPrefabs[i].gameObject.SetActive(true);
-                                break;
-                            }
-                            else
-                            {
-                                if (infosInPagesPrefabs[i].Title.text == title)
-                                {
-                                    break;
-                                }
-                            }
-                        }
-                        break;
-                }
-                break;
-            case "Tarefas":
-                switch (Tipo)
-                {
-                    case "Primaria":
-                        for (int i = 12; i < 24; i++)
-                        {
-                            if (infosInPagesPrefabs[i].imageSprite.sprite == null)
-                            {
-                                infosInPagesPrefabs[i].Title.text = title;
-                                infosInPagesPrefabs[i].imageSprite.sprite = image;
-                                infosInPagesPrefabs[i].Description.text = description;
-                                infosInPagesPrefabs[i].gameObject.SetActive(true);
-                                break;
-                            }
-                            else
-                            {
-                                if (infosInPagesPrefabs[i].Title.text == title)
-                                {
-                                    break;
-                                }
-                            }
-                        }
-
-                        break;
-                    case "Secundaria":
-                        break;
-                }
-                break;
             case "Coletaveis":
                 switch (Tipo)
                 {
                     case "Fruta":
-                        for (int i = 24; i < 27; i++)
+                        for (int i = 0; i < 4; i++)
                         {
                             if (infosInPagesPrefabs[i].imageSprite.sprite == null)
                             {
@@ -99,7 +46,7 @@ public class DiaryInfoController : MonoBehaviour
                         }
                         break;
                     case "Flor":
-                        for (int i = 27; i < 30; i++)
+                        for (int i = 4; i < 6; i++)
                         {
                             if (infosInPagesPrefabs[i].imageSprite.sprite == null)
                             {
@@ -119,7 +66,7 @@ public class DiaryInfoController : MonoBehaviour
                         }
                         break;
                     case "Cogumelo":
-                        for (int i = 30; i < 33; i++)
+                        for (int i = 6; i < 9; i++)
                         {
                             if (infosInPagesPrefabs[i].imageSprite.sprite == null)
                             {
@@ -139,7 +86,7 @@ public class DiaryInfoController : MonoBehaviour
                         }
                         break;
                     case "Partes":
-                        for (int i = 33; i < 45; i++)
+                        for (int i = 9; i < 19; i++)
                         {
                             if (infosInPagesPrefabs[i].imageSprite.sprite == null)
                             {
@@ -159,7 +106,7 @@ public class DiaryInfoController : MonoBehaviour
                         }
                         break;
                     case "Pocao":
-                        for (int i = 45; i < 59; i++)
+                        for (int i = 19; i < 36; i++)
                         {
                             if (infosInPagesPrefabs[i].imageSprite.sprite == null)
                             {
@@ -181,7 +128,7 @@ public class DiaryInfoController : MonoBehaviour
                 }
                 break;
             case "Inimigos":
-                for (int i = 60; i < 77; i++)
+                for (int i = 36; i < 54; i++)
                 {
                     if (infosInPagesPrefabs[i].imageSprite.sprite == null)
                     {
@@ -203,7 +150,7 @@ public class DiaryInfoController : MonoBehaviour
             case "Mapa":
                 break;
             case "Dicas":
-                for (int i = 84; i < 95; i++)
+                for (int i = 54; i < 66; i++)
                 {
                     if (infosInPagesPrefabs[i].imageSprite.sprite == null)
                     {
