@@ -33,445 +33,58 @@ public class PesquisaEllgog : MonoBehaviour
         semResultado.SetActive(false);
         switch (pesquisaFeita)
         {
-            case "abelhuda":
-            case "Abelhuda":
-                downloadButton.SetActive(false);
-                setInfo(0);
-                break;
-            case "abominacao de veneno":
-            case "Abominacao de veneno":
-            case "Abominação de veneno":
-                downloadButton.SetActive(false);
-                setInfo(1);
-                break;
-            case "antidoto de fogo":
-            case "Antidoto de fogo":
-            case "antídoto de fogo":
-            case "Antídoto de fogo":
-                downloadButton.SetActive(false);
-                setInfo(2);
-                break;
-            case "antidoto de gelo":
-            case "Antidoto de gelo":
-            case "antídoto de gelo":
-            case "Antídoto de gelo":
-                downloadButton.SetActive(false);
-                setInfo(3);
-                break;
-            case "antidoto de veneno":
-            case "Antidoto de veneno":
-            case "antídoto de veneno":
-            case "Antídoto de veneno":
-                downloadButton.SetActive(false);
-                setInfo(4);
-                break;
-            case "antidoto de eletrico":
-            case "Antidoto de eletrico":
-            case "Antidoto de elétrico":
-            case "antídoto de elétrico":
-            case "Antídoto de elétrico":
-                downloadButton.SetActive(false);
-                setInfo(5);
-                break;
-            case "Arnim Zola":
-                downloadButton.SetActive(false);
-                setInfo(6);
-                break;
-            case "asa de inseto":
-            case "Asa de inseto":
-            case "asas de inseto":
-            case "Asas de inseto":
-                downloadButton.SetActive(false);
-                setInfo(7);
-                break;
-            case "asa de morcego":
-            case "Asa de morcego":
-            case "asas de morcego":
-            case "Asas de morcego":
-                downloadButton.SetActive(false);
-                setInfo(8);
-                break;
-            case "banana":
-            case "Banana":
-                downloadButton.SetActive(false);
-                setInfo(9);
-                break;
-            case "rafael":
-            case "Rafael":
-            case "baroli":
-            case "Baroli":
-            case "alcolatra":
-            case "Alcolatra":
-            case "ama a cor vinho":
-            case "Ama a cor vinho":
-                downloadButton.SetActive(false);
-                setInfo(10);
-                break;
-            case "brayni":
-            case "Brayni":
-                downloadButton.SetActive(false);
-                setInfo(11);
-                break;
-            case "caveira vermelha":
-            case "Caveira vermelha":
-                downloadButton.SetActive(false);
-                setInfo(12);
-                break;
-            case "claudemir":
-            case "Claudemir":
-                downloadButton.SetActive(false);
-                setInfo(13);
-                break;
-            case "cobra":
-            case "Cobra":
-                downloadButton.SetActive(false);
-                setInfo(14);
-                break;
-            case "cogumelo amarelo":
-            case "Cogumelo amarelo":
-                downloadButton.SetActive(false);
-                setInfo(15);
-                break;
-            case "cogumelo azul":
-            case "Cogumelo azul":
-                downloadButton.SetActive(false);
-                setInfo(16);
-                break;
-            case "cogumelo venenoso":
-            case "Cogumelo venenoso":
-                downloadButton.SetActive(false);
-                setInfo(17);
-                break;
-            case "cordilheiras":
-            case "Cordilheiras":
-                downloadButton.SetActive(false);
-                setInfo(18);
-                break;
-            case "cryogolem":
-            case "Cryogolem":
-            case "CryoGolem":
-                downloadButton.SetActive(false);
-                setInfo(19);
-                break;
-            case "cryoquebra":
-            case "Cryoquebra":
-            case "CryoQuebra":
-                downloadButton.SetActive(false);
-                setInfo(20);
-                break;
-            case "cyborgue":
-            case "Cyborgue":
-                downloadButton.SetActive(false);
-                setInfo(21);
-                break;
-            case "elixir de fogo":
-            case "Elixir de fogo":
-            case "Elixir de Fogo":
-                downloadButton.SetActive(false);
-                setInfo(22);
-                break;
-            case "elixir de gelo":
-            case "Elixir de gelo":
-            case "Elixir de Gelo":
-                downloadButton.SetActive(false);
-                setInfo(23);
-                break;
-            case "elixir de veneno":
-            case "Elixir de veneno":
-            case "Elixir de Veneno":
-                downloadButton.SetActive(false);
-                setInfo(24);
-                break;
-            case "elixir eletrico":
-            case "Elixir eletrico":
-            case "Elixir Eletrico":
-            case "Elixir elétrico":
-            case "Elixir Elétrico":
-                downloadButton.SetActive(false);
-                setInfo(25);
-                break;
-            case "essencia de fogo":
-            case "Essencia de fogo":
-            case "essência de fogo":
-            case "Essência de fogo":
-            case "Essencia de Fogo":
-                downloadButton.SetActive(false);
-                setInfo(26);
-                break;
-            case "essencia de gelo":
-            case "Essencia de gelo":
-            case "essência de gelo":
-            case "Essência de gelo":
-            case "Essencia de Gelo":
-                downloadButton.SetActive(false);
-                setInfo(27);
-                break;
-            case "essencia de veneno":
-            case "Essencia de veneno":
-            case "essência de veneno":
-            case "Essência de veneno":
-            case "Essencia de Veneno":
-                downloadButton.SetActive(false);
-                setInfo(28);
-                break;
-            case "essencia eletrica":
-            case "Essencia eletrica":
-            case "essência eletrica":
-            case "Essência elétrica":
-            case "Essencia Eletrica":
-                downloadButton.SetActive(false);
-                setInfo(29);
-                break;
-            case "Fabio":
-            case "Tibas":
-            case "fabin":
-            case "ReiTibas":
-                downloadButton.SetActive(false);
-                setInfo(30);
-                break;
-            case "flor eletrica":
-            case "Flor eletrica":
-            case "Flor Eletrica":
-            case "flor elétrica":
-            case "Flor elétrica":
-            case "Flor Elétrica":
-                downloadButton.SetActive(false);
-                setInfo(31);
-                break;
-            case "flor":
-            case "Flor":
-                downloadButton.SetActive(false);
-                setInfo(32);
-                break;
-            case "floresta":
-            case "Floresta":
-                downloadButton.SetActive(false);
-                setInfo(33);
-                break;
-            case "garras":
-            case "Garras":
-                downloadButton.SetActive(false);
-                setInfo(34);
-                break;
-            case "geraldo":
-            case "Geraldo":
-                downloadButton.SetActive(false);
-                setInfo(35);
-                break;
-            case "italo":
-            case "Italo":
-                downloadButton.SetActive(false);
-                setInfo(36);
-                break;
-            case "julio":
-            case "Julio":
-            case "julin":
-            case "Julin":
-            case "juliao":
-            case "Juliao":
-            case "julião":
-            case "Julião":
-            case "julio menes":
-            case "Julio menes":
-            case "Julio Menes":
-                downloadButton.SetActive(false);
-                setInfo(37);
-                break;
-            case "kael":
-            case "Kael":
-            case "kaelzada":
-            case "Kaelzada":
-                downloadButton.SetActive(false);
-                setInfo(38);
-                break;
-            case "magmarus":
-            case "Magmarus":
-                downloadButton.SetActive(false);
-                setInfo(39);
-                break;
-            case "matheus":
-            case "Matheus":
-            case "matheuzin":
-            case "Matheuzin":
-                downloadButton.SetActive(false);
-                setInfo(40);
-                break;
             case "maca":
-            case "maça":
-            case "maçã":
             case "Maca":
             case "Maça":
             case "Maçã":
                 downloadButton.SetActive(false);
-                setInfo(41);
+                setInfo(0);
                 break;
-            case "mirtilo":
-            case "Mirtilo":
+            case "Banana":
+            case "banana":
                 downloadButton.SetActive(false);
-                setInfo(42);
+                setInfo(1);
                 break;
-            case "morcego":
-            case "Morcego":
-            case "morcegos":
-            case "Morcegos":
+            case "Poção de cura":
+            case "poção de cura":
+            case "Pocao de cura":
+            case "pocao de cura":
                 downloadButton.SetActive(false);
-                setInfo(43);
-                break;
-            case "nero":
-            case "Nero":
-                downloadButton.SetActive(false);
-                setInfo(44);
-                break;
-            case "o alquimista":
-            case "O alquimista":
-            case "O Alquimista":
-                downloadButton.SetActive(false);
-                setInfo(45);
-                break;
-            case "olho":
-            case "Olho":
-            case "olhos":
-            case "Olhos":
-                downloadButton.SetActive(false);
-                setInfo(46);
-                break;
-            case "osso":
-            case "Osso":
-            case "ossos":
-            case "Ossos":
-                downloadButton.SetActive(false);
-                setInfo(47);
-                break;
-            case "pedregulho":
-            case "Pedregulho":
-                downloadButton.SetActive(false);
-                setInfo(48);
-                break;
-            case "pimenta":
-            case "Pimenta":
-                downloadButton.SetActive(false);
-                setInfo(49);
-                break;
-            case "pompiros":
-            case "Pompiros":
-                downloadButton.SetActive(false);
-                setInfo(50);
-                break;
-            case "pocao de cogumelos":
-            case "Pocao de cogumelos":
-            case "poção de cogumelos":
-            case "Poção de cogumelos":
-                downloadButton.SetActive(false);
-                setInfo(51);
-                break;
-            case "pocao de nectar":
-            case "Pocao de nectar":
-            case "poção de nectar":
-            case "Poção de nectar":
-                downloadButton.SetActive(false);
-                setInfo(52);
-                break;
-            case "eletromancia":
-            case "Eletromancia":
-                downloadButton.SetActive(true);
-                setInfo(53);
-                break;
-            case "cryomancia":
-            case "Cryomancia":
-                downloadButton.SetActive(true);
-                setInfo(54);
-                break;
-            case "toccyo ":
-            case "Toccyo ":
-                downloadButton.SetActive(true);
-                setInfo(55);
-                break;
-            case "pantano":
-            case "Pantano":
-            case "pântano":
-            case "Pântano":
-                downloadButton.SetActive(false);
-                setInfo(56);
-                break;
-            case "reagente":
-            case "Reagente":
-                downloadButton.SetActive(false);
-                setInfo(57);
-                break;
-            case "trovao aliado":
-            case "Trovao aliado":
-            case "trovão aliado":
-            case "Trovão aliado":
-                downloadButton.SetActive(true);
-                setInfo(58);
-                break;
-            case "pyroprotecao":
-            case "PyroProtecao":
-            case "PyroProteção":
-                downloadButton.SetActive(true);
-                setInfo(59);
-                break;
-            //case "pão de batata":
-            //    downloadButton.SetActive(true);
-            //    setInfo(60);
-            //    break;
-            case "VenenoBoom":
-            case "venenoboom":
-                downloadButton.SetActive(true);
-                setInfo(61);
-                break;
-            case "slime":
-            case "Slime":
-                downloadButton.SetActive(false);
-                setInfo(62);
-                break;
-            case "sombralida":
-            case "Sombralida":
-                downloadButton.SetActive(false);
-                setInfo(63);
-                break;
-            case "speilctre":
-            case "Speilctre":
-                downloadButton.SetActive(false);
-                setInfo(64);
-                break;
-            case "suco de fruta":
-            case "Suco de fruta":
-            case "Suco de Fruta":
-                downloadButton.SetActive(false);
-                setInfo(65);
+                setInfo(2);
                 break;
             case "torfarios":
             case "Torfarios":
                 downloadButton.SetActive(false);
-                setInfo(66);
+                setInfo(3);
                 break;
-            case "U-800":
+            case "floresta sombralida":
+            case "Floresta sombralida":
+            case "Floresta Sombralida":
                 downloadButton.SetActive(false);
-                setInfo(67);
+                setInfo(4);
                 break;
-            case "U-800X":
+            case "Speilctre":
+            case "speilctre":
                 downloadButton.SetActive(false);
-                setInfo(68);
+                setInfo(5);
                 break;
-            case "vila":
-            case "Vila":
-                downloadButton.SetActive(false);
-                setInfo(69);
+            case "gelo":
+            case "Gelo":
+                downloadButton.SetActive(true);
+                skillController.habilityToUnlock = 1;
+                setInfo(6);
                 break;
-            case "vinicius":
-            case "Vinicius":
-            case "hirose":
-            case "Hirose":
-                downloadButton.SetActive(false);
-                setInfo(70);
+            case "raio":
+            case "Raio":
+                downloadButton.SetActive(true);
+                skillController.habilityToUnlock = 2;
+                setInfo(7);
                 break;
-            case "vitor":
-            case "vitin":
-            case "o morto":
-            case "O morto":
-                downloadButton.SetActive(false);
-                setInfo(71);
+            case "veneno":
+            case "Veneno":
+                downloadButton.SetActive(true);
+                skillController.habilityToUnlock = 3;
+                setInfo(8);
                 break;
             default:
                 Resultado.SetActive(false);

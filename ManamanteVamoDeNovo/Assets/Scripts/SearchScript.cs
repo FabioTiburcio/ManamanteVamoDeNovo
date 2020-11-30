@@ -53,7 +53,7 @@ public class SearchScript : MonoBehaviour
             pesquisaEllgog.attInfo(pesquisaEllgog.pesquisaRelacionada2.text);
         }
         player.QuestAtt(inputField.text, true);
-        //diaryInfoController.SetInfo(pesquisaEllgog.pesquisaTitle, pesquisaEllgog.imagemPesquisa.sprite, pesquisaEllgog.descricaoPesquisa.text, "Inimigos", "Inimigo");
+        diaryInfoController.SetInfo(pesquisaEllgog.pesquisaTitle, pesquisaEllgog.imagemPesquisa.sprite, pesquisaEllgog.descricaoPesquisa.text, "Inimigos", "Inimigo");
 
     }
 }
