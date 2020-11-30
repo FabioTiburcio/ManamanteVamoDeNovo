@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
-
 public class MenuController : MonoBehaviour
 {
-	public void ChangeScene()
+
+	public GameObject tutorial;
+
+	public void Start()
 	{
-		SceneManager.LoadScene(1);
+		PlayerPrefs.SetInt("hasPlayed", 0);
 	}
 	public void Exit()
 	{
@@ -20,5 +21,22 @@ public class MenuController : MonoBehaviour
 	#endif
 	}
 
+	public void ChangeScene()
+	{
+		SceneManager.LoadScene(1);
+		
+	}
+
+	public void StartGame()
+	{
+		if(PlayerPrefs.GetInt("hasPlayed") == 0)
+		{
+			tutorial.SetActive(true);
+		} else
+		{
+			PlayerPrefs.SetInt("hasPlayed", 1);
+			ChangeScene();
+		}
+	}
 
 }

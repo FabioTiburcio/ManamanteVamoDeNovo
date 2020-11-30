@@ -349,7 +349,14 @@ public class Health : MonoBehaviour
                         //StartCoroutine(DissolveEffect());
                     } else
                     {
-                        activeQuest.QuestAtt(this.gameObject.GetComponent<EnemyController>().enemyName, true);
+                        if(activeQuest.quest.goal.goalType.ToString() == "ElementalKill")
+                        {
+                            activeQuest.QuestAtt(this.gameObject.GetComponent<EnemyController>().elementoInimigo.ToString(), true);
+                        } else
+                        {
+                            activeQuest.QuestAtt(this.gameObject.GetComponent<EnemyController>().enemyName, true);
+                        }
+                        
                         //spr.material = dissolveMaterial;
                         //StartCoroutine(DissolveEffect());
                     }                   

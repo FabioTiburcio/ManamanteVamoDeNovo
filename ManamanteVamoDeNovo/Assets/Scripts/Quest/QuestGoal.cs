@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 [System.Serializable]
 public class QuestGoal
 {
@@ -9,10 +10,11 @@ public class QuestGoal
 
     public int requiredAmount;
     public int currentAmount;
-    public string goalTag;
+    public List<string> goalTag2 = new List<string>();
+    public string[] goalTag;
 
     public bool IsReached()
-    {
+    {      
         Debug.Log(currentAmount >= requiredAmount);
         return (currentAmount >= requiredAmount);
     }
@@ -43,6 +45,16 @@ public class QuestGoal
         currentAmount++;
     }
 
+    public void ElementalKilled()
+    {
+        currentAmount++;
+    }
+
+    public void Readed()
+    {
+        currentAmount++;
+    }
+
 }
 
 public enum GoalType
@@ -51,6 +63,8 @@ public enum GoalType
     Gathering,
     Crafting,
     Searching,
-    Walking
+    Walking,
+    ElementalKill,
+    Read
     
 }

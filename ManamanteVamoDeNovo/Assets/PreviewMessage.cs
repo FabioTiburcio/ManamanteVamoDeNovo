@@ -14,6 +14,7 @@ public class PreviewMessage : MonoBehaviour
     private int questsCompleted;
     private int questAccepted;
     public GameObject newMessage;
+    public bool isFeedback;
     
 
 
@@ -28,6 +29,7 @@ public class PreviewMessage : MonoBehaviour
     {
         questsCompleted = PlayerPrefs.GetInt("QuestsCompleted");
         questAccepted = PlayerPrefs.GetInt("QuestAccepted");
+        
         if (questAccepted == questNumber + 1 || questAccepted > questNumber + 1)
         {
             newMessage.SetActive(false);
@@ -36,9 +38,15 @@ public class PreviewMessage : MonoBehaviour
         {
             newMessage.SetActive(true);
         }
-
         fotoTela.sprite = email.quests[questNumber].quest.npcFoto;
-        assuntoTela.text = email.quests[questNumber].quest.title;
+        if (isFeedback)
+        {
+            assuntoTela.text = "Resposta: " + email.quests[questNumber].quest.title;
+        } else
+        {
+            assuntoTela.text = email.quests[questNumber].quest.title;
+        }
+        
         nomeTela.text = email.quests[questNumber].quest.npcName;
     }
 }

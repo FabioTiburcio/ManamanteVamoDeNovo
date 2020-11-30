@@ -119,7 +119,7 @@ MonoBehaviour:
   enemyEletricPrefab: {fileID: 0}
   enemyPoisonPrefab: {fileID: 0}
   spawnDirection: {fileID: 5034721767147166273}
-  enemyName: Slime
+  enemyName: SlimeVeneno
   enemyAttackSpeed: 0
   currentState: 0
   lastState: 0

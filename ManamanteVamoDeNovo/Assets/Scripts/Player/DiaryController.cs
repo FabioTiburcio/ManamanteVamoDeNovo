@@ -9,9 +9,13 @@ public class DiaryController : MonoBehaviour
     public GameObject[] capasCostas;
     public GameObject[] capasFrente;
     public GameObject[] paginas;
+
+    public PlayerQuest activeQuest;
     // Start is called before the first frame update
     void Start()
     {
+        activeQuest = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerQuest>();
+
         for (int i = 0; i < capasCostas.Length; i++)
         {
             capasCostas[i].SetActive(false);
@@ -922,5 +926,15 @@ public class DiaryController : MonoBehaviour
                 }
                 break;
         }
+    }
+
+    public void nextPage()
+    {
+        activeQuest.QuestAtt("Anota", true);
+    }
+
+    public void previousPage()
+    {
+        activeQuest.quest.goal.currentAmount--;
     }
 }

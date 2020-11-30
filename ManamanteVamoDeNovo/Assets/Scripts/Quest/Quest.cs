@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Security.Policy;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,11 +16,14 @@ public class Quest
     [TextArea]
     public string description;
     [TextArea]
-    public string diaryDescription;
+    public string feedback;
+    //[TextArea]
+    //public string diaryDescription;
     public int rewardId;
     public int rewardAmount;
-    [TextArea]
-    public string diaryComplete;
+    //[TextArea]
+    //public string diaryComplete;
+    public bool hasEndNote;
 
     public QuestGoal goal;
 

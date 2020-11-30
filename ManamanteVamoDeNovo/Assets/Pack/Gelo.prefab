@@ -1,0 +1,784 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8066082455423289693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8066082455423289692}
+  m_Layer: 0
+  m_Name: Gelo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8066082455423289692
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8066082455423289693}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8066082455516316696}
+  - {fileID: 8066082455575627402}
+  - {fileID: 8066082454916140526}
+  - {fileID: 8066082455170504364}
+  - {fileID: 8066082455913025173}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2112769684054134322
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8066082455423289692}
+    m_Modifications:
+    - target: {fileID: 2370064691036413137, guid: 816ca2bdc72920a47b4e3f8e23b9de18,
+        type: 3}
+      propertyPath: mapaDeBaixo
+      value: 
+      objectReference: {fileID: 8066082455516316697}
+    - target: {fileID: 8260282952499724448, guid: 816ca2bdc72920a47b4e3f8e23b9de18,
+        type: 3}
+      propertyPath: m_Name
+      value: Cidade Gelo
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260282952499724448, guid: 816ca2bdc72920a47b4e3f8e23b9de18,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260282952499724455, guid: 816ca2bdc72920a47b4e3f8e23b9de18,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260282952499724455, guid: 816ca2bdc72920a47b4e3f8e23b9de18,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260282952499724455, guid: 816ca2bdc72920a47b4e3f8e23b9de18,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.076172
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260282952499724455, guid: 816ca2bdc72920a47b4e3f8e23b9de18,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260282952499724455, guid: 816ca2bdc72920a47b4e3f8e23b9de18,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260282952499724455, guid: 816ca2bdc72920a47b4e3f8e23b9de18,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260282952499724455, guid: 816ca2bdc72920a47b4e3f8e23b9de18,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260282952499724455, guid: 816ca2bdc72920a47b4e3f8e23b9de18,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260282952499724455, guid: 816ca2bdc72920a47b4e3f8e23b9de18,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260282952499724455, guid: 816ca2bdc72920a47b4e3f8e23b9de18,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260282952499724455, guid: 816ca2bdc72920a47b4e3f8e23b9de18,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 816ca2bdc72920a47b4e3f8e23b9de18, type: 3}
+--- !u!1 &8066082455913025170 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8260282952499724448, guid: 816ca2bdc72920a47b4e3f8e23b9de18,
+    type: 3}
+  m_PrefabInstance: {fileID: 2112769684054134322}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8066082455913025173 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8260282952499724455, guid: 816ca2bdc72920a47b4e3f8e23b9de18,
+    type: 3}
+  m_PrefabInstance: {fileID: 2112769684054134322}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4905215730281194353
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8066082455423289692}
+    m_Modifications:
+    - target: {fileID: 3162275664418645498, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: m_Name
+      value: Floresta Gelo2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3162275664418645498, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3162275664418645499, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3162275664418645499, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3162275664418645499, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.076172
+      objectReference: {fileID: 0}
+    - target: {fileID: 3162275664418645499, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3162275664418645499, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3162275664418645499, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3162275664418645499, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3162275664418645499, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3162275664418645499, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3162275664418645499, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3162275664418645499, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3162275664418645500, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: dayCycleController
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3162275664695019059, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: m_LookAt
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3162275664695019059, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: m_Follow
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8765388219648094457, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8765388219648094457, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8765388219648094457, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: robo
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8765388219648094457, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: globalLight
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8765388219648094457, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: dayCycle
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8765388219648094457, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: chuva
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8765388219648094457, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: mapaDaEsquerda
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8765388219648094457, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: mapaDeCima
+      value: 
+      objectReference: {fileID: 8066082455913025170}
+    - target: {fileID: 8765388219648094457, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: casaMera
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8765388219648094457, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: casaMeraInstantPoint
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8765388219648094457, guid: 6cd3c96e481d7394f82c8888f183d271,
+        type: 3}
+      propertyPath: criogenicasAudio
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6cd3c96e481d7394f82c8888f183d271, type: 3}
+--- !u!4 &8066082455575627402 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3162275664418645499, guid: 6cd3c96e481d7394f82c8888f183d271,
+    type: 3}
+  m_PrefabInstance: {fileID: 4905215730281194353}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5552308941995474284
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8066082455423289692}
+    m_Modifications:
+    - target: {fileID: 2521374576193022912, guid: c9510c9586a817049bc04855b7082468,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521374576193022912, guid: c9510c9586a817049bc04855b7082468,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521374576193022912, guid: c9510c9586a817049bc04855b7082468,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.076172
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521374576193022912, guid: c9510c9586a817049bc04855b7082468,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521374576193022912, guid: c9510c9586a817049bc04855b7082468,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521374576193022912, guid: c9510c9586a817049bc04855b7082468,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521374576193022912, guid: c9510c9586a817049bc04855b7082468,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521374576193022912, guid: c9510c9586a817049bc04855b7082468,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521374576193022912, guid: c9510c9586a817049bc04855b7082468,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521374576193022912, guid: c9510c9586a817049bc04855b7082468,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521374576193022912, guid: c9510c9586a817049bc04855b7082468,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2521374576193022913, guid: c9510c9586a817049bc04855b7082468,
+        type: 3}
+      propertyPath: m_Name
+      value: Floresta Gelo4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123361239599763752, guid: c9510c9586a817049bc04855b7082468,
+        type: 3}
+      propertyPath: mapaDeCima
+      value: 
+      objectReference: {fileID: 8066082455913025170}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c9510c9586a817049bc04855b7082468, type: 3}
+--- !u!4 &8066082455170504364 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2521374576193022912, guid: c9510c9586a817049bc04855b7082468,
+    type: 3}
+  m_PrefabInstance: {fileID: 5552308941995474284}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6125294659170721307
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8066082455423289692}
+    m_Modifications:
+    - target: {fileID: 4247193840184703513, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: m_LookAt
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247193840184703513, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: m_Follow
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247193840819000266, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: dayCycleController
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247193840819000308, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: m_Name
+      value: Floresta Gelo3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247193840819000308, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247193840819000309, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247193840819000309, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247193840819000309, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.076172
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247193840819000309, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247193840819000309, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247193840819000309, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247193840819000309, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247193840819000309, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247193840819000309, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247193840819000309, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4247193840819000309, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7545590516709278830, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7545590516709278830, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7545590516709278830, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: robo
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7545590516709278830, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: globalLight
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7545590516709278830, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: dayCycle
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7545590516709278830, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: chuva
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7545590516709278830, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: mapaDaEsquerda
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7545590516709278830, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: mapaDeCima
+      value: 
+      objectReference: {fileID: 8066082455913025170}
+    - target: {fileID: 7545590516709278830, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: casaMera
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7545590516709278830, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: casaMeraInstantPoint
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7545590516709278830, guid: 0ebac2874d153fb41b32537a2e210e52,
+        type: 3}
+      propertyPath: criogenicasAudio
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0ebac2874d153fb41b32537a2e210e52, type: 3}
+--- !u!4 &8066082454916140526 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4247193840819000309, guid: 0ebac2874d153fb41b32537a2e210e52,
+    type: 3}
+  m_PrefabInstance: {fileID: 6125294659170721307}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6578698510393432297
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8066082455423289692}
+    m_Modifications:
+    - target: {fileID: 2673331429998629940, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2673331429998629940, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: PlayerSkillController
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2673331430337762155, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2673331430337762155, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: PlayerSkillController
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2673331431193128904, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2673331431193128904, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: PlayerSkillController
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2673331431265547429, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2673331431265547429, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: PlayerSkillController
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2673331431347332901, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2673331431347332901, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: PlayerSkillController
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2673331431349933914, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2673331431349933914, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: PlayerSkillController
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982764866126510, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: activeQuest
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982764866126510, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: playerSkillController
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982765591234033, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: activeQuest
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982765591234033, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: playerSkillController
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982766722950496, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: activeQuest
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982766722950496, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: playerSkillController
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982766778211568, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: m_Name
+      value: Floresta Gelo
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982766778211568, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982766778211569, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982766778211569, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982766778211569, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.076172
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982766778211569, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982766778211569, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982766778211569, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982766778211569, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982766778211569, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982766778211569, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982766778211569, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982766778211569, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982766778211570, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: dayCycleController
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982766796291597, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: activeQuest
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982766796291597, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: playerSkillController
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982766804743904, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: activeQuest
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982766804743904, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: playerSkillController
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982766807271071, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: activeQuest
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982766807271071, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: playerSkillController
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982766808704185, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: m_LookAt
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799982766808704185, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: m_Follow
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7420246507174310335, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7420246507174310335, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7420246507174310335, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: robo
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7420246507174310335, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: globalLight
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7420246507174310335, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: dayCycle
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7420246507174310335, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: chuva
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7420246507174310335, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: mapaDaEsquerda
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7420246507174310335, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: mapaDeCima
+      value: 
+      objectReference: {fileID: 8066082455913025170}
+    - target: {fileID: 7420246507174310335, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: casaMera
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7420246507174310335, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: casaMeraInstantPoint
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7420246507174310335, guid: b9750e111f16a7b419e5917a564fc056,
+        type: 3}
+      propertyPath: criogenicasAudio
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b9750e111f16a7b419e5917a564fc056, type: 3}
+--- !u!1 &8066082455516316697 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3799982766778211568, guid: b9750e111f16a7b419e5917a564fc056,
+    type: 3}
+  m_PrefabInstance: {fileID: 6578698510393432297}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8066082455516316696 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3799982766778211569, guid: b9750e111f16a7b419e5917a564fc056,
+    type: 3}
+  m_PrefabInstance: {fileID: 6578698510393432297}
+  m_PrefabAsset: {fileID: 0}

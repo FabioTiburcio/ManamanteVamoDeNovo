@@ -20,7 +20,14 @@ public class PlayerQuest : MonoBehaviour {
     public AudioClip newMailArrives;
     private AudioSource playerAudioSource;
     public AudioClip writingDiaryClip;
-
+    private bool hasEndNote;
+    private int questsCompletas;
+    public ItemObject[] receitasBrinde;
+    public int receipReceived;
+    public EmailScreen telaMensagens;
+    public int feedbacksReceived;
+    public int feedbacksCompleted;
+    public bool canGiveRewards;
 
 
     /*para atualizar receitas usar a funcao dessa forma
@@ -35,7 +42,9 @@ public class PlayerQuest : MonoBehaviour {
     {
         inventario = GetComponent<PlayerInventory>();
         playerAudioSource = GetComponent<AudioSource>();
-
+        PlayerPrefs.SetInt("QuestsCompleted", 0);
+        PlayerPrefs.SetInt("FeedbacksReceived", 0);
+        PlayerPrefs.SetInt("Feedback", 0);
         //Debug.Log(itens.Items[0].ToString());
         //Debug.Log(itens.Items[1].ToString());
         //Debug.Log(itens.Items[2].ToString());
@@ -48,12 +57,24 @@ public class PlayerQuest : MonoBehaviour {
     void Update()
     {
 
+        questsCompletas = PlayerPrefs.GetInt("QuestsCompleted");
+        feedbacksReceived = PlayerPrefs.GetInt("FeedbacksReceived");
+        feedbacksCompleted = PlayerPrefs.GetInt("Feedback");
+
         if (questCompleted)
         {
             SearchItem();
             //questController.NextQuestActivate();
             questCompleted = false;
             newEmailIcon.SetActive(true);
+        }
+
+        Debug.Log(questsCompletas);
+
+        if (questsCompletas == 4)
+        {
+            diaryInfoController.SetInfo(receitasBrinde[2].nome, receitasBrinde[2].uiDisplay, receitasBrinde[2].craftingDescription, "Dicas", "");
+            receipReceived++;
         }
 
         //if (Input.GetKeyDown(KeyCode.E) && playerInRange == true)
@@ -75,25 +96,27 @@ public class PlayerQuest : MonoBehaviour {
             //Debug.Log(item.ToString());
             Debug.Log(quest.title);
             Debug.Log(quest.goal.requiredAmount);
-            Debug.Log(quest.goal.goalTag);
+            Debug.Log(quest.goal.goalTag2);
             if (!attDiaryInfo)
             {
-                diaryInfoController.SetInfo(quest.title, quest.npcFoto, quest.diaryDescription, "Tarefas", "Primaria");
+                //diaryInfoController.SetInfo(quest.title, quest.npcFoto, quest.diaryDescription, "Tarefas", "Primaria");
                 playerAudioSource.PlayOneShot(writingDiaryClip);
                 attDiaryInfo = true;
             }
             if (quest.goal.IsReached())
             {
-                if(quest.diaryComplete != null)
+                if (feedbacksCompleted == questsCompletas)
+                    PlayerPrefs.SetInt("Feedback", PlayerPrefs.GetInt("Feedback") + 1);
+                if (canGiveRewards == true)
                 {
-                    diaryInfoController.SetInfo(quest.title, quest.npcFoto, quest.diaryComplete, "Anotacoes", "Primaria");
                     playerAudioSource.PlayOneShot(writingDiaryClip);
-                }              
-                Debug.Log("DALE");
-                quest.Complete();
-                UpdateQuests();
-                questCompleted = true;
-                
+                    Debug.Log("DALE");
+                    quest.Complete();
+                    UpdateQuests();
+                    notesAndMissionDiary.MissionComplete(quest.hasEndNote);
+                    questCompleted = true;
+                    canGiveRewards = false;
+                }
             }
 
         } else
@@ -110,36 +133,52 @@ public class PlayerQuest : MonoBehaviour {
         Debug.Log(tag);
         Debug.Log(add);
 
-        if (tag == quest.goal.goalTag)
+        for (int i = 0; i < quest.goal.goalTag2.Count; i++)
         {
-            if (add)
+            if (tag == quest.goal.goalTag2[i])
             {
-                if (quest.goal.goalType == GoalType.Kill)
+                if (add)
                 {
-                    Debug.Log("MATEI");
-                    quest.goal.EnemyKilled();
-                }
-                else if (quest.goal.goalType == GoalType.Gathering)
-                {
-                    Debug.Log("PEGUEI");
-                    quest.goal.ItemGathered();
-                } else if (quest.goal.goalType == GoalType.Crafting)
-                {
-                    Debug.Log("CRAFTEI");
-                    quest.goal.ItemCrafted();
-                } else if (quest.goal.goalType == GoalType.Searching)
-                {
-                    Debug.Log("PESQUISEI");
-                    quest.goal.Searched();
-                    searchText.SetActive(true);
-                } else if (quest.goal.goalType == GoalType.Walking)
-                {
-                    Debug.Log("VIAJEI");
-                    quest.goal.Walked();
-                }
+                    if (quest.goal.goalType == GoalType.Kill)
+                    {
+                        Debug.Log("MATEI");
+                        quest.goal.EnemyKilled();
+                    }
+                    else if (quest.goal.goalType == GoalType.Gathering)
+                    {
+                        Debug.Log("PEGUEI");
+                        quest.goal.ItemGathered();
+                    }
+                    else if (quest.goal.goalType == GoalType.Crafting)
+                    {
+                        Debug.Log("CRAFTEI");
+                        quest.goal.ItemCrafted();
+                        quest.goal.goalTag2.RemoveAt(i);
+                    }
+                    else if (quest.goal.goalType == GoalType.Searching)
+                    {
+                        Debug.Log("PESQUISEI");
+                        quest.goal.Searched();
+                        searchText.SetActive(true);
+                    }
+                    else if (quest.goal.goalType == GoalType.Walking)
+                    {
+                        Debug.Log("VIAJEI");
+                        quest.goal.Walked();
+                    } else if (quest.goal.goalType == GoalType.ElementalKill)
+                    {
+                        quest.goal.ElementalKilled();
+                        quest.goal.goalTag2.RemoveAt(i);
+                    } else if (quest.goal.goalType == GoalType.Read)
+                    {
+                        quest.goal.Readed();
+                    }
 
+                }
             }
         }
+
+        
 
     }
 
@@ -159,22 +198,24 @@ public class PlayerQuest : MonoBehaviour {
     public void UpdateQuests()
     {
         PlayerPrefs.SetInt("QuestsCompleted", PlayerPrefs.GetInt("QuestsCompleted") + 1);
+        
         roboAudioSource.clip = newMailArrives;
         roboAudioSource.PlayDelayed(2);
+        
     }
 
 
     //public void OnTriggerEnter2D(Collider2D collider)
     //{
     //    if (collider.gameObject.tag == "Interacao1") playerInRange = true;
-        
+
     //}
 
     //public void OnTriggerExit2D(Collider2D collider)
     //{
     //    if (collider.gameObject.tag == "Interacao1") playerInRange = false;
-        
+
     //}
 
-     
+
 }

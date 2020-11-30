@@ -46,7 +46,7 @@ public class CraftingController : MonoBehaviour
                         {
                             case CraftingItemType.Fruta:
                                 item3 = craftingInvetory.database.GetItem[12].CreateItem();
-                                activeQuest.QuestAtt(item3.nome, true);
+                                activeQuest.QuestAtt(item3.Id.ToString(), true);
                                 craftingInvetory.AddItem(item3, 1);
                                 clearCraftedItems();
                                 break;
