@@ -1,9 +1,1 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-4.905514717102051,"y":-3.869946002960205,"z":-231.4695281982422},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":20.73528289794922,"orthographic":true}
-=======
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":302.2413635253906,"y":221.92529296875,"z":-134.25},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":713.1944580078125,"orthographic":true}
->>>>>>> parent of 0abb65ab... .
-=======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":3.17569637298584,"y":-0.12736265361309052,"z":-229.31640625},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":17.85209846496582,"orthographic":true}
->>>>>>> parent of b84c44cc... Commite mapas

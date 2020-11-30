@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eca3a2c33ab2d5a4dbc9744951d6ca93, type: 3}
   m_Name: Speilctre
   m_EditorClassIdentifier: 
-  pesquisaTitle: 
+  pesquisaTitle: Speilctre
   image: {fileID: -6029905254967674180, guid: 7707564f86b02fe41a7e549516cf2016, type: 3}
-  description: Inimigo que imita os ataques de quem tenta o enfrentar, muito visto
-    por aqueles que passaram pela floresta sombralida.
-  similarLink: {fileID: 11400000, guid: cbafd5696101f3648a7a839851e1f455, type: 2}
-  similarLink2: {fileID: 11400000, guid: 3b90ae550ce572e4c9c6fff734cf979b, type: 2}
+  description: Inimigo que copia, boatos dizem que ele consegue copiar algumas habilidades
+  similarLink: {fileID: 11400000, guid: df7b3154f3b75194d8c3cd0a8c3f81c5, type: 2}
+  similarLink2: {fileID: 11400000, guid: b90b20365482591429076725946074af, type: 2}
