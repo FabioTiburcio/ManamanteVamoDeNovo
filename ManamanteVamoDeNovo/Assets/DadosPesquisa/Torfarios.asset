@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pesquisaTitle: Torfarios
   image: {fileID: 3069629022246670532, guid: 79305e1521f497d44a45389bff4c02da, type: 3}
-  description: "Lenda das sombras, n\xE3o foi possivel encontrar nenhuma outra informa\xE7\xE3o
-    a respeito."
-  similarLink: {fileID: 11400000, guid: df7b3154f3b75194d8c3cd0a8c3f81c5, type: 2}
-  similarLink2: {fileID: 11400000, guid: 21fb0b43582ebeb458b2165c1523b723, type: 2}
+  description: "N\xE3o se sabe muito sobre ele, apenas que \xE9 extremamente mal
+    e forte."
+  similarLink: {fileID: 11400000, guid: 21fb0b43582ebeb458b2165c1523b723, type: 2}
+  similarLink2: {fileID: 11400000, guid: 3b90ae550ce572e4c9c6fff734cf979b, type: 2}

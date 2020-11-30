@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: "Ma\xE7\xE3"
   m_EditorClassIdentifier: 
   pesquisaTitle: "Ma\xE7\xE3"
-  image: {fileID: -2101813627279503963, guid: f2c5f0d7dab4ea84d97c47031b1fd363, type: 3}
-  description: "Ma\xE7\xE3 comum, muito usada para produ\xE7\xE3o de suco de frutas."
+  image: {fileID: 7453160842469814493, guid: 9a63226fb25836042ae650e7ab3b52ec, type: 3}
+  description: "Ma\xE7\xE3, utilizada para fabrica\xE7\xE3o de pequenas po\xE7\xF5es
+    de cura."
   similarLink: {fileID: 11400000, guid: 6cad107638e76d540a673de72484706d, type: 2}
-  similarLink2: {fileID: 11400000, guid: d58e860f32fc3ce4495bfd20ea5328b6, type: 2}
+  similarLink2: {fileID: 11400000, guid: 3397b9fdac8854c48838ee33e6a4d68d, type: 2}

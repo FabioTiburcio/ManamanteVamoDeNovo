@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Banana
   m_EditorClassIdentifier: 
   pesquisaTitle: Banana
-  image: {fileID: -2723872406725829969, guid: f2c5f0d7dab4ea84d97c47031b1fd363, type: 3}
+  image: {fileID: 1774266024539289126, guid: 9a63226fb25836042ae650e7ab3b52ec, type: 3}
   description: "Fruta muito usada para fabrica\xE7\xE3o de po\xE7\xF5es pequenas."
-  similarLink: {fileID: 11400000, guid: 8220953cdbd2da04f875f306180a7dce, type: 2}
-  similarLink2: {fileID: 11400000, guid: d58e860f32fc3ce4495bfd20ea5328b6, type: 2}
+  similarLink: {fileID: 11400000, guid: 457deaf254d2f784aabb09287306cb88, type: 2}
+  similarLink2: {fileID: 11400000, guid: 3397b9fdac8854c48838ee33e6a4d68d, type: 2}
