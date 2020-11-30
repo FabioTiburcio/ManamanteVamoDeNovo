@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Scene
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -47,11 +47,15 @@ MonoBehaviour:
 <<<<<<< HEAD
     width: 1536
     height: 781
+<<<<<<< HEAD
 =======
     width: 1920
     height: 997
 >>>>>>> parent of 0abb65ab... .
   m_MinSize: {x: 875, y: 300}
+=======
+  m_MinSize: {x: 875, y: 492}
+>>>>>>> parent of b84c44cc... Commite mapas
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -122,10 +126,14 @@ MonoBehaviour:
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 107
 =======
   controlID: 252300
 >>>>>>> parent of 0abb65ab... .
+=======
+  controlID: 56450
+>>>>>>> parent of b84c44cc... Commite mapas
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -151,10 +159,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 62
 =======
   controlID: 252351
 >>>>>>> parent of 0abb65ab... .
+=======
+  controlID: 56461
+>>>>>>> parent of b84c44cc... Commite mapas
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -234,10 +246,14 @@ MonoBehaviour:
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 113
 =======
   controlID: 252301
 >>>>>>> parent of 0abb65ab... .
+=======
+  controlID: 56348
+>>>>>>> parent of b84c44cc... Commite mapas
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -258,6 +274,7 @@ MonoBehaviour:
 <<<<<<< HEAD
     width: 484
     height: 460
+<<<<<<< HEAD
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
 =======
@@ -266,6 +283,10 @@ MonoBehaviour:
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
 >>>>>>> parent of 0abb65ab... .
+=======
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+>>>>>>> parent of b84c44cc... Commite mapas
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -449,6 +470,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -4.9055147, y: -3.869946, z: -231.46953}
     speed: 2
     m_Value: {x: -4.9055147, y: -3.869946, z: -231.46953}
@@ -457,6 +479,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 302.24136, y: 221.9253, z: -134.25}
 >>>>>>> parent of 0abb65ab... .
+=======
+    m_Target: {x: 3.1756964, y: -0.12736265, z: -229.3164}
+    speed: 2
+    m_Value: {x: 3.1756964, y: -0.12736265, z: -229.3164}
+>>>>>>> parent of b84c44cc... Commite mapas
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -507,6 +534,7 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 20.735283
     speed: 2
     m_Value: 19.842377
@@ -515,6 +543,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 713.19446
 >>>>>>> parent of 0abb65ab... .
+=======
+    m_Target: 17.852098
+    speed: 2
+    m_Value: 17.083347
+>>>>>>> parent of b84c44cc... Commite mapas
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -746,6 +779,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
 <<<<<<< HEAD
+<<<<<<< HEAD
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: a616fcff
       m_LastClickedID: -256346
@@ -756,6 +790,12 @@ MonoBehaviour:
       m_LastClickedID: -2581170
       m_ExpandedIDs: 6299d8fffe9cd8ffaadbd8ff86ded8ff4ce0d8fffce1d8ff4ceed8ff26f2d8ffc41ddcff1c4fdcffd470dfffc8aee2ff1051e3ff2676e6ff0c8fe6ff309ae6ff8adde6ffdaeae6ff70a5eaff42aceaff2088edff7e6af8ff886af8ff606df8ff5eeffbffb6ebfcffd4ebfcffa6ebfdffc4ebfdff38c6feff56c6feff7c3affff08950000fcaf0000dcca00007ed50000f0ea0000b4ee00009cfc00009a340100ce3e0100ca520100b2670100fc67010036680100b2e81f01aae91f0134712401aa84240104772501887725010eec4b01f4ec4b010ced4b0100ee4b0104ee4b0102ef4b0126895101c28a5101048c5101108c5101f68c5101248d510142cb51010ad15201629d5901b09e59019e3e5e0186415f01307c6001387d6001727d6001887d60018c7d6001d07e6001de7e60018c7f6001947f6001f87f6001
 >>>>>>> parent of 0abb65ab... .
+=======
+      scrollPos: {x: 0, y: 14}
+      m_SelectedIDs: 94660100
+      m_LastClickedID: 91796
+      m_ExpandedIDs: 629ef1ffac9ff1ffc2a0f1ff7230fdff8c5efdff8060fdffb86901004a81010060890100d0b5010076bd010068d40100d4050200c2340200f63502009a390200c4860200da8702005888020068890200
+>>>>>>> parent of b84c44cc... Commite mapas
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -817,7 +857,7 @@ MonoBehaviour:
     m_ControlHash: 1412526313
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: 36572
+  m_LastInspectedObjectInstanceID: 25440
   m_LastVerticalScrollValue: 0
 --- !u!114 &19
 MonoBehaviour:
@@ -849,10 +889,14 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_NameFilter: panta
 =======
     m_NameFilter: 
 >>>>>>> parent of 0abb65ab... .
+=======
+    m_NameFilter: gelo
+>>>>>>> parent of b84c44cc... Commite mapas
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -878,6 +922,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 266}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 000000006a7d00002a8c0000b6a0000082b5000056080300580803005a0803005c0803005e08030060080300620803006408030066080300680803006a0803006c0803006e0803007008030072080300740803007608030000ca9a3b
 =======
     scrollPos: {x: 0, y: 31}
@@ -885,6 +930,9 @@ MonoBehaviour:
     m_LastClickedID: 24694
     m_ExpandedIDs: 0000000076600000de610000ea6d0000fa6f0000de770100e0770100e6770100e8770100ea770100ec770100ee770100f0770100f2770100f4770100f6770100f8770100fa770100
 >>>>>>> parent of 0abb65ab... .
+=======
+    m_ExpandedIDs: 000000000a6000005a610000ba710000008500007e46010080460100824601008446010086460100884601008a4601008e46010090460100924601009446010096460100344701004048010078480100804801008a48010000ca9a3b
+>>>>>>> parent of b84c44cc... Commite mapas
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -913,10 +961,14 @@ MonoBehaviour:
     m_SelectedIDs: 64e60000
     m_LastClickedID: 58980
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 000000006a7d00002a8c0000b6a0000082b5000056080300580803005a0803005c0803005e08030060080300620803006408030066080300680803006a0803006c0803006e08030070080300720803007408030076080300
 =======
     m_ExpandedIDs: 0000000076600000de610000ea6d0000fa6f0000de770100e0770100e6770100e8770100ea770100ec770100ee770100f0770100f2770100f4770100f6770100f8770100fa770100
 >>>>>>> parent of 0abb65ab... .
+=======
+    m_ExpandedIDs: 000000000a6000005a610000ba710000008500007e46010080460100824601008446010086460100884601008a4601008e46010090460100924601009446010096460100344701004048010078480100804801008a48010000ca9a3b
+>>>>>>> parent of b84c44cc... Commite mapas
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -948,12 +1000,17 @@ MonoBehaviour:
     m_RenameOverlay:
       m_UserAcceptedRename: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_Name: Sombralhida
       m_OriginalName: Sombralhida
 =======
       m_Name: 
       m_OriginalName: 
 >>>>>>> parent of 0abb65ab... .
+=======
+      m_Name: Gelo
+      m_OriginalName: Gelo
+>>>>>>> parent of b84c44cc... Commite mapas
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
@@ -961,10 +1018,14 @@ MonoBehaviour:
         width: 0
         height: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_UserData: 293514
 =======
       m_UserData: 0
 >>>>>>> parent of 0abb65ab... .
+=======
+      m_UserData: 172910
+>>>>>>> parent of b84c44cc... Commite mapas
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 11
@@ -978,10 +1039,14 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ScrollPosition: {x: 0, y: 0}
 =======
     m_ScrollPosition: {x: 0, y: 516}
 >>>>>>> parent of 0abb65ab... .
+=======
+    m_ScrollPosition: {x: 0, y: 360}
+>>>>>>> parent of b84c44cc... Commite mapas
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 160.5
