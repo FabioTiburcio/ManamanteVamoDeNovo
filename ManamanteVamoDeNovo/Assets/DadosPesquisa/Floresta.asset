@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eca3a2c33ab2d5a4dbc9744951d6ca93, type: 3}
+  m_Name: Floresta
+  m_EditorClassIdentifier: 
+  pesquisaTitle: Floresta
+  image: {fileID: 21300000, guid: 1b19cee780d46ea48a8214f7fd1cb2e7, type: 3}
+  description: "Grande floresta da regi\xE3o, algumas criaturas a habitam."
+  similarLink: {fileID: 11400000, guid: bc430cbb32017ba47a94a5268312eda0, type: 2}
+  similarLink2: {fileID: 11400000, guid: e6f80a59c6e7ee949a26d8028f7ad31e, type: 2}

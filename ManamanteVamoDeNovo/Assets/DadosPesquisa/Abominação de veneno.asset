@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eca3a2c33ab2d5a4dbc9744951d6ca93, type: 3}
+  m_Name: "Abomina\xE7\xE3o de veneno"
+  m_EditorClassIdentifier: 
+  pesquisaTitle: "Abomina\xE7\xE3o de veneno"
+  image: {fileID: 3069629022246670532, guid: b79e343654dba5240b4103bbd30064e3, type: 3}
+  description: "De nome desconhecido, uma criatura feita completamente de g\xE1s
+    venenoso, causa problemas a qualquer um que chega perto demais."
+  similarLink: {fileID: 11400000, guid: bc430cbb32017ba47a94a5268312eda0, type: 2}
+  similarLink2: {fileID: 11400000, guid: 96d50fb836e8d7c43a8f3f375986e66a, type: 2}

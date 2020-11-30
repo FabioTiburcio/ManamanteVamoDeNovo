@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eca3a2c33ab2d5a4dbc9744951d6ca93, type: 3}
+  m_Name: Matheus
+  m_EditorClassIdentifier: 
+  pesquisaTitle: Matheus, O Contraventor
+  image: {fileID: 0}
+  description: "Devido as suas habilidades de transmorfismo, Matheus \xE9 capaz de
+    se transformar em qualquer outra pessoa e ele usa isso a seu favor para aplicar
+    golpes em calouros que est\xE3o no caminho da faculdade de Sulavento. N\xE3o
+    se sabem ao certo de onde ele nasceu e se Matheus \xE9 seu verdadeiro nome, mas
+    algumas lendas dizem que ele \xE9 um ex-aluno da faculdade que foi expulso ap\xF3s
+    descobrirem que ele foi o respons\xE1vel por vender gabaritos de prova em troca
+    de dinheiro."
+  similarLink: {fileID: 11400000, guid: 0d49896b74784d54a8a3aec8ba247036, type: 2}
+  similarLink2: {fileID: 11400000, guid: 607b139e0467ebb4b9b7b43535597188, type: 2}

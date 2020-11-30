@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eca3a2c33ab2d5a4dbc9744951d6ca93, type: 3}
+  m_Name: CryoQuebra
+  m_EditorClassIdentifier: 
+  pesquisaTitle: CryoQuebra
+  image: {fileID: 21300000, guid: d9896d80d51be6f479b413ed894f6972, type: 3}
+  description: Inimigo feito de espinhos de gelo que ataca com espinhos de gelo,
+    habita as cordilheiras.
+  similarLink: {fileID: 11400000, guid: 2daa03e7ef645da4a9dccdaf0bd1bfbd, type: 2}
+  similarLink2: {fileID: 11400000, guid: fc0a724d4377ac640b814202d83f46e4, type: 2}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eca3a2c33ab2d5a4dbc9744951d6ca93, type: 3}
+  m_Name: U-800X
+  m_EditorClassIdentifier: 
+  pesquisaTitle: U-800X
+  image: {fileID: 21300000, guid: ffb5291964b5f9549bda888848bd4f5d, type: 3}
+  description: "Upgrade do U-800, com novas funcionalidades, como um explendido computador,
+    baixe a atualiza\xE7\xE3o apertando o bot\xE3o download."
+  similarLink: {fileID: 11400000, guid: 361b9536dcb0a364b8ae6e982b0de259, type: 2}
+  similarLink2: {fileID: 11400000, guid: 4aeeaecd5bdda2a4fa4dec531088c4cf, type: 2}

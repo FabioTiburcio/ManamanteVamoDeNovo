@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eca3a2c33ab2d5a4dbc9744951d6ca93, type: 3}
+  m_Name: Vila
+  m_EditorClassIdentifier: 
+  pesquisaTitle: Vila
+  image: {fileID: 21300000, guid: fa0b7cf1d93acfc4a9f91eb996958ff7, type: 3}
+  description: "\xDAnica regi\xE3o atualmente segura, algumas pessoas habitam as
+    casas por l\xE1, mas preferem n\xE3o sair por conta dos perigos ao redor."
+  similarLink: {fileID: 11400000, guid: 8c3f262aee7e3094db872c19177c2139, type: 2}
+  similarLink2: {fileID: 11400000, guid: bc59113ccb437014cac566628c5c28ca, type: 2}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eca3a2c33ab2d5a4dbc9744951d6ca93, type: 3}
+  m_Name: Garras
+  m_EditorClassIdentifier: 
+  pesquisaTitle: Garras
+  image: {fileID: -9122324872123818650, guid: f2c5f0d7dab4ea84d97c47031b1fd363, type: 3}
+  description: "Parte comum de v\xE1rios tipos de inimigos, muito usado para produ\xE7\xE3o
+    de reagentes."
+  similarLink: {fileID: 11400000, guid: 6d32f677a807087459669a322ae13b1d, type: 2}
+  similarLink2: {fileID: 11400000, guid: f8ce34369274d0c4faebcaad03835ac1, type: 2}
