@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eca3a2c33ab2d5a4dbc9744951d6ca93, type: 3}
   m_Name: Cogumelo Azul
   m_EditorClassIdentifier: 
-  pesquisaTitle: Cogumelo Azul
+  pesquisaTitle: Cogumelo azul
   image: {fileID: 7836442542085354108, guid: f2c5f0d7dab4ea84d97c47031b1fd363, type: 3}
   description: "Cogumelo muito \xFAtil para produ\xE7\xE3o de po\xE7\xF5es de cogumelos."
+  itemObject: {fileID: 11400000, guid: ab51b572277b63546be339cc7a56714d, type: 2}
   similarLink: {fileID: 11400000, guid: 01237c660d14fba438c0ebf195d25799, type: 2}
   similarLink2: {fileID: 11400000, guid: 07410070094618d46be2931362b1426c, type: 2}

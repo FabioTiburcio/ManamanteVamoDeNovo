@@ -15,5 +15,6 @@ MonoBehaviour:
   pesquisaTitle: "Po\xE7\xE3o de Nectar"
   image: {fileID: -7492734057415542074, guid: f2c5f0d7dab4ea84d97c47031b1fd363, type: 3}
   description: "Po\xE7\xE3o de Nectar, cura grande parte da vida."
+  itemObject: {fileID: 11400000, guid: 13d11b31eea08054c85e4f27d3a259e9, type: 2}
   similarLink: {fileID: 11400000, guid: e6f80a59c6e7ee949a26d8028f7ad31e, type: 2}
   similarLink2: {fileID: 11400000, guid: 75e5b229e3cf3a6469115acabf68ead5, type: 2}

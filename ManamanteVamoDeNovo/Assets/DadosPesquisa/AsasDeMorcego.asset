@@ -15,5 +15,6 @@ MonoBehaviour:
   pesquisaTitle: Asas de morcego
   image: {fileID: 8872896410228479451, guid: f2c5f0d7dab4ea84d97c47031b1fd363, type: 3}
   description: "Parte de morcego, utilizavel para cria\xE7\xE3o de reagentes."
+  itemObject: {fileID: 11400000, guid: 99ac390686240a8409b71af3d076be5a, type: 2}
   similarLink: {fileID: 11400000, guid: 397355e4e1290094693a2a31839bb443, type: 2}
   similarLink2: {fileID: 11400000, guid: 6d32f677a807087459669a322ae13b1d, type: 2}

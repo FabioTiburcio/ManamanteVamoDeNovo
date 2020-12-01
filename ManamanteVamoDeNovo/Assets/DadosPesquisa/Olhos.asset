@@ -15,5 +15,6 @@ MonoBehaviour:
   pesquisaTitle: Olhos
   image: {fileID: -1265127058508387324, guid: f2c5f0d7dab4ea84d97c47031b1fd363, type: 3}
   description: "Parte comum de muitos inimigos, \xFAtil na cria\xE7\xE3o de reagentes."
+  itemObject: {fileID: 11400000, guid: e03441e72b14e5b4e9f22940d2ecd9cf, type: 2}
   similarLink: {fileID: 11400000, guid: f8ce34369274d0c4faebcaad03835ac1, type: 2}
   similarLink2: {fileID: 11400000, guid: 66c95b3ad071bae46898d20df2f19dfb, type: 2}

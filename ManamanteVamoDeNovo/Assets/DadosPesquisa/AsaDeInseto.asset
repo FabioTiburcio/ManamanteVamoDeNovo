@@ -16,5 +16,6 @@ MonoBehaviour:
   image: {fileID: -4232385933252239474, guid: f2c5f0d7dab4ea84d97c47031b1fd363, type: 3}
   description: "Parte muito comum de abelhudas, muito util para cria\xE7\xE3o de
     reagentes."
+  itemObject: {fileID: 11400000, guid: eecd1c6ac5b57c2439c5d24b2bf33266, type: 2}
   similarLink: {fileID: 11400000, guid: 29e12f4b3eb972149bbfe3fb44f2c568, type: 2}
   similarLink2: {fileID: 11400000, guid: 6d32f677a807087459669a322ae13b1d, type: 2}

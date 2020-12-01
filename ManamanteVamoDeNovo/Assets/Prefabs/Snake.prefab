@@ -124,8 +124,13 @@ MonoBehaviour:
   dropItemPrefab: {fileID: 7073920090306609089, guid: 8a71d84382f85414a83203b4e8c63cf9,
     type: 3}
   dropMorcego: {fileID: 11400000, guid: 99ac390686240a8409b71af3d076be5a, type: 2}
-  dropAlma: {fileID: 11400000, guid: e03441e72b14e5b4e9f22940d2ecd9cf, type: 2}
+  dropAbelhuda: {fileID: 0}
+  dropAlma: {fileID: 0}
   dropGelo: {fileID: 0}
+  dropFogo: {fileID: 0}
+  dropPoison: {fileID: 0}
+  dropEletrico: {fileID: 0}
+  dropItemComum: {fileID: 11400000, guid: e03441e72b14e5b4e9f22940d2ecd9cf, type: 2}
   player: {fileID: 0}
   PlayerSkillController: {fileID: 0}
   firePoint: {fileID: 4009945463483169016, guid: e09c7bf93f328e04aaf1d64ef14423ac,

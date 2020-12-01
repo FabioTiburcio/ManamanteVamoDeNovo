@@ -15,5 +15,6 @@ MonoBehaviour:
   pesquisaTitle: Ossos
   image: {fileID: -2305124512955163758, guid: f2c5f0d7dab4ea84d97c47031b1fd363, type: 3}
   description: "Parte comum de muitos inimigos, \xFAtil na cria\xE7\xE3o de reagentes."
+  itemObject: {fileID: 11400000, guid: 76c779ebb381d7b48a1c8b786eaee6b1, type: 2}
   similarLink: {fileID: 11400000, guid: 6d32f677a807087459669a322ae13b1d, type: 2}
   similarLink2: {fileID: 11400000, guid: 66c95b3ad071bae46898d20df2f19dfb, type: 2}

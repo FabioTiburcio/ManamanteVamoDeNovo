@@ -15,8 +15,13 @@ public class EnemyController : MonoBehaviour {
 
     public GameObject dropItemPrefab;
     public ItemObject dropMorcego;
+    public ItemObject dropAbelhuda;
     public ItemObject dropAlma;
     public ItemObject dropGelo;
+    public ItemObject dropFogo;
+    public ItemObject dropPoison;
+    public ItemObject dropEletrico;
+    public ItemObject dropItemComum;
     public GameObject player;
     public SkillController PlayerSkillController;
     public Transform firePoint;
@@ -193,7 +198,35 @@ public class EnemyController : MonoBehaviour {
                         attackTimer = 0;
                         enemySkill = Instantiate(meleeAttackCol, firePoint);
                     }
-
+                }
+                else if (enemyName == "Slime")
+                {
+                    enemyAnim.Play("Idle");
+                    if (attackTimer <= attackCooldown / enemyAttackSpeed)
+                    {
+                        attackTimer += Time.deltaTime;
+                        return;
+                    }
+                    else if (currentState == enemyState.ATTACKING && attackTimer >= attackCooldown / enemyAttackSpeed)
+                    {
+                        attackTimer = 0;
+                        enemySkill = Instantiate(meleeAttackCol, firePoint);
+                    }
+                }
+                else if (enemyName == "Abelha" || enemyName == "Abominacao")
+                {
+                    attackRange = 0.2f;
+                    enemyAnim.Play("Attack");
+                    if (attackTimer <= attackCooldown / enemyAttackSpeed)
+                    {
+                        attackTimer += Time.deltaTime;
+                        return;
+                    }
+                    else if (currentState == enemyState.ATTACKING && attackTimer >= attackCooldown / enemyAttackSpeed)
+                    {
+                        attackTimer = 0;
+                        enemySkill = Instantiate(meleeAttackCol, firePoint);
+                    }
                 }
                 StartCoroutine(AttackCooldownCounter(attackCooldown));
                 if (aIPath.remainingDistance > attackRange)
@@ -275,18 +308,35 @@ public class EnemyController : MonoBehaviour {
         int chanceOfDrop = Random.Range(0, 100);
         if(chanceOfDrop <= 50)
         {
-            if (enemyName == "Alma")
+            if (elementoInimigo == enemyElement.FIRE)
             {
-                dropItemPrefab.GetComponent<GroundItem>().itemObject = dropAlma;
+                dropItemPrefab.GetComponent<GroundItem>().itemObject = dropFogo;
             }
             else if (enemyName == "Morcego")
             {
                 dropItemPrefab.GetComponent<GroundItem>().itemObject = dropMorcego;
             }
-            else if(enemyName == "GeloRanged")
+            else if (enemyName == "Abelhuda")
+            {
+                dropItemPrefab.GetComponent<GroundItem>().itemObject = dropMorcego;
+            }
+            else if(elementoInimigo == enemyElement.ICE)
             {
                 dropItemPrefab.GetComponent<GroundItem>().itemObject = dropGelo;
             }
+            else if(elementoInimigo == enemyElement.NORMAL)
+            {
+                dropItemPrefab.GetComponent<GroundItem>().itemObject = dropItemComum;
+            }
+            else if (elementoInimigo == enemyElement.POISON)
+            {
+                dropItemPrefab.GetComponent<GroundItem>().itemObject = dropPoison;
+            }
+            else if (elementoInimigo == enemyElement.ELETRIC)
+            {
+                dropItemPrefab.GetComponent<GroundItem>().itemObject = dropEletrico;
+            }
+
             Instantiate(dropItemPrefab, transform.position, transform.rotation, transform.parent);
         }
     }

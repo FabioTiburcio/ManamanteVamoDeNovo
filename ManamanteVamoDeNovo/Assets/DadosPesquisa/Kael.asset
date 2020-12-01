@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eca3a2c33ab2d5a4dbc9744951d6ca93, type: 3}
   m_Name: Kael
   m_EditorClassIdentifier: 
-  pesquisaTitle: 
+  pesquisaTitle: Kael
   image: {fileID: 0}
   description: 
+  itemObject: {fileID: 0}
   similarLink: {fileID: 11400000, guid: 06f016d9ea125b143888c365fb169705, type: 2}
   similarLink2: {fileID: 11400000, guid: f73d48766f1848a4ca533daa38b2d543, type: 2}

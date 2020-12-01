@@ -16,5 +16,6 @@ MonoBehaviour:
   image: {fileID: -7082987465944823836, guid: f2c5f0d7dab4ea84d97c47031b1fd363, type: 3}
   description: "Parte comum de inimigos do tipo el\xE9trico, usado para cria\xE7\xE3o
     de elixir e ant\xEDdoto el\xE9trico."
+  itemObject: {fileID: 11400000, guid: 9b727707feef2d547b33d3c5654c4d91, type: 2}
   similarLink: {fileID: 11400000, guid: 6f4f1e14b2941d34288f6ab3ce343238, type: 2}
   similarLink2: {fileID: 11400000}

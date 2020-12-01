@@ -15,5 +15,6 @@ MonoBehaviour:
   pesquisaTitle: Elixir de gelo
   image: {fileID: 4620642764861089905, guid: f2c5f0d7dab4ea84d97c47031b1fd363, type: 3}
   description: Usado para intensificar o poder das habilidades de gelo.
+  itemObject: {fileID: 11400000, guid: c02384aad669c9741b8b4ceb34399d29, type: 2}
   similarLink: {fileID: 11400000, guid: 6f4f1e14b2941d34288f6ab3ce343238, type: 2}
   similarLink2: {fileID: 11400000, guid: e6f8af3a0634f0c498adb3fabf7d2d09, type: 2}

@@ -15,5 +15,6 @@ MonoBehaviour:
   pesquisaTitle: "Po\xE7\xE3o de cogumelos"
   image: {fileID: -1772641425286790683, guid: f2c5f0d7dab4ea84d97c47031b1fd363, type: 3}
   description: "Po\xE7\xE3o de Nectar, cura parte da vida."
+  itemObject: {fileID: 11400000, guid: 835d302aae68fa749b7004c47c04563b, type: 2}
   similarLink: {fileID: 11400000, guid: 01237c660d14fba438c0ebf195d25799, type: 2}
   similarLink2: {fileID: 11400000, guid: ba92ac7de9b23c344840923bc6a6d4d0, type: 2}

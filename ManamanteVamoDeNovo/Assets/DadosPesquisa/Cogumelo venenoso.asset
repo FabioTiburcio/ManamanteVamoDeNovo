@@ -16,5 +16,6 @@ MonoBehaviour:
   image: {fileID: -2482313306548891332, guid: f2c5f0d7dab4ea84d97c47031b1fd363, type: 3}
   description: "Fruta popular no P\xE2ntano, utilizada para produ\xE7\xE3o de ant\xEDdoto
     de veneno."
+  itemObject: {fileID: 11400000, guid: bbf9c9cfee0014749a8bc67db1505446, type: 2}
   similarLink: {fileID: 11400000, guid: 6f4f1e14b2941d34288f6ab3ce343238, type: 2}
   similarLink2: {fileID: 11400000, guid: c7d9fc4157cbb324f985ae5b0aed5af4, type: 2}

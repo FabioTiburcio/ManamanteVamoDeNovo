@@ -15,5 +15,6 @@ MonoBehaviour:
   pesquisaTitle: Suco de frutas
   image: {fileID: 584258489895119644, guid: f2c5f0d7dab4ea84d97c47031b1fd363, type: 3}
   description: Suco de frutas, cura pequena parte da vida.
+  itemObject: {fileID: 11400000, guid: d8d14980583f3f6468e576d56711ae6b, type: 2}
   similarLink: {fileID: 11400000, guid: 8220953cdbd2da04f875f306180a7dce, type: 2}
   similarLink2: {fileID: 11400000, guid: 6cad107638e76d540a673de72484706d, type: 2}

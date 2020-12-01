@@ -15,5 +15,6 @@ MonoBehaviour:
   pesquisaTitle: Elixir de veneno
   image: {fileID: 7129611212672934200, guid: f2c5f0d7dab4ea84d97c47031b1fd363, type: 3}
   description: Usado para intensificar o poder das habilidades de veneno.
+  itemObject: {fileID: 11400000, guid: 546a6194ec546424485c574b22726ef7, type: 2}
   similarLink: {fileID: 11400000, guid: 6f4f1e14b2941d34288f6ab3ce343238, type: 2}
   similarLink2: {fileID: 11400000, guid: 37514ccb9637baa47ae37a0abddd13a3, type: 2}

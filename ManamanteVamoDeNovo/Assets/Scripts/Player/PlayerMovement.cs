@@ -104,7 +104,7 @@ public class PlayerMovement : MonoBehaviour
         }
         
 
-        if (computerRange && Input.GetKeyDown(KeyCode.C))
+        if (computerRange && Input.GetKeyDown(KeyCode.LeftAlt))
         {
             if (computerScreen.activeSelf)
             {

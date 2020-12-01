@@ -16,5 +16,6 @@ MonoBehaviour:
   image: {fileID: -5809192346258615058, guid: f2c5f0d7dab4ea84d97c47031b1fd363, type: 3}
   description: "Fruta popular em Pompiros, utilizada para produ\xE7\xE3o de ant\xEDdoto
     de fogo."
+  itemObject: {fileID: 11400000, guid: b6dd98b4ee2cd5a47b8d0f177f2f8520, type: 2}
   similarLink: {fileID: 11400000, guid: 3286ce345a32d254c9f9b2021c994dd9, type: 2}
   similarLink2: {fileID: 11400000, guid: 6cad107638e76d540a673de72484706d, type: 2}

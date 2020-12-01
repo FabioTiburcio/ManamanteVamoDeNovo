@@ -11,7 +11,6 @@ public class SearchScript : MonoBehaviour
     public PlayerQuest player;
     public InputField inputField;
     public InputField inputField2;
-    public DiaryInfoController diaryInfoController;
     public PesquisaEllgog pesquisaEllgog;
     // Start is called before the first frame update
 
@@ -53,7 +52,6 @@ public class SearchScript : MonoBehaviour
             pesquisaEllgog.attInfo(pesquisaEllgog.pesquisaRelacionada2.text);
         }
         player.QuestAtt(inputField.text, true);
-        //diaryInfoController.SetInfo(pesquisaEllgog.pesquisaTitle, pesquisaEllgog.imagemPesquisa.sprite, pesquisaEllgog.descricaoPesquisa.text, "Inimigos", "Inimigo");
 
     }
 }

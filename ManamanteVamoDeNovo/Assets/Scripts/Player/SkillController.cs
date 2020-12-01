@@ -62,6 +62,8 @@ public class SkillController : MonoBehaviour
     public float bulletForce = 20f;
     public int habilityToUnlock;
 
+    public int manaCooldown;
+
     private void Awake()
     {
         fireHairParticles = fireHairEffect.GetComponent<ParticleSystem>();
@@ -82,7 +84,7 @@ public class SkillController : MonoBehaviour
     {
         attackCooldown += Time.deltaTime;
         firePoint.transform.up = player.lookDir;
-        timeToAddMana += Time.deltaTime;
+        timeToAddMana += Time.deltaTime * manaCooldown;
         NumberOfHeadParticlesController(colorIntensity);
         if (timeToAddMana >= 9)
         {

@@ -16,5 +16,6 @@ MonoBehaviour:
   image: {fileID: 5430074850730834978, guid: f2c5f0d7dab4ea84d97c47031b1fd363, type: 3}
   description: "Fruta popular no P\xE2ntano, utilizada para produ\xE7\xE3o de ant\xEDdoto
     el\xE9trico."
+  itemObject: {fileID: 11400000, guid: 6913c60dfb1cb6d479fb58fe354fc122, type: 2}
   similarLink: {fileID: 11400000, guid: 6f4f1e14b2941d34288f6ab3ce343238, type: 2}
   similarLink2: {fileID: 11400000, guid: e1150ac306ef4584bb32e221135acf36, type: 2}

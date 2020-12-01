@@ -9,6 +9,7 @@ public class DadosEllgog : ScriptableObject
     public Sprite image;
     [TextArea(10, 10)]
     public string description;
+    public ItemObject itemObject;
     public DadosEllgog similarLink;
     public DadosEllgog similarLink2;
 }

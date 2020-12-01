@@ -15,5 +15,6 @@ MonoBehaviour:
   pesquisaTitle: "Ant\xEDdoto de fogo"
   image: {fileID: 7323634285035014080, guid: f2c5f0d7dab4ea84d97c47031b1fd363, type: 3}
   description: Usado para remover status negativo do elemento de fogo.
+  itemObject: {fileID: 11400000, guid: 13875cd3b15f5064b83aa86530f9e78a, type: 2}
   similarLink: {fileID: 11400000, guid: 6f4f1e14b2941d34288f6ab3ce343238, type: 2}
   similarLink2: {fileID: 11400000, guid: d58e860f32fc3ce4495bfd20ea5328b6, type: 2}

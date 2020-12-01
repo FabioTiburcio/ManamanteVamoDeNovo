@@ -15,5 +15,6 @@ MonoBehaviour:
   pesquisaTitle: Banana
   image: {fileID: -2723872406725829969, guid: f2c5f0d7dab4ea84d97c47031b1fd363, type: 3}
   description: "Fruta muito usada para fabrica\xE7\xE3o de po\xE7\xF5es pequenas."
+  itemObject: {fileID: 11400000, guid: bf02fc20eea18754288cd2669115c914, type: 2}
   similarLink: {fileID: 11400000, guid: 8220953cdbd2da04f875f306180a7dce, type: 2}
   similarLink2: {fileID: 11400000, guid: d58e860f32fc3ce4495bfd20ea5328b6, type: 2}

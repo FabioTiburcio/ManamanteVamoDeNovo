@@ -15,5 +15,6 @@ MonoBehaviour:
   pesquisaTitle: "Ant\xEDdoto el\xE9trico"
   image: {fileID: 8482054354421467003, guid: f2c5f0d7dab4ea84d97c47031b1fd363, type: 3}
   description: "Usado para remover status negativo do elemento el\xE9trico."
+  itemObject: {fileID: 11400000, guid: 6bfdd8908d93078488433b49e06aef20, type: 2}
   similarLink: {fileID: 11400000, guid: 6f4f1e14b2941d34288f6ab3ce343238, type: 2}
   similarLink2: {fileID: 11400000, guid: 75e5b229e3cf3a6469115acabf68ead5, type: 2}

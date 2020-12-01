@@ -15,5 +15,6 @@ MonoBehaviour:
   pesquisaTitle: Cogumelo amarelo
   image: {fileID: -8552574713316507937, guid: f2c5f0d7dab4ea84d97c47031b1fd363, type: 3}
   description: "Cogumelo muito \xFAtil para produ\xE7\xE3o de po\xE7\xF5es de cogumelos."
+  itemObject: {fileID: 11400000, guid: 39b9dd0634e65b748958c851ad02b1a2, type: 2}
   similarLink: {fileID: 11400000, guid: ba92ac7de9b23c344840923bc6a6d4d0, type: 2}
   similarLink2: {fileID: 11400000, guid: 07410070094618d46be2931362b1426c, type: 2}

@@ -52,21 +52,21 @@ public class TorfariosBossController : MonoBehaviour
         switch (currentFightState)
         {
             case FightState.BeginOfFight:
-                if (battleTime > 120 || bossHealth.health < 375)
+                if (battleTime > 120 || bossHealth.health < bossHealth.maxHealth/4)
                 {
                     currentFightState = FightState.SecondMomentum;
                     ChangeFightStates();
                 }
                 break;
             case FightState.SecondMomentum:
-                if (battleTime > 500 || bossHealth.health < 250)
+                if (battleTime > 500 || bossHealth.health < bossHealth.maxHealth / 2)
                 {
                     currentFightState = FightState.ThirdMomentum;
                     ChangeFightStates();
                 }
                 break;
             case FightState.ThirdMomentum:
-                if (battleTime > 800 || bossHealth.health < 125)
+                if (battleTime > 800 || bossHealth.health < bossHealth.maxHealth / 1.3)
                 {
                     currentFightState = FightState.HardestMomentum;
                     ChangeFightStates();

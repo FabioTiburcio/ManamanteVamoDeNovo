@@ -347,16 +347,30 @@ public class Health : MonoBehaviour
                         activeQuest.QuestAtt("Torfarios", true);
                         //spr.material = dissolveMaterial;
                         //StartCoroutine(DissolveEffect());
-                    } else
+                    }
+                    else if (this.name == "BossFogo")
                     {
-                        if(activeQuest.quest.goal.goalType.ToString() == "ElementalKill")
+                        activeQuest.QuestAtt("BossFogo", true);
+                    }
+                    else if (this.name == "BossGolemGelo")
+                    {
+                        activeQuest.QuestAtt("BossGolemGelo", true);
+                    }
+                    else if (this.name == "BossRobozao")
+                    {
+                        activeQuest.QuestAtt("BossRobozao", true);
+                    }
+                    else
+                    {
+                        if (activeQuest.quest.goal.goalType.ToString() == "ElementalKill")
                         {
                             activeQuest.QuestAtt(this.gameObject.GetComponent<EnemyController>().elementoInimigo.ToString(), true);
-                        } else
+                        }
+                        else
                         {
                             activeQuest.QuestAtt(this.gameObject.GetComponent<EnemyController>().enemyName, true);
                         }
-                        
+
                         //spr.material = dissolveMaterial;
                         //StartCoroutine(DissolveEffect());
                     }                   

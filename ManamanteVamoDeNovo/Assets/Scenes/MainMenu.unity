@@ -16781,7 +16781,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Voc\xEA pode mover mera usando as teclas  'WASD' para movimentar a Mera
+  m_Text: "Voc\xEA pode mover Mera usando as teclas  'WASD' para movimentar a Mera
     em todas as dire\xE7\xF5es, al\xE9m de movimentar seu mouse para mirar. Seu companheiro
     rob\xF4 U-800 \xE9 muito \xFAtil, e ir\xE1 te seguir independente do obst\xE1culo!"
 --- !u!222 &1412406650
@@ -16923,7 +16923,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Voc\xEA pode mover mera usando as teclas  'WASD' para movimentar a Mera
+  m_Text: "Voc\xEA pode mover Mera usando as teclas  'WASD' para movimentar a Mera
     em todas as dire\xE7\xF5es, al\xE9m de movimentar seu mouse para mirar. Seu companheiro
     rob\xF4 U-800 \xE9 muito \xFAtil, e ir\xE1 te seguir independente do obst\xE1culo!"
 --- !u!222 &1450698789
@@ -20678,8 +20678,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Na mesa de Mera est\xE3o o seu computador, que ela pode acessar apertando
-    a tecla 'C', e sua mesa de cria\xE7\xE3o, que ela pode acessar apertando a tecla
-    'E'."
+    a tecla 'Alt Esquerdo ', e sua mesa de cria\xE7\xE3o, que ela pode acessar apertando
+    a tecla 'E'."
 --- !u!222 &1870137294
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22894,8 +22894,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Na mesa de Mera est\xE3o o seu computador, que ela pode acessar apertando
-    a tecla 'C', e sua mesa de cria\xE7\xE3o, que ela pode acessar apertando a tecla
-    'E'."
+    a tecla 'Alt Esquerdo ', e sua mesa de cria\xE7\xE3o, que ela pode acessar apertando
+    a tecla 'E'."
 --- !u!222 &2061407534
 CanvasRenderer:
   m_ObjectHideFlags: 0

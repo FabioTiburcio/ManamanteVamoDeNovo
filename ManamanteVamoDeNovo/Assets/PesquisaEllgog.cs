@@ -15,6 +15,8 @@ public class PesquisaEllgog : MonoBehaviour
     public Text pesquisaRelacionada2;
     public PesquisaDataBase pesquisaDataBase;
     public SkillController skillController;
+    public DiaryInfoController diaryInfoController;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,12 +37,17 @@ public class PesquisaEllgog : MonoBehaviour
         {
             case "abelhuda":
             case "Abelhuda":
+                escreverNoDiario(0,"Inimigos");
                 downloadButton.SetActive(false);
                 setInfo(0);
                 break;
+            case "abominacao":
+            case "Abominacao":
+            case "Abominação":
             case "abominacao de veneno":
             case "Abominacao de veneno":
             case "Abominação de veneno":
+                escreverNoDiario(1, "Inimigos");
                 downloadButton.SetActive(false);
                 setInfo(1);
                 break;
@@ -48,6 +55,7 @@ public class PesquisaEllgog : MonoBehaviour
             case "Antidoto de fogo":
             case "antídoto de fogo":
             case "Antídoto de fogo":
+                escreverNoDiario(2, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(2);
                 break;
@@ -55,6 +63,7 @@ public class PesquisaEllgog : MonoBehaviour
             case "Antidoto de gelo":
             case "antídoto de gelo":
             case "Antídoto de gelo":
+                escreverNoDiario(3, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(3);
                 break;
@@ -62,14 +71,16 @@ public class PesquisaEllgog : MonoBehaviour
             case "Antidoto de veneno":
             case "antídoto de veneno":
             case "Antídoto de veneno":
+                escreverNoDiario(4, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(4);
                 break;
-            case "antidoto de eletrico":
-            case "Antidoto de eletrico":
-            case "Antidoto de elétrico":
-            case "antídoto de elétrico":
-            case "Antídoto de elétrico":
+            case "antidoto eletrico":
+            case "Antidoto eletrico":
+            case "Antidoto elétrico":
+            case "antídoto elétrico":
+            case "Antídoto elétrico":
+                escreverNoDiario(5, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(5);
                 break;
@@ -81,6 +92,7 @@ public class PesquisaEllgog : MonoBehaviour
             case "Asa de inseto":
             case "asas de inseto":
             case "Asas de inseto":
+                escreverNoDiario(7, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(7);
                 break;
@@ -88,11 +100,13 @@ public class PesquisaEllgog : MonoBehaviour
             case "Asa de morcego":
             case "asas de morcego":
             case "Asas de morcego":
+                escreverNoDiario(8, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(8);
                 break;
             case "banana":
             case "Banana":
+                escreverNoDiario(9, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(9);
                 break;
@@ -104,11 +118,13 @@ public class PesquisaEllgog : MonoBehaviour
             case "Alcolatra":
             case "ama a cor vinho":
             case "Ama a cor vinho":
+            case "Baroli, Rei do submundo":
                 downloadButton.SetActive(false);
                 setInfo(10);
                 break;
             case "brayni":
             case "Brayni":
+                escreverNoDiario(11, "Inimigos");
                 downloadButton.SetActive(false);
                 setInfo(11);
                 break;
@@ -124,61 +140,74 @@ public class PesquisaEllgog : MonoBehaviour
                 break;
             case "cobra":
             case "Cobra":
+                escreverNoDiario(14, "Inimigos");
                 downloadButton.SetActive(false);
                 setInfo(14);
                 break;
             case "cogumelo amarelo":
             case "Cogumelo amarelo":
+                escreverNoDiario(15, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(15);
                 break;
             case "cogumelo azul":
             case "Cogumelo azul":
+                escreverNoDiario(16, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(16);
                 break;
             case "cogumelo venenoso":
             case "Cogumelo venenoso":
+                escreverNoDiario(17, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(17);
                 break;
             case "cordilheiras":
             case "Cordilheiras":
+            case "cordilheiras criogênicas":
+            case "Cordilheiras criogenicas":
+            case "Cordilheiras Criogênicas":
                 downloadButton.SetActive(false);
                 setInfo(18);
                 break;
             case "cryogolem":
             case "Cryogolem":
             case "CryoGolem":
+                escreverNoDiario(19, "Inimigos");
                 downloadButton.SetActive(false);
                 setInfo(19);
                 break;
             case "cryoquebra":
             case "Cryoquebra":
             case "CryoQuebra":
+                escreverNoDiario(20, "Inimigos");
                 downloadButton.SetActive(false);
                 setInfo(20);
                 break;
             case "cyborgue":
             case "Cyborgue":
+                escreverNoDiario(21, "Inimigos");
                 downloadButton.SetActive(false);
                 setInfo(21);
                 break;
             case "elixir de fogo":
             case "Elixir de fogo":
             case "Elixir de Fogo":
+                escreverNoDiario(22, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(22);
                 break;
             case "elixir de gelo":
             case "Elixir de gelo":
             case "Elixir de Gelo":
+                escreverNoDiario(23, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(23);
                 break;
             case "elixir de veneno":
             case "Elixir de veneno":
             case "Elixir de Veneno":
+                escreverNoDiario(24, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(24);
                 break;
@@ -187,6 +216,7 @@ public class PesquisaEllgog : MonoBehaviour
             case "Elixir Eletrico":
             case "Elixir elétrico":
             case "Elixir Elétrico":
+                escreverNoDiario(25, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(25);
                 break;
@@ -195,6 +225,7 @@ public class PesquisaEllgog : MonoBehaviour
             case "essência de fogo":
             case "Essência de fogo":
             case "Essencia de Fogo":
+                escreverNoDiario(26, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(26);
                 break;
@@ -203,6 +234,7 @@ public class PesquisaEllgog : MonoBehaviour
             case "essência de gelo":
             case "Essência de gelo":
             case "Essencia de Gelo":
+                escreverNoDiario(27, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(27);
                 break;
@@ -211,6 +243,7 @@ public class PesquisaEllgog : MonoBehaviour
             case "essência de veneno":
             case "Essência de veneno":
             case "Essencia de Veneno":
+                escreverNoDiario(28, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(28);
                 break;
@@ -219,6 +252,7 @@ public class PesquisaEllgog : MonoBehaviour
             case "essência eletrica":
             case "Essência elétrica":
             case "Essencia Eletrica":
+                escreverNoDiario(29, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(29);
                 break;
@@ -226,6 +260,7 @@ public class PesquisaEllgog : MonoBehaviour
             case "Tibas":
             case "fabin":
             case "ReiTibas":
+            case "Rei Tibas":
                 downloadButton.SetActive(false);
                 setInfo(30);
                 break;
@@ -235,11 +270,13 @@ public class PesquisaEllgog : MonoBehaviour
             case "flor elétrica":
             case "Flor elétrica":
             case "Flor Elétrica":
+                escreverNoDiario(31, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(31);
                 break;
             case "flor":
             case "Flor":
+                escreverNoDiario(32, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(32);
                 break;
@@ -250,6 +287,7 @@ public class PesquisaEllgog : MonoBehaviour
                 break;
             case "garras":
             case "Garras":
+                escreverNoDiario(34, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(34);
                 break;
@@ -286,6 +324,7 @@ public class PesquisaEllgog : MonoBehaviour
                 break;
             case "magmarus":
             case "Magmarus":
+                escreverNoDiario(39, "Inimigos");
                 downloadButton.SetActive(false);
                 setInfo(39);
                 break;
@@ -293,6 +332,8 @@ public class PesquisaEllgog : MonoBehaviour
             case "Matheus":
             case "matheuzin":
             case "Matheuzin":
+            case "Matheus, O Contraventor":
+                
                 downloadButton.SetActive(false);
                 setInfo(40);
                 break;
@@ -302,11 +343,13 @@ public class PesquisaEllgog : MonoBehaviour
             case "Maca":
             case "Maça":
             case "Maçã":
+                escreverNoDiario(41, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(41);
                 break;
             case "mirtilo":
             case "Mirtilo":
+                escreverNoDiario(42, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(42);
                 break;
@@ -314,6 +357,7 @@ public class PesquisaEllgog : MonoBehaviour
             case "Morcego":
             case "morcegos":
             case "Morcegos":
+                escreverNoDiario(43, "Inimigos");
                 downloadButton.SetActive(false);
                 setInfo(43);
                 break;
@@ -332,6 +376,7 @@ public class PesquisaEllgog : MonoBehaviour
             case "Olho":
             case "olhos":
             case "Olhos":
+                escreverNoDiario(46, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(46);
                 break;
@@ -339,16 +384,19 @@ public class PesquisaEllgog : MonoBehaviour
             case "Osso":
             case "ossos":
             case "Ossos":
+                escreverNoDiario(47, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(47);
                 break;
             case "pedregulho":
             case "Pedregulho":
+                escreverNoDiario(48, "Inimigos");
                 downloadButton.SetActive(false);
                 setInfo(48);
                 break;
             case "pimenta":
             case "Pimenta":
+                escreverNoDiario(49, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(49);
                 break;
@@ -361,6 +409,7 @@ public class PesquisaEllgog : MonoBehaviour
             case "Pocao de cogumelos":
             case "poção de cogumelos":
             case "Poção de cogumelos":
+                escreverNoDiario(51, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(51);
                 break;
@@ -368,6 +417,7 @@ public class PesquisaEllgog : MonoBehaviour
             case "Pocao de nectar":
             case "poção de nectar":
             case "Poção de nectar":
+                escreverNoDiario(52, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(52);
                 break;
@@ -395,6 +445,7 @@ public class PesquisaEllgog : MonoBehaviour
                 break;
             case "reagente":
             case "Reagente":
+                escreverNoDiario(57, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(57);
                 break;
@@ -422,6 +473,7 @@ public class PesquisaEllgog : MonoBehaviour
                 break;
             case "slime":
             case "Slime":
+                escreverNoDiario(62, "Inimigos");
                 downloadButton.SetActive(false);
                 setInfo(62);
                 break;
@@ -432,17 +484,21 @@ public class PesquisaEllgog : MonoBehaviour
                 break;
             case "speilctre":
             case "Speilctre":
+                escreverNoDiario(64, "Inimigos");
                 downloadButton.SetActive(false);
                 setInfo(64);
                 break;
             case "suco de fruta":
             case "Suco de fruta":
             case "Suco de Fruta":
+            case "Suco de frutas":
+                escreverNoDiario(65, "Coletaveis");
                 downloadButton.SetActive(false);
                 setInfo(65);
                 break;
             case "torfarios":
             case "Torfarios":
+                escreverNoDiario(66, "Inimigos");
                 downloadButton.SetActive(false);
                 setInfo(66);
                 break;
@@ -486,5 +542,23 @@ public class PesquisaEllgog : MonoBehaviour
         descricaoPesquisa.text = pesquisaDataBase.dadosEllgogs[databasePosition].description;
         pesquisaRelacionada1.text = pesquisaDataBase.dadosEllgogs[databasePosition].similarLink.pesquisaTitle;
         pesquisaRelacionada2.text = pesquisaDataBase.dadosEllgogs[databasePosition].similarLink2.pesquisaTitle;
+    }
+    void escreverNoDiario(int databasePosition, string lugar)
+    {
+        if (pesquisaDataBase.dadosEllgogs[databasePosition].itemObject != null)
+        {
+            diaryInfoController.SetInfo(pesquisaDataBase.dadosEllgogs[databasePosition].itemObject.nome,
+            pesquisaDataBase.dadosEllgogs[databasePosition].itemObject.uiDisplay,
+            pesquisaDataBase.dadosEllgogs[databasePosition].itemObject.description,
+            lugar,
+            pesquisaDataBase.dadosEllgogs[databasePosition].itemObject.type == ItemType.Crafting ? pesquisaDataBase.dadosEllgogs[databasePosition].itemObject.craftingItemType.ToString() : "Pocao");
+        }
+        else
+        {
+            diaryInfoController.SetInfo(pesquisaDataBase.dadosEllgogs[databasePosition].pesquisaTitle, 
+                pesquisaDataBase.dadosEllgogs[databasePosition].image, 
+                pesquisaDataBase.dadosEllgogs[databasePosition].description, lugar, "");        
+        }
+        
     }
 }

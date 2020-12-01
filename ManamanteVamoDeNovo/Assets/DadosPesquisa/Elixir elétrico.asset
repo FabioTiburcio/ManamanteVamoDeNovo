@@ -15,5 +15,6 @@ MonoBehaviour:
   pesquisaTitle: "Elixir el\xE9trico"
   image: {fileID: -960628010589505395, guid: f2c5f0d7dab4ea84d97c47031b1fd363, type: 3}
   description: "Usado para intensificar o poder das habilidades el\xE9tricas."
+  itemObject: {fileID: 11400000, guid: 743d753a435939447870fdfbb562b337, type: 2}
   similarLink: {fileID: 11400000, guid: 6f4f1e14b2941d34288f6ab3ce343238, type: 2}
   similarLink2: {fileID: 11400000, guid: 9650cccb20babc64aa61fb21a47018ce, type: 2}

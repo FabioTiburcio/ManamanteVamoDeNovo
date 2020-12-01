@@ -144,14 +144,19 @@ PrefabInstance:
         type: 3}
       propertyPath: dropAlma
       value: 
-      objectReference: {fileID: 11400000, guid: e03441e72b14e5b4e9f22940d2ecd9cf,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 1271656617739524945, guid: b6cc5ce9368af2245ab2e2aff2eec425,
         type: 3}
       propertyPath: dropItemPrefab
       value: 
       objectReference: {fileID: 7073920090306609089, guid: 8a71d84382f85414a83203b4e8c63cf9,
         type: 3}
+    - target: {fileID: 1271656617739524945, guid: b6cc5ce9368af2245ab2e2aff2eec425,
+        type: 3}
+      propertyPath: dropItemComum
+      value: 
+      objectReference: {fileID: 11400000, guid: e03441e72b14e5b4e9f22940d2ecd9cf,
+        type: 2}
     - target: {fileID: 1271656617739524947, guid: b6cc5ce9368af2245ab2e2aff2eec425,
         type: 3}
       propertyPath: target

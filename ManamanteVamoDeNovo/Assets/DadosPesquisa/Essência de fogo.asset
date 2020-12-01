@@ -16,5 +16,6 @@ MonoBehaviour:
   image: {fileID: -8139880290310995515, guid: f2c5f0d7dab4ea84d97c47031b1fd363, type: 3}
   description: "Parte comum de inimigos do tipo de fogo, usado para cria\xE7\xE3o
     de elixir e ant\xEDdoto de fogo."
+  itemObject: {fileID: 11400000, guid: 22ef61fedda63294d9714cfff0361b21, type: 2}
   similarLink: {fileID: 11400000, guid: 6f4f1e14b2941d34288f6ab3ce343238, type: 2}
   similarLink2: {fileID: 11400000, guid: 6aa1945f3b70a1948b015dc3f3ac6d2e, type: 2}

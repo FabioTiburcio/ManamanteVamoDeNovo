@@ -10,14 +10,14 @@ GameObject:
   m_Component:
   - component: {fileID: 9107294439971984329}
   - component: {fileID: 551352469146395840}
-  - component: {fileID: 2837307030315600200}
   - component: {fileID: 3303444236622489368}
   - component: {fileID: 430192}
   - component: {fileID: 430191}
-  - component: {fileID: 430187}
   - component: {fileID: 430188}
   - component: {fileID: 430189}
   - component: {fileID: 430190}
+  - component: {fileID: 662023091706978652}
+  - component: {fileID: 8480408575130329480}
   m_Layer: 0
   m_Name: SlimeFogo
   m_TagString: Enemy
@@ -94,40 +94,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2837307030315600200
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1503813584152372559}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 084ec5be919fd4b4385bdb817724060d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dropItemPrefab: {fileID: 7073920090306609089, guid: 8a71d84382f85414a83203b4e8c63cf9,
-    type: 3}
-  dropMorcego: {fileID: 0}
-  dropAlma: {fileID: 0}
-  dropGelo: {fileID: 0}
-  player: {fileID: 0}
-  PlayerSkillController: {fileID: 0}
-  firePoint: {fileID: 5034721767147166273}
-  enemyFirePrefab: {fileID: 0}
-  enemyIcePrefab: {fileID: 0}
-  enemyEletricPrefab: {fileID: 0}
-  enemyPoisonPrefab: {fileID: 0}
-  spawnDirection: {fileID: 5034721767147166273}
-  enemyName: SlimeFogo
-  enemyAttackSpeed: 0
-  currentState: 0
-  lastState: 0
-  tipoInimigo: 1
-  elementoInimigo: 1
-  meleeAttackCol: {fileID: 7704232344187558338, guid: ebdcc09349d7e074dbe6367417bd86b8,
-    type: 3}
-  hitPlayer: 0
 --- !u!95 &3303444236622489368
 Animator:
   serializedVersion: 3
@@ -184,43 +150,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.28857142
---- !u!114 &430187
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1503813584152372559}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc20e3a5b2fe5a14fb65cc256aebaabd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 30
-  health: 0
-  damageCooldown: 0
-  activeQuest: {fileID: 0}
-  playerSkillController: {fileID: 0}
-  spriteMerinha: {fileID: 0}
-  corLaranja: {r: 0, g: 0, b: 0, a: 0}
-  respawnPlayer: 0
-  normalMaterial: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  dissolveMaterial: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  poisonMaterial: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  poisonParticle: {fileID: 2476304791805278399, guid: 2d2826476d2e6b1498c2d09f185baa02,
-    type: 3}
-  poisonExplosionParticle: {fileID: 6044411153567112609, guid: 29102415277a2134c8a119b41393e747,
-    type: 3}
-  poisonStack: 0
-  isPlayer: 0
-  saidaDeSom: {fileID: 0}
-  coracaoBatendo1: {fileID: 0}
-  coracaoBatendo2: {fileID: 0}
-  coracaoBatendo3: {fileID: 0}
-  damageTaken: {fileID: 0}
-  deadSound: {fileID: 0}
-  shieldSkill: {fileID: 0}
-  healEffect: {fileID: 0}
 --- !u!114 &430188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -299,6 +228,82 @@ MonoBehaviour:
   tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   graphMask:
     value: -1
+--- !u!114 &662023091706978652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503813584152372559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc20e3a5b2fe5a14fb65cc256aebaabd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 30
+  health: 0
+  damageCooldown: 0
+  activeQuest: {fileID: 0}
+  playerSkillController: {fileID: 0}
+  spriteMerinha: {fileID: 0}
+  corLaranja: {r: 0, g: 0, b: 0, a: 0}
+  respawnPlayer: 0
+  normalMaterial: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  dissolveMaterial: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  poisonMaterial: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  poisonParticle: {fileID: 2476304791805278399, guid: 2d2826476d2e6b1498c2d09f185baa02,
+    type: 3}
+  poisonExplosionParticle: {fileID: 6044411153567112609, guid: 29102415277a2134c8a119b41393e747,
+    type: 3}
+  poisonStack: 0
+  isPlayer: 0
+  saidaDeSom: {fileID: 0}
+  coracaoBatendo1: {fileID: 0}
+  coracaoBatendo2: {fileID: 0}
+  coracaoBatendo3: {fileID: 0}
+  damageTaken: {fileID: 0}
+  deadSound: {fileID: 0}
+  shieldSkill: {fileID: 0}
+  healEffect: {fileID: 0}
+--- !u!114 &8480408575130329480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503813584152372559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 084ec5be919fd4b4385bdb817724060d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dropItemPrefab: {fileID: 7073920090306609089, guid: 8a71d84382f85414a83203b4e8c63cf9,
+    type: 3}
+  dropMorcego: {fileID: 0}
+  dropAbelhuda: {fileID: 0}
+  dropAlma: {fileID: 0}
+  dropGelo: {fileID: 0}
+  dropFogo: {fileID: 11400000, guid: 22ef61fedda63294d9714cfff0361b21, type: 2}
+  dropPoison: {fileID: 0}
+  dropEletrico: {fileID: 0}
+  dropItemComum: {fileID: 0}
+  player: {fileID: 0}
+  PlayerSkillController: {fileID: 0}
+  firePoint: {fileID: 0}
+  enemyFirePrefab: {fileID: 0}
+  enemyIcePrefab: {fileID: 0}
+  enemyEletricPrefab: {fileID: 0}
+  enemyPoisonPrefab: {fileID: 0}
+  spawnDirection: {fileID: 0}
+  enemyName: Slime
+  enemyAttackSpeed: 1
+  currentState: 0
+  lastState: 0
+  tipoInimigo: 1
+  elementoInimigo: 1
+  meleeAttackCol: {fileID: 7704232344187558338, guid: ebdcc09349d7e074dbe6367417bd86b8,
+    type: 3}
+  hitPlayer: 0
 --- !u!1 &5001833819584766199
 GameObject:
   m_ObjectHideFlags: 0

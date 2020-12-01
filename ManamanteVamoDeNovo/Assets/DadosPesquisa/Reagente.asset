@@ -16,5 +16,6 @@ MonoBehaviour:
   image: {fileID: -657090844140984275, guid: f2c5f0d7dab4ea84d97c47031b1fd363, type: 3}
   description: "Utilizado para produ\xE7\xE3o de ant\xEDdotos e elixires, produzido
     com partes de inimigos."
+  itemObject: {fileID: 11400000, guid: 62991c8bd13a48a4da8ada5384bcb079, type: 2}
   similarLink: {fileID: 11400000, guid: 397355e4e1290094693a2a31839bb443, type: 2}
   similarLink2: {fileID: 11400000, guid: 29e12f4b3eb972149bbfe3fb44f2c568, type: 2}

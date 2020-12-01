@@ -15,5 +15,6 @@ MonoBehaviour:
   pesquisaTitle: Elixir de fogo
   image: {fileID: 1060079563053268721, guid: f2c5f0d7dab4ea84d97c47031b1fd363, type: 3}
   description: Usado para intensificar o poder das habilidades de fogo.
+  itemObject: {fileID: 11400000, guid: 9fa4e8288ddc5f945819dc512c57337c, type: 2}
   similarLink: {fileID: 11400000, guid: 6f4f1e14b2941d34288f6ab3ce343238, type: 2}
   similarLink2: {fileID: 11400000, guid: 0a41476920ebd904bb12bc1ae745714c, type: 2}

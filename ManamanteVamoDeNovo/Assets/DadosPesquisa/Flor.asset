@@ -15,5 +15,6 @@ MonoBehaviour:
   pesquisaTitle: Flor
   image: {fileID: 221595835836940091, guid: f2c5f0d7dab4ea84d97c47031b1fd363, type: 3}
   description: "Flor comum, utilizavel para cria\xE7\xE3o de po\xE7\xF5es de nectar."
+  itemObject: {fileID: 11400000, guid: 94c131d6ef977c04d9da03efe22f0b5e, type: 2}
   similarLink: {fileID: 11400000, guid: 8c3f262aee7e3094db872c19177c2139, type: 2}
   similarLink2: {fileID: 11400000, guid: 75e5b229e3cf3a6469115acabf68ead5, type: 2}

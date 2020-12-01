@@ -31,6 +31,11 @@ PrefabInstance:
       propertyPath: poisonExplosionParticle
       value: 
       objectReference: {fileID: 2808049879750908786}
+    - target: {fileID: 16853955564331793, guid: b6cc5ce9368af2245ab2e2aff2eec425,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1271656617739524942, guid: b6cc5ce9368af2245ab2e2aff2eec425,
         type: 3}
       propertyPath: m_Controller
@@ -39,17 +44,17 @@ PrefabInstance:
     - target: {fileID: 1271656617739524943, guid: b6cc5ce9368af2245ab2e2aff2eec425,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.39
+      value: 1.55
       objectReference: {fileID: 0}
     - target: {fileID: 1271656617739524943, guid: b6cc5ce9368af2245ab2e2aff2eec425,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.15
+      value: -6.37
       objectReference: {fileID: 0}
     - target: {fileID: 1271656617739524943, guid: b6cc5ce9368af2245ab2e2aff2eec425,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 13.365038
       objectReference: {fileID: 0}
     - target: {fileID: 1271656617739524943, guid: b6cc5ce9368af2245ab2e2aff2eec425,
         type: 3}
@@ -138,14 +143,12 @@ PrefabInstance:
         type: 3}
       propertyPath: dropMorcego
       value: 
-      objectReference: {fileID: 11400000, guid: 99ac390686240a8409b71af3d076be5a,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 1271656617739524945, guid: b6cc5ce9368af2245ab2e2aff2eec425,
         type: 3}
       propertyPath: dropAlma
       value: 
-      objectReference: {fileID: 11400000, guid: e03441e72b14e5b4e9f22940d2ecd9cf,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 1271656617739524945, guid: b6cc5ce9368af2245ab2e2aff2eec425,
         type: 3}
       propertyPath: dropItemPrefab
@@ -157,6 +160,17 @@ PrefabInstance:
       propertyPath: elementoInimigo
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1271656617739524945, guid: b6cc5ce9368af2245ab2e2aff2eec425,
+        type: 3}
+      propertyPath: dropPoison
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271656617739524945, guid: b6cc5ce9368af2245ab2e2aff2eec425,
+        type: 3}
+      propertyPath: dropFogo
+      value: 
+      objectReference: {fileID: 11400000, guid: 22ef61fedda63294d9714cfff0361b21,
+        type: 2}
     - target: {fileID: 1271656617739524947, guid: b6cc5ce9368af2245ab2e2aff2eec425,
         type: 3}
       propertyPath: target
@@ -172,12 +186,27 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3268941898499972056, guid: b6cc5ce9368af2245ab2e2aff2eec425,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3849812707436469508, guid: b6cc5ce9368af2245ab2e2aff2eec425,
         type: 3}
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4171677001033429880, guid: b6cc5ce9368af2245ab2e2aff2eec425,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5670676225950483167, guid: b6cc5ce9368af2245ab2e2aff2eec425,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6251432558664855856, guid: b6cc5ce9368af2245ab2e2aff2eec425,
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -197,7 +226,8 @@ PrefabInstance:
       propertyPath: InitialModule.startSize.minScalar
       value: 0.08
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1962609300, guid: b6cc5ce9368af2245ab2e2aff2eec425, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b6cc5ce9368af2245ab2e2aff2eec425, type: 3}
 --- !u!4 &2739284595915078949 stripped
 Transform:
