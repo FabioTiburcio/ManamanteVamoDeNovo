@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Arnim Zola
   m_EditorClassIdentifier: 
   pesquisaTitle: Arnim Zola
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: 4580ed7a5d10f9a48927573e97b5787e, type: 3}
   description: Metamorfo, aliado do caveira vermelha.
+  itemObject: {fileID: 0}
   similarLink: {fileID: 11400000, guid: 03f5b70b31296be438af8a1d4440df23, type: 2}
   similarLink2: {fileID: 11400000, guid: 607b139e0467ebb4b9b7b43535597188, type: 2}

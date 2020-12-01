@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Vinicius
   m_EditorClassIdentifier: 
   pesquisaTitle: Vinicius
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: 58c606fbefd3c5048981a280bd46fe87, type: 3}
   description: 
   itemObject: {fileID: 0}
   similarLink: {fileID: 11400000, guid: 8884dcd259fe043459783d34957ba59d, type: 2}

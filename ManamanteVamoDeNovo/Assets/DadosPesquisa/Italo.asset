@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Italo
   m_EditorClassIdentifier: 
   pesquisaTitle: Italo
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: 7624c08f4b1bf334cb4ba1bee44dcea8, type: 3}
   description: 
   itemObject: {fileID: 0}
   similarLink: {fileID: 11400000, guid: 06f016d9ea125b143888c365fb169705, type: 2}

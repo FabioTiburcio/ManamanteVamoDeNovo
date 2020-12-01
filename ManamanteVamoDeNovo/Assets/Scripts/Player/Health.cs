@@ -57,6 +57,10 @@ public class Health : MonoBehaviour
         }
     }
 
+    private void OnEnable()
+    {
+        playerSkillController = GameObject.FindGameObjectWithTag("Player").GetComponent<SkillController>();
+    }
     private void Update()
     {
         if(isPlayer)

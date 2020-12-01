@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Fabio
   m_EditorClassIdentifier: 
   pesquisaTitle: Rei Tibas
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: b463264a35a8c6a4993bfe9e70e73294, type: 3}
   description: 
   itemObject: {fileID: 0}
   similarLink: {fileID: 11400000, guid: 78cf20a7641d67845aca840ae52943a4, type: 2}

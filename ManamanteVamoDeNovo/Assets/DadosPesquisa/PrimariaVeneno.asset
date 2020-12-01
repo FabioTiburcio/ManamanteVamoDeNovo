@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: PrimariaVeneno
   m_EditorClassIdentifier: 
   pesquisaTitle: Envenenamento
-  image: {fileID: -642494973598619818, guid: b9be6cce14c31e846b77ded928fa3ca1, type: 3}
+  image: {fileID: 21300000, guid: 35c551b5c7b0cdf42acdea8213c7ea98, type: 3}
   description: Habilidade de veneno primaria, aperte dowload para baixa-la.
+  itemObject: {fileID: 0}
   similarLink: {fileID: 11400000, guid: bc430cbb32017ba47a94a5268312eda0, type: 2}
   similarLink2: {fileID: 11400000, guid: 4bf12082c5d7aa4409eb2b62360f5fcc, type: 2}

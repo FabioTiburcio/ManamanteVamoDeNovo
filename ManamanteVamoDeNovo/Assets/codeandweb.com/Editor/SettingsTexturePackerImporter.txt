@@ -73,6 +73,6 @@ textureFileNames:
 - Assets/Artes/IminigosSeparados/Ice/IdleSpriteSheet.png
 - Assets/Artes/IminigosSeparados/Poison/AttackSpriteSheet.png
 - Assets/Artes/IminigosSeparados/Poison/IdleSpriteSheet.png
-- Assets/Artes/I
+- Assets/Artes/IminigosSeparados/Torfarios/Attack.png
 normalmapFileNames:
 enableDebugOutput: 0

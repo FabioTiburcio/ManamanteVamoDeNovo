@@ -177,10 +177,10 @@ public class TorfariosBossController : MonoBehaviour
             case TorfariosState.Sumonning:
                 if (summonCooldown > 50)
                 {
-                    Instantiate(enemyToSummon, enemysSpawnPoints[0].position, enemysSpawnPoints[0].rotation);
-                    Instantiate(enemyToSummon, enemysSpawnPoints[1].position, enemysSpawnPoints[1].rotation);
-                    Instantiate(enemyToSummon, enemysSpawnPoints[2].position, enemysSpawnPoints[2].rotation);
-                    Instantiate(enemyToSummon, enemysSpawnPoints[3].position, enemysSpawnPoints[3].rotation);
+                    Instantiate(enemyToSummon, enemysSpawnPoints[0].position, enemysSpawnPoints[0].rotation, transform.parent);
+                    Instantiate(enemyToSummon, enemysSpawnPoints[1].position, enemysSpawnPoints[1].rotation, transform.parent);
+                    Instantiate(enemyToSummon, enemysSpawnPoints[2].position, enemysSpawnPoints[2].rotation, transform.parent);
+                    Instantiate(enemyToSummon, enemysSpawnPoints[3].position, enemysSpawnPoints[3].rotation, transform.parent);
                     summonCooldown = 0;
                 }
                 BossStateChanger();

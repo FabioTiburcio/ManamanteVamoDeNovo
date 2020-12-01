@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Vitor
   m_EditorClassIdentifier: 
   pesquisaTitle: O morto
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: 4d2f54f6cf74d184795c1737a4064292, type: 3}
   description: 
   itemObject: {fileID: 0}
   similarLink: {fileID: 11400000, guid: 78cf20a7641d67845aca840ae52943a4, type: 2}

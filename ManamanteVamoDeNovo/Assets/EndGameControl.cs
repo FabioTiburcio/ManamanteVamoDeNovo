@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EndGameControl : MonoBehaviour
 {
@@ -11,14 +12,16 @@ public class EndGameControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        questsCompleted = PlayerPrefs.GetInt("QuestsCompleted");
-        if (questsCompleted == 30)
-        {
-            endGameScreen.SetActive(true);
-            Time.timeScale = 0;
-        } 
-    }
 
+    }
+    public void ReturnToMenu()
+    {
+        SceneManager.LoadScene(0);
+        PlayerPrefs.SetInt("QuestsCompleted", 0);
+        PlayerPrefs.SetInt("FeedbacksReceived", 0);
+        PlayerPrefs.SetInt("Feedback", 0);
+        PlayerPrefs.SetInt("QuestAccepted", 0);
+    }
     public void CloseGame()
     {
         Application.Quit();

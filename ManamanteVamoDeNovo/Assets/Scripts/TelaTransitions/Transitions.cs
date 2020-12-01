@@ -36,6 +36,8 @@ public class Transitions : MonoBehaviour
 
     public LoadingImageChanger loadingImageChanger;
 
+    public GameObject torfarios;
+
     private void OnEnable()
     {
 
@@ -81,7 +83,7 @@ public class Transitions : MonoBehaviour
         {
             if (chuva.activeSelf)
             {
-                chuva.GetComponent<ParticleSystem>().Pause();
+                chuva.SetActive(false);
             }
             if (globalLight.activeSelf)
             {
@@ -101,13 +103,23 @@ public class Transitions : MonoBehaviour
             {
                 globalLight.SetActive(false);
             }
+            if (!torfarios.activeSelf)
+            {
+                mapaAtivo.SetActive(false);
+                casaMera.SetActive(true);
+                player.transform.position = casaMeraInstantPoint.position;
+                robo.transform.position = casaMeraInstantPoint.position;
+                transitionCooldown = 0;
+                dayCycle.SetActive(true);
+                playerHealth.respawnPlayer = false;
+            }
         }
         else
         {
             if (!globalLight.activeSelf)
             {
                 globalLight.SetActive(true);
-                chuva.GetComponent<ParticleSystem>().Play();
+                chuva.SetActive(true);
             }
         }
 
@@ -140,16 +152,31 @@ public class Transitions : MonoBehaviour
             case "FlorestaSombralida1":
                 loadingImageChanger.changeImage("Sombralida");
                 break;
+            case "FlorestaSombralida2":
+                loadingImageChanger.changeImage("Sombralida");
+                break;
+            case "FlorestaSombralida3":
+                loadingImageChanger.changeImage("Sombralida");
+                break;
             case "TorfariosBattle":
                 loadingImageChanger.changeImage("Sombralida");
                 break;
-            case "FlorestaSombralida2":
+            case "FlorestaSombralida4":
+                loadingImageChanger.changeImage("Sombralida");
+                break;
+            case "FlorestaSombralida5":
                 loadingImageChanger.changeImage("Sombralida");
                 break;
             case "Floresta Gelo":
                 loadingImageChanger.changeImage("Criogenicas");
                 break;
-            case "Cidade Gelo":
+            case "Floresta Gelo2":
+                loadingImageChanger.changeImage("Criogenicas");
+                break;
+            case "Floresta Gelo3":
+                loadingImageChanger.changeImage("Criogenicas");
+                break;
+            case "Floresta Gelo4 1":
                 loadingImageChanger.changeImage("Criogenicas");
                 break;
             case "Floresta1":
@@ -157,6 +184,42 @@ public class Transitions : MonoBehaviour
                 break;
             case "Floresta2":
                 loadingImageChanger.changeImage("Floresta");
+                break;
+            case "Floresta3":
+                loadingImageChanger.changeImage("Floresta");
+                break;
+            case "Floresta4":
+                loadingImageChanger.changeImage("Floresta");
+                break;
+            case "Pantano1":
+                loadingImageChanger.changeImage("Pantano");
+                break;
+            case "Pantano2":
+                loadingImageChanger.changeImage("Pantano");
+                break;
+            case "Pantano3":
+                loadingImageChanger.changeImage("Pantano");
+                break;
+            case "Pantano4":
+                loadingImageChanger.changeImage("Pantano");
+                break;
+            case "Pantano5":
+                loadingImageChanger.changeImage("Pantano");
+                break;
+            case "Pompiros1":
+                loadingImageChanger.changeImage("Pompiros");
+                break;
+            case "Pompiros2":
+                loadingImageChanger.changeImage("Pompiros");
+                break;
+            case "Pompiros3":
+                loadingImageChanger.changeImage("Pompiros");
+                break;
+            case "Pompiros4":
+                loadingImageChanger.changeImage("Pompiros");
+                break;
+            case "Pompiros5":
+                loadingImageChanger.changeImage("Pompiros");
                 break;
         }
         

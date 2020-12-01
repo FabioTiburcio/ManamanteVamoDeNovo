@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: Eternal Loop
+  companyName: EternalLoop
   productName: Manamante
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -22,7 +22,7 @@ PlayerSettings:
   m_SplashScreenOverlayOpacity: 1
   m_SplashScreenAnimation: 1
   m_SplashScreenLogoStyle: 1
-  m_SplashScreenDrawMode: 0
+  m_SplashScreenDrawMode: 1
   m_SplashScreenBackgroundAnimationZoom: 1
   m_SplashScreenLogoAnimationZoom: 1
   m_SplashScreenBackgroundLandscapeAspect: 1
@@ -39,7 +39,11 @@ PlayerSettings:
     y: 0
     width: 1
     height: 1
-  m_SplashScreenLogos: []
+  m_SplashScreenLogos:
+  - logo: {fileID: 10404, guid: 0000000000000000e000000000000000, type: 0}
+    duration: 2
+  - logo: {fileID: 21300000, guid: 6728ad1575c076a45987a92cf4f53e61, type: 3}
+    duration: 3.2
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024
@@ -119,7 +123,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 0.1
+  bundleVersion: 1
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -533,8 +537,10 @@ PlayerSettings:
   ps4IncludedModules: []
   ps4attribVROutputEnabled: 0
   monoEnv: 
-  splashScreenBackgroundSourceLandscape: {fileID: 0}
-  splashScreenBackgroundSourcePortrait: {fileID: 0}
+  splashScreenBackgroundSourceLandscape: {fileID: 21300000, guid: fa0b7cf1d93acfc4a9f91eb996958ff7,
+    type: 3}
+  splashScreenBackgroundSourcePortrait: {fileID: 21300000, guid: 3dddc407a9692d946bb8049885f1741b,
+    type: 3}
   blurSplashScreenBackground: 1
   spritePackerPolicy: 
   webGLMemorySize: 16

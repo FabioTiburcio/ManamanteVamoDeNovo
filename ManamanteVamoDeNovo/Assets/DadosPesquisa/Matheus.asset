@@ -13,13 +13,8 @@ MonoBehaviour:
   m_Name: Matheus
   m_EditorClassIdentifier: 
   pesquisaTitle: Matheus, O Contraventor
-  image: {fileID: 0}
-  description: "Devido as suas habilidades de transmorfismo, Matheus \xE9 capaz de
-    se transformar em qualquer outra pessoa e ele usa isso a seu favor para aplicar
-    golpes em calouros que est\xE3o no caminho da faculdade de Sulavento. N\xE3o
-    se sabem ao certo de onde ele nasceu e se Matheus \xE9 seu verdadeiro nome, mas
-    algumas lendas dizem que ele \xE9 um ex-aluno da faculdade que foi expulso ap\xF3s
-    descobrirem que ele foi o respons\xE1vel por vender gabaritos de prova em troca
-    de dinheiro."
+  image: {fileID: 21300000, guid: cbad3dca98a20ac4bb2be176b7f8ea29, type: 3}
+  description: 
+  itemObject: {fileID: 0}
   similarLink: {fileID: 11400000, guid: 0d49896b74784d54a8a3aec8ba247036, type: 2}
   similarLink2: {fileID: 11400000, guid: 607b139e0467ebb4b9b7b43535597188, type: 2}

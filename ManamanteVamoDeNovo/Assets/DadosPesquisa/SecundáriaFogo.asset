@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: "Secund\xE1riaFogo"
   m_EditorClassIdentifier: 
   pesquisaTitle: Escudo
-  image: {fileID: 21300000, guid: 3dd7d722f1ccf1c429a2f0d510a7a47c, type: 3}
+  image: {fileID: 21300000, guid: 91764dfddf7f89742864c4fa84f6907d, type: 3}
   description: "Habilidade de fogo secund\xE1ria, aperte dowload para baixa-la."
+  itemObject: {fileID: 0}
   similarLink: {fileID: 11400000, guid: ff953d1c1291dbc41baaa8d2716691a2, type: 2}
   similarLink2: {fileID: 11400000, guid: 82baa5cc0f17b524caf907b18c03b13b, type: 2}

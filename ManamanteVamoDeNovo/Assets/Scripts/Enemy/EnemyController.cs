@@ -78,6 +78,8 @@ public class EnemyController : MonoBehaviour {
     }
     private void OnEnable()
     {
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<GameObject>();
+        PlayerSkillController = GameObject.FindGameObjectWithTag("Player").GetComponent<SkillController>();
         currentState = enemyState.IDLE;
         dropedItem = false;
         t = 0;

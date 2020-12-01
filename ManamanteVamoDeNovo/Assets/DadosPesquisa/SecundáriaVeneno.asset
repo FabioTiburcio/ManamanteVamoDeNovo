@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: "Secund\xE1riaVeneno"
   m_EditorClassIdentifier: 
   pesquisaTitle: "Explos\xE3o venenosa"
-  image: {fileID: 21300000, guid: 8f8bebfc6d2238740b03eeab054b77ee, type: 3}
+  image: {fileID: 21300000, guid: cdbc9de0f07beab489dcd3de25458f78, type: 3}
   description: "Habilidade de veneno secund\xE1ria, aperte dowload para baixa-la."
+  itemObject: {fileID: 0}
   similarLink: {fileID: 11400000, guid: bc430cbb32017ba47a94a5268312eda0, type: 2}
   similarLink2: {fileID: 11400000, guid: 4bf12082c5d7aa4409eb2b62360f5fcc, type: 2}

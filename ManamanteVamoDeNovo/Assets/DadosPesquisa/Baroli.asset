@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Baroli
   m_EditorClassIdentifier: 
   pesquisaTitle: Baroli, Rei do submundo
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: 9a0496be0db630d4f9561190c9202f81, type: 3}
   description: 
   itemObject: {fileID: 0}
   similarLink: {fileID: 11400000, guid: e5433a2858af90d4c908fb64f88c512b, type: 2}

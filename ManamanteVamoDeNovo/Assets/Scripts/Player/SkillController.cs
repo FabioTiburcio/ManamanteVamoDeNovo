@@ -210,7 +210,7 @@ public class SkillController : MonoBehaviour
         var eletricEmission = eletricHairParticles.emission;
         eletricEmission.rateOverTime = value * 20;
         var poisonEmission = poisonHairParticles.emission;
-        poisonEmission.rateOverTime = value * 5;
+        poisonEmission.rateOverTime = value *20;
     }
     private void ActiveHairEffect(string element)
     {
