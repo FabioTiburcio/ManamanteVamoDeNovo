@@ -58,7 +58,12 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         questsCompleted = PlayerPrefs.GetInt("QuestsCompleted");
-        if (questsCompleted == 7) upgradedRobo = true;
+        //if (questsCompleted == 7) upgradedRobo = true;
+        if (upgradedRobo)
+        {
+            pet.miniRobo.SetActive(false);
+            pet.robozao.SetActive(true);
+        }
 
         mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         if (freezePlayer)

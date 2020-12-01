@@ -43,6 +43,11 @@ PrefabInstance:
       propertyPath: poisonMaterial
       value: 
       objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+    - target: {fileID: 16853955564331793, guid: b6cc5ce9368af2245ab2e2aff2eec425,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1271656617739524941, guid: b6cc5ce9368af2245ab2e2aff2eec425,
         type: 3}
       propertyPath: m_Offset.y
@@ -194,6 +199,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3268941898499972056, guid: b6cc5ce9368af2245ab2e2aff2eec425,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3849812707436469508, guid: b6cc5ce9368af2245ab2e2aff2eec425,
         type: 3}
       propertyPath: m_RootOrder
@@ -213,6 +223,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5439529239754806342, guid: b6cc5ce9368af2245ab2e2aff2eec425,
+        type: 3}
+      propertyPath: maxHealth
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 5670676225950483167, guid: b6cc5ce9368af2245ab2e2aff2eec425,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6417374908072692074, guid: b6cc5ce9368af2245ab2e2aff2eec425,
         type: 3}

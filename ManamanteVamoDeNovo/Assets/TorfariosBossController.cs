@@ -75,7 +75,7 @@ public class TorfariosBossController : MonoBehaviour
             case FightState.HardestMomentum:
                 if (bossHealth.health <= 0)
                 {
-                    Destroy(gameObject);
+                    gameObject.SetActive(false);
                 }
                 break;
         }

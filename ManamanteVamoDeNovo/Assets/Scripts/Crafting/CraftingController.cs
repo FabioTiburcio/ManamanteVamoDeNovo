@@ -9,6 +9,7 @@ public class CraftingController : MonoBehaviour
     public PlayerQuest activeQuest;
     public Inventory craftingInvetory;
     public Inventory playerInventory;
+    public DiaryInfoController diaryInfoController;
     public Text feedBackCraftingText;
     private int itemId1;
     private int itemId2;
@@ -48,6 +49,7 @@ public class CraftingController : MonoBehaviour
                                 item3 = craftingInvetory.database.GetItem[12].CreateItem();
                                 activeQuest.QuestAtt(item3.Id.ToString(), true);
                                 craftingInvetory.AddItem(item3, 1);
+                                diaryInfoController.SetInfo(item3.nome, item3.uiDisplay, item3.craftingDescription, "Dicas", "");
                                 clearCraftedItems();
                                 break;
                             case CraftingItemType.Reagente:
@@ -57,12 +59,14 @@ public class CraftingController : MonoBehaviour
                                         item3 = craftingInvetory.database.GetItem[21].CreateItem();
                                         activeQuest.QuestAtt(item3.Id.ToString(), true);
                                         craftingInvetory.AddItem(item3, 1);
+                                        diaryInfoController.SetInfo(item3.nome, item3.uiDisplay, item3.craftingDescription, "Dicas", "");
                                         clearCraftedItems();
                                         break;
                                     case CraftingItemElement.Gelo:
                                         item3 = craftingInvetory.database.GetItem[22].CreateItem();
                                         activeQuest.QuestAtt(item3.Id.ToString(), true);
                                         craftingInvetory.AddItem(item3, 1);
+                                        diaryInfoController.SetInfo(item3.nome, item3.uiDisplay, item3.craftingDescription, "Dicas", "");
                                         clearCraftedItems();
                                         break;
                                 }
@@ -76,6 +80,7 @@ public class CraftingController : MonoBehaviour
                                 item3 = craftingInvetory.database.GetItem[11].CreateItem();
                                 activeQuest.QuestAtt(item3.Id.ToString(), true);
                                 craftingInvetory.AddItem(item3, 1);
+                                diaryInfoController.SetInfo(item3.nome, item3.uiDisplay, item3.craftingDescription, "Dicas", "");
                                 clearCraftedItems();
                                 break;
                             case CraftingItemType.Reagente:
@@ -85,6 +90,7 @@ public class CraftingController : MonoBehaviour
                                         item3 = craftingInvetory.database.GetItem[23].CreateItem();
                                         activeQuest.QuestAtt(item3.Id.ToString(), true);
                                         craftingInvetory.AddItem(item3, 1);
+                                        diaryInfoController.SetInfo(item3.nome, item3.uiDisplay, item3.craftingDescription, "Dicas", "");
                                         clearCraftedItems();
                                         break;
                                 }
@@ -98,6 +104,7 @@ public class CraftingController : MonoBehaviour
                                 item3 = craftingInvetory.database.GetItem[10].CreateItem();
                                 activeQuest.QuestAtt(item3.Id.ToString(), true);
                                 craftingInvetory.AddItem(item3, 1);
+                                diaryInfoController.SetInfo(item3.nome, item3.uiDisplay, item3.craftingDescription, "Dicas", "");
                                 clearCraftedItems();
                                 break;
                             case CraftingItemType.Reagente:
@@ -107,6 +114,7 @@ public class CraftingController : MonoBehaviour
                                         item3 = craftingInvetory.database.GetItem[24].CreateItem();
                                         activeQuest.QuestAtt(item3.Id.ToString(), true);
                                         craftingInvetory.AddItem(item3, 1);
+                                        diaryInfoController.SetInfo(item3.nome, item3.uiDisplay, item3.craftingDescription, "Dicas", "");
                                         clearCraftedItems();
                                         break;
                                 }
@@ -121,6 +129,7 @@ public class CraftingController : MonoBehaviour
                                 item3 = craftingInvetory.database.GetItem[28].CreateItem();
                                 activeQuest.QuestAtt(item3.Id.ToString(), true);
                                 craftingInvetory.AddItem(item3, 1);
+                                diaryInfoController.SetInfo(item3.nome, item3.uiDisplay, item3.craftingDescription, "Dicas", "");
                                 clearCraftedItems();
                                 break;
                         }
@@ -135,24 +144,28 @@ public class CraftingController : MonoBehaviour
                                         item3 = craftingInvetory.database.GetItem[17].CreateItem();
                                         activeQuest.QuestAtt(item3.Id.ToString(), true);
                                         craftingInvetory.AddItem(item3, 1);
+                                        diaryInfoController.SetInfo(item3.nome, item3.uiDisplay, item3.craftingDescription, "Dicas", "");
                                         clearCraftedItems();
                                         break;
                                     case CraftingItemElement.Gelo:
                                         item3 = craftingInvetory.database.GetItem[18].CreateItem();
                                         activeQuest.QuestAtt(item3.Id.ToString(), true);
                                         craftingInvetory.AddItem(item3, 1);
+                                        diaryInfoController.SetInfo(item3.nome, item3.uiDisplay, item3.craftingDescription, "Dicas", "");
                                         clearCraftedItems();
                                         break;
                                     case CraftingItemElement.Veneno:
                                         item3 = craftingInvetory.database.GetItem[19].CreateItem();
                                         activeQuest.QuestAtt(item3.Id.ToString(), true);
                                         craftingInvetory.AddItem(item3, 1);
+                                        diaryInfoController.SetInfo(item3.nome, item3.uiDisplay, item3.craftingDescription, "Dicas", "");
                                         clearCraftedItems();
                                         break;
                                     case CraftingItemElement.Eletrico:
                                         item3 = craftingInvetory.database.GetItem[20].CreateItem();
                                         activeQuest.QuestAtt(item3.Id.ToString(), true);
                                         craftingInvetory.AddItem(item3, 1);
+                                        diaryInfoController.SetInfo(item3.nome, item3.uiDisplay, item3.craftingDescription, "Dicas", "");
                                         clearCraftedItems();
                                         break;
                                 }
@@ -169,24 +182,28 @@ public class CraftingController : MonoBehaviour
                                         item3 = craftingInvetory.database.GetItem[17].CreateItem();
                                         activeQuest.QuestAtt(item3.Id.ToString(), true);
                                         craftingInvetory.AddItem(item3, 1);
+                                        diaryInfoController.SetInfo(item3.nome, item3.uiDisplay, item3.craftingDescription, "Dicas", "");
                                         clearCraftedItems();
                                         break;
                                     case CraftingItemElement.Gelo:
                                         item3 = craftingInvetory.database.GetItem[18].CreateItem();
                                         activeQuest.QuestAtt(item3.Id.ToString(), true);
                                         craftingInvetory.AddItem(item3, 1);
+                                        diaryInfoController.SetInfo(item3.nome, item3.uiDisplay, item3.craftingDescription, "Dicas", "");
                                         clearCraftedItems();
                                         break;
                                     case CraftingItemElement.Veneno:
                                         item3 = craftingInvetory.database.GetItem[19].CreateItem();
                                         activeQuest.QuestAtt(item3.Id.ToString(), true);
                                         craftingInvetory.AddItem(item3, 1);
+                                        diaryInfoController.SetInfo(item3.nome, item3.uiDisplay, item3.craftingDescription, "Dicas", "");
                                         clearCraftedItems();
                                         break;
                                     case CraftingItemElement.Eletrico:
                                         item3 = craftingInvetory.database.GetItem[20].CreateItem();
                                         activeQuest.QuestAtt(item3.Id.ToString(), true);
                                         craftingInvetory.AddItem(item3, 1);
+                                        diaryInfoController.SetInfo(item3.nome, item3.uiDisplay, item3.craftingDescription, "Dicas", "");
                                         clearCraftedItems();
                                         break;
                                 }
@@ -198,12 +215,14 @@ public class CraftingController : MonoBehaviour
                                         item3 = craftingInvetory.database.GetItem[21].CreateItem();
                                         activeQuest.QuestAtt(item3.Id.ToString(), true);
                                         craftingInvetory.AddItem(item3, 1);
+                                        diaryInfoController.SetInfo(item3.nome, item3.uiDisplay, item3.craftingDescription, "Dicas", "");
                                         clearCraftedItems();
                                         break;
                                     case CraftingItemElement.Gelo:
                                         item3 = craftingInvetory.database.GetItem[22].CreateItem();
                                         activeQuest.QuestAtt(item3.Id.ToString(), true);
                                         craftingInvetory.AddItem(item3, 1);
+                                        diaryInfoController.SetInfo(item3.nome, item3.uiDisplay, item3.craftingDescription, "Dicas", "");
                                         clearCraftedItems();
                                         break;
                                 }
@@ -215,6 +234,7 @@ public class CraftingController : MonoBehaviour
                                         item3 = craftingInvetory.database.GetItem[23].CreateItem();
                                         activeQuest.QuestAtt(item3.Id.ToString(), true);
                                         craftingInvetory.AddItem(item3, 1);
+                                        diaryInfoController.SetInfo(item3.nome, item3.uiDisplay, item3.craftingDescription, "Dicas", "");
                                         clearCraftedItems();
                                         break;
                                 }
@@ -226,6 +246,7 @@ public class CraftingController : MonoBehaviour
                                         item3 = craftingInvetory.database.GetItem[24].CreateItem();
                                         activeQuest.QuestAtt(item3.Id.ToString(), true);
                                         craftingInvetory.AddItem(item3, 1);
+                                        diaryInfoController.SetInfo(item3.nome, item3.uiDisplay, item3.craftingDescription, "Dicas", "");
                                         clearCraftedItems();
                                         break;
                                 }

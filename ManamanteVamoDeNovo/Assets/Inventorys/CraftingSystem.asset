@@ -19,7 +19,8 @@ MonoBehaviour:
     - AllowedItems: 
       parent: {fileID: 0}
       item:
-        name: 
+        nome: 
+        uiDisplay: {fileID: 0}
         Id: -1
         buffs: []
         type: 3
@@ -28,11 +29,13 @@ MonoBehaviour:
         craftingItemElement: 0
         equipmentType: 0
         marketValue: 0
+        craftingDescription: 
       amount: 0
     - AllowedItems: 
       parent: {fileID: 0}
       item:
-        name: 
+        nome: 
+        uiDisplay: {fileID: 0}
         Id: -1
         buffs: []
         type: 3
@@ -41,11 +44,13 @@ MonoBehaviour:
         craftingItemElement: 0
         equipmentType: 0
         marketValue: 0
+        craftingDescription: 
       amount: 0
     - AllowedItems: 
       parent: {fileID: 0}
       item:
-        name: 
+        nome: 
+        uiDisplay: {fileID: 0}
         Id: -1
         buffs: []
         type: 3
@@ -54,9 +59,11 @@ MonoBehaviour:
         craftingItemElement: 0
         equipmentType: 0
         marketValue: 0
+        craftingDescription: 
       amount: 0
   itemRemovedFromMailbox:
-    name: 
+    nome: 
+    uiDisplay: {fileID: 0}
     Id: -1
     buffs: []
     type: 3
@@ -65,5 +72,6 @@ MonoBehaviour:
     craftingItemElement: 0
     equipmentType: 0
     marketValue: 0
+    craftingDescription: 
   itemRemovedAmount: 0
   changedItem: 0

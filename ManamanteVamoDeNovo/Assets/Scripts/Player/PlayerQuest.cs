@@ -105,6 +105,7 @@ public class PlayerQuest : MonoBehaviour {
             }
             if (quest.goal.IsReached())
             {
+                PlaySoundMissionComplete();
                 if (feedbacksCompleted == questsCompletas)
                     PlayerPrefs.SetInt("Feedback", PlayerPrefs.GetInt("Feedback") + 1);
                 if (canGiveRewards == true)
@@ -204,6 +205,11 @@ public class PlayerQuest : MonoBehaviour {
         
     }
 
+    void PlaySoundMissionComplete()
+    {
+        roboAudioSource.clip = newMailArrives;
+        roboAudioSource.PlayDelayed(2);
+    }
 
     //public void OnTriggerEnter2D(Collider2D collider)
     //{

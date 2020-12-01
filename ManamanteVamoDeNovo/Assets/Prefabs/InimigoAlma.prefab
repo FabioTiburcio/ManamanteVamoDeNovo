@@ -46,6 +46,7 @@ MonoBehaviour:
   health: 0
   damageCooldown: 0
   activeQuest: {fileID: 0}
+  playerSkillController: {fileID: 0}
   spriteMerinha: {fileID: 0}
   corLaranja: {r: 0, g: 0, b: 0, a: 0}
   respawnPlayer: 0
@@ -53,6 +54,7 @@ MonoBehaviour:
   dissolveMaterial: {fileID: 0}
   poisonMaterial: {fileID: 0}
   poisonParticle: {fileID: 4171677001033429880}
+  poisonExplosionParticle: {fileID: 0}
   poisonStack: 0
   isPlayer: 0
   saidaDeSom: {fileID: 0}
@@ -61,6 +63,8 @@ MonoBehaviour:
   coracaoBatendo3: {fileID: 0}
   damageTaken: {fileID: 0}
   deadSound: {fileID: 0}
+  shieldSkill: {fileID: 0}
+  healEffect: {fileID: 0}
 --- !u!1001 &1997729304420879303
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -143,6 +147,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1959552746548674650, guid: c14ec52f13d346e4b9bd9dff7db90a86,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2867090325316567244, guid: c14ec52f13d346e4b9bd9dff7db90a86,
         type: 3}
       propertyPath: m_Controller
@@ -227,7 +236,7 @@ PrefabInstance:
     - target: {fileID: 2867090325316567250, guid: c14ec52f13d346e4b9bd9dff7db90a86,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2867090325316567250, guid: c14ec52f13d346e4b9bd9dff7db90a86,
         type: 3}
@@ -304,9 +313,19 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 3915817291239880851, guid: c14ec52f13d346e4b9bd9dff7db90a86,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8026329309817475821, guid: c14ec52f13d346e4b9bd9dff7db90a86,
         type: 3}
       propertyPath: viewDistance
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8709520202596850013, guid: c14ec52f13d346e4b9bd9dff7db90a86,
+        type: 3}
+      propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []

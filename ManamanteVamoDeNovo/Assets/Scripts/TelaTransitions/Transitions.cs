@@ -81,14 +81,14 @@ public class Transitions : MonoBehaviour
         {
             if (chuva.activeSelf)
             {
-                chuva.SetActive(false);
+                chuva.GetComponent<ParticleSystem>().Pause();
             }
             if (globalLight.activeSelf)
             {
                 globalLight.SetActive(false);
             }
         }
-        else if(mapaAtivo.name == "FlorestaSombralida")
+        else if(mapaAtivo.name == "FlorestaSombralida1" || mapaAtivo.name == "FlorestaSombralida2" || mapaAtivo.name == "FlorestaSombralida3" || mapaAtivo.name == "FlorestaSombralida4" || mapaAtivo.name == "FlorestaSombralida5")
         {
             if (globalLight.activeSelf)
             {
@@ -107,6 +107,7 @@ public class Transitions : MonoBehaviour
             if (!globalLight.activeSelf)
             {
                 globalLight.SetActive(true);
+                chuva.GetComponent<ParticleSystem>().Play();
             }
         }
 

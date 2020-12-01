@@ -89,7 +89,7 @@ public class EnemyController : MonoBehaviour {
     private void Update()
     {
         if (enemyHP.health <= 0)
-        {            
+        {
             currentState = enemyState.DYING;
         }
         else
@@ -103,7 +103,7 @@ public class EnemyController : MonoBehaviour {
                 aIPath.canMove = false;
                 break;
             case enemyState.CHASING:
-                if(enemyName == "Slime")
+                if (enemyName == "SlimeComum" && enemyName == "SlimeEletrico" && enemyName == "SlimeFogo" && enemyName == "SlimeGelo" && enemyName == "SlimeVeneno")
                 {
                     enemyAnim.Play("Jump");
                 }
@@ -113,7 +113,7 @@ public class EnemyController : MonoBehaviour {
                 }
                 aIPath.canMove = true;
                 timeChasing += Time.deltaTime;
-                if(aIPath.remainingDistance < attackRange)
+                if (aIPath.remainingDistance < attackRange)
                 {
                     currentState = enemyState.ATTACKING;
                 }
@@ -131,7 +131,7 @@ public class EnemyController : MonoBehaviour {
                 break;
             case enemyState.ATTACKING:
                 aIPath.canMove = false;
-                if(enemyName == "Alma")
+                if (enemyName == "Alma")
                 {
                     spawnDirection.transform.up = player.transform.position - this.transform.position;
                     if (attackTimer <= attackCooldown)
@@ -156,7 +156,7 @@ public class EnemyController : MonoBehaviour {
                         case 4:
                             enemySkill = Instantiate(enemyPoisonPrefab, firePoint.position, firePoint.rotation);
                             break;
-                    } 
+                    }
                     Rigidbody2D rb = enemySkill.GetComponent<Rigidbody2D>();
                     rb.AddForce(spawnDirection.transform.up, ForceMode2D.Impulse);
                 }
@@ -174,7 +174,7 @@ public class EnemyController : MonoBehaviour {
                     Rigidbody2D rb = enemySkill.GetComponent<Rigidbody2D>();
                     rb.AddForce(spawnDirection.transform.up, ForceMode2D.Impulse);
                 }
-                else if(enemyName == "Morcego")
+                else if (enemyName == "Morcego")
                 {
                     attackRange = 0.3f;
                     if (attackTimer <= attackCooldown / enemyAttackSpeed)
@@ -193,7 +193,7 @@ public class EnemyController : MonoBehaviour {
                         attackTimer += Time.deltaTime;
                         return;
                     }
-                    else if(currentState == enemyState.ATTACKING && attackTimer >= attackCooldown / enemyAttackSpeed)
+                    else if (currentState == enemyState.ATTACKING && attackTimer >= attackCooldown / enemyAttackSpeed)
                     {
                         attackTimer = 0;
                         enemySkill = Instantiate(meleeAttackCol, firePoint);
@@ -213,7 +213,7 @@ public class EnemyController : MonoBehaviour {
                         enemySkill = Instantiate(meleeAttackCol, firePoint);
                     }
                 }
-                else if (enemyName == "Abelha" || enemyName == "Abominacao")
+                else if (enemyName == "Abelha" || enemyName == "Abominacao" || enemyName == "Cobra" || enemyName == "PedraFogo")
                 {
                     attackRange = 0.2f;
                     enemyAnim.Play("Attack");

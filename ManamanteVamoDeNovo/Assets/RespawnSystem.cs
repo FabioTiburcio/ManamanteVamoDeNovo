@@ -22,6 +22,14 @@ public class RespawnSystem : MonoBehaviour
     //bool morcegoVivo = true;
 
     // Start is called before the first frame update
+
+    private void OnEnable()
+    {
+        for (int i = 0; i < thingsToRespawn.Length; i++)
+        {
+            thingsToRespawn[i].transform.position = positionToRespawn[i];
+        }
+    }
     void Start()
     {
         thingsPosition = new Transform[thingsToRespawn.Length];

@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: U-800X
   m_EditorClassIdentifier: 
   pesquisaTitle: U-800X
-  image: {fileID: 21300000, guid: ffb5291964b5f9549bda888848bd4f5d, type: 3}
+  image: {fileID: 21300000, guid: 7b08aea3cc533584f8e09b6a0683f4ba, type: 3}
   description: "Upgrade do U-800, com novas funcionalidades, como um explendido computador,
     baixe a atualiza\xE7\xE3o apertando o bot\xE3o download."
+  itemObject: {fileID: 0}
   similarLink: {fileID: 11400000, guid: 361b9536dcb0a364b8ae6e982b0de259, type: 2}
   similarLink2: {fileID: 11400000, guid: 4aeeaecd5bdda2a4fa4dec531088c4cf, type: 2}

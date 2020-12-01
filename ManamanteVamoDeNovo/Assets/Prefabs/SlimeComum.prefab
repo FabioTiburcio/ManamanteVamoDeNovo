@@ -289,13 +289,13 @@ MonoBehaviour:
   dropItemComum: {fileID: 11400000, guid: e03441e72b14e5b4e9f22940d2ecd9cf, type: 2}
   player: {fileID: 0}
   PlayerSkillController: {fileID: 0}
-  firePoint: {fileID: 0}
+  firePoint: {fileID: 5034721767147166273}
   enemyFirePrefab: {fileID: 0}
   enemyIcePrefab: {fileID: 0}
   enemyEletricPrefab: {fileID: 0}
   enemyPoisonPrefab: {fileID: 0}
-  spawnDirection: {fileID: 0}
-  enemyName: Slime
+  spawnDirection: {fileID: 5034721767147166273}
+  enemyName: SlimeComum
   enemyAttackSpeed: 1
   currentState: 0
   lastState: 0

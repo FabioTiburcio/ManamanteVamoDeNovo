@@ -71,10 +71,11 @@ public class BossController : MonoBehaviour
                 {
                     idleTime = 0;
                     currentBosssState = BossState.Chasing;
+                    enemyAnim.Play("Idle");
                 }
                 break;
             case BossState.Chasing:
-                if(aIPath.remainingDistance <= 0.2 && attackTimer > attackCooldown)
+                if (aIPath.remainingDistance <= 0.2 && attackTimer > attackCooldown)
                 {
                     currentBosssState = BossState.MeleeAttack;
                 }
@@ -93,6 +94,11 @@ public class BossController : MonoBehaviour
                 }
                 break;
             case BossState.RangeAttack:
+                if (gameObject.name == "BossRobozao")
+                {
+                    enemyAnim.Play("AttackRangedChoque");
+                }
+
                 //enemyAnim.Play("MeleeAttack");
                 attackTimer = 0;
                 enemySkill = Instantiate(bossRangedAttack, firePoint.position, firePoint.transform.rotation);
@@ -101,12 +107,32 @@ public class BossController : MonoBehaviour
                 currentBosssState = BossState.Idle;
                 break;
             case BossState.MeleeAttack:
-                enemyAnim.Play("Attack");
+                
+                if(gameObject.name == "BossRobozao")
+                {
+                    enemyAnim.Play("AttackRangedChoque");
+                }
+                else if(gameObject.name == "BossFogo")
+                {
+                    enemyAnim.Play("AttackMelee");
+                }
+                else
+                {
+                    enemyAnim.Play("Attack");
+                }
                 attackTimer = 0;
                 Instantiate(bossMeleeAttack, meleefirePoint.position, bossMeleeAttack.transform.rotation);
                 currentBosssState = BossState.Idle;
                 break;
             case BossState.AreaAttack:
+                if(gameObject.name == "BossRobozao")
+                {
+                    enemyAnim.Play("AttackRangedChoque");
+                }
+                else if (gameObject.name == "BossFogo")
+                {
+                    enemyAnim.Play("AttackArea");
+                }
                 currentBosssState = BossState.Idle;
                 Instantiate(bossAreaAttack, player.transform.position, player.transform.rotation);
                 break;

@@ -295,7 +295,7 @@ MonoBehaviour:
   enemyEletricPrefab: {fileID: 0}
   enemyPoisonPrefab: {fileID: 0}
   spawnDirection: {fileID: 0}
-  enemyName: Slime
+  enemyName: SlimeFogo
   enemyAttackSpeed: 1
   currentState: 0
   lastState: 0

@@ -31,8 +31,6 @@ public class PesquisaEllgog : MonoBehaviour
 
     public void attInfo(string pesquisaFeita)
     {
-        Resultado.SetActive(true);
-        semResultado.SetActive(false);
         switch (pesquisaFeita)
         {
             case "abelhuda":
@@ -423,16 +421,19 @@ public class PesquisaEllgog : MonoBehaviour
                 break;
             case "eletromancia":
             case "Eletromancia":
+                skillController.habilityToUnlock = 2;
                 downloadButton.SetActive(true);
                 setInfo(53);
                 break;
             case "cryomancia":
             case "Cryomancia":
+                skillController.habilityToUnlock = 1;
                 downloadButton.SetActive(true);
                 setInfo(54);
                 break;
-            case "toccyo ":
-            case "Toccyo ":
+            case "toccyo":
+            case "Toccyo":
+                skillController.habilityToUnlock = 3;
                 downloadButton.SetActive(true);
                 setInfo(55);
                 break;
@@ -453,12 +454,14 @@ public class PesquisaEllgog : MonoBehaviour
             case "Trovao aliado":
             case "trovão aliado":
             case "Trovão aliado":
+                skillController.habilityToUnlock = 4;
                 downloadButton.SetActive(true);
                 setInfo(58);
                 break;
             case "pyroprotecao":
             case "PyroProtecao":
             case "PyroProteção":
+                skillController.habilityToUnlock = 0;
                 downloadButton.SetActive(true);
                 setInfo(59);
                 break;
@@ -468,6 +471,7 @@ public class PesquisaEllgog : MonoBehaviour
             //    break;
             case "VenenoBoom":
             case "venenoboom":
+                skillController.habilityToUnlock = 5;
                 downloadButton.SetActive(true);
                 setInfo(61);
                 break;
@@ -507,7 +511,8 @@ public class PesquisaEllgog : MonoBehaviour
                 setInfo(67);
                 break;
             case "U-800X":
-                downloadButton.SetActive(false);
+                downloadButton.SetActive(true);
+                skillController.habilityToUnlock = 6;
                 setInfo(68);
                 break;
             case "vila":
@@ -533,6 +538,12 @@ public class PesquisaEllgog : MonoBehaviour
                 Resultado.SetActive(false);
                 semResultado.SetActive(true);
                 break;
+        }
+
+        if(imagemPesquisa.sprite != null)
+        {
+            Resultado.SetActive(true);
+            semResultado.SetActive(false);
         }
     }
 

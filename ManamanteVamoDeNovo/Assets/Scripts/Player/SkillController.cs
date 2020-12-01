@@ -33,9 +33,13 @@ public class SkillController : MonoBehaviour
     float timeToAddMana;
     float timeToConsumeMana;
 
+    public bool canFire2;
     public bool canIce;
+    public bool canIce2;
     public bool canPoison;
+    public bool canPoison2;
     public bool canElectric;
+    public bool canElectric2;
 
     public bool isShieldOn;
 
@@ -182,12 +186,16 @@ public class SkillController : MonoBehaviour
             }
             else
             {
-                colorIntensity -= 0.4f;
-                glowMaterial.SetFloat("_ColorIntensity", colorIntensity);
-                isShotting = true;
-                StartCoroutine(timeAttacking());
-                StartCoroutine(AnimDelay(2));
-                attackCooldown = 0;
+                if(activeSkill == 1 && canFire2 || activeSkill == 2 && canIce2 || activeSkill == 3 && canElectric2 || activeSkill == 4 && canPoison2)
+                {
+                    colorIntensity -= 0.4f;
+                    glowMaterial.SetFloat("_ColorIntensity", colorIntensity);
+                    isShotting = true;
+                    StartCoroutine(timeAttacking());
+                    StartCoroutine(AnimDelay(2));
+                    attackCooldown = 0;
+                }
+
             }
         }
 
@@ -299,14 +307,27 @@ public class SkillController : MonoBehaviour
     {
         switch (habilityToUnlock)
         {
+            case 0:
+                canFire2 = true;
+                break;
             case 1:
                 canIce = true;
+                canIce2 = true;
                 break;
             case 2:
                 canElectric = true;
                 break;
             case 3:
                 canPoison = true;
+                break;
+            case 4:
+                canElectric2 = true;
+                break;
+            case 5:
+                canPoison2 = true;
+                break;
+            case 6:
+                player.upgradedRobo = true;
                 break;
         }
     }

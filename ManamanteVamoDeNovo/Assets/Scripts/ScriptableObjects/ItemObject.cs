@@ -48,6 +48,7 @@ public class ItemObject : ScriptableObject
 public class Item
 {
     public string nome;
+    public Sprite uiDisplay;
     public int Id = -1;
     public ItemBuff[] buffs;
     public ItemType type;
@@ -56,6 +57,7 @@ public class Item
     public CraftingItemElement craftingItemElement;
     public EquipmentType equipmentType;
     public float marketValue;
+    public string craftingDescription;
     public Item()
     {
         nome = "";
@@ -65,6 +67,7 @@ public class Item
     public Item(ItemObject item)
     {
         nome = item.nome;
+        uiDisplay = item.uiDisplay;
         Id = item.data.Id;
         type = item.type;
         potionType = item.potionType;
@@ -72,6 +75,7 @@ public class Item
         craftingItemElement = item.craftingItemElement;
         equipmentType = item.equipmentType;
         marketValue = item.marketValue;
+        craftingDescription = item.craftingDescription;
         buffs = new ItemBuff[item.data.buffs.Length];
         for (int i = 0; i < buffs.Length; i++)
         {
